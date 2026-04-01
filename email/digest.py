@@ -130,7 +130,11 @@ def send_mailgun(html: str, subject: str):
         with urllib.request.urlopen(req, timeout=15) as resp:
             log.info("Email sent: %s", resp.status)
     except urllib.error.HTTPError as e:
-        log.error("Mailgun error %s: %s", e.code, e.read().decode())
+        body = e.read().decode()
+        log.error("Mailgun error %s: %s", e.code, body)
+        if e.code == 403 and "not allowed to send" in body:
+            log.warning("Mailgun free-tier restriction — add recipients or upgrade plan")
+            return
         raise
 
 
