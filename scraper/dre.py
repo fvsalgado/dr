@@ -10,7 +10,7 @@ import re
 import sys
 import hashlib
 import logging
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import urllib.request
 import urllib.parse
@@ -209,7 +209,7 @@ def run(target_date: date | None = None):
     log.info("Found %d new relevant entries", len(new_entries))
 
     existing["entries"] = new_entries + existing["entries"]
-    existing["last_updated"] = datetime.utcnow().isoformat() + "Z"
+    existing["last_updated"] = datetime.now(tz=timezone.utc).isoformat()
     existing["entry_count"] = len(existing["entries"])
 
     save_results(existing)
