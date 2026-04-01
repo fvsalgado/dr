@@ -45,8 +45,11 @@ def load_keywords() -> list[dict]:
 
 def load_existing_results() -> dict:
     if DATA_FILE.exists():
-        with open(DATA_FILE, encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(DATA_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            log.warning("Could not parse %s, starting fresh", DATA_FILE)
     return {"last_updated": None, "entries": []}
 
 
