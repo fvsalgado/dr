@@ -37,6 +37,15 @@ jobs:
             python scraper/dre.py
           fi
 
+      - name: Run Parlamento scraper
+        run: |
+          DATE_ARG="${{ github.event.inputs.date }}"
+          if [ -n "$DATE_ARG" ]; then
+            python scraper/parlamento.py "$DATE_ARG"
+          else
+            python scraper/parlamento.py
+          fi
+
       - name: Commit updated data
         run: |
           git config user.name  "pa-monitor[bot]"

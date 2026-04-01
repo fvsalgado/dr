@@ -40,9 +40,24 @@ def load_todays_entries() -> list[dict]:
     return [e for e in data.get("entries", []) if e.get("date", "").startswith(today)]
 
 
+_SOURCE_LABELS = {
+    "dre": "DRE",
+    "dre-rss": "DRE",
+    "parlamento-agenda": "Agenda Parlamentar",
+    "parlamento-iniciativas": "Iniciativas Parlamentares",
+}
+
+
+def _source_label(entry: dict) -> str:
+    src = entry.get("source", "")
+    label = _SOURCE_LABELS.get(src, src)
+    series = entry.get("series", "")
+    return f"{label} {series}".strip() if series else label
+
+
 def build_html(entries: list[dict], report_date: str) -> str:
     if not entries:
-        body = "<p style='color:#666'>Sem publicações relevantes hoje no Diário da República.</p>"
+        body = "<p style='color:#666'>Sem publicações relevantes hoje.</p>"
     else:
         # Group by client
         by_client: dict[str, list] = {}
@@ -64,7 +79,7 @@ def build_html(entries: list[dict], report_date: str) -> str:
                 rows += f"""
                 <tr>
                   <td style="padding:10px 12px;border-bottom:1px solid #f0f0f0;vertical-align:top">
-                    <div style="font-size:11px;color:#888;margin-bottom:3px">{e['series']} · {e['type']} · {e['issuer']}</div>
+                    <div style="font-size:11px;color:#888;margin-bottom:3px">{_source_label(e)} · {e['type']} · {e['issuer']}</div>
                     <a href="{e['url']}" style="color:{color};font-weight:600;font-size:13px;text-decoration:none">{e['title'] or 'Ver publicação'}</a>
                     <div style="font-size:12px;color:#555;margin-top:4px">{e['summary'][:200] + '…' if len(e.get('summary','')) > 200 else e.get('summary','')}</div>
                     <div style="margin-top:6px">{kw_pills}</div>
@@ -90,7 +105,7 @@ def build_html(entries: list[dict], report_date: str) -> str:
 <body style="font-family:Arial,sans-serif;max-width:680px;margin:0 auto;padding:20px;color:#333">
   <div style="border-bottom:3px solid #1a1a2e;padding-bottom:14px;margin-bottom:24px">
     <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#888">Monitor de Public Affairs</div>
-    <div style="font-size:22px;font-weight:700;color:#1a1a2e;margin-top:4px">Diário da República</div>
+    <div style="font-size:22px;font-weight:700;color:#1a1a2e;margin-top:4px">DRE + Parlamento</div>
     <div style="font-size:13px;color:#555;margin-top:2px">{report_date} · {total} publicação(ões) relevante(s)</div>
   </div>
   {body}
@@ -150,7 +165,7 @@ def run():
         "October","outubro").replace("November","novembro").replace("December","dezembro")
 
     html = build_html(entries, report_date)
-    subject = f"[PA Monitor] DRE {today.isoformat()} — {len(entries)} publicação(ões) relevante(s)"
+    subject = f"[PA Monitor] {today.isoformat()} — {len(entries)} publicação(ões) relevante(s)"
     send_mailgun(html, subject)
 
 
