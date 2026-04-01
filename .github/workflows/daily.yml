@@ -1,1 +1,58 @@
+name: Daily PA Monitor
 
+on:
+  schedule:
+    # 07:00 UTC = 08:00 Lisboa (inverno) / 09:00 (verão com DST)
+    - cron: "0 7 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Data a processar (YYYY-MM-DD). Deixar em branco = hoje"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run DRE scraper
+        run: |
+          DATE_ARG="${{ github.event.inputs.date }}"
+          if [ -n "$DATE_ARG" ]; then
+            python scraper/dre.py "$DATE_ARG"
+          else
+            python scraper/dre.py
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "pa-monitor[bot]"
+          git config user.email "pa-monitor[bot]@users.noreply.github.com"
+          git add data/results.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update results $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Send email digest
+        env:
+          MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
+          MAILGUN_DOMAIN:  ${{ secrets.MAILGUN_DOMAIN }}
+          EMAIL_FROM:      ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:        "fsalgado@atrevia.com,bchambel@atrevia.com"
+        run: python email/digest.py
