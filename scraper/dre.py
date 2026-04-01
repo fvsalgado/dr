@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Scraper do Diário da República (1ª e 2ª série)
-Usa a API pública do DRE: https://dre.pt/api/
+Usa a API pública do DRE e o feed RSS do diariodarepublica.pt
 """
 
 import json
@@ -12,6 +12,7 @@ import hashlib
 import logging
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from xml.etree import ElementTree
 import urllib.request
 import urllib.parse
 import urllib.error
@@ -27,6 +28,11 @@ DATA_FILE.parent.mkdir(exist_ok=True)
 DRE_API = "https://dre.pt/rest/legislacao/pesquisa"
 DRE_BASE = "https://dre.pt"
 
+RSS_FEEDS = {
+    1: "http://files.diariodarepublica.pt/rss/serie1-html.xml",
+    2: "http://files.diariodarepublica.pt/rss/serie2-html.xml",
+}
+
 
 # ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -36,6 +42,30 @@ def fetch_json(url: str, params: dict | None = None) -> dict:
     req = urllib.request.Request(url, headers={"User-Agent": "PublicAffairsMonitor/1.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_xml(url: str) -> ElementTree.Element | None:
+    """Fetch and parse an XML feed, returning the root element or None on error."""
+    req = urllib.request.Request(url, headers={"User-Agent": "PublicAffairsMonitor/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return ElementTree.fromstring(resp.read())
+    except Exception as e:
+        log.warning("RSS fetch error (%s): %s", url, e)
+        return None
+
+
+def fetch_eli(detail_url: str) -> str | None:
+    """Try to extract the ELI URL from a diariodarepublica.pt detail page."""
+    try:
+        req = urllib.request.Request(detail_url, headers={"User-Agent": "PublicAffairsMonitor/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+        # ELI links look like: https://data.dre.pt/eli/...
+        m = re.search(r'(https://data\.dre\.pt/eli/[^\s"\'<>]+)', html)
+        return m.group(1) if m else None
+    except Exception:
+        return None
 
 
 def load_keywords() -> list[dict]:
@@ -159,8 +189,85 @@ def parse_dre_item(item: dict, series: int) -> dict:
         "title": title,
         "summary": summary,
         "url": url,
+        "eli": None,
         "full_text": f"{title} {summary} {doc_type} {issuer}",
     }
+
+
+# ── RSS feed ─────────────────────────────────────────────────────────────────
+
+def fetch_rss_day(target_date: date, series: int) -> list[dict]:
+    """
+    Fetch acts from the diariodarepublica.pt RSS feed for a given series.
+    The RSS feed contains the latest day's publications.
+    We filter items to match target_date.
+    """
+    url = RSS_FEEDS.get(series)
+    if not url:
+        return []
+
+    root = fetch_xml(url)
+    if root is None:
+        return []
+
+    date_str = target_date.strftime("%Y-%m-%d")
+    results = []
+
+    for item in root.iter("item"):
+        title_el = item.find("title")
+        desc_el = item.find("description")
+        link_el = item.find("link")
+
+        title_text = (title_el.text or "").strip() if title_el is not None else ""
+        desc_text = (desc_el.text or "").strip() if desc_el is not None else ""
+        link_text = (link_el.text or "").strip() if link_el is not None else ""
+
+        # Filter by date — the title contains the date in YYYY-MM-DD format
+        if date_str not in title_text:
+            continue
+
+        # Parse title: e.g. "Portaria n.º 137/2026/1 - Diário da República n.º 64/2026, Série I de 2026-04-01"
+        doc_type = ""
+        number = ""
+        type_match = re.match(r'^([^-–]+?)(?:\s*[-–])', title_text)
+        if type_match:
+            type_and_num = type_match.group(1).strip()
+            num_match = re.match(r'^(.+?)\s+n\.º?\s*(.+)$', type_and_num, re.IGNORECASE)
+            if num_match:
+                doc_type = num_match.group(1).strip()
+                number = num_match.group(2).strip()
+            else:
+                doc_type = type_and_num
+
+        # Extract issuer from description (usually the first line/part)
+        # Description format: "Emitido por: XYZ\nSumário: ..."
+        issuer = ""
+        summary = desc_text
+        # Clean HTML tags from description
+        summary = re.sub(r'<[^>]+>', ' ', summary).strip()
+        summary = re.sub(r'\s+', ' ', summary)
+
+        # Build a stable source_id from the link
+        source_id = re.search(r'/(\d+)/?$', link_text)
+        source_id = source_id.group(1) if source_id else hashlib.md5(link_text.encode()).hexdigest()
+
+        results.append({
+            "source": "dre-rss",
+            "series": f"{series}ª Série",
+            "source_id": str(source_id),
+            "date": date_str,
+            "type": doc_type,
+            "number": number,
+            "issuer": issuer,
+            "title": title_text,
+            "summary": summary,
+            "url": link_text,
+            "eli": None,
+            "full_text": f"{title_text} {summary} {doc_type} {issuer}",
+        })
+
+    log.info("RSS Series %s — %s: %d items", series, date_str, len(results))
+    return results
 
 
 # ── main ──────────────────────────────────────────────────────────────────────
