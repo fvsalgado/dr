@@ -272,66 +272,100 @@ def fetch_rss_day(target_date: date, series: int) -> list[dict]:
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
-def run(target_date: date | None = None):
+def run(target_date: date | None = None, days: int = 30):
+    """
+    Scrape DRE for the last `days` days ending on `target_date` (inclusive).
+    Defaults to the last 30 days up to today.
+    """
     if target_date is None:
         target_date = date.today()
 
-    log.info("Running DRE scraper for %s", target_date)
+    date_range = [target_date - timedelta(days=i) for i in range(days)]
+    log.info(
+        "Running DRE scraper for %d days: %s → %s",
+        days,
+        date_range[-1],
+        date_range[0],
+    )
 
     clients = load_keywords()
     existing = load_existing_results()
     existing_ids = {e["id"] for e in existing["entries"]}
 
-    new_entries = []
+    all_new_entries = []
 
-    for series in [1, 2]:
-        items = fetch_dre_day(target_date, series)
-        for item in items:
-            matched = match_clients(item["full_text"], clients)
-            if not matched:
-                continue
+    for current_date in date_range:
+        log.info("── Scraping %s ──", current_date)
+        for series in [1, 2]:
+            items = fetch_dre_day(current_date, series)
+            for item in items:
+                matched = match_clients(item["full_text"], clients)
+                if not matched:
+                    continue
 
-            eid = entry_id(item)
-            if eid in existing_ids:
-                log.debug("Skip duplicate: %s", eid)
-                continue
+                eid = entry_id(item)
+                if eid in existing_ids:
+                    log.debug("Skip duplicate: %s", eid)
+                    continue
 
-            entry = {
-                "id": eid,
-                "source": item["source"],
-                "series": item["series"],
-                "date": item["date"],
-                "type": item["type"],
-                "number": item["number"],
-                "issuer": item["issuer"],
-                "title": item["title"],
-                "summary": item["summary"],
-                "url": item["url"],
-                "clients": matched,
-                "scraped_at": datetime.utcnow().isoformat() + "Z",
-            }
-            new_entries.append(entry)
-            existing_ids.add(eid)
+                entry = {
+                    "id": eid,
+                    "source": item["source"],
+                    "series": item["series"],
+                    "date": item["date"],
+                    "type": item["type"],
+                    "number": item["number"],
+                    "issuer": item["issuer"],
+                    "title": item["title"],
+                    "summary": item["summary"],
+                    "url": item["url"],
+                    "clients": matched,
+                    "scraped_at": datetime.utcnow().isoformat() + "Z",
+                }
+                all_new_entries.append(entry)
+                existing_ids.add(eid)
 
-    log.info("Found %d new relevant entries", len(new_entries))
+    log.info("Found %d new relevant entries across %d days", len(all_new_entries), days)
 
-    existing["entries"] = new_entries + existing["entries"]
+    existing["entries"] = all_new_entries + existing["entries"]
     existing["last_updated"] = datetime.now(tz=timezone.utc).isoformat()
     existing["entry_count"] = len(existing["entries"])
 
     save_results(existing)
-    return new_entries
+    return all_new_entries
 
 
 if __name__ == "__main__":
-    # Accept optional date argument: YYYY-MM-DD
+    # Usage: dre.py [YYYY-MM-DD] [--days N]
+    # Examples:
+    #   dre.py                        → last 30 days up to today
+    #   dre.py 2026-03-01             → last 30 days up to 2026-03-01
+    #   dre.py 2026-03-01 --days 7    → last 7 days up to 2026-03-01
+    #   dre.py --days 60              → last 60 days up to today
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Scrape Diário da República")
+    parser.add_argument(
+        "date",
+        nargs="?",
+        default=None,
+        help="End date in YYYY-MM-DD format (default: today)",
+    )
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=30,
+        help="Number of days to look back (default: 30)",
+    )
+    args = parser.parse_args()
+
     target = None
-    if len(sys.argv) > 1:
+    if args.date:
         try:
-            target = date.fromisoformat(sys.argv[1])
+            target = date.fromisoformat(args.date)
         except ValueError:
-            log.error("Invalid date: %s. Use YYYY-MM-DD.", sys.argv[1])
+            log.error("Invalid date: %s. Use YYYY-MM-DD.", args.date)
             sys.exit(1)
 
-    new = run(target)
+    new = run(target_date=target, days=args.days)
     print(json.dumps({"new_entries": len(new)}, ensure_ascii=False))
