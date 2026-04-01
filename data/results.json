@@ -1,6 +1,954 @@
 {
-  "last_updated": "2026-04-01T14:20:52.214462+00:00",
+  "last_updated": "2026-04-01T16:10:11.680470+00:00",
   "entries": [
+    {
+      "id": "55c8a83ebb2781ddd3ac8b1bb59ce7bf",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-03",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.914948+00:00"
+    },
+    {
+      "id": "208edebada362a510f1dd1ca66249a33",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-03",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 30 Local: Sala 2 Tema: Comiss&#xF5;es Parlamentares 1.&ordf; Parte &nbsp; Informa&ccedil;&otilde;es gerais &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm; 28 e 29, relativas &agrave;s reuni&otilde;es dos dias 24 e 25 de fevereiro de 2026 &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP PS, sobre &laquo;metodologia a adotar para as iniciativas sobre o Subs&iacute;dio Social de Mobilidade&raquo; &nbsp; Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do Projeto de Lei n.&ordm; 125/XVII/1.&ordf; (PSD ) - &laquo;Procede &agrave; oitava altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 13/2006, de 17 de abril, que aprova o Regime Jur&iacute;dico do Transporte Coletivo de Crian&ccedil;as e Jovens&raquo; &nbsp; Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade, do Projeto de Lei n.&ordm; 95/XVII/1.&ordf; (PCP) - &laquo;Defesa dos direitos dos residentes das Regi&otilde;es Aut&oacute;nomas no acesso ao Subs&iacute;dio Social de Mobilidade (Primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas regi&otilde;es)&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o, na especialidade, das seguintes iniciativas legislativas: &nbsp; Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 6/XVII/1.&ordf; (PS) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro, que altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 7/XVII/1.&ordf; (CH) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro - Altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; Projeto de Lei n.&ordm; 81/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, que define as regras aplic&aacute;veis aos servi&ccedil;os de radiocomunica&ccedil;&otilde;es de amador e de amador por sat&eacute;lite, bem como o regime de atribui&ccedil;&atilde;o de certificados e autoriza&ccedil;&otilde;es especiais aos amadores e de licenciamento das esta&ccedil;&otilde;es de uso comum&raquo; Projeto de Lei n.&ordm; 215/XVI/1.&ordf; (CH) - &laquo;Estabelece medidas de incentivo ao radioamadorismo em Portugal, alterando o Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o&raquo; Projeto de Lei n.&ordm; 426/XVII/1.&ordf; (PAN) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, eliminando o limite m&iacute;nimo de idade para obten&ccedil;&atilde;o do Certificado de Amador Nacional e assegurando a descentraliza&ccedil;&atilde;o dos locais de realiza&ccedil;&atilde;o do exame de aptid&atilde;o de amador&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o, para nova aprecia&ccedil;&atilde;o na generalidade, do Projeto de Lei n.&ordm; 440/XVII/1.&ordf; (L) - &laquo;Refor&ccedil;o urgente dos apoios sociais imediatos &agrave;s fam&iacute;lias, empresas e associa&ccedil;&otilde;es afetadas pelas tempestades&raquo; &nbsp; Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator, do Projeto de Lei n.&ordm; 453/XVII/1.&ordf; (IL) - &laquo;Revoga&ccedil;&atilde;o do congelamento de rendas&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o, em conex&atilde;o, do Projeto de Lei n.&ordm; 450/XVII/1.&ordf; (BE) - &laquo;Estabelece medidas excecionais para a prote&ccedil;&atilde;o do direito &agrave; habita&ccedil;&atilde;o e dos estabelecimentos comerciais e ind&uacute;stria nos concelhos afetados pelas tempestades de 2026&raquo; - Comiss&atilde;o competente: Economia e Coes&atilde;o Territorial &nbsp; Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do&nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 542/XVII/1.&ordf; (PAN) - &laquo;Recomenda ao Governo que inclua a A1 na isen&ccedil;&atilde;o tempor&aacute;ria de portagens e a devolu&ccedil;&atilde;o das portagens j&aacute; pagas nos munic&iacute;pios afetados pela Depress&atilde;o Kristin&raquo; &nbsp; Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 147/XVII/1.&ordf; (PAN) - &laquo;Pela inclus&atilde;o das despesas com o realojamento emergencial das v&iacute;timas de viol&ecirc;ncia dom&eacute;stica e dos seus filhos no &acirc;mbito da cobertura prevista nas ap&oacute;lices de seguros multirriscos habita&ccedil;&atilde;o em Portugal&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o, na especialidade, do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 613/XVII/1.&ordf; (PS) - &laquo;Recomenda ao Governo um conjunto de medidas destinadas &agrave; mitiga&ccedil;&atilde;o de perdas em diversas atividades econ&oacute;micas e &agrave; recupera&ccedil;&atilde;o das respetivas capacidades, bem como &agrave; recupera&ccedil;&atilde;o de habita&ccedil;&otilde;es&raquo; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da nota de admissibilidade da Peti&ccedil;&atilde;o n.&ordm; 110/XVII/1.&ordf; - &laquo;Pela melhoria urgente do servi&ccedil;o da Fertagus e pelo fim dos atrasos e supress&otilde;es constantes&raquo; &nbsp; &nbsp; &nbsp; 2.&ordf; Parte &nbsp; 15h00 &ndash; Audi&ecirc;ncia de cidad&atilde;os &laquo;lesados pela burla imobili&aacute;ria de Palmela&raquo; | Informa&ccedil;&otilde;es gerais | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm; 28 e 29, relativas &agrave;s reuni&otilde;es dos dias 24 e 25 de fevereiro de 2026 | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP PS, sobre &laquo;metodologia a adotar para as iniciativas sobre o Subs&iacute;dio Social de Mobilidade&raquo; | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do Projeto de Lei n.&ordm; 125/XVII/1.&ordf; (PSD ) - &laquo;Procede &agrave; oitava altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 13/2006, de 17 de abril, que aprova o Regime Jur&iacute;dico do Transporte Coletivo de Crian&ccedil;as e Jovens&raquo; | Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade, do Projeto de Lei n.&ordm; 95/XVII/1.&ordf; (PCP) - &laquo;Defesa dos direitos dos residentes das Regi&otilde;es Aut&oacute;nomas no acesso ao Subs&iacute;dio Social de Mobilidade (Primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas regi&otilde;es)&raquo; | Baixa &agrave; Comiss&atilde;o, na especialidade, das seguintes iniciativas legislativas: | Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 6/XVII/1.&ordf; (PS) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro, que altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; | Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 7/XVII/1.&ordf; (CH) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro - Altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; | Projeto de Lei n.&ordm; 81/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, que define as regras aplic&aacute;veis aos servi&ccedil;os de radiocomunica&ccedil;&otilde;es de amador e de amador por sat&eacute;lite, bem como o regime de atribui&ccedil;&atilde;o de certificados e autoriza&ccedil;&otilde;es especiais aos amadores e de licenciamento das esta&ccedil;&otilde;es de uso comum&raquo; | Projeto de Lei n.&ordm; 215/XVI/1.&ordf; (CH) - &laquo;Estabelece medidas de incentivo ao radioamadorismo em Portugal, alterando o Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o&raquo; | Projeto de Lei n.&ordm; 426/XVII/1.&ordf; (PAN) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, eliminando o limite m&iacute;nimo de idade para obten&ccedil;&atilde;o do Certificado de Amador Nacional e assegurando a descentraliza&ccedil;&atilde;o dos locais de realiza&ccedil;&atilde;o do exame de aptid&atilde;o de amador&raquo; | Baixa &agrave; Comiss&atilde;o, para nova aprecia&ccedil;&atilde;o na generalidade, do Projeto de Lei n.&ordm; 440/XVII/1.&ordf; (L) - &laquo;Refor&ccedil;o urgente dos apoios sociais imediatos &agrave;s fam&iacute;lias, empresas e associa&ccedil;&otilde;es afetadas pelas tempestades&raquo; | Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator, do Projeto de Lei n.&ordm; 453/XVII/1.&ordf; (IL) - &laquo;Revoga&ccedil;&atilde;o do congelamento de rendas&raquo; | Baixa &agrave; Comiss&atilde;o, em conex&atilde;o, do Projeto de Lei n.&ordm; 450/XVII/1.&ordf; (BE) - &laquo;Estabelece medidas excecionais para a prote&ccedil;&atilde;o do direito &agrave; habita&ccedil;&atilde;o e dos estabelecimentos comerciais e ind&uacute;stria nos concelhos afetados pelas tempestades de 2026&raquo; - Comiss&atilde;o competente: Economia e Coes&atilde;o Territorial | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do&nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 542/XVII/1.&ordf; (PAN) - &laquo;Recomenda ao Governo que inclua a A1 na isen&ccedil;&atilde;o tempor&aacute;ria de portagens e a devolu&ccedil;&atilde;o das portagens j&aacute; pagas nos munic&iacute;pios afetados pela Depress&atilde;o Kristin&raquo; | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 147/XVII/1.&ordf; (PAN) - &laquo;Pela inclus&atilde;o das despesas com o realojamento emergencial das v&iacute;timas de viol&ecirc;ncia dom&eacute;stica e dos seus filhos no &acirc;mbito da cobertura prevista nas ap&oacute;lices de seguros multirriscos habita&ccedil;&atilde;o em Portugal&raquo; | Baixa &agrave; Comiss&atilde;o, na especialidade, do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 613/XVII/1.&ordf; (PS) - &laquo;Recomenda ao Governo um conjunto de medidas destinadas &agrave; mitiga&ccedil;&atilde;o de perdas em diversas atividades econ&oacute;micas e &agrave; recupera&ccedil;&atilde;o das respetivas capacidades, bem como &agrave; recupera&ccedil;&atilde;o de habita&ccedil;&otilde;es&raquo; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da nota de admissibilidade da Peti&ccedil;&atilde;o n.&ordm; 110/XVII/1.&ordf; - &laquo;Pela melhoria urgente do servi&ccedil;o da Fertagus e pelo fim dos atrasos e supress&otilde;es constantes&raquo;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.927945+00:00"
+    },
+    {
+      "id": "2a4cc85405f6ef856353b6c4da5e17c8",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-03",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.949756+00:00"
+    },
+    {
+      "id": "a736d1c141d6065c8a5707a2213ed488",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-04",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 33 Local: Sala 2 Tema: Comiss&#xF5;es Parlamentares &nbsp; Informa&ccedil;&otilde;es. Nova aprecia&ccedil;&atilde;o na generalidade, com vota&ccedil;&atilde;o de propostas de altera&ccedil;&atilde;o para a aprova&ccedil;&atilde;o de texto de substitui&ccedil;&atilde;o da Comiss&atilde;o, do Projeto de Lei n.&ordm; 65/XVII/1.&ordf; (PS) &ndash; Refor&ccedil;a as regras de corte de &aacute;rvores e harmoniza regimes contraordenacionais em mat&eacute;ria florestal. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pela DURP do PAN para &laquo;audi&ccedil;&atilde;o do Ministro da Agricultura e Mar, da DGAV e da ASAE sobre falhas na fiscaliza&ccedil;&atilde;o de explora&ccedil;&otilde;es pecu&aacute;rias e viola&ccedil;&otilde;es reiteradas das normas de seguran&ccedil;a e sa&uacute;de p&uacute;blica e bem-estar animal&raquo;. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o da Federa&ccedil;&atilde;o Portuguesa das Associa&ccedil;&otilde;es Av&iacute;colas (FEPASA) e da Federa&ccedil;&atilde;o Portuguesa de Associa&ccedil;&otilde;es de Suinicultores (FPAS), com vista ao esclarecimento das pr&aacute;ticas do setor av&iacute;cola e suin&iacute;cola e da sua conformidade com as normas de bem-estar animal&raquo;. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o do Secret&aacute;rio de Estado das Florestas, Engenheiro Rui Miguel Ladeira Pereira, a prop&oacute;sito da problem&aacute;tica da Fileira Florestal e dos desafios da gest&atilde;o e sustentabilidade das florestas em Portugal&raquo;. Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 620/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a cria&ccedil;&atilde;o de um pacote de apoio extraordin&aacute;rio em resposta &agrave;s tempestades ocorridas. Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) &ndash; Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 632/XVII/1.&ordf; (CDS-PP) &ndash; Recomenda ao Governo que adote um conjunto de medidas adicionais de apoio aos agricultores portugueses afetados pela depress&atilde;o Kristin. Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Lei n.&ordm; 454/XVII/1.&ordf; (PAN) &ndash; Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos: - A DURP do PAN indicou que pretende que seja fixado prazo para entrega de propostas de altera&ccedil;&atilde;o at&eacute; ao dia 10 de mar&ccedil;o e que a discuss&atilde;o e vota&ccedil;&atilde;o seja realiza&ccedil;&atilde;o na reuni&atilde;o da Comiss&atilde;o da semana seguinte. Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade do Projeto de Lei n.&ordm; 130/XVII/1.&ordf; (PAN) &ndash; Prev&ecirc; a cria&ccedil;&atilde;o um Plano Nacional de busca, salvamento e socorro animal integrado na resposta a cat&aacute;strofes, bem como de equipas e infraestruturas para a sua operacionaliza&ccedil;&atilde;o no &acirc;mbito da prote&ccedil;&atilde;o civil, por 60 dias . Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)69 &ndash; Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera o Regulamento (UE) 2019/1753 do Parlamento Europeu e do Conselho no respeitante &agrave;s altera&ccedil;&otilde;es aos regulamentos comuns ao abrigo do Acordo de Lisboa relativo &agrave;s denomina&ccedil;&otilde;es de origem e &agrave;s indica&ccedil;&otilde;es geogr&aacute;ficas adotadas pela Assembleia da Uni&atilde;o de Lisboa em 14 de julho de 2025. Outros assuntos. | Informa&ccedil;&otilde;es. | Nova aprecia&ccedil;&atilde;o na generalidade, com vota&ccedil;&atilde;o de propostas de altera&ccedil;&atilde;o para a aprova&ccedil;&atilde;o de texto de substitui&ccedil;&atilde;o da Comiss&atilde;o, do Projeto de Lei n.&ordm; 65/XVII/1.&ordf; (PS) &ndash; Refor&ccedil;a as regras de corte de &aacute;rvores e harmoniza regimes contraordenacionais em mat&eacute;ria florestal. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pela DURP do PAN para &laquo;audi&ccedil;&atilde;o do Ministro da Agricultura e Mar, da DGAV e da ASAE sobre falhas na fiscaliza&ccedil;&atilde;o de explora&ccedil;&otilde;es pecu&aacute;rias e viola&ccedil;&otilde;es reiteradas das normas de seguran&ccedil;a e sa&uacute;de p&uacute;blica e bem-estar animal&raquo;. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o da Federa&ccedil;&atilde;o Portuguesa das Associa&ccedil;&otilde;es Av&iacute;colas (FEPASA) e da Federa&ccedil;&atilde;o Portuguesa de Associa&ccedil;&otilde;es de Suinicultores (FPAS), com vista ao esclarecimento das pr&aacute;ticas do setor av&iacute;cola e suin&iacute;cola e da sua conformidade com as normas de bem-estar animal&raquo;. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o do Secret&aacute;rio de Estado das Florestas, Engenheiro Rui Miguel Ladeira Pereira, a prop&oacute;sito da problem&aacute;tica da Fileira Florestal e dos desafios da gest&atilde;o e sustentabilidade das florestas em Portugal&raquo;. | Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 620/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a cria&ccedil;&atilde;o de um pacote de apoio extraordin&aacute;rio em resposta &agrave;s tempestades ocorridas. | Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) &ndash; Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. | Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 632/XVII/1.&ordf; (CDS-PP) &ndash; Recomenda ao Governo que adote um conjunto de medidas adicionais de apoio aos agricultores portugueses afetados pela depress&atilde;o Kristin. | Baixa &agrave; comiss&atilde;o na especialidade do Projeto de Lei n.&ordm; 454/XVII/1.&ordf; (PAN) &ndash; Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos: - A DURP do PAN indicou que pretende que seja fixado prazo para entrega de propostas de altera&ccedil;&atilde;o at&eacute; ao dia 10 de mar&ccedil;o e que a discuss&atilde;o e vota&ccedil;&atilde;o seja realiza&ccedil;&atilde;o na reuni&atilde;o da Comiss&atilde;o da semana seguinte. | Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade do Projeto de Lei n.&ordm; 130/XVII/1.&ordf; (PAN) &ndash; Prev&ecirc; a cria&ccedil;&atilde;o um Plano Nacional de busca, salvamento e socorro animal integrado na resposta a cat&aacute;strofes, bem como de equipas e infraestruturas para a sua operacionaliza&ccedil;&atilde;o no &acirc;mbito da prote&ccedil;&atilde;o civil, por 60 dias . | Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)69 &ndash; Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera o Regulamento (UE) 2019/1753 do Parlamento Europeu e do Conselho no respeitante &agrave;s altera&ccedil;&otilde;es aos regulamentos comuns ao abrigo do Acordo de Lisboa relativo &agrave;s denomina&ccedil;&otilde;es de origem e &agrave;s indica&ccedil;&otilde;es geogr&aacute;ficas adotadas pela Assembleia da Uni&atilde;o de Lisboa em 14 de julho de 2025. | Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "asae"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.956914+00:00"
+    },
+    {
+      "id": "7ae6dafe3510323e8e7aff410ed967e9",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-05",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Visitas ao Pal&#xE1;cio de S. Bento 11:00 - Um grupo de 22 alunos e professores da Escola de Hotelaria e Turismo de Setúbal 11:30 - Um grupo de 22 alunos e professores da Escola de Hotelaria e Turismo de Setúbal",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.984855+00:00"
+    },
+    {
+      "id": "b35df38eac201c41754e6f9ade7c48cf",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-05",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Assist&#xEA;ncias ao Plen&#xE1;rio 15h00 - Um grupo de 54 alunos e professores do Agrupamento Escolas Abel Salazar - Matosinhos&nbsp; 15h00 - Um grupo de 60 alunos e professores da Escola Secundária de Casquilhos - Barreiro&nbsp; 15h00 - Um grupo de 41 alunos e professores do Agrupamento de Escolas Rio Arade&nbsp; 15h00 - Um grupo de 44 alunos e professores da Escola de Hotelaria e Turismo de Setúbal&nbsp; 15h00 - Um grupo de 48 alunos e professores da Escola Secundária Tomás Pelayo - Santo Tirso 15h00 - Um grupo de 18 cidadãos de Moura 15h00 - Um grupo de 22 cidadãos do Algarve 15h00 - Um grupo de 15 alunos e professores da University of Notre Dame - Indiana (EUA)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:05.985731+00:00"
+    },
+    {
+      "id": "80027ee39d0d4a7df1dc751989bc2651",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-12",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 32 Local: Sala 1 Tema: Comiss&#xF5;es Parlamentares Informa&ccedil;&otilde;es gerais &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm; 30 e 31, relativas &agrave;s reuni&otilde;es dos dias 03 e 04 de mar&ccedil;o de 2026 &nbsp; Aprecia&ccedil;&atilde;o do requerimento, apresentado pelo GP PS, sobre &laquo;Documenta&ccedil;&atilde;o trocada entre o Governo Regional da Madeira e o Governo relativa ao Subs&iacute;dio Social de Mobilidade&raquo; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;audi&ccedil;&atilde;o do Presidente da Associa&ccedil;&atilde;o de Utentes da Ponte 25 de Abril, Professor Aristides Teixeira, e da Administra&ccedil;&atilde;o da Fertagus &ndash; Travessia do Tejo, Transportes, S.A., Eng.&ordf; Cristina Dourado, sobre as condi&ccedil;&otilde;es de seguran&ccedil;a, capacidade e qualidade do servi&ccedil;o ferrovi&aacute;rio entre Lisboa e Set&uacute;bal&raquo; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;audi&ccedil;&atilde;o ao Engenheiro Fernando de Almeida Santos, Baston&aacute;rio da Ordem dos Engenheiros, o Professor Doutor Joaquim Jorge da Costa Paulino Pereira, Engenheiro Civil e Professor Catedr&aacute;tico do Departamento de Engenharia Civil, Arquitetura e Ambiente da Universidade de Lisboa, e o Professor Doutor Jo&atilde;o C&eacute;sar das Neves, Economista e Professor na Cat&oacute;lica-Lisbon School of Business and Economics, sobre a localiza&ccedil;&atilde;o do Novo Aeroporto Lu&iacute;s de Cam&otilde;es&raquo; &nbsp; Aprecia&ccedil;&atilde;o das propostas de audi&ccedil;&otilde;es a realizar no &acirc;mbito das iniciativas: &nbsp; Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 6/XVII/1.&ordf; (PS) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro, que altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 7/XVII/1.&ordf; (CH) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro - Altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das notas de admissibilidade das Peti&ccedil;&otilde;es: &nbsp; Peti&ccedil;&atilde;o n.&ordm; 111/XVII/1.&ordf; (10 assinaturas) - &laquo;Pela suspens&atilde;o da venda de im&oacute;veis p&uacute;blicos e terrenos do Estado&raquo; Peti&ccedil;&atilde;o n.&ordm; 113/XVII/1.&ordf; (1406 assinaturas) - &laquo;Constru&ccedil;&atilde;o de uma nova ponte sobre o rio T&acirc;mega e as respetivas liga&ccedil;&otilde;es em Marco de Canaveses&raquo; &nbsp; &nbsp; &nbsp; | Informa&ccedil;&otilde;es gerais | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm; 30 e 31, relativas &agrave;s reuni&otilde;es dos dias 03 e 04 de mar&ccedil;o de 2026 | Aprecia&ccedil;&atilde;o do requerimento, apresentado pelo GP PS, sobre &laquo;Documenta&ccedil;&atilde;o trocada entre o Governo Regional da Madeira e o Governo relativa ao Subs&iacute;dio Social de Mobilidade&raquo; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;audi&ccedil;&atilde;o do Presidente da Associa&ccedil;&atilde;o de Utentes da Ponte 25 de Abril, Professor Aristides Teixeira, e da Administra&ccedil;&atilde;o da Fertagus &ndash; Travessia do Tejo, Transportes, S.A., Eng.&ordf; Cristina Dourado, sobre as condi&ccedil;&otilde;es de seguran&ccedil;a, capacidade e qualidade do servi&ccedil;o ferrovi&aacute;rio entre Lisboa e Set&uacute;bal&raquo; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;audi&ccedil;&atilde;o ao Engenheiro Fernando de Almeida Santos, Baston&aacute;rio da Ordem dos Engenheiros, o Professor Doutor Joaquim Jorge da Costa Paulino Pereira, Engenheiro Civil e Professor Catedr&aacute;tico do Departamento de Engenharia Civil, Arquitetura e Ambiente da Universidade de Lisboa, e o Professor Doutor Jo&atilde;o C&eacute;sar das Neves, Economista e Professor na Cat&oacute;lica-Lisbon School of Business and Economics, sobre a localiza&ccedil;&atilde;o do Novo Aeroporto Lu&iacute;s de Cam&otilde;es&raquo; | Aprecia&ccedil;&atilde;o das propostas de audi&ccedil;&otilde;es a realizar no &acirc;mbito das iniciativas: | Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 6/XVII/1.&ordf; (PS) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro, que altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; | Aprecia&ccedil;&atilde;o Parlamentar n.&ordm; 7/XVII/1.&ordf; (CH) - &laquo;Decreto-Lei n.&ordm; 1-A/2026, de 6 de janeiro - Altera o Decreto-Lei n.&ordm; 37-A/2025, de 24 de mar&ccedil;o, que define um novo modelo para a atribui&ccedil;&atilde;o de um subs&iacute;dio social de mobilidade no &acirc;mbito dos servi&ccedil;os a&eacute;reos entre o continente e as Regi&otilde;es Aut&oacute;nomas dos A&ccedil;ores e da Madeira e entre estas Regi&otilde;es&raquo; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das notas de admissibilidade das Peti&ccedil;&otilde;es: | Peti&ccedil;&atilde;o n.&ordm; 111/XVII/1.&ordf; (10 assinaturas) - &laquo;Pela suspens&atilde;o da venda de im&oacute;veis p&uacute;blicos e terrenos do Estado&raquo; | Peti&ccedil;&atilde;o n.&ordm; 113/XVII/1.&ordf; (1406 assinaturas) - &laquo;Constru&ccedil;&atilde;o de uma nova ponte sobre o rio T&acirc;mega e as respetivas liga&ccedil;&otilde;es em Marco de Canaveses&raquo;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.000775+00:00"
+    },
+    {
+      "id": "687813e9d682a0335eb42beb9acc10fe",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-10",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho de Acompanhamento Parlamentar do processo de reprivatiza&#xE7;&#xE3;o parcial do capital social da TAP | Comiss&#xE3;o de Infraestruturas, Mobilidade e Habita&#xE7;&#xE3;o",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.015013+00:00"
+    },
+    {
+      "id": "7f7d674c8a513207e2b5ee12a3adb686",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-10",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.017033+00:00"
+    },
+    {
+      "id": "91c216cc3ebb12fef4ac03d36d3a4976",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-13",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 65 Local: Plen&#xE1;rio Tema: Plen&#xE1;rio ORDEM DO DIA 09:30 Horas &nbsp; 1 -&nbsp; Projeto de Lei n.&ordm; 146/XVII/1.&ordf; (L) Refor&ccedil;o da capacidade de produ&ccedil;&atilde;o das Comunidades de Energia Renov&aacute;vel Projeto de Resolu&ccedil;&atilde;o n.&ordm; 212/XVII/1.&ordf; (L) Recomenda que se agilize o processo de constitui&ccedil;&atilde;o e apoio &agrave; cria&ccedil;&atilde;o de Comunidades de Energia Renov&aacute;vel Projeto de Lei n.&ordm; 473/XVII/1.&ordf; (BE) Alarga o acesso &agrave;s Comunidades de Energia Renov&aacute;vel, refor&ccedil;ando a sua democratiza&ccedil;&atilde;o e participa&ccedil;&atilde;o inclusiva Projeto de Resolu&ccedil;&atilde;o n.&ordm; 268/XVII/1.&ordf; (CH) Recomenda ao Governo a realiza&ccedil;&atilde;o de um estudo t&eacute;cnico-econ&oacute;mico independente e p&uacute;blico sobre os custos, fragilidades e alternativas do atual Sistema El&eacute;trico Nacional Projeto de Resolu&ccedil;&atilde;o n.&ordm; 638/XVII/1.&ordf; (CH) Recomenda ao Governo a revis&atilde;o estrat&eacute;gica e o aperfei&ccedil;oamento do regime jur&iacute;dico das Comunidades de Energia Renov&aacute;vel, enquanto instrumento de refor&ccedil;o da soberania energ&eacute;tica nacional, da estabilidade do Sistema El&eacute;trico Nacional e da coes&atilde;o territorial Projeto de Resolu&ccedil;&atilde;o n.&ordm; 645/XVII/1.&ordf; (IL) Recomenda ao Governo que acelere o Autoconsumo (UPAC) e Comunidades de Energia Renov&aacute;vel (CER) Projeto de Resolu&ccedil;&atilde;o n.&ordm; 647/XVII/1.&ordf; (PAN) Pelo refor&ccedil;o do Plano Nacional de Renova&ccedil;&atilde;o de Edif&iacute;cios com metas concretas, justi&ccedil;a social, financiamento transparente e participa&ccedil;&atilde;o comunit&aacute;ria Projeto de Resolu&ccedil;&atilde;o n.&ordm; 648/XVII/1.&ordf; (PAN) Pela transpar&ecirc;ncia, participa&ccedil;&atilde;o, governa&ccedil;&atilde;o multin&iacute;vel e integra&ccedil;&atilde;o das Comunidades de Energia na prepara&ccedil;&atilde;o dos Planos de Parceria Nacionais e Regionais para a aplica&ccedil;&atilde;o dos fundos europeus Projeto de Resolu&ccedil;&atilde;o n.&ordm; 652/XVII/1.&ordf; (BE) Recomenda ao Governo o desenvolvimento de uma estrat&eacute;gia p&uacute;blica para as Comunidades de Energia Renov&aacute;vel, garantindo a sua integra&ccedil;&atilde;o nas pol&iacute;ticas de energia, habita&ccedil;&atilde;o e coes&atilde;o territorial Tempos GOV 6 m PSD 6 m CH* 5 m PS 5 m IL* 3 m L* ** 3 m PCP 3 m CDS-PP 3 m BE* 1 m PAN* 1 m JPP 1 m Total 37 m &nbsp; Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 2 -&nbsp; Projeto de Lei n.&ordm; 3/XVII/1.&ordf; (PCP) Limita&ccedil;&atilde;o ao aumento de rendas em novos contratos de arrendamento habitacional Projeto de Lei n.&ordm; 453/XVII/1.&ordf; (IL) Revoga&ccedil;&atilde;o do congelamento de rendas Projeto de Lei n.&ordm; 459/XVII/1.&ordf; (CH) Prev&ecirc; a redu&ccedil;&atilde;o da taxa especial que incide sobre rendimentos de arrendamento habitacional Projeto de Lei n.&ordm; 462/XVII/1.&ordf; (PAN) Refor&ccedil;a a n&atilde;o discrimina&ccedil;&atilde;o no acesso ao arrendamento habitacional, procedendo &agrave; altera&ccedil;&atilde;o ao C&oacute;digo Civil Projeto de Lei n.&ordm; 468/XVII/1.&ordf; (L) Restringe as rendas em novos arrendamentos habitacionais e confere compet&ecirc;ncia &agrave; Autoridade Tribut&aacute;ria para identificar os incumprimentos Projeto de Resolu&ccedil;&atilde;o n.&ordm; 641/XVII/1.&ordf; (CH) Recomenda ao Governo promover a recupera&ccedil;&atilde;o e utiliza&ccedil;&atilde;o dos im&oacute;veis devolutos do Estado como resposta estruturante &agrave; crise habitacional Projeto de Resolu&ccedil;&atilde;o n.&ordm; 646/XVII/1.&ordf; (PAN) Pela cria&ccedil;&atilde;o de um apoio extraordin&aacute;rio e tempor&aacute;rio ao pagamento da renda destinado a fam&iacute;lias que tenham sofrido perda significativa de rendimentos em consequ&ecirc;ncia das tempestades de janeiro e de fevereiro de 2026 Projeto de Resolu&ccedil;&atilde;o n.&ordm; 654/XVII/1.&ordf; (BE) Recomenda ao Governo que crie um mecanismo de controlo de rendas dos novos contratos para defender o direito &agrave; habita&ccedil;&atilde;o Tempos GOV 6 m PSD 6 m CH* 5 m PS 5 m IL* 3 m L* 3 m PCP* ** 3 m CDS-PP 3 m BE* 1 m PAN* 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. 3 - &nbsp; Projeto de Lei n.&ordm; 255/XVII/1.&ordf; (CDS-PP) Estabelece as regras de Utiliza&ccedil;&atilde;o de Bandeiras em Edif&iacute;cios de car&aacute;ter p&uacute;blico Projeto de Lei n.&ordm; 418/XVII/1.&ordf; (CH) Regulamenta&ccedil;&atilde;o do Uso de Bandeiras em Edif&iacute;cios P&uacute;blicos Tempos GOV 6 m PSD 6 m CH* 5 m PS 5 m IL 3 m L 3 m PCP 3 m CDS-PP* ** 3 m BE 1 m PAN 1 m JPP 1 m Total 37 m &nbsp; Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 4 - &nbsp; Projeto de Lei n.&ordm; 403/XVII/1.&ordf; (BE) Garante o pagamento do subs&iacute;dio de doen&ccedil;a a 100% para doentes oncol&oacute;gicos (10.&ordf; altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 28/2004, de 4 de fevereiro) Projeto de Lei n.&ordm; 7/XVII/1.&ordf; (PAN) Garante o pagamento a 100% do subs&iacute;dio de doen&ccedil;a nas situa&ccedil;&otilde;es de doen&ccedil;a oncol&oacute;gica e do subs&iacute;dio para assist&ecirc;ncia a filhos menores na doen&ccedil;a oncol&oacute;gica, alterando o Decreto-Lei n.&ordm; 28/2004, de 4 de fevereiro Projeto de Lei n.&ordm; 183/XVII/1.&ordf; (PCP) Refor&ccedil;a o pagamento do subs&iacute;dio de doen&ccedil;a para as situa&ccedil;&otilde;es de tuberculose e das doen&ccedil;as cr&oacute;nicas, incluindo a doen&ccedil;a oncol&oacute;gica procedendo &agrave; oitava altera&ccedil;&atilde;o ao Decreto-lei n.&ordm; 28/2004, de 4 de fevereiro Projeto de Lei n.&ordm; 458/XVII/1.&ordf; (CH) Altera o Decreto-Lei n.&ordm; 28/2004, de 4 de fevereiro, garantindo que nenhuma pessoa com doen&ccedil;a oncol&oacute;gica perde rendimento enquanto luta pela vida Projeto de Lei n.&ordm; 469/XVII/1.&ordf; (L) Acresce direitos laborais aos trabalhadores com doen&ccedil;a oncol&oacute;gica Projeto de Lei n.&ordm; 471/XVII/1.&ordf; (IL) Aumenta o valor do subs&iacute;dio de doen&ccedil;a para doentes oncol&oacute;gicos e doentes graves - 10.&ordf; altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 28/2004, de 4 de fevereiro Tempos GOV 6 m PSD 6 m CH* 5 m PS 5 m IL* 3 m L* 3 m PCP* 3 m CDS-PP 3 m BE* ** 1 m PAN* 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 5 - Vota&ccedil;&otilde;es regimentais &agrave;s 12 horas",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.037705+00:00"
+    },
+    {
+      "id": "1033dcde8a10b4d5367e1a1ec60fb01d",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-17",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: Audit&#xF3;rio da Entidade Regional do Turismo do Porto e Norte, Viana do Castelo Tema: Agenda do Presidente da Assembleia da Rep&#xFA;blica span.EstiloCorreioEletrnico17 { font-family:\"Aptos\",sans-serif; color:windowtext; } div.WordSection1 { } } O Presidente da Assembleia da República, José Pedro Aguiar-Branco, participa na Sessão Distrital do Parlamento dos Jovens do Ensino Secundário, no distrito de Viana do Castelo.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.049888+00:00"
+    },
+    {
+      "id": "7b87f92e85a638bf3943e858c20aa131",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-18",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 34 Local: Sala 5 Tema: Comiss&#xF5;es Parlamentares Informa&ccedil;&otilde;es. Audi&ccedil;&atilde;o da Ag&ecirc;ncia Portuguesa do Ambiente (APA) a requerimento do GP da IL, sobre &laquo;a resolu&ccedil;&atilde;o dos problemas enfrentados por agricultores, produtores florestais, pescadores e outros cidad&atilde;os que dependem da a&ccedil;&atilde;o destas entidades&raquo;, representada pelo Presidente do Conselho Diretivo da APA, Eng.&ordm; Jos&eacute; Pimenta Machado. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm;s&nbsp;22, 23 e 24, de 07, 20 e 21 de janeiro de 2026. Nova aprecia&ccedil;&atilde;o na generalidade, com vota&ccedil;&atilde;o de propostas de altera&ccedil;&atilde;o para a aprova&ccedil;&atilde;o de texto de substitui&ccedil;&atilde;o da Comiss&atilde;o, do Projeto de Lei n.&ordm; 65/XVII/1.&ordf; (PS) &ndash; Refor&ccedil;a as regras de corte de &aacute;rvores e harmoniza regimes contraordenacionais em mat&eacute;ria florestal. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pela DURP do PAN para &laquo;audi&ccedil;&atilde;o do Ministro da Agricultura e Mar, da DGAV e da ASAE sobre falhas na fiscaliza&ccedil;&atilde;o de explora&ccedil;&otilde;es pecu&aacute;rias e viola&ccedil;&otilde;es reiteradas das normas de seguran&ccedil;a e sa&uacute;de p&uacute;blica e bem-estar animal&raquo;. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o da Federa&ccedil;&atilde;o Portuguesa das Associa&ccedil;&otilde;es Av&iacute;colas (FEPASA) e da Federa&ccedil;&atilde;o Portuguesa de Associa&ccedil;&otilde;es de Suinicultores (FPAS), com vista ao esclarecimento das pr&aacute;ticas do setor av&iacute;cola e suin&iacute;cola e da sua conformidade com as normas de bem-estar animal&raquo;. Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 632/XVII/1.&ordf; (CDS-PP) &ndash; Recomenda ao Governo que adote um conjunto de medidas adicionais de apoio aos agricultores portugueses afetados pela depress&atilde;o Kristin. Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 620/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a cria&ccedil;&atilde;o de um pacote de apoio extraordin&aacute;rio em resposta &agrave;s tempestades ocorridas. Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) &ndash; Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade do Projeto de Lei n.&ordm; 454/XVII/1.&ordf; (PAN) &ndash; Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos. Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto final relativo Projeto de Resolu&ccedil;&atilde;o n.&ordm; 533/XVII/1.&ordf; (PAN) &ndash; Recomenda ao Governo a ado&ccedil;&atilde;o de medidas urgentes de prote&ccedil;&atilde;o e bem-estar animal em situa&ccedil;&otilde;es de emerg&ecirc;ncia e cat&aacute;strofe, assegurando apoio &agrave;s associa&ccedil;&otilde;es zo&oacute;filas, cuidadores e centros de recolha oficial de animais. Aprecia&ccedil;&atilde;o da nota de admissibilidade da Peti&ccedil;&atilde;o n.&ordm; 116/XVII/1.&ordf; &ndash; Pela limita&ccedil;&atilde;o de Autarquias aderentes a Centros Intermunicipais de Recolha de Animais Errantes. Pela redu&ccedil;&atilde;o do n&uacute;mero de Autarquias afetas ao Centro Intermunicipal de Recolha de Animais Errantes de Proen&ccedil;a-a-Nova; 3620 assinaturas. Cabe ao GP do PSD Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o urgente da PROAMAR &ndash; Associa&ccedil;&atilde;o de Profissionais Artesanais do Marisco e da DGAV &ndash; Dire&ccedil;&atilde;o-Geral de Alimenta&ccedil;&atilde;o e Veterin&aacute;ria sobre a Problem&aacute;tica da Am&ecirc;ijoa-Japonesa no Tejo&raquo;. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do PS para &laquo;audi&ccedil;&atilde;o urgente de diversas entidades sobre o esc&acirc;ndalo das am&ecirc;ijoas contaminadas do estu&aacute;rio do Tejo&raquo;. Baixa &agrave; Comiss&atilde;o para aprecia&ccedil;&atilde;o na generalidade por 90 dias do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica. Relat&oacute;rio da visita da Comiss&atilde;o de Agricultura e Pescas os distritos de Bragan&ccedil;a e Vila Real, de 08 a 10 de dezembro de 2025. Baixa &agrave; comiss&atilde;o na generalidade do Projeto de Lei n.&ordm; 496/XVII/1.&ordf; (PS) &ndash; Estabelece medidas de apoio e indemniza&ccedil;&otilde;es &agrave;s v&iacute;timas de inc&ecirc;ndios. Informa&ccedil;&atilde;o &ndash; Baixa na generalidade em conex&atilde;o: &ndash; Projeto de Lei n.&ordm; 487/XVII/1.&ordf; (PCP) &ndash; Medidas de apoio aos rendimentos pelos impactos das tempestades &ndash; Baixa &agrave; Comiss&atilde;o de Economia e Coes&atilde;o territorial em conex&atilde;o com a Comiss&atilde;o de Agricultura e Pescas; &ndash; Projeto de Lei n.&ordm; 488/XVII/1.&ordf; (PCP) &ndash; Aprova medidas de apoio &agrave; recupera&ccedil;&atilde;o do potencial produtivo face aos impactos de tempestades e fen&oacute;menos meteorol&oacute;gicos extremos ocorridos no territ&oacute;rio nacional &ndash; Baixa &agrave; Comiss&atilde;o de Economia e Coes&atilde;o territorial em conex&atilde;o com a Comiss&atilde;o de Agricultura e Pescas. Outros assuntos. | Informa&ccedil;&otilde;es. | Audi&ccedil;&atilde;o da Ag&ecirc;ncia Portuguesa do Ambiente (APA) a requerimento do GP da IL, sobre &laquo;a resolu&ccedil;&atilde;o dos problemas enfrentados por agricultores, produtores florestais, pescadores e outros cidad&atilde;os que dependem da a&ccedil;&atilde;o destas entidades&raquo;, representada pelo Presidente do Conselho Diretivo da APA, Eng.&ordm; Jos&eacute; Pimenta Machado. | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas n.&ordm;s&nbsp;22, 23 e 24, de 07, 20 e 21 de janeiro de 2026. | Nova aprecia&ccedil;&atilde;o na generalidade, com vota&ccedil;&atilde;o de propostas de altera&ccedil;&atilde;o para a aprova&ccedil;&atilde;o de texto de substitui&ccedil;&atilde;o da Comiss&atilde;o, do Projeto de Lei n.&ordm; 65/XVII/1.&ordf; (PS) &ndash; Refor&ccedil;a as regras de corte de &aacute;rvores e harmoniza regimes contraordenacionais em mat&eacute;ria florestal. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pela DURP do PAN para &laquo;audi&ccedil;&atilde;o do Ministro da Agricultura e Mar, da DGAV e da ASAE sobre falhas na fiscaliza&ccedil;&atilde;o de explora&ccedil;&otilde;es pecu&aacute;rias e viola&ccedil;&otilde;es reiteradas das normas de seguran&ccedil;a e sa&uacute;de p&uacute;blica e bem-estar animal&raquo;. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o da Federa&ccedil;&atilde;o Portuguesa das Associa&ccedil;&otilde;es Av&iacute;colas (FEPASA) e da Federa&ccedil;&atilde;o Portuguesa de Associa&ccedil;&otilde;es de Suinicultores (FPAS), com vista ao esclarecimento das pr&aacute;ticas do setor av&iacute;cola e suin&iacute;cola e da sua conformidade com as normas de bem-estar animal&raquo;. | Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 632/XVII/1.&ordf; (CDS-PP) &ndash; Recomenda ao Governo que adote um conjunto de medidas adicionais de apoio aos agricultores portugueses afetados pela depress&atilde;o Kristin. | Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 620/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a cria&ccedil;&atilde;o de um pacote de apoio extraordin&aacute;rio em resposta &agrave;s tempestades ocorridas. | Discuss&atilde;o e vota&ccedil;&atilde;o do texto final relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) &ndash; Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. | Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade do Projeto de Lei n.&ordm; 454/XVII/1.&ordf; (PAN) &ndash; Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos. | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto final relativo Projeto de Resolu&ccedil;&atilde;o n.&ordm; 533/XVII/1.&ordf; (PAN) &ndash; Recomenda ao Governo a ado&ccedil;&atilde;o de medidas urgentes de prote&ccedil;&atilde;o e bem-estar animal em situa&ccedil;&otilde;es de emerg&ecirc;ncia e cat&aacute;strofe, assegurando apoio &agrave;s associa&ccedil;&otilde;es zo&oacute;filas, cuidadores e centros de recolha oficial de animais. | Aprecia&ccedil;&atilde;o da nota de admissibilidade da Peti&ccedil;&atilde;o n.&ordm; 116/XVII/1.&ordf; &ndash; Pela limita&ccedil;&atilde;o de Autarquias aderentes a Centros Intermunicipais de Recolha de Animais Errantes. Pela redu&ccedil;&atilde;o do n&uacute;mero de Autarquias afetas ao Centro Intermunicipal de Recolha de Animais Errantes de Proen&ccedil;a-a-Nova; 3620 assinaturas. Cabe ao GP do PSD | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do CH para &laquo;audi&ccedil;&atilde;o urgente da PROAMAR &ndash; Associa&ccedil;&atilde;o de Profissionais Artesanais do Marisco e da DGAV &ndash; Dire&ccedil;&atilde;o-Geral de Alimenta&ccedil;&atilde;o e Veterin&aacute;ria sobre a Problem&aacute;tica da Am&ecirc;ijoa-Japonesa no Tejo&raquo;. | Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do PS para &laquo;audi&ccedil;&atilde;o urgente de diversas entidades sobre o esc&acirc;ndalo das am&ecirc;ijoas contaminadas do estu&aacute;rio do Tejo&raquo;. | Baixa &agrave; Comiss&atilde;o para aprecia&ccedil;&atilde;o na generalidade por 90 dias do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica. | Relat&oacute;rio da visita da Comiss&atilde;o de Agricultura e Pescas os distritos de Bragan&ccedil;a e Vila Real, de 08 a 10 de dezembro de 2025. | Baixa &agrave; comiss&atilde;o na generalidade do Projeto de Lei n.&ordm; 496/XVII/1.&ordf; (PS) &ndash; Estabelece medidas de apoio e indemniza&ccedil;&otilde;es &agrave;s v&iacute;timas de inc&ecirc;ndios. | Informa&ccedil;&atilde;o &ndash; Baixa na generalidade em conex&atilde;o: &ndash; Projeto de Lei n.&ordm; 487/XVII/1.&ordf; (PCP) &ndash; Medidas de apoio aos rendimentos pelos impactos das tempestades &ndash; Baixa &agrave; Comiss&atilde;o de Economia e Coes&atilde;o territorial em conex&atilde;o com a Comiss&atilde;o de Agricultura e Pescas; &ndash; Projeto de Lei n.&ordm; 488/XVII/1.&ordf; (PCP) &ndash; Aprova medidas de apoio &agrave; recupera&ccedil;&atilde;o do potencial produtivo face aos impactos de tempestades e fen&oacute;menos meteorol&oacute;gicos extremos ocorridos no territ&oacute;rio nacional &ndash; Baixa &agrave; Comiss&atilde;o de Economia e Coes&atilde;o territorial em conex&atilde;o com a Comiss&atilde;o de Agricultura e Pescas. | Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "asae"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.057485+00:00"
+    },
+    {
+      "id": "b23c8ca78d6d94c2fc695fb02bb2c1f5",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-18",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 48 Local: Sala 2 Tema: Comiss&#xF5;es Parlamentares 1. Distribui&ccedil;&atilde;o de iniciativas legislativas: nomea&ccedil;&atilde;o de relatores e delibera&ccedil;&atilde;o sobre consultas a promover; 2. Nomea&ccedil;&atilde;o de relator para o parecer solicitado pelo Senhor Presidente da Assembleia da Rep&uacute;blica sobre a eventual verifica&ccedil;&atilde;o de impedimentos, incompatibilidades ou conflitos de interesses relativamente a membros indigitados para a Comiss&atilde;o T&eacute;cnica Independente para avalia&ccedil;&atilde;o dos inc&ecirc;ndios de agosto de 2025 em territ&oacute;rio de Portugal continental, designadamente quando estejam em causa situa&ccedil;&otilde;es de exerc&iacute;cio atual ou recente de fun&ccedil;&otilde;es de dire&ccedil;&atilde;o, comando ou responsabilidade operacional em entidades, estruturas ou servi&ccedil;os cuja atua&ccedil;&atilde;o possa vir a ser objeto de avalia&ccedil;&atilde;o pela Comiss&atilde;o no &acirc;mbito da respetiva miss&atilde;o legal (cfr. Despacho n.&ordm; 114/XVII, em anexo) &ndash; Relator a indicar pelo GP do PSD; 3. Distribui&ccedil;&atilde;o de iniciativas europeias e nomea&ccedil;&atilde;o de relatores; 4. Discuss&atilde;o e vota&ccedil;&atilde;o dos relat&oacute;rios sobre as seguintes iniciativas legislativas: a) Projeto de Lei n.&ordm; 391/XVII/1.&ordf; (CH) - Actualiza a regula&ccedil;&atilde;o do procedimento de mudan&ccedil;a de sexo e de nome pr&oacute;prio no registo civil, em particular no que diz respeito &agrave; protec&ccedil;&atilde;o das crian&ccedil;as e jovens, &agrave; luz da evid&ecirc;ncia cient&iacute;fica mais recente e em conson&acirc;ncia com os princ&iacute;pios da bio&eacute;tica e da dignidade da pessoa humana; Relatora: Deputada In&ecirc;s de Sousa Real (PAN) b) Proposta de Lei n.&ordm; 53/XVII/1 (GOV) &ndash; Transp&otilde;e a Diretiva (UE) 2023/977, relativa ao interc&acirc;mbio de informa&ccedil;&otilde;es entre as autoridades de aplica&ccedil;&atilde;o da lei dos Estados-Membros, e a Diretiva (UE) 2023/2123, que altera a Decis&atilde;o 2005/671/JAI do Conselho no que diz respeito &agrave; sua harmoniza&ccedil;&atilde;o com as regras da Uni&atilde;o em mat&eacute;ria de prote&ccedil;&atilde;o de dados pessoais;&nbsp; Relator: Pedro Delgado Alves (PS); &nbsp; c) Proposta de Lei 60/XVII/1.&ordf; (GOV) - Define os objetivos, as prioridades e orienta&ccedil;&otilde;es da pol&iacute;tica criminal para o bi&eacute;nio de 2025-2027, em cumprimento da Lei n.&ordm; 17/2006, de 23 de maio, que aprova a Lei-Quadro da Pol&iacute;tica Criminal; Relatora: Deputada Isabel Alves Moreira (PS); 5. Discuss&atilde;o, nos termos dos n. os 1 e 2 do artigo 128.&ordm; do RAR, dos seguintes Projetos de Resolu&ccedil;&atilde;o: a) Projeto de Resolu&ccedil;&atilde;o 616/XVII/1 (CH) - Recomenda ao governo que atualize os valores tabelados dos Servi&ccedil;os Remunerados prestados pela Pol&iacute;cia de Seguran&ccedil;a P&uacute;blica (PSP) e pela Guarda Nacional Republicana (GNR), de forma a assegurar a dignidade das remunera&ccedil;&otilde;es ; b) Projeto de Resolu&ccedil;&atilde;o 635/XVII/1 (L) - Recomenda ao Governo que garanta comunica&ccedil;&atilde;o dedicada &agrave; seguran&ccedil;a das pessoas surdas em contextos de emerg&ecirc;ncia ; 6. Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final, nos termos do disposto nos artigos 156.&ordm; e 128.&ordm;, n.&ordm; 8 do RAR, dos seguintes Projetos de Resolu&ccedil;&atilde;o a) Projeto de Resolu&ccedil;&atilde;o n.&ordm; 548/XVII/1.&ordf; (L) - Recomenda ao Governo a implementa&ccedil;&atilde;o urgente de um sistema de alerta por r&aacute;dio com envio autom&aacute;tico de SMS georreferenciadas em situa&ccedil;&otilde;es de emerg&ecirc;ncia e cat&aacute;strofe; b) Projeto de Resolu&ccedil;&atilde;o n.&ordm; 393/XVII/1 (PS) - Promo&ccedil;&atilde;o do voto acess&iacute;vel e universal para todas as pessoas; 7. Discuss&atilde;o e vota&ccedil;&atilde;o do requerimento apresentado pelo GP do BE, para audi&ccedil;&atilde;o de entidades no &acirc;mbito no &acirc;mbito da nova aprecia&ccedil;&atilde;o na generalidade das iniciativas sobre a criminaliza&ccedil;&atilde;o da esteriliza&ccedil;&atilde;o for&ccedil;ada &ndash; Projetos de Lei n.&ordm; 313/XVII/1.&ordf; (PS) , n.&ordm; 327/XVII/1.&ordf; (PAN) e n.&ordm; 329/XVII/1.&ordf; (BE) ; 8. Distribui&ccedil;&atilde;o e admiss&atilde;o de peti&ccedil;&otilde;es (Peti&ccedil;&otilde;es n.&ordm; 114/XVII/1 e n.&ordm; 115/XVII/1 ) e discuss&atilde;o e vota&ccedil;&atilde;o de relat&oacute;rios finais de peti&ccedil;&otilde;es, designadamente da Peti&ccedil;&atilde;o n.&ordm; 12/XVI/1.&ordf; - Cart&atilde;o da AR CPLP Relator: Deputado Manuel Magno (CH); 9. An&uacute;ncio de projetos de voto e discuss&atilde;o e vota&ccedil;&atilde;o dos seguintes projetos de voto: a) Projeto de Voto 422/XVII/1 (PSD) - De sauda&ccedil;&atilde;o pelo Dia Internacional da Mulher ; b) Projeto de Voto 428/XVII/1 (CH) - De congratula&ccedil;&atilde;o &agrave; atua&ccedil;&atilde;o do Comandante Sub-Regional de Emerg&ecirc;ncia e Prote&ccedil;&atilde;o Civil de Coimbra, Dr. Carlos Lu&iacute;s Tavares ; 10. Delibera&ccedil;&atilde;o sobre as iniciativas a promover pela CACDLG por ocasi&atilde;o dos 50 anos da CRP; 11. Delibera&ccedil;&atilde;o sobre a metodologia de consulta no &acirc;mbito da discuss&atilde;o na especialidade do Projeto de Lei n.&ordm; 398/XVIII/1.&ordf; (PSD) &ndash; Estabelece medidas de prote&ccedil;&atilde;o de crian&ccedil;as em ambientes digitais; 12. Adapta&ccedil;&atilde;o do regulamento da Comiss&atilde;o ao Despacho n.&ordm; 104/XVII (PAR) , relativo &agrave; delega&ccedil;&atilde;o de compet&ecirc;ncia para autoriza&ccedil;&atilde;o de participa&ccedil;&atilde;o remota nas reuni&otilde;es das comiss&otilde;es parlamentares, ao abrigo do artigo 58.&ordm;-A do Regimento da Assembleia da Rep&uacute;blica e da Delibera&ccedil;&atilde;o n.&ordm; 2-PL/2024, de 11 de janeiro; 13. Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "dados pessoais"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.063987+00:00"
+    },
+    {
+      "id": "cf237a21d310b72d7e75f430a7304ee7",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-18",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 31 Local: Sala 6 Tema: Comiss&#xF5;es Parlamentares Parte I &nbsp; Audi&ccedil;&atilde;o, nos termos do artigo 104.&ordm;, n.&ordm; 5 do Regimento da Assembleia da Rep&uacute;blica , do Senhor Ministro da Economia e da Coes&atilde;o Territorial , Manuel Castro Almeida. &nbsp; Parte II Informa&ccedil;&otilde;es gerais; Baixou &agrave; Comiss&atilde;o, para conhecimento, a Peti&ccedil;&atilde;o n.&ordm; 120/XVII/1&ordf; - Pela Preserva&ccedil;&atilde;o da Natureza no Parque Natural da Arr&aacute;bida e ZEC Arr&aacute;bida-Espichel (competente a Comiss&atilde;o de Ambiente e Energia); Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da ata da reuni&atilde;o n. o 35, de 12 de mar&ccedil;o; &nbsp; An&uacute;ncio e distribui&ccedil;&atilde;o de iniciativas legislativas: nomea&ccedil;&atilde;o de relatores e delibera&ccedil;&atilde;o sobre consultas a promover; Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 487/XVII/1.&ordf; (PCP) - Medidas de apoio aos rendimentos pelos impactos das tempestades (com conex&atilde;o &agrave; Comiss&atilde;o de&nbsp; Agricultura e Pescas); Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 488/XVII/1.&ordf; (PCP) - Aprova medidas de apoio &agrave; recupera&ccedil;&atilde;o do potencial produtivo face aos impactos de tempestades e fen&oacute;menos meteorol&oacute;gicos extremos ocorridos no territ&oacute;rio nacional (com conex&atilde;o &agrave; Comiss&atilde;o de Agricultura e Pescas); Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 498/XVII/1.&ordf; (PAN) - Altera o modelo de nomea&ccedil;&atilde;o dos Conselhos de Administra&ccedil;&atilde;o das Entidades Reguladoras por forma a assegurar um refor&ccedil;o da transpar&ecirc;ncia e um maior respeito pela igualdade de g&eacute;nero, alterando a Lei-Quadro das Entidades Reguladoras; Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade, nos termos dos n.&ordm; s 4 e 5 do artigo 128.&ordm; do RAR, dos seguintes Projetos de Resolu&ccedil;&atilde;o; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 522/XVII/1.&ordf; (PSD) - Recomenda ao Governo o acompanhamento no terreno e a avalia&ccedil;&atilde;o dos preju&iacute;zos causados pela Depress&atilde;o Kristin ; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 554/XVII/1.&ordf; (PSD) - Recomenda ao Governo medidas para o refor&ccedil;o da resili&ecirc;ncia e continuidade dos servi&ccedil;os essenciais e das infraestruturas cr&iacute;ticas ; Aprecia&ccedil;&atilde;o do parecer emitido pela Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias respeitante ao conflito de compet&ecirc;ncia entre a Comiss&atilde;o de Economia e Coes&atilde;o Territorial e a Comiss&atilde;o da Reforma do Estado e Poder Local, sobre requerimento apresentado pelo GP do CH para &laquo; audi&ccedil;&atilde;o conexa com a 13&ordf; CREPL (Comiss&atilde;o da Reforma do Estado e do Poder Local) do Ministro da Economia e da Coes&atilde;o Territorial, do Presidente cessante da CCDR do Alentejo e do pr&oacute;ximo Presidente, decorrente da elei&ccedil;&atilde;o de 12 de janeiro, sobre a previs&atilde;o do Alentejo ter uma redu&ccedil;&atilde;o em cerca de 700 milh&otilde;es de euros no respeitante aos fundos europeus de coes&atilde;o da Uni&atilde;o Europeia, previstos para 2028-2034 .&raquo; Aprecia&ccedil;&atilde;o do of&iacute;cio remetido pelo Grupo Parlamentar do PCP, solicitando a redistribui&ccedil;&atilde;o do Projeto de Lei n.&ordm; 452/XVII/1.&ordf; (PS) - Estabelece o regime legal aplic&aacute;vel aos cart&otilde;es de sa&uacute;de, determinando as regras aplic&aacute;veis &agrave; sua comercializa&ccedil;&atilde;o e publicidade &agrave; Comiss&atilde;o de Sa&uacute;de; Outros assuntos. &nbsp; | Informa&ccedil;&otilde;es gerais; | Baixou &agrave; Comiss&atilde;o, para conhecimento, a Peti&ccedil;&atilde;o n.&ordm; 120/XVII/1&ordf; - Pela Preserva&ccedil;&atilde;o da Natureza no Parque Natural da Arr&aacute;bida e ZEC Arr&aacute;bida-Espichel (competente a Comiss&atilde;o de Ambiente e Energia); | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da ata da reuni&atilde;o n. o 35, de 12 de mar&ccedil;o; | An&uacute;ncio e distribui&ccedil;&atilde;o de iniciativas legislativas: nomea&ccedil;&atilde;o de relatores e delibera&ccedil;&atilde;o sobre consultas a promover; | Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 487/XVII/1.&ordf; (PCP) - Medidas de apoio aos rendimentos pelos impactos das tempestades (com conex&atilde;o &agrave; Comiss&atilde;o de&nbsp; Agricultura e Pescas); | Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 488/XVII/1.&ordf; (PCP) - Aprova medidas de apoio &agrave; recupera&ccedil;&atilde;o do potencial produtivo face aos impactos de tempestades e fen&oacute;menos meteorol&oacute;gicos extremos ocorridos no territ&oacute;rio nacional (com conex&atilde;o &agrave; Comiss&atilde;o de Agricultura e Pescas); | Baixou em sede de aprecia&ccedil;&atilde;o na generalidade o Projeto de Lei n.&ordm; 498/XVII/1.&ordf; (PAN) - Altera o modelo de nomea&ccedil;&atilde;o dos Conselhos de Administra&ccedil;&atilde;o das Entidades Reguladoras por forma a assegurar um refor&ccedil;o da transpar&ecirc;ncia e um maior respeito pela igualdade de g&eacute;nero, alterando a Lei-Quadro das Entidades Reguladoras; | Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade, nos termos dos n.&ordm; s 4 e 5 do artigo 128.&ordm; do RAR, dos seguintes Projetos de Resolu&ccedil;&atilde;o; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 522/XVII/1.&ordf; (PSD) - Recomenda ao Governo o acompanhamento no terreno e a avalia&ccedil;&atilde;o dos preju&iacute;zos causados pela Depress&atilde;o Kristin ; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 554/XVII/1.&ordf; (PSD) - Recomenda ao Governo medidas para o refor&ccedil;o da resili&ecirc;ncia e continuidade dos servi&ccedil;os essenciais e das infraestruturas cr&iacute;ticas ; | Aprecia&ccedil;&atilde;o do parecer emitido pela Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias respeitante ao conflito de compet&ecirc;ncia entre a Comiss&atilde;o de Economia e Coes&atilde;o Territorial e a Comiss&atilde;o da Reforma do Estado e Poder Local, sobre requerimento apresentado pelo GP do CH para &laquo; audi&ccedil;&atilde;o conexa com a 13&ordf; CREPL (Comiss&atilde;o da Reforma do Estado e do Poder Local) do Ministro da Economia e da Coes&atilde;o Territorial, do Presidente cessante da CCDR do Alentejo e do pr&oacute;ximo Presidente, decorrente da elei&ccedil;&atilde;o de 12 de janeiro, sobre a previs&atilde;o do Alentejo ter uma redu&ccedil;&atilde;o em cerca de 700 milh&otilde;es de euros no respeitante aos fundos europeus de coes&atilde;o da Uni&atilde;o Europeia, previstos para 2028-2034 .&raquo; | Aprecia&ccedil;&atilde;o do of&iacute;cio remetido pelo Grupo Parlamentar do PCP, solicitando a redistribui&ccedil;&atilde;o do Projeto de Lei n.&ordm; 452/XVII/1.&ordf; (PS) - Estabelece o regime legal aplic&aacute;vel aos cart&otilde;es de sa&uacute;de, determinando as regras aplic&aacute;veis &agrave; sua comercializa&ccedil;&atilde;o e publicidade &agrave; Comiss&atilde;o de Sa&uacute;de; | Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.072064+00:00"
+    },
+    {
+      "id": "9dd609f47c68910fc0dab335df42c204",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-17",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.085121+00:00"
+    },
+    {
+      "id": "e22bbfc830009d90cef2a1d6df0fbcef",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-18",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 12h00 - Associação Portuguesa das Agências de Viagens e Turismo (APAVT) 15h00 - Associação Empresarial do Minho",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.099911+00:00"
+    },
+    {
+      "id": "6012db45f3ecc5124d76fa040dcad174",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-17",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.106183+00:00"
+    },
+    {
+      "id": "aa3319bc3487d60b465f0fb790232e31",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-19",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 67 Local: Plen&#xE1;rio Tema: Plen&#xE1;rio ORDEM DO DIA 15:00 Horas 1 - Vota&ccedil;&atilde;o dos Projetos de Delibera&ccedil;&atilde;o n.&ordm; 23/XVII/1.&ordf; (PAR) &nbsp; - Concess&atilde;o de processo de urg&ecirc;ncia &ndash; Proposta de Lei n.&ordm; 63/XVII/1.&ordf; (GOV) e n.&ordm; 24/XVII/1.&ordf; (PAR) &nbsp; - Concess&atilde;o de processo de urg&ecirc;ncia &ndash; Proposta de Lei n.&ordm; 64/XVII/1.&ordf; (GOV) 2 - Debate de urg&ecirc;ncia, requerido pela IL, sobre \"Os efeitos da guerra e os efeitos da sobrecarga fiscal no dia a dia dos portugueses\" &nbsp; Debate de Urg&ecirc;ncia (ao abrigo do artigo 72.&ordm; do Regimento) Abertura IL 6 m&nbsp; Pedidos de esclarecimento e debate PSD 6 m CH 5 m 30 PS 5 m 30 IL 4 m L 4 m PCP 4 m CDS-PP 4 m BE 1 m PAN 1 m JPP 1 m GOV 6 m&nbsp; Total 48 m &nbsp; Notas: A abertura tem a dura&ccedil;&atilde;o m&aacute;xima de 6 minutos. Interven&ccedil;&otilde;es por ordem de inscri&ccedil;&atilde;o. Se tiver tempo, o GP que requer o debate de urg&ecirc;ncia &eacute; o &uacute;ltimo a intervir. 3 - Proposta de Lei n.&ordm; 53/XVII/1.&ordf; (GOV) Transp&otilde;e a Diretiva (UE) 2023/977, relativa ao interc&acirc;mbio de informa&ccedil;&otilde;es entre as autoridades de aplica&ccedil;&atilde;o da lei dos Estados-Membros, e a Diretiva (UE) 2023/2123 , que altera a Decis&atilde;o 2005/671/JAI do Conselho no que diz respeito &agrave; sua harmoniza&ccedil;&atilde;o com as regras da Uni&atilde;o em mat&eacute;ria de prote&ccedil;&atilde;o de dados pessoais &nbsp; Tempos GOV* ** 6 m PSD 6 m CH 5 m PS 5 m IL 3 m L 3 m PCP 3 m CDS-PP 3 m BE 1 m PAN 1 m JPP 1 m Total 37 m &nbsp; Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 4 - Proposta de Lei n.&ordm; 60/XVII/1.&ordf; (GOV) Define os objetivos, as prioridades e orienta&ccedil;&otilde;es da pol&iacute;tica criminal para o bi&eacute;nio de 2025-2027, em cumprimento da Lei n.&ordm; 17/2006, de 23 de maio, que aprova a Lei-Quadro da Pol&iacute;tica Criminal Projeto de Lei n.&ordm; 476/XVII/1.&ordf; (PCP) Determina as condi&ccedil;&otilde;es em que o Minist&eacute;rio P&uacute;blico e os &oacute;rg&atilde;os de pol&iacute;cia criminal definem e executam as prioridades e orienta&ccedil;&otilde;es correspondentes aos objetivos da pol&iacute;tica criminal &nbsp; Tempos GOV* ** 6 m PSD 6 m CH 5 m PS 5 m IL 3 m L 3 m PCP* 3 m CDS-PP 3 m BE 1 m PAN 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 5 - Projeto de Lei n.&ordm; 435/XVII/1.&ordf; (PS) Altera o enquadramento jur&iacute;dico aplic&aacute;vel &agrave; atividade das amas, equiparando a Creche Feliz, refor&ccedil;ando direitos, potenciando vagas e melhorando o tratamento fiscal Projeto de Lei n.&ordm; 485/XVII/1.&ordf; (PAN) Refor&ccedil;a e qualifica a atividade de ama, alargando as respostas &agrave; primeira inf&acirc;ncia e refor&ccedil;ando os mecanismos de prote&ccedil;&atilde;o das crian&ccedil;as contra maus-tratos, alterando diversos diplomas Projeto de Lei n.&ordm; 491/XVII/1.&ordf; (PCP) Refor&ccedil;a os direitos das Amas integradas no Instituto de Seguran&ccedil;a Social, I.P. e altera o Decreto-lei n.&ordm; 125/2015, de 22 de junho Projeto de Lei n.&ordm; 492/XVII/1.&ordf; (BE) Altera o regime jur&iacute;dico do exerc&iacute;cio da profiss&atilde;o de ama e garante uma maior prote&ccedil;&atilde;o laboral e social Projeto de Resolu&ccedil;&atilde;o n.&ordm; 673/XVII/1.&ordf; (CH) Recomenda ao Governo que proceda &agrave; revis&atilde;o do regime jur&iacute;dico das amas, no cuidado &agrave;s crian&ccedil;as, no sentido da promo&ccedil;&atilde;o de medidas operacionais e de fiscaliza&ccedil;&atilde;o, e desenvolvimento de pol&iacute;ticas sociais paralelas &nbsp; Tempos GOV 6 m PSD 6 m CH* 5 m PS* ** 5 m IL 3 m L 3 m PCP* 3 m CDS-PP 3 m BE* 1 m PAN* 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 6 - Projeto de Lei n.&ordm; 391/XVII/1.&ordf; (CH) Actualiza a regula&ccedil;&atilde;o do procedimento de mudan&ccedil;a de sexo e de nome pr&oacute;prio no registo civil, em particular no que diz respeito &agrave; protec&ccedil;&atilde;o das crian&ccedil;as e jovens, &agrave; luz da evid&ecirc;ncia cient&iacute;fica mais recente e em conson&acirc;ncia com os princ&iacute;pios da bio&eacute;tica e da dignidade da pessoa humana Projeto de Lei n.&ordm; 479/XVII/1.&ordf; (CDS-PP) Protege a integridade das crian&ccedil;as e pro&iacute;be a utiliza&ccedil;&atilde;o de bloqueadores da puberdade e/ou terapia hormonal no tratamento da incongru&ecirc;ncia ou disforia de g&eacute;nero em menores de 18 anos Projeto de Lei n.&ordm; 486/XVII/1.&ordf; (PSD) Altera o regime jur&iacute;dico de mudan&ccedil;a de sexo e de nome pr&oacute;prio no registo civil Projeto de Lei n.&ordm; 493/XVII/1.&ordf; (BE) Altera a Lei n.&ordm; 38/2018, de 7 de agosto e estabelece o quadro jur&iacute;dico da sua implementa&ccedil;&atilde;o Tempos GOV 6 m PSD* 6 m CH* ** 5 m PS 5 m IL 3 m L 3 m PCP 3 m CDS-PP* 3 m BE* 1 m PAN 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. 7 - Projeto de Resolu&ccedil;&atilde;o n.&ordm; 474/XVII/1.&ordf; (IL) Recomenda ao Governo que reconhe&ccedil;a a ilegitimidade do regime venezuelano e apoie a transi&ccedil;&atilde;o democr&aacute;tica no pa&iacute;s Projeto de Resolu&ccedil;&atilde;o n.&ordm; 573/XVII/1.&ordf; (PS) Recomenda ao Governo o refor&ccedil;o dos apoios &agrave; comunidade portuguesa na Venezuela e a intensifica&ccedil;&atilde;o de esfor&ccedil;os que garantam a liberta&ccedil;&atilde;o dos presos pol&iacute;ticos portugueses e lusodescendentes Projeto de Resolu&ccedil;&atilde;o n.&ordm; 672/XVII/1.&ordf; (PAN) Recomenda ao Governo que defenda uma solu&ccedil;&atilde;o de paz, democracia e liberdade para o povo venezuelano Projeto de Resolu&ccedil;&atilde;o n.&ordm; 674/XVII/1.&ordf; (CH) Recomenda ao Governo que apoie a transi&ccedil;&atilde;o democr&aacute;tica na Rep&uacute;blica Bolivariana da Venezuela, o regresso livre dos l&iacute;deres da oposi&ccedil;&atilde;o e a realiza&ccedil;&atilde;o de elei&ccedil;&otilde;es justas e transparentes Projeto de Resolu&ccedil;&atilde;o n.&ordm; 677/XVII/1.&ordf; (PCP) Pelo respeito do direito internacional e da soberania e independ&ecirc;ncia nacional da Rep&uacute;blica Bolivariana da Venezuela Projeto de Resolu&ccedil;&atilde;o n.&ordm; 681/XVII/1.&ordf; (L) Em defesa do Direito Internacional e de uma transi&ccedil;&atilde;o democr&aacute;tica para o povo venezuelano Projeto de Resolu&ccedil;&atilde;o n.&ordm; 683/XVII/1.&ordf; (BE) Recomenda ao Governo a rejei&ccedil;&atilde;o do plano de interven&ccedil;&atilde;o e transi&ccedil;&atilde;o imposto pelos Estados Unidos da Am&eacute;rica na Venezuela, a defesa da soberania do povo venezuelano e do Direito Internacional Tempos GOV 6 m PSD 6 m CH* 5 m PS* 5 m IL* ** 3 m L* 3 m PCP* 3 m CDS-PP 3 m BE* 1 m PAN* 1 m JPP 1 m Total 37 m Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "dados pessoais"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.112702+00:00"
+    },
+    {
+      "id": "ad5b766d750dbc7e751e4be8b11db48d",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-19",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 12h30 – Rede Ex Aequo 14h00 – Plataforma de Organizações Intervenientes na Área dos CAD 14h00 – União das Mutualidades Portuguesas 14h30 – Carlos Sampaio - Mandatário da Petição Pública “Pela Dignidade da Enfermagem, pela Transparência do ACT e pela Defesa do SNS” 15h00 – Alojamento Local Porto e Norte (ALPN) 17h00 – Associação Portuguesa de Transportadores em Automóveis Descaracterizados (APTAD)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.114123+00:00"
+    },
+    {
+      "id": "078a3aff72c05295023d1bbd7e62cea3",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-19",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 10h00 - União das Mutualidades Portuguesas 10h00 - Screens Can Wait 11h00 - Associação Portuguesa das Agências de Viagens e Turismo (APAVT) 11h00 - Associação das Empresas de Rent-a-car do Algarve (ARA) 12h00 - Associação das Empresas de Vinho do Porto 12h00 - Junta de Freguesia de Cascais e Estoril 12h00 - Sindicato dos trabalhadores em Funções Publicas Sociais do Norte (STFPSN)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.114835+00:00"
+    },
+    {
+      "id": "794190a6019d4134c55e6bd5406072f6",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-19",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 10h00 - Associação Portuguesa das Agências de Viagens e Turismo (APAVT)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.115413+00:00"
+    },
+    {
+      "id": "90919f6559b8550aa5251d7d95acd280",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-25",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 35 Local: Sala 3 Tema: Comiss&#xF5;es Parlamentares 1.&ordf; Parte &nbsp; Informa&ccedil;&otilde;es gerais &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da ata n.&ordm; 33 e 34, relativas &agrave;s reuni&otilde;es do dia 18 de mar&ccedil;o de 2026 &nbsp; Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final da Proposta de Lei n.&ordm; 25/XVII/1.&ordf; (GOV) - &laquo;Assegura a execu&ccedil;&atilde;o, na ordem jur&iacute;dica interna, do Regulamento (UE) 2022/2065, relativo a um mercado &uacute;nico para os servi&ccedil;os digitais e que altera a Diretiva 2000/31/CE (Regulamento dos Servi&ccedil;os Digitais)&raquo; &nbsp; Vota&ccedil;&atilde;o na especialidade das seguintes: &nbsp; &nbsp; Projeto de Lei n.&ordm; 81/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, que define as regras aplic&aacute;veis aos servi&ccedil;os de radiocomunica&ccedil;&otilde;es de amador e de amador por sat&eacute;lite, bem como o regime de atribui&ccedil;&atilde;o de certificados e autoriza&ccedil;&otilde;es especiais aos amadores e de licenciamento das esta&ccedil;&otilde;es de uso comum&raquo; Projeto de Lei n.&ordm; 215/XVII/1.&ordf; (CH) - &laquo;Estabelece medidas de incentivo ao radioamadorismo em Portugal, alterando o Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o&raquo; Projeto de Lei n.&ordm; 426/XVII/1.&ordf; (PAN) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, eliminando o limite m&iacute;nimo de idade para obten&ccedil;&atilde;o do Certificado de Amador Nacional e assegurando a descentraliza&ccedil;&atilde;o dos locais de realiza&ccedil;&atilde;o do exame de aptid&atilde;o de amador&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o na especialidade, das seguintes iniciativas: &nbsp; Proposta de Lei n.&ordm; 46/XVI/1.&ordf; (ALRAM) - &laquo;Aprova a primeira altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 45/2018, de 10 de agosto, que estabelece o regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica&raquo; Projeto de Lei n.&ordm; 396/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; altera&ccedil;&atilde;o da Lei n&ordm;45/2018 de 10 de agosto que estabelece o regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica (TVDE)&raquo; Projeto de Lei n.&ordm; 466/XVII/1.&ordf; (CDS-PP) - &laquo;Altera a Lei n.&ordm; 45/2018, de 10 de agosto, que estabelece o Regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica (TVDE)&raquo; &nbsp; Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator das seguintes iniciativas: &nbsp; Projeto de Lei n.&ordm; 501/XVII/1.&ordf; (IL) - &laquo;Promove a concorr&ecirc;ncia no transporte rodovi&aacute;rio atrav&eacute;s do acesso aberto a terminais e interfaces&raquo; Projeto de Lei n.&ordm; 465/XVII/1.&ordf; (CH) - &laquo;Altera o Regime Jur&iacute;dico que estabelece a atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados (TVDE)&raquo; Projeto de Lei n.&ordm; 506/XVII/1.&ordf; (PCP) - &laquo;Primeira altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 45/2018, de 10 de agosto (Regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica)&raquo; Projeto de Lei n.&ordm; 511/XVII/1.&ordf; (PCP) - &laquo;Regime extraordin&aacute;rio de prote&ccedil;&atilde;o da habita&ccedil;&atilde;o pr&oacute;pria face ao aumento dos encargos com o cr&eacute;dito &agrave; habita&ccedil;&atilde;o&raquo; &nbsp; Baixa &agrave; Comiss&atilde;o, em conex&atilde;o do Projeto de Lei n.&ordm; 518/XVII/1.&ordf; (CH) - &laquo;Revoga a possibilidade de cobran&ccedil;a de comiss&atilde;o de reembolso antecipado nos contratos de cr&eacute;dito &agrave; habita&ccedil;&atilde;o com taxa de juro vari&aacute;vel&raquo; - Comiss&atilde;o competente: Or&ccedil;amento, Finan&ccedil;as e Administra&ccedil;&atilde;o P&uacute;blica &nbsp; Baixa inicial dos Projetos de Resolu&ccedil;&atilde;o: &nbsp; &nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 665/XVII/1.&ordf; (PCP) - &laquo;Pela resposta urgente aos graves problemas do transporte ferrovi&aacute;rio no atual servi&ccedil;o da Fertagus na liga&ccedil;&atilde;o Set&uacute;bal &ndash; Lisboa&raquo; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 709/XVII/1.&ordf; (PS) - &laquo;Recomenda ao Governo a ado&ccedil;&atilde;o de medidas para assegurar a r&aacute;pida reposi&ccedil;&atilde;o da circula&ccedil;&atilde;o e o refor&ccedil;o da oferta ferrovi&aacute;ria na Linha da Beira Baixa&raquo; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 711/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a isen&ccedil;&atilde;o tempor&aacute;ria de portagens na A19 at&eacute; 30 de junho de 2026, em virtude da inexist&ecirc;ncia de alternativas rodovi&aacute;rias seguras nas estradas nacionais EN1 e EN242&raquo; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 717/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a adop&ccedil;&atilde;o das medidas necess&aacute;rias &agrave; concretiza&ccedil;&atilde;o da variante &agrave; EN246 em Santa Eul&aacute;lia, no concelho de Elvas&raquo; &nbsp; &nbsp; 2.&ordf; Parte &nbsp; 10h00 &ndash; Audi&ccedil;&atilde;o da TRENMO, SA, a requerimento do PS , sobre &laquo;ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa&raquo; &nbsp; 11h00 &ndash; Audi&ccedil;&atilde;o da CIM do T&acirc;mega e Sousa, no &acirc;mbito dos seguintes requerimentos: requerimento do PS , sobre &laquo;ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa&raquo; Requerimento do PS , sobre &laquo;ponte de Marco de Canaveses&raquo; | Informa&ccedil;&otilde;es gerais | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da ata n.&ordm; 33 e 34, relativas &agrave;s reuni&otilde;es do dia 18 de mar&ccedil;o de 2026 | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final da Proposta de Lei n.&ordm; 25/XVII/1.&ordf; (GOV) - &laquo;Assegura a execu&ccedil;&atilde;o, na ordem jur&iacute;dica interna, do Regulamento (UE) 2022/2065, relativo a um mercado &uacute;nico para os servi&ccedil;os digitais e que altera a Diretiva 2000/31/CE (Regulamento dos Servi&ccedil;os Digitais)&raquo; | Vota&ccedil;&atilde;o na especialidade das seguintes: | &nbsp; Projeto de Lei n.&ordm; 81/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, que define as regras aplic&aacute;veis aos servi&ccedil;os de radiocomunica&ccedil;&otilde;es de amador e de amador por sat&eacute;lite, bem como o regime de atribui&ccedil;&atilde;o de certificados e autoriza&ccedil;&otilde;es especiais aos amadores e de licenciamento das esta&ccedil;&otilde;es de uso comum&raquo; | Projeto de Lei n.&ordm; 215/XVII/1.&ordf; (CH) - &laquo;Estabelece medidas de incentivo ao radioamadorismo em Portugal, alterando o Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o&raquo; | Projeto de Lei n.&ordm; 426/XVII/1.&ordf; (PAN) - &laquo;Procede &agrave; primeira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 53/2009, de 2 de mar&ccedil;o, eliminando o limite m&iacute;nimo de idade para obten&ccedil;&atilde;o do Certificado de Amador Nacional e assegurando a descentraliza&ccedil;&atilde;o dos locais de realiza&ccedil;&atilde;o do exame de aptid&atilde;o de amador&raquo; | Baixa &agrave; Comiss&atilde;o na especialidade, das seguintes iniciativas: | Proposta de Lei n.&ordm; 46/XVI/1.&ordf; (ALRAM) - &laquo;Aprova a primeira altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 45/2018, de 10 de agosto, que estabelece o regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica&raquo; | Projeto de Lei n.&ordm; 396/XVII/1.&ordf; (PSD) - &laquo;Procede &agrave; altera&ccedil;&atilde;o da Lei n&ordm;45/2018 de 10 de agosto que estabelece o regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica (TVDE)&raquo; | Projeto de Lei n.&ordm; 466/XVII/1.&ordf; (CDS-PP) - &laquo;Altera a Lei n.&ordm; 45/2018, de 10 de agosto, que estabelece o Regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica (TVDE)&raquo; | Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator das seguintes iniciativas: | Projeto de Lei n.&ordm; 501/XVII/1.&ordf; (IL) - &laquo;Promove a concorr&ecirc;ncia no transporte rodovi&aacute;rio atrav&eacute;s do acesso aberto a terminais e interfaces&raquo; | Projeto de Lei n.&ordm; 465/XVII/1.&ordf; (CH) - &laquo;Altera o Regime Jur&iacute;dico que estabelece a atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados (TVDE)&raquo; | Projeto de Lei n.&ordm; 506/XVII/1.&ordf; (PCP) - &laquo;Primeira altera&ccedil;&atilde;o &agrave; Lei n.&ordm; 45/2018, de 10 de agosto (Regime jur&iacute;dico da atividade de transporte individual e remunerado de passageiros em ve&iacute;culos descaracterizados a partir de plataforma eletr&oacute;nica)&raquo; | Projeto de Lei n.&ordm; 511/XVII/1.&ordf; (PCP) - &laquo;Regime extraordin&aacute;rio de prote&ccedil;&atilde;o da habita&ccedil;&atilde;o pr&oacute;pria face ao aumento dos encargos com o cr&eacute;dito &agrave; habita&ccedil;&atilde;o&raquo; | Baixa &agrave; Comiss&atilde;o, em conex&atilde;o do Projeto de Lei n.&ordm; 518/XVII/1.&ordf; (CH) - &laquo;Revoga a possibilidade de cobran&ccedil;a de comiss&atilde;o de reembolso antecipado nos contratos de cr&eacute;dito &agrave; habita&ccedil;&atilde;o com taxa de juro vari&aacute;vel&raquo; - Comiss&atilde;o competente: Or&ccedil;amento, Finan&ccedil;as e Administra&ccedil;&atilde;o P&uacute;blica | Baixa inicial dos Projetos de Resolu&ccedil;&atilde;o: | &nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 665/XVII/1.&ordf; (PCP) - &laquo;Pela resposta urgente aos graves problemas do transporte ferrovi&aacute;rio no atual servi&ccedil;o da Fertagus na liga&ccedil;&atilde;o Set&uacute;bal &ndash; Lisboa&raquo; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 709/XVII/1.&ordf; (PS) - &laquo;Recomenda ao Governo a ado&ccedil;&atilde;o de medidas para assegurar a r&aacute;pida reposi&ccedil;&atilde;o da circula&ccedil;&atilde;o e o refor&ccedil;o da oferta ferrovi&aacute;ria na Linha da Beira Baixa&raquo; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 711/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a isen&ccedil;&atilde;o tempor&aacute;ria de portagens na A19 at&eacute; 30 de junho de 2026, em virtude da inexist&ecirc;ncia de alternativas rodovi&aacute;rias seguras nas estradas nacionais EN1 e EN242&raquo; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 717/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a adop&ccedil;&atilde;o das medidas necess&aacute;rias &agrave; concretiza&ccedil;&atilde;o da variante &agrave; EN246 em Santa Eul&aacute;lia, no concelho de Elvas&raquo; | requerimento do PS , sobre &laquo;ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa&raquo; | Requerimento do PS , sobre &laquo;ponte de Marco de Canaveses&raquo;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.149759+00:00"
+    },
+    {
+      "id": "e224062da4b71d5df18c39871ec32a4a",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-24",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.153383+00:00"
+    },
+    {
+      "id": "79cedaaa6242be44cc9d376d011d809f",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-25",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 16 Local: CA Tema: Conselho de Administra&#xE7;&#xE3;o 1 - Informa&ccedil;&otilde;es 2 - Aprova&ccedil;&atilde;o das Atas 14/XVII/1&ordf; Sess&atilde;o e 15/XVII/1&ordf; Sess&atilde;o 3 &ndash; Informa&ccedil;&atilde;o 13/DC/2026 - Abertura de procedimento para servi&ccedil;os de reportagem e campanhas fotogr&aacute;ficas 4 &ndash; Informa&ccedil;&atilde;o 30/DC/2026 - Levantamento tridimensional do Edif&iacute;cio D. Carlos I, sito na Avenida D. Carlos I, 128-130. 5 - Informa&ccedil;&atilde;o 35/DC/2026 - Aquisi&ccedil;&atilde;o de servi&ccedil;os de Produ&ccedil;&atilde;o de 12 filmes 6 - Informa&ccedil;&atilde;o 61/DC/2025 - Abertura de Concurso P&uacute;blico de Servi&ccedil;os Audiovisuais 7 - Informa&ccedil;&atilde;o 81/DC/2026 - Aquisi&ccedil;&atilde;o de servi&ccedil;os de assessoria especializada de comunica&ccedil;&atilde;o para o Conselho Nacional de Procria&ccedil;&atilde;o Medicamente Assistida (CNPMA) &ndash; Procedimento de Consulta Pr&eacute;via n.&ordm; 134/DC/2025 8 - Informa&ccedil;&atilde;o 82/DC/2026 - Aquisi&ccedil;&atilde;o de combust&iacute;veis rodovi&aacute;rios e energia para mobilidade el&eacute;trica em postos de abastecimento p&uacute;blicos para a Assembleia da Rep&uacute;blica - 2026/2029 9 - Informa&ccedil;&atilde;o 62/DC/2026 - Aquisi&ccedil;&atilde;o de Servi&ccedil;os de Limpeza para a Assembleia da Rep&uacute;blica (4.&ordm; Per&iacute;odo Transit&oacute;rio) - Ajuste Direto por crit&eacute;rios materiais 10 - Informa&ccedil;&atilde;o 63/DC/2026 - Contrata&ccedil;&atilde;o de Servi&ccedil;os de Engenharia e Coordena&ccedil;&atilde;o de Seguran&ccedil;a 11 - Informa&ccedil;&atilde;o 70DC2026 - Aquisi&ccedil;&atilde;o de Servi&ccedil;os de Gest&atilde;o de Informa&ccedil;&atilde;o de Imprensa, de R&aacute;dio e de Televis&atilde;o - Concurso P&uacute;blico Sem Publicidade Internacional 12 - Informa&ccedil;&atilde;o 73/DC/2026 - Empreitada de Substitui&ccedil;&atilde;o do pavimento da CNPD (2&ordf; fase) 13 - Informa&ccedil;&atilde;o 75/DC/2026 - Aquisi&ccedil;&atilde;o/subscri&ccedil;&atilde;o de licen&ccedil;as GitLab Ultimate 14 - Informa&ccedil;&atilde;o 76/DC/2026 - Pedido de Aquisi&ccedil;&atilde;o de subscri&ccedil;&atilde;o aos conte&uacute;dos de informa&ccedil;&atilde;o da empresa Signal Risk 15 - Informa&ccedil;&atilde;o 77/DC/2026 - Loca&ccedil;&atilde;o de equipamento e presta&ccedil;&atilde;o de servi&ccedil;os de assist&ecirc;ncia t&eacute;cnica para apoio a reuni&otilde;es e eventos da Assembleia da Rep&uacute;blica - per&iacute;odo transit&oacute;rio 16 - Informa&ccedil;&atilde;o 78/DC/2026 - Requisi&ccedil;&atilde;o da aquisi&ccedil;&atilde;o de upgrade de solu&ccedil;&atilde;o de segmenta&ccedil;&atilde;o on-the-fly/instant&acirc;nea de v&iacute;deo em utiliza&ccedil;&atilde;o na AR 17 - Informa&ccedil;&atilde;o 84/DC/2026 - Desenvolvimento de procedimentos de contrata&ccedil;&atilde;o - servi&ccedil;os de avalia&ccedil;&atilde;o psicol&oacute;gica, ingl&ecirc;s e inform&aacute;tica para concursos de recrutamento. 18 - PAD - Aquisi&ccedil;&atilde;o de servi&ccedil;os de seguran&ccedil;a - PSP 19 - PAD - Aquisi&ccedil;&atilde;o de servi&ccedil;os de seguran&ccedil;a - GNR 20 - PAD - Fornecimento continuo de &aacute;gua aos edif&iacute;cios da AR 2026 21 - Informa&ccedil;&atilde;o 001/GCA/2026 - Controlo e acompanhamento da gest&atilde;o or&ccedil;amental e financeira das Entidades Administrativas Independentes. Relat&oacute;rio de Acompanhamento - 12.&ordf; a&ccedil;&atilde;o - Ano 2025 22 - Informa&ccedil;&atilde;o - Encargos com contratos para aquisi&ccedil;&atilde;o de servi&ccedil;os - LOE2026 - Aplica&ccedil;&atilde;o aos servi&ccedil;os da Assembleia da Rep&uacute;blica 23 - 09/DVCP/2026 - PARECER T&Eacute;CNICO: Novo Edif&iacute;cio | Elabora&ccedil;&atilde;o de projeto para instala&ccedil;&atilde;o de sala(s) de reuni&atilde;o, tendo presente defici&ecirc;ncias ao n&iacute;vel das redes inform&aacute;ticas e necessidade de requalifica&ccedil;&atilde;o do sistema de ilumina&ccedil;&atilde;o dos corredores. 24 - Informa&ccedil;&atilde;o 13/DAC/2026 - Proposta para a participa&ccedil;&atilde;o da AR no cofinanciamento do Secretariado da COSAC 25 - Informa&ccedil;&atilde;o 16DGC2026 - Avalia&ccedil;&atilde;o dos fornecedores da AR 26 - Informa&ccedil;&atilde;o 24/DGF/2026 - Retifica&ccedil;&atilde;o &agrave; integra&ccedil;&atilde;o do diferencial do saldo de ger&ecirc;ncia de 2025 no OAR 2026 27 - Informa&ccedil;&atilde;o 26/DCGC/2026 - Altera&ccedil;&atilde;o de gestor de contrato dos seguros - Lote I (contrato n.&ordm; 70/2023 28 - Informa&ccedil;&atilde;o 27/DGF/2026 - Abono de desloca&ccedil;&atilde;o para as despesas com transporte Regi&otilde;es Aut&oacute;nomas -AR - Regi&otilde;es Aut&oacute;nomas | segundo trimestre de 2026 29 - Informa&ccedil;&atilde;o 71/DC/2026 - Me-CDPD | Pedido de autoriza&ccedil;&atilde;o para contrata&ccedil;&atilde;o de servi&ccedil;o na &aacute;rea da comunica&ccedil;&atilde;o 30 - Informa&ccedil;&atilde;o 83/DC/2026 - CNPD Of&iacute;cio SAI - Pedidos de autoriza&ccedil;&atilde;o para a aquisi&ccedil;&atilde;o de servi&ccedil;os de patroc&iacute;nio judici&aacute;rio e servi&ccedil;os de consultoria em contrata&ccedil;&atilde;o p&uacute;blica 31 - Informa&ccedil;&atilde;o 3/DARHFP/2026 - Conta da AR2025 - Adiamento 32 - Informa&ccedil;&atilde;o 01/DREC/2026 - Nomea&ccedil;&atilde;o de Coordenadores DREC 33 - Informa&ccedil;&atilde;o 44/DRHF/2026 - Proposta de nomea&ccedil;&atilde;o de coordenadores para a unidade org&acirc;nica DVCP/DGPL da Dire&ccedil;&atilde;o de Administra&ccedil;&atilde;o de Recursos Humanos, Financeiros e Patrimoniais (DARHFP) 34 - Informa&ccedil;&atilde;o 45/DRHF/2026 - Nomea&ccedil;&atilde;o das Assessores Parlamentares Cl&aacute;udia Cristina Martins Ribeiro Diogo, Maria Lu&iacute;sa Maduro Cola&ccedil;o e Cristina Maria Martins Farinha Tavares Gomes para o exerc&iacute;cio de cargos na Presid&ecirc;ncia da Rep&uacute;blica, em regime de comiss&atilde;o de servi&ccedil;o 35 - Outros Assuntos 36 - Aprova&ccedil;&atilde;o da Ata em minuta para imediata produ&ccedil;&atilde;o de efeitos das delibera&ccedil;&otilde;es",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.175288+00:00"
+    },
+    {
+      "id": "d1bb780c1f779c3f478e08b303542bd2",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-24",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.182068+00:00"
+    },
+    {
+      "id": "2d5ceeaf49449910f8ab7573f6ffa31d",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-24",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.200498+00:00"
+    },
+    {
+      "id": "ae21ef39fbd276721d34298acdf734ee",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-31",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.220790+00:00"
+    },
+    {
+      "id": "c06226cc9092cc5cdc4e6de875d12668",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-31",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 36 Local: Sala 2 Tema: Comiss&#xF5;es Parlamentares Informa&ccedil;&otilde;es. &nbsp; 14h30 Audi&ecirc;ncia da Associa&ccedil;&atilde;o Interprofissional de Horticultura do Oeste (AIHO) para &laquo;apresentar e analisar um conjunto de temas considerados priorit&aacute;rios para a competitividade e continuidade da horticultura regional e nacional, designadamente: - Licenciamento de estufas e infraestruturas de apoio agr&iacute;cola, nomeadamente a necessidade de um enquadramento legal ajustado, procedimentos simplificados e defini&ccedil;&atilde;o uniforme a n&iacute;vel nacional. - Transpar&ecirc;ncia na cadeia agroalimentar, com enfoque nos diferenciais de pre&ccedil;os entre produ&ccedil;&atilde;o e consumidor e no refor&ccedil;o do papel da PARCA. - Habita&ccedil;&atilde;o de trabalhadores agr&iacute;colas, enquanto fator cr&iacute;tico para a continuidade da atividade produtiva. - Gest&atilde;o de res&iacute;duos pl&aacute;sticos agr&iacute;colas, assegurando solu&ccedil;&otilde;es eficazes de recolha, tratamento e valoriza&ccedil;&atilde;o&raquo;. Delega&ccedil;&atilde;o: - S&eacute;rgio Ferreira &ndash; Presidente da Dire&ccedil;&atilde;o - C&eacute;sar Rodrigues &ndash; Tesoureiro da Dire&ccedil;&atilde;o - Ant&oacute;nio Mexia &ndash; Secret&aacute;rio-Geral - Alexandre Mota &ndash; T&eacute;cnico Agr&oacute;nomo 15h45 Audi&ecirc;ncia da Associa&ccedil;&atilde;o Nacional de Produtores de Proteaginosas, Oleaginosas e Cereais (ANPOC), Associa&ccedil;&atilde;o Nacional dos Produtores de Milho e Sorgo (ANPROMIS) e Associa&ccedil;&atilde;o de Orizicultores de Portugal (AOP) para apresentar as conclus&otilde;es do XVI Congresso Nacional do Milho que coincidiu com o 2.&ordm; Encontro das Culturas Cereal&iacute;feras, e abordar os principais constrangimentos e oportunidades que se colocam ao sector cereal&iacute;fero nacional e abordar os principais constrangimentos e oportunidades que se colocam ao sector cereal&iacute;fero nacional. Delega&ccedil;&atilde;o: - Jorge Neves (Presidente da ANPROMIS) -Tiago Silva Pinto (Secret&aacute;rio-geral da ANPROMIS) - Jos&eacute; Palha (Presidente da ANPOC) - Astride Monteiro (Assessora da ANPOC) - Carlos Parreira do Amaral (Presidente da AOP) - Vasco Borba (Director da AOP) 17h00 Audi&ccedil;&atilde;o do Secret&aacute;rio de Estado das Pescas e do Mar a requerimento do GP do CH sobre &laquo;pol&iacute;ticas gerais das pescas&raquo; e a requerimento do GP do PSD &laquo;sobre o apoio extraordin&aacute;rio ao Programa Mar2030.&raquo; Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator relativo ao Projeto de Lei n.&ordm; 528/XVII/1.&ordf; (PAN) &ndash; Regula a conten&ccedil;&atilde;o e treino de animais de companhia, vedando a comercializa&ccedil;&atilde;o e utiliza&ccedil;&atilde;o de &ldquo;coleiras de choque&rdquo; e de &ldquo;coleiras estranguladoras'', procedendo &agrave; d&eacute;cima altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 276/2001, de 17 de outubro: Comunica&ccedil;&atilde;o da baixa &agrave; Comiss&atilde;o a 25/03. Cabe ao GP do PSD Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, por 90 dias, do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica, em conex&atilde;o com a Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias (1.&ordf; Comiss&atilde;o): - Metodologia a adotar Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)99 &ndash; Proposta de REGULAMENTO DO CONSELHO que suspende os direitos da Pauta Aduaneira Comum referidos no artigo 56.&ordm;, n.&ordm; 2, al&iacute;nea c), do Regulamento (UE) n.&ordm; 952/2013 do Parlamento Europeu e do Conselho e que estabelece a abertura e a gest&atilde;o de contingentes pautais aut&oacute;nomos para determinados adubos. Outros assuntos. | Informa&ccedil;&otilde;es. | Audi&ecirc;ncia da Associa&ccedil;&atilde;o Interprofissional de Horticultura do Oeste (AIHO) para &laquo;apresentar e analisar um conjunto de temas considerados priorit&aacute;rios para a competitividade e continuidade da horticultura regional e nacional, designadamente: - Licenciamento de estufas e infraestruturas de apoio agr&iacute;cola, nomeadamente a necessidade de um enquadramento legal ajustado, procedimentos simplificados e defini&ccedil;&atilde;o uniforme a n&iacute;vel nacional. - Transpar&ecirc;ncia na cadeia agroalimentar, com enfoque nos diferenciais de pre&ccedil;os entre produ&ccedil;&atilde;o e consumidor e no refor&ccedil;o do papel da PARCA. - Habita&ccedil;&atilde;o de trabalhadores agr&iacute;colas, enquanto fator cr&iacute;tico para a continuidade da atividade produtiva. - Gest&atilde;o de res&iacute;duos pl&aacute;sticos agr&iacute;colas, assegurando solu&ccedil;&otilde;es eficazes de recolha, tratamento e valoriza&ccedil;&atilde;o&raquo;. Delega&ccedil;&atilde;o: - S&eacute;rgio Ferreira &ndash; Presidente da Dire&ccedil;&atilde;o - C&eacute;sar Rodrigues &ndash; Tesoureiro da Dire&ccedil;&atilde;o - Ant&oacute;nio Mexia &ndash; Secret&aacute;rio-Geral - Alexandre Mota &ndash; T&eacute;cnico Agr&oacute;nomo | Audi&ecirc;ncia da Associa&ccedil;&atilde;o Nacional de Produtores de Proteaginosas, Oleaginosas e Cereais (ANPOC), Associa&ccedil;&atilde;o Nacional dos Produtores de Milho e Sorgo (ANPROMIS) e Associa&ccedil;&atilde;o de Orizicultores de Portugal (AOP) para apresentar as conclus&otilde;es do XVI Congresso Nacional do Milho que coincidiu com o 2.&ordm; Encontro das Culturas Cereal&iacute;feras, e abordar os principais constrangimentos e oportunidades que se colocam ao sector cereal&iacute;fero nacional e abordar os principais constrangimentos e oportunidades que se colocam ao sector cereal&iacute;fero nacional. Delega&ccedil;&atilde;o: - Jorge Neves (Presidente da ANPROMIS) -Tiago Silva Pinto (Secret&aacute;rio-geral da ANPROMIS) - Jos&eacute; Palha (Presidente da ANPOC) - Astride Monteiro (Assessora da ANPOC) - Carlos Parreira do Amaral (Presidente da AOP) - Vasco Borba (Director da AOP) | Audi&ccedil;&atilde;o do Secret&aacute;rio de Estado das Pescas e do Mar a requerimento do GP do CH sobre &laquo;pol&iacute;ticas gerais das pescas&raquo; e a requerimento do GP do PSD &laquo;sobre o apoio extraordin&aacute;rio ao Programa Mar2030.&raquo; | Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator relativo ao Projeto de Lei n.&ordm; 528/XVII/1.&ordf; (PAN) &ndash; Regula a conten&ccedil;&atilde;o e treino de animais de companhia, vedando a comercializa&ccedil;&atilde;o e utiliza&ccedil;&atilde;o de &ldquo;coleiras de choque&rdquo; e de &ldquo;coleiras estranguladoras'', procedendo &agrave; d&eacute;cima altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 276/2001, de 17 de outubro: Comunica&ccedil;&atilde;o da baixa &agrave; Comiss&atilde;o a 25/03. Cabe ao GP do PSD | Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, por 90 dias, do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica, em conex&atilde;o com a Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias (1.&ordf; Comiss&atilde;o): - Metodologia a adotar | Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)99 &ndash; Proposta de REGULAMENTO DO CONSELHO que suspende os direitos da Pauta Aduaneira Comum referidos no artigo 56.&ordm;, n.&ordm; 2, al&iacute;nea c), do Regulamento (UE) n.&ordm; 952/2013 do Parlamento Europeu e do Conselho e que estabelece a abertura e a gest&atilde;o de contingentes pautais aut&oacute;nomos para determinados adubos. | Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.232766+00:00"
+    },
+    {
+      "id": "4a6d149e76185f71e56117c60b92efb1",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-03-31",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 27 Local: Sala 3 Tema: Comiss&#xF5;es Parlamentares 15H45 &nbsp; 1. Audi&ecirc;ncia da Associa&ccedil;&atilde;o de Munic&iacute;pios do Parque Natural da Serra da Estrela (AMPNSE) para &laquo;abordar o ponto de situa&ccedil;&atilde;o e o acompanhamento do Plano de Revitaliza&ccedil;&atilde;o do Parque Natural da Serra da Estrela (PRPNSE)&raquo;, conjunta com a Comiss&atilde;o de Economia e Coes&atilde;o Territorial, e a Comiss&atilde;o do Ambiente e Energia;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 16h30 &nbsp; 2. Audi&ccedil;&atilde;o da Associa&ccedil;&atilde;o Nacional de Munic&iacute;pios Portugueses (ANMP) a requerimento do CH sobre &laquo;o estado do cadastro territorial e a limpeza de terrenos por parte das autarquias&raquo;, a requerimento do CH &laquo;para verificar as estrat&eacute;gias que ponderam adotar para erradicar e impedir a prolifera&ccedil;&atilde;o de constru&ccedil;&otilde;es ilegais em territ&oacute;rio urbanizado, bem como as estrat&eacute;gias e instrumentos de gest&atilde;o do ordenamento do territ&oacute;rio&raquo;, e a requerimento do CH &laquo;na sequ&ecirc;ncia da gravidade nos atrasos e bloqueios no processo de reconstru&ccedil;&atilde;o de habita&ccedil;&otilde;es ap&oacute;s as tempestades&raquo;; &nbsp; 3. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o da ata n.&ordm; 26 referente &agrave; reuni&atilde;o de 25 de mar&ccedil;o; &nbsp; 4. Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator do Projeto de Lei 523/XVII/1.&ordf; (PSD) - &laquo;Eleva&ccedil;&atilde;o das Termas de S&atilde;o Vicente &agrave; categoria de Vila&raquo; Indica&ccedil;&atilde;o de autor de relat&oacute;rio cabe ao GP PS; &nbsp; 5. Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.241687+00:00"
+    },
+    {
+      "id": "d3499672aa2548f4a18c8e6ce861b25d",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-01",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 10 Local: Sala 3 Tema: Comiss&#xF5;es Parlamentares Audi&ccedil;&atilde;o do primeiro peticion&aacute;rio da&nbsp; Peti&ccedil;&atilde;o n.&ordm; 92/XVII/1.&ordf; - Por Centros Hist&oacute;ricos vivos e aut&ecirc;nticos &ndash; revis&atilde;o do Regime de Licenciamento Zero.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.253319+00:00"
+    },
+    {
+      "id": "69fc82e48935c0db20f245aac50fd77b",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-01",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 12h00 – Plenergy 14h00 – Associação Portuguesa de Agências de Viagens e de Turismo (APAVT) 14h00 – Plataforma de Organizações Intervenientes nas Áreas dos CAD 14h00 – Associação Portuguesa de Portadores de Próteses e Implantes Auditivos (OUVIR) 14h30 – Teresa Gomes Costa 15h30 – Deputado Lafai Sani",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.279841+00:00"
+    },
+    {
+      "id": "a68e2ef874ddcd96b6b3018a2e0b2466",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-06",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel 11h00 - Secção do Partido Socialista TAP",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.283536+00:00"
+    },
+    {
+      "id": "fcc33d500b3e1ead2c2894d58055b0d4",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-09",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel 09h30 - Associações subscritoras da Carta Aberta \"Por um sistema de saúde mais inclusivo e universal: Equidade no acesso a medicamentos biológicos em Portugal 10h00 - Francisco Kreye - Presidente da Junta de Freguesia de Cascais e Estoril 14h30 - Secção do Partido Socialista TAP",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.314232+00:00"
+    },
+    {
+      "id": "8abea6b17bc4ea3fafb949dd085e19e9",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-23",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 80 Local: Plen&#xE1;rio ORDEM DO DIA 15:00 Horas &nbsp; 1 -&nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 28/XVII/1.&ordf; (CDS-PP) Recomenda ao Governo que implemente um programa alargado de rastreamento precoce de doen&ccedil;as oncol&oacute;gicas &nbsp; Tempos GOV 6 m PSD 6 m CH 5 m PS 5 m IL 3 m L 3 m PCP 3 m CDS-PP* ** 3 m BE 1 m PAN 1 m JPP 1 m Total 37 m &nbsp; Notas: * Os autores das iniciativas disp&otilde;em de mais 1 minuto cada [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea d)]. ** O autor do agendamento disp&otilde;e de um per&iacute;odo adicional de 2 minutos para o encerramento [artigo 145.&ordm;, n.&ordm; 2, al&iacute;nea e)]. Interven&ccedil;&atilde;o do proponente e dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 2 -&nbsp; Peti&ccedil;&atilde;o n.&ordm; 132/XVI/1.&ordf; Da iniciativa do Centro de Vida Independente - Vida Independente &eacute; para toda a gente! &nbsp; DEBATE Tempos GOV 3 m PSD 3 m CH 2 m 30 PS 2 m 30 IL 2 m L 2 m PCP 2 m CDS-PP 2 m BE 1 m PAN 1 m JPP 1 m Total 22 m &nbsp; Notas: * Os autores das iniciativas que sejam agendadas por arrastamento com a peti&ccedil;&atilde;o disp&otilde;em de mais 1 minuto cada. O formato &eacute; id&ecirc;ntico ao do processo legislativo. Interven&ccedil;&atilde;o dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 3 -&nbsp; Peti&ccedil;&atilde;o n.&ordm; 175/XV/1.&ordf; Da iniciativa de Luis Miguel de Melo Torres Marques e outros - N&atilde;o deixamos matar o Alojamento Local e a Economia Local &nbsp; DEBATE Tempos GOV 3 m PSD 3 m CH 2 m 30 PS 2 m 30 IL 2 m L 2 m PCP 2 m CDS-PP 2 m BE 1 m PAN 1 m JPP 1 m Total 22 m &nbsp; Notas: * Os autores das iniciativas que sejam agendadas por arrastamento com a peti&ccedil;&atilde;o disp&otilde;em de mais 1 minuto cada. O formato &eacute; id&ecirc;ntico ao do processo legislativo. Interven&ccedil;&atilde;o dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 4 -&nbsp; Peti&ccedil;&atilde;o n.&ordm; 32/XVI/1.&ordf; Da iniciativa de Emanuel Ant&oacute;nio Zambujo Boieiro e outros - Pela Revis&atilde;o da Tabela Salarial dos Enfermeiros &nbsp; DEBATE Tempos GOV 3 m PSD 3 m CH 2 m 30 PS 2 m 30 IL 2 m L 2 m PCP 2 m CDS-PP 2 m BE 1 m PAN 1 m JPP 1 m Total 22 m &nbsp; Notas: * Os autores das iniciativas que sejam agendadas por arrastamento com a peti&ccedil;&atilde;o disp&otilde;em de mais 1 minuto cada. O formato &eacute; id&ecirc;ntico ao do processo legislativo. Interven&ccedil;&atilde;o dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o. &nbsp; 5 -&nbsp; Peti&ccedil;&atilde;o n.&ordm; 45/XVI/1.&ordf; Da iniciativa de Eda Gon&ccedil;alves Alves e outros - Implementa&ccedil;&atilde;o do Modelo Belga de Terapia F&aacute;gica em Portugal &nbsp; DEBATE Tempos GOV 3 m PSD 3 m CH 2 m 30 PS 2 m 30 IL 2 m L 2 m PCP 2 m CDS-PP 2 m BE 1 m PAN 1 m JPP 1 m Total 22 m &nbsp; Notas: * Os autores das iniciativas que sejam agendadas por arrastamento com a peti&ccedil;&atilde;o disp&otilde;em de mais 1 minuto cada. O formato &eacute; id&ecirc;ntico ao do processo legislativo. Interven&ccedil;&atilde;o dos autores dos arrastamentos. Os pedidos de esclarecimento ocorrem imediatamente ap&oacute;s a interven&ccedil;&atilde;o que os gera. Tanto estes como as interven&ccedil;&otilde;es subsequentes respeitam a ordem de inscri&ccedil;&atilde;o.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.332986+00:00"
+    },
+    {
+      "id": "d35a7eb37f3ca65d0623221f7685a90c",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-24",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 81 Local: Plen&#xE1;rio ORDEM DO DIA 10:00 Horas &nbsp; 1 - Debate setorial com a Ministra do Ambiente e Energia &nbsp; Debate setorial com os ministros (ao abrigo do artigo 224.&ordm;-B do Regimento) Interven&ccedil;&atilde;o inicial do Ministro 10 m &nbsp;&nbsp;&nbsp; Perguntas dos Partidos Respostas do Ministro Total Ronda PSD 12 m 30 12 m 30 25 m CH 10 m 10 m 20 m PS 9 m 30 9 m 30 19 m IL* 6 m 6 m 12 m L 5 m 5 m 10 m PCP 4 m 4 m 8 m CDS-PP 3 m 30 3 m 30 7 m BE 2 m 2 m 4 m PAN 2 m 2 m 4 m JPP 2 m 2 m 4 m &nbsp; &nbsp;Total 123 m &nbsp; &nbsp; Notas: *Abertura da fase de debate pela pergunta deste partido (altern&acirc;ncia prevista no n.&ordm; 7 do artigo 224.&ordm;-B). Seguem-se os restantes partidos, ordem decrescente de representatividade. Cada GP e os DURP disp&otilde;em de um tempo global para efetuar as suas perguntas, podendo dividi-lo nos termos do n.&ordm; 3 do artigo 224.&ordm;-B, atrav&eacute;s de um ou mais Deputados. Cada pergunta &eacute; seguida, de imediato, pela resposta do Governo. N&atilde;o h&aacute; ced&ecirc;ncia de tempos ao Governo (S&uacute;mula CL 8/XVI), exceto do partido que est&aacute; a colocar perguntas, nessa ronda. &nbsp; 2 - Vota&ccedil;&otilde;es regimentais",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:54:06.334136+00:00"
+    },
+    {
+      "id": "c63c881771b9e8f86df9b96ff016faaa",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8312/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8312/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiolhão - Empresa Municipal de Ambiente de Olhão, EM Execução da empreitada para remodelação da conduta distribuidora do reservatório da Zona Baixa",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8312-1080893182",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:53:34.114853Z"
+    },
+    {
+      "id": "a01d3f3685d75260b2797ba85fe37e2b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8321/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8321/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município de Sardoal Implementação de Medidas de Eficiência Energética (Piscina Coberta / Complexo Desportivo)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8321-1080893187",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:53:34.116974Z"
+    },
+    {
+      "id": "8899339bc8eb2ec38b02857d08eaaad1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8332/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8332/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Resialentejo - Tratamento e Valorização de Resíduos, EIM Fornecimento e instalação de sistema de alimentação para a Central de Tratamento Mecânico",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8332-1080916684",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:53:34.125087Z"
+    },
+    {
+      "id": "820e93c108e7551a152a018b0353e32e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8340/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8340/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município de Vila do Porto CP/4/2026/MVP - Empreitada de obras públicas de requalificação da escola EB1/JI do Aeroporto",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8340-1080916687",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:53:34.126204Z"
+    },
+    {
+      "id": "8c9900a2ebb82ea7cd5991bd3ef0eebd",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8360/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8360/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município de Borba \"Empreitada de Reabilitação e melhoria de Eficiência Energética da Escola de Rio de Moinhos\"",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8360-1080928175",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T15:53:34.132948Z"
+    },
     {
       "id": "4a03dbba3fdcae945087ae53e692e83a",
       "source": "parlamento-agenda",
@@ -833,5 +1781,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 35
+  "entry_count": 75
 }
