@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Scraper do Parlamento Português:
-  1. Agenda Parlamentar  — agenda.parlamento.pt
+  1. Agenda Parlamentar  — agenda.parlamento.pt (com pesquisa por intervalo de datas)
   2. Últimas Iniciativas — parlamento.pt/Paginas/UltimasIniciativasEntradas.aspx
 """
 
@@ -10,10 +10,10 @@ import re
 import sys
 import hashlib
 import logging
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from html.parser import HTMLParser
 import urllib.request
+import urllib.parse
 import urllib.error
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -26,8 +26,10 @@ DATA_FILE.parent.mkdir(exist_ok=True)
 
 AGENDA_BASE = "https://agenda.parlamento.pt"
 AGENDA_SECTION = f"{AGENDA_BASE}/Index?handler=SectionContents"
+AGENDA_SEARCH = f"{AGENDA_BASE}/Index?handler=SearchContents"
 
 INICIATIVAS_URL = "https://www.parlamento.pt/Paginas/UltimasIniciativasEntradas.aspx"
+INICIATIVA_DETAIL_URL = "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx"
 PARLAMENTO_BASE = "https://www.parlamento.pt"
 
 _HEADERS = {
@@ -38,8 +40,10 @@ _HEADERS = {
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
-def _get(url: str, extra_headers: dict | None = None) -> str:
+def _get(url: str, params: dict | None = None, extra_headers: dict | None = None) -> str:
     """GET a URL and return the response body as text."""
+    if params:
+        url = url + ("&" if "?" in url else "?") + urllib.parse.urlencode(params)
     headers = {**_HEADERS, **(extra_headers or {})}
     req = urllib.request.Request(url, headers=headers, method="GET")
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -103,170 +107,83 @@ def match_clients(text: str, clients: list[dict]) -> list[dict]:
     return matches
 
 
-# ── Agenda Parlamentar parser ────────────────────────────────────────────────
+# ── Agenda Parlamentar ───────────────────────────────────────────────────────
 
-class AgendaParser(HTMLParser):
+def _parse_agenda_html(html: str) -> list[dict]:
     """
-    Parses the HTML fragment returned by /Index?handler=SectionContents.
-    Each event is a card with id="card_<N>" containing:
-      - section name (data-section attr or header text)
-      - time, title, description, location
+    Parse the agenda HTML returned by SectionContents or SearchContents.
+    Events are in collapsible cards with id="collapse_<N>" containing
+    date, time, title (committee/section), description, location.
     """
-
-    def __init__(self):
-        super().__init__()
-        self.events = []
-        self._current = None
-        self._capture = None
-        self._depth = 0
-        self._in_card = False
-        self._card_section = ""
-        self._buf = []
-
-    def handle_starttag(self, tag, attrs):
-        attr = dict(attrs)
-
-        # Detect card containers: <div id="card_123" ...>
-        div_id = attr.get("id", "")
-        if tag == "div" and div_id.startswith("card_"):
-            self._in_card = True
-            self._current = {
-                "card_id": div_id.replace("card_", ""),
-                "section": "",
-                "time": "",
-                "title": "",
-                "description": "",
-                "location": "",
-            }
-
-        # Section headers: <div class="..." data-section="...">
-        if tag == "div" and "data-section" in attr:
-            self._card_section = attr.get("data-section", "")
-
-        if not self._in_card:
-            return
-
-        cls = attr.get("class", "")
-
-        # Time: usually in a <span> or <small> with specific classes
-        if tag in ("span", "small") and ("content-time" in cls or "badge" in cls):
-            self._capture = "time"
-            self._buf = []
-
-        # Title: <h5>, <h6>, or <a> with card-title-like classes
-        if tag in ("h5", "h6") and "card" in cls:
-            self._capture = "title"
-            self._buf = []
-        if tag == "a" and "content-title" in cls:
-            self._capture = "title"
-            self._buf = []
-
-        # Description: <p> or <div> with description/summary class
-        if tag in ("p", "div") and ("content-desc" in cls or "content-summ" in cls):
-            self._capture = "description"
-            self._buf = []
-
-    def handle_endtag(self, tag):
-        if self._capture and tag in ("span", "small", "h5", "h6", "a", "p", "div"):
-            text = " ".join(self._buf).strip()
-            if text and self._current:
-                if not self._current[self._capture]:
-                    self._current[self._capture] = text
-            self._capture = None
-            self._buf = []
-
-        # End of card
-        if tag == "div" and self._in_card and self._current:
-            # We detect card end heuristically — when we see a full card
-            pass
-
-    def handle_data(self, data):
-        if self._capture:
-            self._buf.append(data.strip())
-
-    def close(self):
-        super().close()
-        # Flush any pending card
-        if self._current and (self._current.get("title") or self._current.get("description")):
-            self._current["section"] = self._card_section
-            self.events.append(self._current)
-
-
-def fetch_agenda(target_date: date) -> list[dict]:
-    """
-    Fetch the parliamentary agenda for today from agenda.parlamento.pt.
-    The SectionContents endpoint returns the current day's agenda as HTML.
-    """
-    log.info("Fetching Agenda Parlamentar...")
-
-    try:
-        html = _get(AGENDA_SECTION)
-    except Exception as e:
-        log.warning("Agenda fetch error: %s", e)
-        return []
-
-    if not html or len(html.strip()) < 50:
-        log.info("Agenda: empty response")
-        return []
-
-    # The agenda HTML contains card divs; parse them
-    # Strategy: use regex to extract card blocks, then parse details
     results = []
-    date_str = target_date.isoformat()
 
-    # Find all card blocks: <div id="card_XXX" ...> ... </div>
-    # Each card represents an agenda event
+    # Each agenda item is wrapped in a collapse div: <div id="collapse_XXXXX" ...>
+    # preceded by a card-header with the event title
+    # Strategy: split by card_ blocks and extract content from each
+
+    # Pattern 1: Find card blocks by card_<id> or collapse_<id>
     card_pattern = re.compile(
-        r'<div[^>]*\bid=["\']card_(\d+)["\'][^>]*>(.*?)</div>\s*</div>\s*</div>',
-        re.DOTALL | re.IGNORECASE,
-    )
-
-    # Broader pattern: find all collapse sections which contain event details
-    section_pattern = re.compile(
-        r'<div[^>]*\bdata-section=["\'](\d+)["\'][^>]*>.*?'
-        r'<div[^>]*\bclass=["\'][^"\']*card-header[^"\']*["\'][^>]*>(.*?)</div>',
-        re.DOTALL | re.IGNORECASE,
-    )
-
-    # Extract individual event items from the HTML
-    # Pattern: look for content items with titles and descriptions
-    item_pattern = re.compile(
-        r'<div[^>]*\bid=["\']card_(\d+)["\'][^>]*>'
+        r'<div[^>]*\bid=["\'](?:card|collapse)_(\d+)["\'][^>]*>'
         r'(.*?)'
-        r'(?=<div[^>]*\bid=["\']card_\d+["\']|$)',
+        r'(?=<div[^>]*\bid=["\'](?:card|collapse)_\d+["\']|$)',
         re.DOTALL | re.IGNORECASE,
     )
 
-    for m in item_pattern.finditer(html):
+    for m in card_pattern.finditer(html):
         card_id = m.group(1)
         block = m.group(2)
 
-        # Extract title — typically in <h5>, <h6>, <a>, or <strong> tags
+        # Skip blocks that are too short (just wrappers)
+        if len(block.strip()) < 30:
+            continue
+
+        # ── Extract event title (committee name, event name) ──
         title = ""
+        # Try card-header, h5, h6, strong, then any link text
         for tp in [
-            r'<(?:h5|h6)[^>]*class=["\'][^"\']*card[^"\']*["\'][^>]*>(.*?)</(?:h5|h6)>',
+            r'<div[^>]*class=["\'][^"\']*card-header[^"\']*["\'][^>]*>(.*?)</div>',
+            r'<(?:h5|h6)[^>]*>(.*?)</(?:h5|h6)>',
+            r'<a[^>]*class=["\'][^"\']*content-title[^"\']*["\'][^>]*>(.*?)</a>',
+            r'<strong>(.*?)</strong>',
             r'<a[^>]*>(.*?)</a>',
-            r'<strong[^>]*>(.*?)</strong>',
         ]:
             tm = re.search(tp, block, re.DOTALL | re.IGNORECASE)
             if tm:
-                title = strip_html(tm.group(1))
-                if len(title) > 5:
+                candidate = strip_html(tm.group(1))
+                if len(candidate) > 3 and candidate not in ("Expandir", "Esconder"):
+                    title = candidate
                     break
 
-        # Extract description/summary
-        desc = ""
+        # ── Extract description / summary ──
+        # Collect ALL text content from <p>, <li>, <span> elements
+        desc_parts = []
+
+        # Look for explicit description containers
         for dp in [
-            r'<(?:p|div)[^>]*class=["\'][^"\']*(?:content-desc|content-summ|card-text)[^"\']*["\'][^>]*>(.*?)</(?:p|div)>',
-            r'<p[^>]*>(.*?)</p>',
+            r'<(?:p|div)[^>]*class=["\'][^"\']*(?:content-desc|content-summ|card-text|content-body)[^"\']*["\'][^>]*>(.*?)</(?:p|div)>',
+            r'<div[^>]*class=["\'][^"\']*card-body[^"\']*["\'][^>]*>(.*?)</div>',
         ]:
-            dm = re.search(dp, block, re.DOTALL | re.IGNORECASE)
-            if dm:
-                desc = strip_html(dm.group(1))
-                if len(desc) > 5:
-                    break
+            for dm in re.finditer(dp, block, re.DOTALL | re.IGNORECASE):
+                text = strip_html(dm.group(1))
+                if len(text) > 10 and text != title:
+                    desc_parts.append(text)
 
-        # Extract time
+        # Also grab list items (agenda items often listed as <li>)
+        for li_m in re.finditer(r'<li[^>]*>(.*?)</li>', block, re.DOTALL | re.IGNORECASE):
+            text = strip_html(li_m.group(1))
+            if len(text) > 10:
+                desc_parts.append(text)
+
+        # Grab all <p> content as fallback
+        if not desc_parts:
+            for pm in re.finditer(r'<p[^>]*>(.*?)</p>', block, re.DOTALL | re.IGNORECASE):
+                text = strip_html(pm.group(1))
+                if len(text) > 10 and text != title:
+                    desc_parts.append(text)
+
+        desc = " | ".join(desc_parts) if desc_parts else ""
+
+        # ── Extract time ──
         time_str = ""
         time_m = re.search(
             r'<(?:span|small|div)[^>]*class=["\'][^"\']*(?:content-time|badge)[^"\']*["\'][^>]*>(.*?)</(?:span|small|div)>',
@@ -274,8 +191,29 @@ def fetch_agenda(target_date: date) -> list[dict]:
         )
         if time_m:
             time_str = strip_html(time_m.group(1))
+        if not time_str:
+            # Try to find time patterns like HH:MM or HHhMM
+            time_m2 = re.search(r'\b(\d{1,2}[h:]\d{2})\b', block)
+            if time_m2:
+                time_str = time_m2.group(1)
 
-        # Extract location
+        # ── Extract date from the block ──
+        date_str = ""
+        # Look for dateContent_ divs or date patterns
+        date_m = re.search(r'<div[^>]*id=["\']dateContent_[^"\']*["\'][^>]*>(.*?)</div>', block, re.DOTALL)
+        if date_m:
+            date_text = strip_html(date_m.group(1))
+            # Try to parse Portuguese date: "terça, 3 de março de 2026"
+            iso_m = re.search(r'(\d{4})-(\d{2})-(\d{2})', date_text)
+            if iso_m:
+                date_str = iso_m.group(0)
+        # Try startDate JS variables
+        if not date_str:
+            sdate_m = re.search(r'_startDate\s*=\s*["\'](\d{4}-\d{2}-\d{2})', block)
+            if sdate_m:
+                date_str = sdate_m.group(1)
+
+        # ── Extract location ──
         location = ""
         loc_m = re.search(
             r'<(?:span|small|div)[^>]*class=["\'][^"\']*(?:content-local|location)[^"\']*["\'][^>]*>(.*?)</(?:span|small|div)>',
@@ -283,45 +221,155 @@ def fetch_agenda(target_date: date) -> list[dict]:
         )
         if loc_m:
             location = strip_html(loc_m.group(1))
+        # Fallback: look for "Local:" or "Sala" patterns
+        if not location:
+            loc_m2 = re.search(r'(?:Local|Sala)[:\s]+([^<\n]+)', block, re.IGNORECASE)
+            if loc_m2:
+                location = strip_html(loc_m2.group(1))
 
         if not title and not desc:
             continue
 
         full_text = f"{title} {desc} {location}"
         results.append({
-            "source": "parlamento-agenda",
-            "source_id": card_id,
+            "card_id": card_id,
             "date": date_str,
-            "type": "Agenda Parlamentar",
-            "number": "",
-            "issuer": "",
             "title": title or "(Sem título)",
             "summary": desc,
             "time": time_str,
             "location": location,
-            "url": AGENDA_BASE,
             "full_text": full_text,
         })
 
-    log.info("Agenda Parlamentar: %d events found", len(results))
     return results
 
 
-# ── Últimas Iniciativas parser ───────────────────────────────────────────────
+def fetch_agenda(start_date: date, end_date: date) -> list[dict]:
+    """
+    Fetch parliamentary agenda for a date range using the SearchContents endpoint.
+    Falls back to SectionContents for today's data.
+    """
+    results = []
+    date_str_end = end_date.isoformat()
 
-def fetch_iniciativas() -> list[dict]:
+    # Fetch with SearchContents (supports date ranges)
+    log.info("Fetching Agenda Parlamentar: %s → %s", start_date, end_date)
+
+    # Process in weekly chunks to avoid timeouts / overly large responses
+    chunk_start = start_date
+    while chunk_start <= end_date:
+        chunk_end = min(chunk_start + timedelta(days=6), end_date)
+        cs = f"{chunk_start.isoformat()} 00:00:00"
+        ce = f"{chunk_end.isoformat()} 23:59:59"
+
+        log.info("  Agenda chunk: %s → %s", chunk_start, chunk_end)
+
+        try:
+            html = _get(AGENDA_SEARCH, params={
+                "contentStart": cs,
+                "contentEnd": ce,
+                "timezoneOffset": "0",
+            })
+        except Exception as e:
+            log.warning("  Agenda search error (%s → %s): %s", chunk_start, chunk_end, e)
+            chunk_start = chunk_end + timedelta(days=1)
+            continue
+
+        if not html or len(html.strip()) < 50:
+            log.info("  Agenda: empty response for %s → %s", chunk_start, chunk_end)
+            chunk_start = chunk_end + timedelta(days=1)
+            continue
+
+        events = _parse_agenda_html(html)
+        for ev in events:
+            # Use chunk date range if no date was extracted
+            if not ev["date"]:
+                ev["date"] = chunk_start.isoformat()
+            results.append({
+                "source": "parlamento-agenda",
+                "source_id": ev["card_id"],
+                "date": ev["date"],
+                "type": "Agenda Parlamentar",
+                "number": "",
+                "issuer": "",
+                "title": ev["title"],
+                "summary": ev["summary"],
+                "url": AGENDA_BASE,
+                "full_text": ev["full_text"],
+            })
+
+        log.info("  Agenda chunk: %d events", len(events))
+        chunk_start = chunk_end + timedelta(days=1)
+
+    # Also fetch today's SectionContents as a supplement (more reliable for today)
+    if end_date >= date.today():
+        try:
+            html = _get(AGENDA_SECTION)
+            if html and len(html.strip()) >= 50:
+                today_events = _parse_agenda_html(html)
+                existing_ids = {r["source_id"] for r in results}
+                for ev in today_events:
+                    if ev["card_id"] not in existing_ids:
+                        if not ev["date"]:
+                            ev["date"] = date.today().isoformat()
+                        results.append({
+                            "source": "parlamento-agenda",
+                            "source_id": ev["card_id"],
+                            "date": ev["date"],
+                            "type": "Agenda Parlamentar",
+                            "number": "",
+                            "issuer": "",
+                            "title": ev["title"],
+                            "summary": ev["summary"],
+                            "url": AGENDA_BASE,
+                            "full_text": ev["full_text"],
+                        })
+                log.info("  Agenda today supplement: +%d events", len(today_events))
+        except Exception as e:
+            log.warning("  Agenda SectionContents fallback error: %s", e)
+
+    log.info("Agenda Parlamentar: %d total events", len(results))
+    return results
+
+
+# ── Últimas Iniciativas ──────────────────────────────────────────────────────
+
+def _fetch_iniciativa_detail(bid: str) -> str:
+    """
+    Fetch the detail page for a single initiative and extract additional text.
+    Returns the full text content found on the page.
+    """
+    url = f"{INICIATIVA_DETAIL_URL}?BID={bid}"
+    try:
+        html = _get(url)
+    except Exception as e:
+        log.debug("  Detail fetch error (BID=%s): %s", bid, e)
+        return ""
+
+    # Extract text from the main content area
+    # The detail page has metadata in a table/list format
+    text_parts = []
+
+    # Title/description area
+    for pattern in [
+        r'<div[^>]*class=["\'][^"\']*ms-rtestate-field[^"\']*["\'][^>]*>(.*?)</div>',
+        r'<td[^>]*class=["\'][^"\']*ms-vb[^"\']*["\'][^>]*>(.*?)</td>',
+        r'<div[^>]*id=["\'][^"\']*WebPart[^"\']*["\'][^>]*>(.*?)</div>',
+    ]:
+        for m in re.finditer(pattern, html, re.DOTALL | re.IGNORECASE):
+            text = strip_html(m.group(1))
+            if len(text) > 15:
+                text_parts.append(text)
+
+    return " ".join(text_parts)
+
+
+def fetch_iniciativas(start_date: date, end_date: date, fetch_details: bool = True) -> list[dict]:
     """
     Fetch the latest parliamentary initiatives from parlamento.pt.
-    The page is server-rendered SharePoint HTML with a repeating structure:
-      <div class="row home_calendar hc-detail">
-        <div class="col-xs-2"><p class="date">DD.MM</p><p class="time">YYYY</p></div>
-        <div class="col-xs-10">
-          <a href="...DetalheIniciativa.aspx?BID=NNNN"><p class="title">...</p></a>
-          <p class="desc">...</p>
-        </div>
-      </div>
+    Filters by date range and optionally fetches detail pages.
     """
-    log.info("Fetching Últimas Iniciativas...")
+    log.info("Fetching Últimas Iniciativas: %s → %s", start_date, end_date)
 
     try:
         html = _get(INICIATIVAS_URL)
@@ -342,7 +390,7 @@ def fetch_iniciativas() -> list[dict]:
     for m in block_pattern.finditer(html):
         block = m.group(1)
 
-        # Extract date: <p class="date">DD.MM</p> and <p class="time">YYYY</p>
+        # ── Extract date ──
         day_month = ""
         year = ""
         dm = re.search(r'<p[^>]*class=["\']date["\'][^>]*>\s*([\d.]+)\s*</p>', block, re.IGNORECASE)
@@ -352,14 +400,22 @@ def fetch_iniciativas() -> list[dict]:
         if ym:
             year = ym.group(1).strip()
 
-        # Build ISO date
         date_str = ""
         if day_month and year:
             parts = day_month.split(".")
             if len(parts) == 2:
                 date_str = f"{year}-{parts[1].zfill(2)}-{parts[0].zfill(2)}"
 
-        # Extract link and title
+        # Filter by date range
+        if date_str:
+            try:
+                entry_date = date.fromisoformat(date_str)
+                if entry_date < start_date or entry_date > end_date:
+                    continue
+            except ValueError:
+                pass
+
+        # ── Extract link, title ──
         link = ""
         title = ""
         link_m = re.search(
@@ -373,21 +429,24 @@ def fetch_iniciativas() -> list[dict]:
             if link.startswith("/"):
                 link = PARLAMENTO_BASE + link
 
-        # Also try title from the <a> title attribute
-        if not title:
-            title_attr_m = re.search(r"<a[^>]*title=['\"]([^'\"]+)['\"]", block, re.IGNORECASE)
-            if title_attr_m:
-                t = title_attr_m.group(1).strip()
-                if t != "Detalhe de Iniciativa":
-                    title = t
-
-        # Extract description
+        # ── Extract description from <p class="desc"> ──
         desc = ""
         desc_m = re.search(r'<p[^>]*class=["\']desc["\'][^>]*>\s*(.*?)\s*</p>', block, re.DOTALL | re.IGNORECASE)
         if desc_m:
             desc = strip_html(desc_m.group(1))
 
-        # Extract BID from URL for dedup
+        # ── Extract extended description from <a title="..."> attribute ──
+        # Some initiatives have a longer description in the title attribute
+        extended_desc = ""
+        title_attr_m = re.search(r'<a[^>]*title=[\'"]([^\'"]{40,})[\'"]', block, re.IGNORECASE)
+        if title_attr_m:
+            extended_desc = title_attr_m.group(1).strip()
+
+        # Use the longest description available
+        if extended_desc and len(extended_desc) > len(desc):
+            desc = extended_desc
+
+        # ── Extract BID for dedup and detail fetching ──
         bid = ""
         bid_m = re.search(r'BID=(\d+)', link)
         if bid_m:
@@ -396,15 +455,18 @@ def fetch_iniciativas() -> list[dict]:
         if not title and not desc:
             continue
 
-        # Extract party from title: e.g. "Projeto de Lei 553/XVII/1 [L]" -> "[L]"
+        # ── Extract party from title ──
         party = ""
         party_m = re.search(r'\[([^\]]+)\]\s*$', title)
         if party_m:
             party = party_m.group(1)
 
-        # Extract initiative type from title: e.g. "Projeto de Lei", "Proposta de Lei"
+        # ── Extract initiative type ──
         ini_type = ""
-        type_m = re.search(r'^(Projeto de (?:Lei|Resolução)|Proposta de Lei|Projeto de Voto|Petição)', title, re.IGNORECASE)
+        type_m = re.search(
+            r'^(Projeto de (?:Lei|Resolução)|Proposta de Lei|Projeto de Voto|Petição)',
+            title, re.IGNORECASE,
+        )
         if type_m:
             ini_type = type_m.group(1)
 
@@ -414,6 +476,7 @@ def fetch_iniciativas() -> list[dict]:
         results.append({
             "source": "parlamento-iniciativas",
             "source_id": source_id,
+            "bid": bid,
             "date": date_str,
             "type": ini_type or "Iniciativa Parlamentar",
             "number": "",
@@ -424,29 +487,54 @@ def fetch_iniciativas() -> list[dict]:
             "full_text": full_text,
         })
 
-    log.info("Últimas Iniciativas: %d items found", len(results))
+    log.info("Últimas Iniciativas: %d items in date range", len(results))
+
+    # Fetch detail pages for extra content (authors, attachments, etc.)
+    if fetch_details:
+        detail_count = 0
+        for item in results:
+            bid = item.get("bid", "")
+            if not bid:
+                continue
+            detail_text = _fetch_iniciativa_detail(bid)
+            if detail_text:
+                # Append detail text to summary and full_text for richer matching
+                if detail_text not in item["summary"]:
+                    if item["summary"]:
+                        item["summary"] = item["summary"] + " — " + detail_text[:500]
+                    else:
+                        item["summary"] = detail_text[:500]
+                    item["full_text"] = f"{item['title']} {item['summary']} {item.get('issuer', '')}"
+                detail_count += 1
+        log.info("  Fetched %d detail pages", detail_count)
+
     return results
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
 
-def run(target_date: date | None = None):
+def run(target_date: date | None = None, days: int = 30):
     """
-    Scrape both Agenda Parlamentar and Últimas Iniciativas.
+    Scrape both Agenda Parlamentar and Últimas Iniciativas for the last N days.
     Results are merged into the shared data/results.json.
     """
     if target_date is None:
         target_date = date.today()
 
-    log.info("Running Parlamento scraper for %s", target_date)
+    start_date = target_date - timedelta(days=days - 1)
+
+    log.info(
+        "Running Parlamento scraper for %d days: %s → %s",
+        days, start_date, target_date,
+    )
 
     clients = load_keywords()
     existing = load_existing_results()
     existing_ids = {e["id"] for e in existing["entries"]}
     all_new = []
 
-    # 1. Agenda Parlamentar (only has today's data)
-    agenda_items = fetch_agenda(target_date)
+    # 1. Agenda Parlamentar (with date range search)
+    agenda_items = fetch_agenda(start_date, target_date)
     for item in agenda_items:
         matched = match_clients(item["full_text"], clients)
         if not matched:
@@ -473,8 +561,8 @@ def run(target_date: date | None = None):
         all_new.append(entry)
         existing_ids.add(eid)
 
-    # 2. Últimas Iniciativas
-    ini_items = fetch_iniciativas()
+    # 2. Últimas Iniciativas (with date filtering and detail pages)
+    ini_items = fetch_iniciativas(start_date, target_date)
     for item in ini_items:
         matched = match_clients(item["full_text"], clients)
         if not matched:
@@ -519,7 +607,13 @@ if __name__ == "__main__":
         "date",
         nargs="?",
         default=None,
-        help="Target date in YYYY-MM-DD format (default: today)",
+        help="End date in YYYY-MM-DD format (default: today)",
+    )
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=30,
+        help="Number of days to look back (default: 30)",
     )
     args = parser.parse_args()
 
@@ -531,5 +625,5 @@ if __name__ == "__main__":
             log.error("Invalid date: %s. Use YYYY-MM-DD.", args.date)
             sys.exit(1)
 
-    new = run(target_date=target)
+    new = run(target_date=target, days=args.days)
     print(json.dumps({"new_entries": len(new)}, ensure_ascii=False))
