@@ -1,5 +1,525 @@
 {
-  "last_updated": "2026-04-01T11:29:47.023510+00:00",
-  "entries": [],
-  "entry_count": 0
+  "last_updated": "2026-04-01T11:37:20.594780+00:00",
+  "entries": [
+    {
+      "id": "3ed7f474af1bf54f66f7774329d3e4f2",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-01",
+      "type": "Portaria",
+      "number": "138/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 138/2026/1  -  Diário da República n.º 64/2026, Série I de 2026-04-01",
+      "summary": "Trabalho, Solidariedade e Segurança Social Portaria de extensão das alterações do contrato coletivo entre a ABIMOTA - Associação Nacional das Indústrias de Duas Rodas, Ferragens, Mobiliário e atividades complementares dos setores representados e o SINDEL - Sindicato Nacional da Indústria e da Energia e outro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/138-1080481238",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:58.311400Z"
+    },
+    {
+      "id": "efd7f5b5b59fbe33bbc7305c0a86e447",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-01",
+      "type": "Portaria",
+      "number": "141/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 141/2026/1  -  Diário da República n.º 64/2026, Série I de 2026-04-01",
+      "summary": "Trabalho, Solidariedade e Segurança Social Portaria de extensão do contrato coletivo entre a ACILIS - Associação de Comércio, Indústria, Serviços e Turismo da Região de Leiria e outras e o CESP - Sindicato dos Trabalhadores do Comércio, Escritórios e Serviços de Portugal.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/141-1080481241",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:58.312994Z"
+    },
+    {
+      "id": "78231f24c5200a803ac9a56a1d23200f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Despacho",
+      "number": "4253/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4253/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Presidência do Conselho de Ministros, Economia e Coesão Territorial, Educação, Ciência e Inovação, Saúde, Trabalho, Solidariedade e Segurança Social, Ambiente e Energia e Cultura, Juventude e Desporto - Gabinete do Ministro da Presidência, Gabinete do Ministro da Economia e da Coesão Territorial, Gabinete do Ministro Adjunto e da Reforma do Estado, Gabinete do Ministro das Infraestruturas e Habitação, Gabinete do Ministro da Educação, Ciência e Inovação, Gabinete da Ministra da Saúde, Gabinete da Ministra do Trabalho, Solidariedade e Segurança Social, Gabinete da Ministra do Ambiente e Energia e Gabinete da Ministra da Cultura, Juventude e Desporto Exonera a coordenadora nacional da Estratégia Nacional de Combate à Pobreza 2021-2030.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4253-2026-1080170128",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.548516Z"
+    },
+    {
+      "id": "c4fb211e6a4b56c698a39a03a0854301",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Aviso",
+      "number": "7354/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7354/2026/2  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município de Albufeira Exoneração do cargo de direção intermédia de 3.º grau ― responsável da Unidade de Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7354-1080478947",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.564926Z"
+    },
+    {
+      "id": "31480e60c96a4616978ada91418316c6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Edital",
+      "number": "367/2026",
+      "issuer": "",
+      "title": "Edital n.º 367/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia Concurso documental internacional para recrutamento de um professor auxiliar na área de Ciências e Engenharia do Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edital/367-2026-1080478936",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.593210Z"
+    },
+    {
+      "id": "88dd3339f944e49e8be96744c829f109",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "90/2026",
+      "issuer": "",
+      "title": "Édito n.º 90/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17029 ― PC: 4503853775 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― área investimentos redes para modificação da linha mista a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/90-2026-1080478897",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.593665Z"
+    },
+    {
+      "id": "6f9935cbeffafe5827c4c8beba925419",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "91/2026",
+      "issuer": "",
+      "title": "Édito n.º 91/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17057 ― PC: 4503847364 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT-Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/91-2026-1080478898",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.594134Z"
+    },
+    {
+      "id": "ce9c52bb3f5bde69a914496bbf5e1f40",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "92/2026",
+      "issuer": "",
+      "title": "Édito n.º 92/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17071 ― PC: 4503854719 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT-Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha mista a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/92-2026-1080478899",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.594618Z"
+    },
+    {
+      "id": "ebafc552cd5b5860cb3db1b6b8670888",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "93/2026",
+      "issuer": "",
+      "title": "Édito n.º 93/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo SPUB/07/09/10569 ― PC: 4503873910 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT-Sul, Área de Ativos ­Alentejo e Algarve, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/93-2026-1080478900",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.595088Z"
+    },
+    {
+      "id": "fcf039116ba30e274e635a0f92de2f53",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "94/2026",
+      "issuer": "",
+      "title": "Édito n.º 94/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17014 ― PC: 4503907762 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos MT e BT-Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha subterrânea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/94-2026-1080478901",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.595569Z"
+    },
+    {
+      "id": "d9523146156579a175d9002dd23fdbac",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Édito",
+      "number": "95/2026",
+      "issuer": "",
+      "title": "Édito n.º 95/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17020 ― PC: 4503907764 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha subterrânea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/95-2026-1080478902",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.596037Z"
+    },
+    {
+      "id": "cb1f1942faafa07a10c1f725adade938",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Aviso (extrato)",
+      "number": "7399/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7399/2026/2  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município da Marinha Grande Abertura de procedimento concursal comum para dois assistentes operacionais, na modalidade de contrato de trabalho em funções públicas por tempo indeterminado, para a Divisão de Ambiente, Alterações Climáticas e Sustentabilidade | Centro de Recolha Oficial.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7399-1080481593",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.617215Z"
+    },
+    {
+      "id": "fe0e5f2bcb1e7a80253c08133e97b265",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8251/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8251/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Unidade Local de Saúde de São José, EPE 12017426 - Consumíveis para Equipamento para Energia Bipolar Avançada para Selagem de Vasos",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8251-1080481252",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.631407Z"
+    },
+    {
+      "id": "82f6100c747f1a403ffc87ad14ef5df3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8289/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8289/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Empresa Municipal de Ambiente do Porto, EM, SA Prestação de Serviços de Manutenção, Reparação e Fornecimento de Peças para Viaturas da Frota da Porto Ambiente",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8289-1080481271",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.638468Z"
+    },
+    {
+      "id": "1ed4c1dc685b11be5fa0fea71200e746",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8295/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8295/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Empresa Municipal de Ambiente do Porto, EM, SA Prestação de serviços de manutenção preventiva e corretiva ao abrigo de contratos de manutenção para Viaturas da Frota da Porto Ambiente",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8295-1080481274",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.639632Z"
+    },
+    {
+      "id": "04f0f7ff25abcdfd806c4b64cd381bd6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8220/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8220/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Infraestruturas de Portugal, SA L. NORTE - STA APOLÓNIA - SISTEMAS DE ALIMENTAÇÃO - RENOVAÇÃO",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8220-1080495714",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.642268Z"
+    },
+    {
+      "id": "e22080016a2fccb745f7d7c7c16566aa",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8238/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8238/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Flatlantic - Actividades Piscícolas, SA NR/01/2026 - Projeto de Licenciamento e Execução do Edifício da Nave das Rações e Produção de Gelo",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8238-1080495728",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.644399Z"
+    },
+    {
+      "id": "8eb3039110bcb689a44fb8048abd8d93",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8258/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8258/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Unidade Local de Saúde de Santa Maria, EPE Prestação de serviços de fornecimento de alimentação a doentes e colaboradores da Unidade Local de Saúde de Santa Maria, E.P.E., de junho a dezembro de 2026",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8258-1080495748",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.648434Z"
+    },
+    {
+      "id": "11a3f8c850cdf65ec9ec30bd4c7ed926",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8260/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8260/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Unidade Local de Saúde da Lezíria, EPE Prestação de Serviços de Alimentação pelo período de 8 meses de 2026",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8260-1080495749",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.648810Z"
+    },
+    {
+      "id": "98e6b9883a66aee076d1aee7c6a362ef",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8262/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8262/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Município de Cascais Aquisição de serviços de licenciamento e suporte técnico da plataforma Mulesoft",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8262-1080495750",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.649155Z"
+    },
+    {
+      "id": "5d0e88f4b9db27f9268cdf346db7d81b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8270/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8270/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Metropolitano de Lisboa, EPE Aquisição de Serviços de Manutenção das Unidades Permanentemente Socorridas (UPS’s) da Rede de Energia e de Sinalização do Metropolitano de Lisboa, E.P.E.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8270-1080495754",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.650733Z"
+    },
+    {
+      "id": "e242d19899b3cbb7b121e59ed356b71f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-01",
+      "type": "Anúncio de procedimento",
+      "number": "8292/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8292/2026  -  Diário da República n.º 64/2026, Série II de 2026-04-01",
+      "summary": "Secretaria Regional de Educação, Ciência e Tecnologia AQUISIÇÃO DE SERVIÇOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA DE INSTALAÇÕES ELÉTRICAS, SISTEMAS AVAC, AQS E DE TRATAMENTO DE ÁGUAS DE PISCINAS, EQUIPAMENTOS HOTELEIROS, INSTALAÇÕES DE GÁS, SISTEMAS, REDES E INSTALAÇÕES TÉCNICAS QUE COMPÕEM AS LAVANDARIAS, COZINHAS E SEUS ANEXOS DE APOIO -LOTES 1 E 2",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8292-1080495765",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T11:36:59.654982Z"
+    }
+  ],
+  "entry_count": 22
 }
