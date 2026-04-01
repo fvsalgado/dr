@@ -93,6 +93,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .series-badge{font-size:10px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:2px 7px;border-radius:4px;border:1px solid var(--border);color:var(--text2);background:var(--surface2)}
 .series-badge.s1{border-color:#FCA5A5;color:#B91C1C;background:#FEF2F2}
 .series-badge.s2{border-color:#93C5FD;color:#1D4ED8;background:#EFF6FF}
+.series-badge.sp{border-color:#86EFAC;color:#166534;background:#F0FDF4}
 .type-badge{font-size:11px;color:var(--text3)}
 .issuer-badge{font-size:11px;color:var(--text3);margin-left:auto;text-align:right;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .entry-title{font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px;line-height:1.45}
@@ -232,6 +233,7 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         <button class="series-btn active" data-series="all" onclick="setSeriesFilter('all',this)">Todas</button>
         <button class="series-btn" data-series="1" onclick="setSeriesFilter('1',this)">1ª Série</button>
         <button class="series-btn" data-series="2" onclick="setSeriesFilter('2',this)">2ª Série</button>
+        <button class="series-btn" data-series="parlamento" onclick="setSeriesFilter('parlamento',this)">Parlamento</button>
       </div>
       <div class="topbar-right">
         <div class="topbar-stats" id="topbar-stats">—</div>
@@ -319,7 +321,8 @@ function getFilteredEntries(){
   return allEntries.filter(e=>{
     if(activeDays==='today'&&(e.date||'').slice(0,10)!==today)return false;
     if(activeDays!=='today'&&cutoff&&e.date<cutoff)return false;
-    if(activeSeries!=='all'&&!e.series.startsWith(activeSeries))return false;
+    if(activeSeries==='parlamento'&&!(e.source||'').startsWith('parlamento'))return false;
+    if(activeSeries!=='all'&&activeSeries!=='parlamento'&&!e.series.startsWith(activeSeries))return false;
     if(activeClient!=='all'&&!e.clients.some(c=>c.id===activeClient))return false;
     if(q){const h=(e.title+' '+e.summary+' '+e.issuer).toLowerCase();if(!h.includes(q))return false}
     return true;
@@ -379,7 +382,9 @@ function renderCard(e){
   const kws=[...new Set(e.clients.flatMap(c=>c.matched_keywords||[]))];
   const hTitle=highlightKeywords(e.title||'Sem título',kws);
   const hSummary=e.summary?highlightKeywords(e.summary,kws):'';
-  const sClass=e.series.startsWith('1')?'s1':e.series.startsWith('2')?'s2':'';
+  const isParlamento=(e.source||'').startsWith('parlamento');
+  const sClass=isParlamento?'sp':e.series.startsWith('1')?'s1':e.series.startsWith('2')?'s2':'';
+  const seriesLabel=isParlamento?(e.source==='parlamento-agenda'?'Agenda':'Iniciativa'):(e.series||'');
   const clientTags=e.clients.map(c=>`<span class="client-tag"><span class="client-tag-dot" style="background:${c.color}"></span>${c.name}</span>`).join('');
   const kwChips=kws.slice(0,8).map(k=>`<span class="kw-chip">${k}</span>`).join('');
   const sel=selectedIds.has(e.id);
@@ -387,7 +392,7 @@ function renderCard(e){
     <div class="entry-checkbox-wrap"><input type="checkbox" class="entry-checkbox"${sel?' checked':''} onchange="toggleSelect('${e.id}')"></div>
     <div class="entry-body">
       <div class="entry-meta">
-        <span class="series-badge ${sClass}">${e.series}</span>
+        <span class="series-badge ${sClass}">${seriesLabel}</span>
         ${e.type?`<span class="type-badge">${e.type}</span>`:''}
         ${e.issuer?`<span class="issuer-badge">${e.issuer}</span>`:''}
       </div>
