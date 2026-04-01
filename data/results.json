@@ -1,6 +1,318 @@
 {
-  "last_updated": "2026-04-01T11:37:20.594780+00:00",
+  "last_updated": "2026-04-01T14:20:52.214462+00:00",
   "entries": [
+    {
+      "id": "4a03dbba3fdcae945087ae53e692e83a",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-01",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "Reuni&#xE3;o n.&#xBA; 14",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:49.202316+00:00"
+    },
+    {
+      "id": "d0986036121e46ab3d4fa31a38d7787e",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-01",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "Reuni&#xE3;o n.&#xBA; 15",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:49.210753+00:00"
+    },
+    {
+      "id": "b6a7b3bade0725adc34dc903d22d8451",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-01",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho - Apag&#xE3;o 28 de abril 2025 | Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "Reuni&#xE3;o n.&#xBA; 16",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:49.212480+00:00"
+    },
+    {
+      "id": "9fdfd1a1cd2f80453fd48fd4a563b9af",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-31",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[BE]",
+      "title": "Projeto de Lei 549/XVII/1 [BE]",
+      "summary": "Baixa temporária do IVA dos combustíveis e do gás",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356485",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.144296+00:00"
+    },
+    {
+      "id": "f4a18681bb658633a2b724b85bb17871",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-31",
+      "type": "Projeto de Resolução",
+      "number": "",
+      "issuer": "[PS]",
+      "title": "Projeto de Resolução 796/XVII/1 [PS]",
+      "summary": "Recomenda ao Governo a cedência do antigo Internato de Santo António ao Turismo de Portugal para a criação da Residência de Estudantes da Escola de Hotelaria e Turismo de Portalegre",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356493",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.153788+00:00"
+    },
+    {
+      "id": "7f4a1b06cda6fa4189638a427f55af7d",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-30",
+      "type": "Projeto de Resolução",
+      "number": "",
+      "issuer": "[PCP]",
+      "title": "Projeto de Resolução 769/XVII/1 [PCP]",
+      "summary": "Defender o ambiente e a qualidade vida das populações da Península de Setúbal",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356446",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.161719+00:00"
+    },
+    {
+      "id": "1a423429838f5f585818920bb147978b",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-30",
+      "type": "Projeto de Resolução",
+      "number": "",
+      "issuer": "[CH]",
+      "title": "Projeto de Resolução 765/XVII/1 [CH]",
+      "summary": "Recomenda ao Governo a simplificação do licenciamento dos recursos hídricos",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356441",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.162895+00:00"
+    },
+    {
+      "id": "8ced3ac2bcea3e2bcda2ee222b68f08c",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-20",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[L]",
+      "title": "Projeto de Lei 525/XVII/1 [L]",
+      "summary": "Reforço da Tarifa Social de Eletricidade em caso de crise energética",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356405",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.172571+00:00"
+    },
+    {
+      "id": "23971af0470d3b2acda41e9e0c9558fd",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-20",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[L]",
+      "title": "Projeto de Lei 524/XVII/1 [L]",
+      "summary": "Reduz o IVA do gás para 6%",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356404",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.172872+00:00"
+    },
+    {
+      "id": "bf60c21d03ccb935347014cebe74510c",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-19",
+      "type": "Projeto de Resolução",
+      "number": "",
+      "issuer": "[PAN]",
+      "title": "Projeto de Resolução 723/XVII/1 [PAN]",
+      "summary": "Pela proteção do Cabeço da Flauta e da zona do Meco, pelo reforço da transparência nas operações de abate florestal e pela salvaguarda dos deveres constitucionais de proteção do ambiente",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356391",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.178092+00:00"
+    },
+    {
+      "id": "4b7f42393c9a44b6bbd4d26c1ba5d257",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-13",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[PCP]",
+      "title": "Projeto de Lei 515/XVII/1 [PCP]",
+      "summary": "Estabelece um sistema de preços máximos para o gás de garrafa e o gás canalizado",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356358",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.186471+00:00"
+    },
+    {
+      "id": "befafd98d8f1eb9b7e144fdfee87195f",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-13",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[PCP]",
+      "title": "Projeto de Lei 514/XVII/1 [PCP]",
+      "summary": "Fixa um Preço de Referência para combater a especulação e reduzir os preços dos combustíveis e do GPL",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356357",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gpl"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.186763+00:00"
+    },
+    {
+      "id": "711f872bbf6fadeba7848b7fbfb5d695",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-03-13",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[PCP]",
+      "title": "Projeto de Lei 512/XVII/1 [PCP]",
+      "summary": "Simplifica o acesso às tarifas reguladas de eletricidade e gás natural e determina a sua continuidade e a criação da tarifa regulada de Gás de Petróleo Liquefeito (GPL) engarrafado ou canalizado de uso doméstico",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356355",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gpl",
+            "gás",
+            "gás natural"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-01T14:20:52.187376+00:00"
+    },
     {
       "id": "3ed7f474af1bf54f66f7774329d3e4f2",
       "source": "dre-rss",
@@ -521,5 +833,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 22
+  "entry_count": 35
 }
