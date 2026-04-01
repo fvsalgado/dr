@@ -1,1 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PA Monitor · Diário da República</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+  :root {
+    --bg: #F5F3EE;
+    --surface: #FFFFFF;
+    --surface2: #EFEDE8;
+    --border: #DDD9D0;
+    --border-strong: #C8C3B8;
+    --text: #1A1814;
+    --text2: #5C5850;
+    --text3: #9C9890;
+    --accent: #1A1814;
+    --tag-bg: #EFEDE8;
+    --tag-text: #5C5850;
+    --pill-border: #DDD9D0;
+    --sidebar-w: 260px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* ── LOGIN ── */
+  #login-screen {
+    position: fixed; inset: 0;
+    background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 100;
+    flex-direction: column;
+    gap: 0;
+  }
+  .login-box {
+    width: 360px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 40px 36px;
+  }
+  .login-logo {
+    font-family: 'Instrument Serif', serif;
+    font-size: 26px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .login-sub {
+    font-size: 12px;
+    color: var(--text3);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  .login-box label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    color: var(--text2);
+    margin-bottom: 6px;
+  }
+  .login-box input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--bg);
+    font-family: inherit;
+    font-size: 14px;
+    color: var(--text);
+    outline: none;
+    transition: border-color .15s;
+    margin-bottom: 20px;
+  }
+  .login-box input:focus { border-color: var(--text); }
+  .login-btn {
+    width: 100%;
+    padding: 11px;
+    background: var(--text);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .15s;
+  }
+  .login-btn:hover { opacity: .85; }
+  .login-error {
+    font-size: 12px;
+    color: #c0392b;
+    margin-top: 10px;
+    display: none;
+  }
+
+  /* ── LAYOUT ── */
+  #app { display: none; }
+  #app.visible { display: flex; min-height: 100vh; }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: var(--sidebar-w);
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  .sidebar-header {
+    padding: 28px 22px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .brand-sub {
+    font-size: 10px;
+    color: var(--text3);
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+  .sidebar-section {
+    padding: 18px 22px 10px;
+  }
+  .sidebar-section-title {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    color: var(--text3);
+    margin-bottom: 10px;
+  }
+  .filter-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background .12s;
+    font-size: 13px;
+    color: var(--text2);
+    margin-bottom: 2px;
+    user-select: none;
+  }
+  .filter-pill:hover { background: var(--surface2); }
+  .filter-pill.active {
+    background: var(--surface2);
+    color: var(--text);
+    font-weight: 500;
+  }
+  .filter-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .filter-count {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--text3);
+    background: var(--surface2);
+    padding: 1px 6px;
+    border-radius: 10px;
+  }
+  .filter-pill.active .filter-count {
+    background: var(--border);
+  }
+
+  .sidebar-footer {
+    margin-top: auto;
+    padding: 16px 22px;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--text3);
+  }
+  .logout-btn {
+    background: none;
+    border: none;
+    color: var(--text3);
+    font-family: inherit;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    margin-top: 4px;
+    display: block;
+  }
+  .logout-btn:hover { color: var(--text2); }
+
+  /* ── MAIN ── */
+  .main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .topbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 28px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .search-wrap {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+  }
+  .search-wrap svg {
+    position: absolute;
+    left: 11px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text3);
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    padding: 9px 14px 9px 34px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--bg);
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--text);
+    outline: none;
+    transition: border-color .15s;
+  }
+  .search-input:focus { border-color: var(--border-strong); }
+  .series-toggle {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+  .series-btn {
+    padding: 8px 14px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text2);
+    cursor: pointer;
+    transition: background .12s, color .12s;
+  }
+  .series-btn + .series-btn { border-left: 1px solid var(--border); }
+  .series-btn.active {
+    background: var(--text);
+    color: #fff;
+  }
+  .topbar-stats {
+    font-size: 12px;
+    color: var(--text3);
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  /* ── DATE GROUPS ── */
+  .content { padding: 28px 28px 60px; }
+  .date-group { margin-bottom: 36px; }
+  .date-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .date-label {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    color: var(--text);
+  }
+  .date-count {
+    font-size: 12px;
+    color: var(--text3);
+  }
+  .date-divider {
+    height: 1px;
+    background: var(--border);
+    flex: 1;
+    margin-left: 8px;
+  }
+
+  /* ── ENTRY CARD ── */
+  .entry-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 8px;
+    transition: border-color .15s;
+  }
+  .entry-card:hover { border-color: var(--border-strong); }
+  .entry-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .series-badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    border: 1px solid var(--pill-border);
+    color: var(--text2);
+  }
+  .type-badge {
+    font-size: 11px;
+    color: var(--text3);
+  }
+  .issuer-badge {
+    font-size: 11px;
+    color: var(--text3);
+    margin-left: auto;
+  }
+  .entry-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+  .entry-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .entry-title a:hover { text-decoration: underline; }
+  .entry-summary {
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.55;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .entry-footer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .client-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border: 1px solid var(--pill-border);
+  }
+  .client-tag-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .kw-chip {
+    font-size: 10px;
+    padding: 2px 6px;
+    background: var(--surface2);
+    border-radius: 4px;
+    color: var(--text3);
+    font-weight: 500;
+  }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text3);
+  }
+  .empty-state-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 22px;
+    color: var(--text2);
+    margin-bottom: 8px;
+  }
+
+  /* ── LAST UPDATED ── */
+  .last-updated {
+    font-size: 11px;
+    color: var(--text3);
+    padding: 10px 28px;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: sticky;
+    bottom: 0;
+  }
+  .status-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #27ae60;
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">PA Monitor</div>
+    <div class="login-sub">Acesso restrito</div>
+    <label for="pw-input">Password</label>
+    <input type="password" id="pw-input" placeholder="••••••••" autocomplete="current-password">
+    <button class="login-btn" onclick="doLogin()">Entrar</button>
+    <div class="login-error" id="login-error">Password incorreta.</div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand">PA Monitor</div>
+      <div class="brand-sub">Diário da República</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Clientes</div>
+      <div class="filter-pill active" data-client="all" onclick="setClientFilter('all', this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Todos os clientes
+        <span class="filter-count" id="count-all">0</span>
+      </div>
+      <div class="filter-pill" data-client="ryanair-expedia" onclick="setClientFilter('ryanair-expedia', this)">
+        <div class="filter-dot" style="background:#0050A0"></div>
+        Ryanair / Expedia
+        <span class="filter-count" id="count-ryanair-expedia">0</span>
+      </div>
+      <div class="filter-pill" data-client="bimbo" onclick="setClientFilter('bimbo', this)">
+        <div class="filter-dot" style="background:#E30613"></div>
+        Bimbo
+        <span class="filter-count" id="count-bimbo">0</span>
+      </div>
+      <div class="filter-pill" data-client="dow-portugal" onclick="setClientFilter('dow-portugal', this)">
+        <div class="filter-dot" style="background:#CC0000"></div>
+        Dow Portugal
+        <span class="filter-count" id="count-dow-portugal">0</span>
+      </div>
+      <div class="filter-pill" data-client="gasib" onclick="setClientFilter('gasib', this)">
+        <div class="filter-dot" style="background:#F5820A"></div>
+        Gasib
+        <span class="filter-count" id="count-gasib">0</span>
+      </div>
+      <div class="filter-pill" data-client="kaspersky" onclick="setClientFilter('kaspersky', this)">
+        <div class="filter-dot" style="background:#006F51"></div>
+        Kaspersky
+        <span class="filter-count" id="count-kaspersky">0</span>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Período</div>
+      <div class="filter-pill active" data-days="7" onclick="setDaysFilter(7, this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Últimos 7 dias
+      </div>
+      <div class="filter-pill" data-days="30" onclick="setDaysFilter(30, this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Últimos 30 dias
+      </div>
+      <div class="filter-pill" data-days="90" onclick="setDaysFilter(90, this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Últimos 90 dias
+      </div>
+      <div class="filter-pill" data-days="0" onclick="setDaysFilter(0, this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Todo o histórico
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div id="last-sync">A carregar...</div>
+      <button class="logout-btn" onclick="doLogout()">Terminar sessão</button>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <div class="main">
+    <div class="topbar">
+      <div class="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input class="search-input" id="search-input" type="text" placeholder="Pesquisar títulos e sumários…" oninput="renderEntries()">
+      </div>
+
+      <div class="series-toggle">
+        <button class="series-btn active" data-series="all" onclick="setSeriesFilter('all', this)">Todas</button>
+        <button class="series-btn" data-series="1" onclick="setSeriesFilter('1', this)">1ª Série</button>
+        <button class="series-btn" data-series="2" onclick="setSeriesFilter('2', this)">2ª Série</button>
+      </div>
+
+      <div class="topbar-stats" id="topbar-stats">—</div>
+    </div>
+
+    <div class="content" id="content">
+      <div class="empty-state">
+        <div class="empty-state-title">A carregar dados…</div>
+      </div>
+    </div>
+
+    <div class="last-updated" id="last-updated-bar">
+      <div class="status-dot"></div>
+      <span id="last-updated-text">—</span>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────────────────
+// SHA-256 hash da password (gera em: https://emn178.github.io/online-tools/sha256.html)
+const PASSWORD_HASH = "800e72dcf93b301175f3d4a53be7acaa1bc013c71a18b1e95e37389045ed576a";
+
+// ── AUTH ─────────────────────────────────────────────────────────────────────
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function doLogin() {
+  const pw = document.getElementById('pw-input').value;
+  const hash = await sha256(pw);
+  if (hash === PASSWORD_HASH) {
+    sessionStorage.setItem('pa_auth', '1');
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app').classList.add('visible');
+    loadData();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
+
+function doLogout() {
+  sessionStorage.removeItem('pa_auth');
+  location.reload();
+}
+
+document.getElementById('pw-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doLogin();
+});
+
+// Check session on load
+if (sessionStorage.getItem('pa_auth') === '1') {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('app').classList.add('visible');
+}
+
+// ── STATE ────────────────────────────────────────────────────────────────────
+let allEntries = [];
+let activeClient = 'all';
+let activeDays = 7;
+let activeSeries = 'all';
+
+// ── DATA LOAD ────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data/results.json?t=' + Date.now());
+    const data = await res.json();
+    allEntries = data.entries || [];
+
+    if (data.last_updated) {
+      const d = new Date(data.last_updated);
+      document.getElementById('last-sync').textContent = 'Atualizado ' + d.toLocaleString('pt-PT');
+      document.getElementById('last-updated-text').textContent = 'Última sincronização: ' + d.toLocaleString('pt-PT');
+    }
+
+    updateCounts();
+    renderEntries();
+  } catch (e) {
+    document.getElementById('content').innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-title">Sem dados disponíveis</div>
+        <p>Execute o scraper para popular os dados.</p>
+      </div>`;
+  }
+}
+
+if (sessionStorage.getItem('pa_auth') === '1') loadData();
+
+// ── FILTERS ──────────────────────────────────────────────────────────────────
+function setClientFilter(client, el) {
+  activeClient = client;
+  document.querySelectorAll('[data-client]').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  renderEntries();
+}
+
+function setDaysFilter(days, el) {
+  activeDays = days;
+  document.querySelectorAll('[data-days]').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  renderEntries();
+}
+
+function setSeriesFilter(series, el) {
+  activeSeries = series;
+  document.querySelectorAll('[data-series]').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderEntries();
+}
+
+function getFilteredEntries() {
+  const query = document.getElementById('search-input').value.toLowerCase().trim();
+  const cutoff = activeDays > 0
+    ? new Date(Date.now() - activeDays * 86400000).toISOString().slice(0,10)
+    : null;
+
+  return allEntries.filter(e => {
+    if (cutoff && e.date < cutoff) return false;
+    if (activeSeries !== 'all' && !e.series.startsWith(activeSeries)) return false;
+    if (activeClient !== 'all') {
+      if (!e.clients.some(c => c.id === activeClient)) return false;
+    }
+    if (query) {
+      const hay = (e.title + ' ' + e.summary + ' ' + e.issuer).toLowerCase();
+      if (!hay.includes(query)) return false;
+    }
+    return true;
+  });
+}
+
+function updateCounts() {
+  const clients = ['ryanair-expedia','bimbo','dow-portugal','gasib','kaspersky'];
+  let total = 0;
+  clients.forEach(cid => {
+    const n = allEntries.filter(e => e.clients.some(c => c.id === cid)).length;
+    const el = document.getElementById('count-' + cid);
+    if (el) el.textContent = n;
+    total += n;
+  });
+  // total may double-count; show unique
+  document.getElementById('count-all').textContent = allEntries.length;
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function formatDate(dateStr) {
+  if (!dateStr) return '—';
+  const d = new Date(dateStr + (dateStr.length === 10 ? 'T00:00:00' : ''));
+  return d.toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+}
+
+function renderEntries() {
+  const entries = getFilteredEntries();
+  document.getElementById('topbar-stats').textContent = `${entries.length} resultado${entries.length !== 1 ? 's' : ''}`;
+
+  if (entries.length === 0) {
+    document.getElementById('content').innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-title">Sem resultados</div>
+        <p>Tente ajustar os filtros ou o período.</p>
+      </div>`;
+    return;
+  }
+
+  // Group by date
+  const groups = {};
+  entries.forEach(e => {
+    const d = (e.date || 'sem-data').slice(0,10);
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(e);
+  });
+
+  const sorted = Object.keys(groups).sort((a,b) => b.localeCompare(a));
+
+  let html = '';
+  sorted.forEach(date => {
+    const group = groups[date];
+    html += `<div class="date-group">
+      <div class="date-heading">
+        <span class="date-label">${formatDate(date)}</span>
+        <span class="date-count">${group.length} publicação${group.length !== 1 ? 'ões' : ''}</span>
+        <div class="date-divider"></div>
+      </div>`;
+    group.forEach(e => { html += renderCard(e); });
+    html += '</div>';
+  });
+
+  document.getElementById('content').innerHTML = html;
+}
+
+function renderCard(e) {
+  const clientTags = e.clients.map(c => `
+    <span class="client-tag">
+      <span class="client-tag-dot" style="background:${c.color}"></span>
+      ${c.name}
+    </span>`).join('');
+
+  const allKw = [...new Set(e.clients.flatMap(c => c.matched_keywords))].slice(0,6);
+  const kwChips = allKw.map(k => `<span class="kw-chip">${k}</span>`).join('');
+
+  const summary = e.summary ? `<div class="entry-summary">${e.summary}</div>` : '';
+
+  return `<div class="entry-card">
+    <div class="entry-meta">
+      <span class="series-badge">${e.series}</span>
+      <span class="type-badge">${e.type || ''}</span>
+      <span class="issuer-badge">${e.issuer || ''}</span>
+    </div>
+    <div class="entry-title">
+      ${e.url ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title || 'Ver publicação'}</a>` : (e.title || 'Sem título')}
+    </div>
+    ${summary}
+    <div class="entry-footer">
+      ${clientTags}
+      <span style="margin-left:4px">${kwChips}</span>
+    </div>
+  </div>`;
+}
+</script>
+</body>
+</html>
