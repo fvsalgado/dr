@@ -1,6 +1,339 @@
 {
-  "last_updated": "2026-04-02T08:36:38.576430+00:00",
+  "last_updated": "2026-04-02T10:53:23.379567+00:00",
   "entries": [
+    {
+      "id": "daa6364ee80bdf3735601e7512fe8d0e",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-07",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 4 Local: N&#xE3;o dispon&#xED;vel Audi&ccedil;&atilde;o do Ministro das Infraestruturas e Habita&ccedil;&atilde;o sobre os seguintes requerimentos: &nbsp; Sobre a altera&ccedil;&atilde;o da localiza&ccedil;&atilde;o da Esta&ccedil;&atilde;o de Gaia na LAV Porto &ndash; Lisboa (GP PS) Sobre a nova linha Violeta do Metro de Lisboa (GP CH) Sobre as condi&ccedil;&otilde;es pol&iacute;ticas para tutelar o processo de privatiza&ccedil;&atilde;o da TAP (GP PS) Sobre a necessidade de constru&ccedil;&atilde;o de uma nova ponte sobre o Rio T&acirc;mega , em Marco de Canaveses (GP PS) Sobre o ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa (GP PS) | Sobre a altera&ccedil;&atilde;o da localiza&ccedil;&atilde;o da Esta&ccedil;&atilde;o de Gaia na LAV Porto &ndash; Lisboa (GP PS) | Sobre a nova linha Violeta do Metro de Lisboa (GP CH) | Sobre as condi&ccedil;&otilde;es pol&iacute;ticas para tutelar o processo de privatiza&ccedil;&atilde;o da TAP (GP PS) | Sobre a necessidade de constru&ccedil;&atilde;o de uma nova ponte sobre o Rio T&acirc;mega , em Marco de Canaveses (GP PS) | Sobre o ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa (GP PS)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:14:34.158688+00:00"
+    },
+    {
+      "id": "9c4f022c4b6535ed127431c318e1cd6a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Despacho",
+      "number": "4315/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4315/2026  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Presidência do Conselho de Ministros - Gabinete Nacional de Segurança Designação da consultora Maria Alexandra de Paiva Pedro da Silva para exercer funções no Centro Nacional de Cibersegurança.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4315-2026-1080930301",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "centro nacional de cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:56.989105Z"
+    },
+    {
+      "id": "4dd5eee60eb5f42558343b111d39d356",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Despacho",
+      "number": "4353/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4353/2026  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Agricultura e Mar - Gabinete de Planeamento, Políticas e Administração Geral Designa, em regime de substituição, o licenciado Nuno Miguel Santos Vieira para exercer o cargo de chefe de divisão de Tecnologias de Informação e Segurança Digital.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4353-2026-1080930368",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "segurança digital"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.001778Z"
+    },
+    {
+      "id": "44e82d4a4d9f9ec257d83a12241b44d8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso",
+      "number": "7444/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7444/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Escola Superior de Enfermagem da Universidade de Lisboa Abertura de concurso para admissão à pós-graduação Enfermagem em Comportamentos Aditivos e Dependências.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7444-1080934081",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.044304Z"
+    },
+    {
+      "id": "3c3d2553b6ea0234dc43879358931f33",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso",
+      "number": "7439/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7439/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Extinção por caducidade do contrato MN/PP/003/23 denominado «Mariola».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7439-1080930361",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.045049Z"
+    },
+    {
+      "id": "a7317265295fd38ef0895526eaafc51c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Despacho (extrato)",
+      "number": "4349/2026",
+      "issuer": "",
+      "title": "Despacho (extrato) n.º 4349/2026  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Consolidação definitiva da mobilidade na categoria do assistente operacional Carlos Augusto Ribeiro de Sousa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho-extrato/4349-2026-1080930362",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.066598Z"
+    },
+    {
+      "id": "be7db05b654668152de5360263b7d20b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso (extrato)",
+      "number": "7583/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7583/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Serviços Municipalizados de Eletricidade, Água e Saneamento da Câmara Municipal da Maia Abertura de procedimento concursal de seleção para provimento de cargo de direção intermédia de 2.º grau chefe de divisão municipal da Divisão Administrativa e Comercial.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7583-1080934686",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.085801Z"
+    },
+    {
+      "id": "7bbb8f386222e723e8fe0576d2e5ea41",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso (extrato)",
+      "number": "7500/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7500/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Município da Guarda Manutenção da comissão de serviço da titular de cargo de dirigente de direção intermédia de 2.º grau, mais concretamente enquanto chefe de divisão de Ambiente ― técnica superior Filipa Susana Tadeu Almeida Pires.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7500-1080934396",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.091900Z"
+    },
+    {
+      "id": "bf22ded366409b6f950ccc4d7bc80972",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso (extrato)",
+      "number": "7438/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7438/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Ambiente e Energia - Agência Portuguesa do Ambiente, IP Procedimento concursal comum para o preenchimento de um posto de trabalho da carreira e categoria de técnico superior.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7438-1080930360",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.093508Z"
+    },
+    {
+      "id": "49a4c7511736781758090bbc5601b4d1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Aviso (extrato)",
+      "number": "7427/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7427/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Economia e Coesão Territorial - Instituto do Turismo de Portugal, IP Designação, em regime de substituição, do licenciado Gonçalo Maia Vieira Domingos para o cargo de diretor do Departamento de Avaliação de Projetos da Direção de Competitividade das Empresas.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7427-1080930318",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.093925Z"
+    },
+    {
+      "id": "058c78d9b12485973025763fa844cfe0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Portaria",
+      "number": "195/2026/2",
+      "issuer": "",
+      "title": "Portaria n.º 195/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Economia e Coesão Territorial - Gabinete do Secretário de Estado do Turismo, Comércio e Serviços Procede à segunda alteração da Portaria n.º 22/2025/2, de 7 de janeiro, procedendo à reprogramação dos encargos autorizados pela mesma.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/195-1080930314",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.102952Z"
+    },
+    {
+      "id": "4f49789ae7bd0156496d89f23ace06c9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Portaria",
+      "number": "196/2026/2",
+      "issuer": "",
+      "title": "Portaria n.º 196/2026/2  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Economia e Coesão Territorial - Gabinete do Secretário de Estado do Turismo, Comércio e Serviços Primeira alteração à Portaria n.º 617/2025/2, de 4 de novembro, que autoriza o Instituto do Turismo de Portugal, I. P., a assumir os encargos decorrentes do contrato de aquisição de géneros alimentícios para os refeitórios das Escolas de Hotelaria e Turismo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/196-1080930315",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        },
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "géneros alimentícios"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.103401Z"
+    },
+    {
+      "id": "884aae4d7572c7b8603cc3de15218e4d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Anúncio de procedimento",
+      "number": "8386/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8386/2026  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Município de Arcos de Valdevez PF 1191/2026 - Aquisição de serviço de recrutamento e seleção de recursos humanos (Técnico superior de higiene e segurança) para a Divisão de Ambiente e Serviços de Gestão",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8386-1080928194",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.108110Z"
+    },
+    {
+      "id": "a8076a0ed5cca7d54f8e8b17a5b9d137",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-02",
+      "type": "Anúncio de procedimento",
+      "number": "8394/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8394/2026  -  Diário da República n.º 65/2026, Série II de 2026-04-02",
+      "summary": "Município de Valença FORNECIMENTO DE PRODUTOS ALIMENTARES – MERCEARIA para a confeção de Refeições ESCOLARES nos Refeitórios do Agrupamento de Escolas de Muralhas do Minho - CP-ABS-06/2026",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8394-1080928198",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "produtos alimentares"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-02T10:13:57.109634Z"
+    },
     {
       "id": "55c8a83ebb2781ddd3ac8b1bb59ce7bf",
       "source": "parlamento-agenda",
@@ -1781,5 +2114,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 75
+  "entry_count": 89
 }
