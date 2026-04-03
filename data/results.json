@@ -1,6 +1,29 @@
 {
-  "last_updated": "2026-04-02T10:53:23.379567+00:00",
+  "last_updated": "2026-04-03T09:41:31.273828+00:00",
   "entries": [
+    {
+      "id": "fb661cebdbabab9380f38a9a566f992a",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-03",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Grupo de Trabalho de Acompanhamento Parlamentar do processo de reprivatiza&#xE7;&#xE3;o parcial do capital social da TAP | Comiss&#xE3;o de Infraestruturas, Mobilidade e Habita&#xE7;&#xE3;o",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-03T09:41:00.752885+00:00"
+    },
     {
       "id": "daa6364ee80bdf3735601e7512fe8d0e",
       "source": "parlamento-agenda",
@@ -2114,5 +2137,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 89
+  "entry_count": 90
 }
