@@ -1,6 +1,375 @@
 {
-  "last_updated": "2026-04-03T09:41:31.273828+00:00",
+  "last_updated": "2026-04-06T10:58:56.068089+00:00",
   "entries": [
+    {
+      "id": "63d8fd7b978fa0a271bc754a55d06e22",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-07",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 4 Local: N&#xE3;o dispon&#xED;vel Audi&ccedil;&atilde;o do Ministro das Infraestruturas e Habita&ccedil;&atilde;o sobre os seguintes requerimentos: &nbsp; Sobre a altera&ccedil;&atilde;o da localiza&ccedil;&atilde;o da Esta&ccedil;&atilde;o de Gaia na LAV Porto &ndash; Lisboa (GP PS) Sobre a nova linha Violeta do Metro de Lisboa (GP CH) Sobre as condi&ccedil;&otilde;es pol&iacute;ticas para tutelar o processo de privatiza&ccedil;&atilde;o da TAP (GP PS) Sobre a necessidade de constru&ccedil;&atilde;o de uma nova ponte sobre o Rio T&acirc;mega , em Marco de Canaveses (GP PS) Sobre o ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa (GP PS) | Sobre a altera&ccedil;&atilde;o da localiza&ccedil;&atilde;o da Esta&ccedil;&atilde;o de Gaia na LAV Porto &ndash; Lisboa (GP PS) | Sobre a nova linha Violeta do Metro de Lisboa (GP CH) | Sobre as condi&ccedil;&otilde;es pol&iacute;ticas para tutelar o processo de privatiza&ccedil;&atilde;o da TAP (GP PS) | Sobre a necessidade de constru&ccedil;&atilde;o de uma nova ponte sobre o Rio T&acirc;mega , em Marco de Canaveses (GP PS) | Sobre o ponto situa&ccedil;&atilde;o da Linha do Vale do Sousa (GP PS)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:41:15.354948+00:00"
+    },
+    {
+      "id": "fda2a8e4024bdf55ef56c8d6fa0cdef8",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-06",
+      "type": "Portaria",
+      "number": "142/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 142/2026/1  -  Diário da República n.º 66/2026, Série I de 2026-04-06",
+      "summary": "Ambiente e Energia e Agricultura e Mar Estabelece o regime de aplicação do «apoio à instalação de novos produtores pecuários» e do «apoio à conversão de matos em novas pastagens», integrados no programa de apoio à redução da carga combustível através do pastoreio.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/142-1081202646",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:43.163368Z"
+    },
+    {
+      "id": "4cc486ff955765ba06da05ee7a55c930",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Despacho",
+      "number": "4414/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4414/2026  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Negócios Estrangeiros - Gabinete do Ministro de Estado e dos Negócios Estrangeiros Designação do Embaixador António Manuel Torres Domingues Leão Rocha no cargo de encarregado da proteção de dados para a área governativa dos negócios estrangeiros.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4414-2026-1080928214",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.153939Z"
+    },
+    {
+      "id": "a38b5129ed48bdbe52932cd8083902b9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Portaria",
+      "number": "197/2026/2",
+      "issuer": "",
+      "title": "Portaria n.º 197/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Finanças e Saúde - Gabinete do Secretário de Estado Adjunto e do Orçamento e Gabinete do Secretário de Estado da Gestão da Saúde Autoriza o ICAD, I. P. ― Instituto para os Comportamentos Aditivos e as Dependências, I. P., a assumir encargos plurianuais, relativos a novos contratos no âmbito do PORI, referentes a Programas de Respostas Integradas, identificados no anexo I.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/197-1080928221",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.158024Z"
+    },
+    {
+      "id": "64401687615baa1dfb8fea85603b387d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7587/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7587/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Economia e Coesão Territorial - Autoridade de Segurança Alimentar e Económica No âmbito do procedimento concursal comum para o preenchimento de três postos de trabalho em regime de contrato de trabalho em funções públicas por tempo indeterminado, para carreira/categoria de técnico superior ficou deserto por inexistência de candidatos aprovados.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7587-1080928223",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.158902Z"
+    },
+    {
+      "id": "397c83a86f2ca566b796033a504d9c93",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7601/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7601/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão sem sucesso do período experimental da trabalhadora Ana Rita Ferreira Frutuoso da Costa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7601-1080928269",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.181855Z"
+    },
+    {
+      "id": "81d4cdfd65ca14c50c2af5de8f801641",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7602/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7602/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum para o preenchimento de 2 (dois) postos de trabalho em regime de contrato de trabalho em funções públicas, por tempo indeterminado, para a carreira/categoria de técnico superior no CRI Algarve deserto por inexistência de candidatos aprovados.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7602-1080928270",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.182313Z"
+    },
+    {
+      "id": "2a06df2d802e17993dc35b82db3fd10e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7603/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7603/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão com sucesso do período experimental da técnica superior Cristina Isabel Teixeira Silva Ferreira no âmbito do contrato de trabalho em funções públicas por tempo indeterminado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7603-1080928271",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.182716Z"
+    },
+    {
+      "id": "14d2e6b292e793e426d1c41e5c111fda",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso (extrato)",
+      "number": "7604/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7604/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum na modalidade de contrato de trabalho em funções públicas por tempo indeterminado para ocupação de um posto de trabalho na carreira de Assistente Técnico.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7604-1080928272",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.183121Z"
+    },
+    {
+      "id": "7996ea241f477195410278d807a5c79d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso (extrato)",
+      "number": "7605/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7605/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP lista unitária de ordenação final, no procedimento concursal comum para ocupação de um posto de trabalho, na modalidade de contrato de trabalho em funções públicas por tempo indeterminado, na carreira e categoria de técnico de sistemas e tecnologias de informação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7605-1080928273",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.183572Z"
+    },
+    {
+      "id": "91f0863097b3031377ace769cce2eb98",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7638/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7638/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Município de Estarreja Abertura do período de discussão pública relativo às propostas das nove operações de reabilitação urbana sistemáticas no Município de Estarreja.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7638-1081202344",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.210429Z"
+    },
+    {
+      "id": "b0498017b7048724e9f4bcd266fac455",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7639/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7639/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Município de Estarreja Abertura de procedimento concursal comum para constituição de relação jurídica de emprego em contrato de trabalho em funções públicas por tempo indeterminado para preenchimento de dois postos de trabalho na carreira e categoria de assistente operacional (Setor de Obras Municipais), integrados na Divisão de Projetos e Obras Municipais.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7639-1081202345",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.210858Z"
+    },
+    {
+      "id": "6aa214ac504b6df03d80d0d38628c892",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Aviso",
+      "number": "7640/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7640/2026/2  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Município de Estarreja Abertura de procedimento concursal comum para constituição de relação jurídica de emprego em contrato de trabalho em funções públicas por tempo indeterminado para preenchimento de dois postos de trabalho na carreira e categoria de assistente operacional (Setor Vias e Trânsito), integrados na Divisão de Projetos e Obras Municipais.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7640-1081202346",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.211296Z"
+    },
+    {
+      "id": "7a1c6aeb1d867c5b0572d6a7fb5cdb8a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Edital",
+      "number": "379/2026",
+      "issuer": "",
+      "title": "Edital n.º 379/2026  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Município de Penafiel Abertura de discussão pública do processo de licenciamento levado a efeito por Flyconstruct, Limitada, para a construção de um edifício destinado a indústria e muros, Processo 188/2025-LOED, com localização na Avenida Penedo da Pena (lugar de Penedo da Pena), freguesia de Rio de Moínhos, concelho de Penafiel.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edital/379-2026-1081202362",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.217546Z"
+    },
+    {
+      "id": "7ce662733be33d3eec08c9e4295828b9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Anúncio de procedimento",
+      "number": "8508/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8508/2026  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "Instituto da Mobilidade e dos Transportes, IP Aquisição de renovação de licenciamento de software Microsoft",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8508-1081867382",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.240836Z"
+    },
+    {
+      "id": "a4f23b61ffc864b189f66f25f35e2aae",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-06",
+      "type": "Anúncio de procedimento",
+      "number": "8516/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8516/2026  -  Diário da República n.º 66/2026, Série II de 2026-04-06",
+      "summary": "EDA - Electricidade dos Açores, SA LOCAÇÃO DE CENTRAL DE PRODUÇÃO DE ENERGIA ELÉCTRICA DE EMERGÊNCIA, COM POTÊNCIA GARANTIDA DE 14,46 MVA (11,57 MWe), ATÉ (+5%), [PRP: 90% DA POTÊNCIA TOTAL / COP: 75% DA POTÊNCIA TOTAL], PARA A CENTRAL TERMOELÉCTRICA DO CALDEIRÃO, NA ILHA DE SÃO MIGUEL, AÇORES",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8516-1081867386",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-06T10:40:44.242542Z"
+    },
     {
       "id": "fb661cebdbabab9380f38a9a566f992a",
       "source": "parlamento-agenda",
@@ -2137,5 +2506,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 90
+  "entry_count": 106
 }
