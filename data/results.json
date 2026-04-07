@@ -1,6 +1,638 @@
 {
-  "last_updated": "2026-04-06T10:58:56.068089+00:00",
+  "last_updated": "2026-04-07T11:28:17.231986+00:00",
   "entries": [
+    {
+      "id": "317f15e3753b008a82bde47fb8fcf14e",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "143/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 143/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Água Derramada/CBR1 ― Furo», localizada no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/143-1082345420",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.777427Z"
+    },
+    {
+      "id": "30340e8cff6081d9fa3fb7807360809d",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "144/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 144/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Canal Caveira ― Poço», localizada no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/144-1082345421",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.779182Z"
+    },
+    {
+      "id": "c3f5ef4259a2d86c58dd582904d1e645",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "145/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 145/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Carvalhal ― Furo 2 (PS3 Furo 1)» e «Carvalhal Furo AC2 (Furo2)», localizadas no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/145-1082345422",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.780914Z"
+    },
+    {
+      "id": "7ccd89e21a9c05c3bd1b64c499da982c",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "146/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 146/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Lagoas ― PS2 (captação 1)» e «Lagoas ― PS3 (CBR1 captação 2)», localizadas no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/146-1082345423",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.783530Z"
+    },
+    {
+      "id": "042f07c1e7f0ccfdbb404c6ea7a16da3",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "147/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 147/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Melides/Águas Frias ― Poço (Nascente)», localizada no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/147-1082345424",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.785200Z"
+    },
+    {
+      "id": "4eb3c8a56c32878ba0df315fcc0fbeab",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "148/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 148/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «S. Margarida da Serra ― Poço», localizada no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/148-1082345425",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.786933Z"
+    },
+    {
+      "id": "6e2f422b9a12caa589a390e8307edab1",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "149/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 149/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Espírito Santo/ES7 ― Furo», localizada no concelho de Mértola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/149-1082345426",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.788605Z"
+    },
+    {
+      "id": "6c48c23fb3dbb40904990e9e1108788b",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "150/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 150/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «João Serra/AR23 ― Furo», localizada no concelho de Mértola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/150-1082345427",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.790284Z"
+    },
+    {
+      "id": "6b29f319549c98b8dd01b1259273b7d3",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-07",
+      "type": "Portaria",
+      "number": "151/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 151/2026/1  -  Diário da República n.º 67/2026, Série I de 2026-04-07",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «S. S. dos Carros/SSC5 ― Furo», localizada no concelho de Mértola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/151-1082345428",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:51.791981Z"
+    },
+    {
+      "id": "8e68780a8ed6b7a21982b36b3fd23968",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Deliberação",
+      "number": "415/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 415/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Presidência do Conselho de Ministros - Agência para a Integração, Migrações e Asilo, IP Cessa, a pedido do próprio, a nomeação em regime de substituição do licenciado Eliseu Filipe Pinto Lopes, no cargo de coordenador da Unidade de Proteção de Dados (UPD).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/415-2026-1082345439",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.225669Z"
+    },
+    {
+      "id": "0b1310b63b060fde41717962601a130d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Deliberação",
+      "number": "416/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 416/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Presidência do Conselho de Ministros - Agência para a Integração, Migrações e Asilo, IP Cessa, a pedido da própria, a nomeação em regime de substituição da licenciada Catarina Natércia de Sousa Duarte, no cargo de diretora de serviços de Proteção de Dados, Auditoria e Prevenção da Corrupção (AUDIT).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/416-2026-1082345440",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.226123Z"
+    },
+    {
+      "id": "f2412824e6a19a569670d9962094f3da",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Deliberação",
+      "number": "417/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 417/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Presidência do Conselho de Ministros - Agência para a Integração, Migrações e Asilo, IP Nomeia a licenciada Dora Alexandra Cuincas Filipe, em regime de substituição, como coordenadora da Unidade de Auditoria, cargo de direção intermédia de 3.º grau, na dependência hierárquica da Direção de Serviços de Proteção de Dados, Auditoria e Prevenção da Corrupção (AUDIT).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/417-2026-1082345441",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.226573Z"
+    },
+    {
+      "id": "ee682e40bd6b6435d95ec815ee05f670",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Despacho Normativo",
+      "number": "5/2026",
+      "issuer": "",
+      "title": "Despacho Normativo n.º 5/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Economia e Coesão Territorial - Gabinete do Secretário de Estado do Turismo, Comércio e Serviços Prorroga a vigência do programa «O Turismo Acolhe», prevista no artigo 6.º do Despacho Normativo n.º 1-A/2026, de 9 de fevereiro, alterado pelo Despacho Normativo n.º 4/2026, de 5 de março.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho-normativo/5-2026-1082603676",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.239960Z"
+    },
+    {
+      "id": "dfad945540cf22210775c89c848437e9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso",
+      "number": "7720/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7720/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Economia e Coesão Territorial, Ambiente e Energia e Agricultura e Mar - Inspeção-Geral da Agricultura, do Mar, do Ambiente e do Ordenamento do Território Consolidação da mobilidade na categoria do trabalhador João Carlos Sanches Guerreiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7720-1082603686",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.249192Z"
+    },
+    {
+      "id": "8be23b1a27030d00a3892f39f72038b6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso",
+      "number": "7744/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7744/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão com sucesso do período experimental de profissionais na categoria de assistente da carreira especial médica.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7744-1082603738",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.268703Z"
+    },
+    {
+      "id": "7dd0e7064280d2ce39071d59575745d9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso (extrato)",
+      "number": "7745/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7745/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum na modalidade de contrato de trabalho em funções públicas por tempo indeterminado para ocupação de um posto de trabalho na carreira de assistente técnico.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7745-1082603739",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.269128Z"
+    },
+    {
+      "id": "1977e63905753b74fb3437778e51badc",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso",
+      "number": "7746/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7746/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Deliberação do conselho diretivo do Instituto para os Comportamentos Aditivos e as Dependências, I. P., que autoriza a consolidação definitiva da mobilidade na categoria.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7746-1082603740",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.269523Z"
+    },
+    {
+      "id": "ba4653275543259209821148b383a617",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso",
+      "number": "7747/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7747/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Despacho do vogal do Conselho de Gestão da Direção Executiva do SNS que autoriza a consolidação definitiva da mobilidade na categoria.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7747-1082603741",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.269917Z"
+    },
+    {
+      "id": "14f67047d9789b5d4904eb3afc2782dc",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Despacho",
+      "number": "4541/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4541/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Ambiente e Energia - Gabinete da Ministra do Ambiente e Energia Designa Joana de Brito Fraga Nunes para exercer as funções de técnica especialista do Gabinete da Ministra do Ambiente e Energia.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4541-2026-1082604088",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.288263Z"
+    },
+    {
+      "id": "662e1c4c372c247e3ee97de45346ad44",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Despacho",
+      "number": "4544/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4544/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Designação, em regime de substituição, para os cargos de chefes de divisão da Direção de Serviços de Alimentação e Veterinária do Norte.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4544-2026-1082604092",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.289791Z"
+    },
+    {
+      "id": "ede0400d5183f23370933a7e4f581a11",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso",
+      "number": "7778/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7778/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Universidade de Coimbra Cessação da comissão de serviço de Filipe José de Jesus Carvalheiro, no cargo de chefe de divisão da Divisão de Manutenção, Ambiente e Segurança da Universidade de Coimbra.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7778-1082604116",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.299404Z"
+    },
+    {
+      "id": "e1a14a956fa52f20a20c74950a216bee",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Aviso (extrato)",
+      "number": "7841/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7841/2026/2  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Serviços Municipalizados de Eletricidade, Água e Saneamento da Câmara Municipal da Maia Abertura de vários procedimentos concursais para contratação por tempo indeterminado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7841-1082604428",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.343783Z"
+    },
+    {
+      "id": "a4962b5d707497d7bdb9eb4b2625c3b0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Anúncio de procedimento",
+      "number": "8590/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8590/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA As candidaturas ao presente Sistema de Qualificação encontram-se encerradas desde 16 de Março de 2026. Os objetos de Qualificação do Sistema de Qualificação 11/SQF/2018 » Unidade Remota de Telecontrolo transitaram para o Sistema de Qualificação 02/SQF/2021» Blocos para Redes em Anel, Celas Modulares e URT conforme publicitação efetuada no Diário da República, 2ªsérie, nº7918/2026, no dia 30 de Março de 2026. Em consequência, os interessados na qualificação para o objeto anteriormente previsto no Sistema de Qualificação 11/SQF/2018» Unidade Remota de Telecontrolo deverão submeter as respetivas candidaturas exclusivamente no âmbito do Sistema de Qualificação de Fornecedores 02/SQF/2021» Blocos para Redes em Anel, Celas Modulares e URT, nos termos e condições aí estabelecidos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8590-1082614678",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.349338Z"
+    },
+    {
+      "id": "7bc1adba3411aba4a930418d5ccbc758",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Anúncio de procedimento",
+      "number": "8606/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8606/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Tribunal Constitucional CONCURSO PÚBLICO COM PUBLICIDADE INTERNACIONAL - 42/2026 - AQUISIÇÃO DE LICENCIAMENTO MICROSOFT M365 E3, DEFENDER SUITE E LICENCIAMENTO PARA EXCHANGE, SQL SERVER E WINDOWS SERVER E SERVIÇOS DE IMPLEMENTAÇÃO",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8606-1082614686",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.352334Z"
+    },
+    {
+      "id": "37f24f8509f6a3c6ca054cc55978fdbd",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Anúncio de procedimento",
+      "number": "8589/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8589/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA Publicação da versão mais recente do documento DMA-C33-853(Ed. 1.1) que contempla a alteração das furações dos terminais de liga única de secção 16 mm² e 25 mm², correspondentes aos códigos de material 20199823 e 20199824.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8589-1082614977",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.354684Z"
+    },
+    {
+      "id": "fbef776ca21f33ce6bfe45a8748a45c8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Anúncio de procedimento",
+      "number": "8595/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8595/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA Informamos da atualização da documentação normativa que caracteriza a solução SPCC no Sistema de Qualificação 05/SQF/202- Sistema de Proteção, Comando, Controlo e Comunicações e retirado do âmbito do Sistema de Qualificação os seguintes objetos de qualificação 20163558- ROUTER SPCC, 20153950- IED LAT PROTECCAO DISTANCIA, 20153958- SINCRONIZADOR HORARIO GPS, 20172604- IED MULTIFUNCOES TIPO A, 20172605- IED MULTIFUNCOES TIPO B, 20172606- IED PROTECAO DISTANCIA TIPO A, 20172607- IED PROT DIFERENCIAL LAT 2V TIPO A, 20172608- IED PROT DIFERENCIAL LAT 3V TIPO A, 20172609- IED PROT DIFERENCIAL TP 2 ENR TIPO A, 20172650- IED PROT DIFERENCIAL TP 3 ENR TIPO A, 20172651- SWITCH ETH SIST PROT SE CLASSICA, 20172652- SINCRONIZADOR HORARIO GPS SE CLASSICA",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8595-1082614980",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.356095Z"
+    },
+    {
+      "id": "9805550a06d2646ed35a0f7ebe8ff2b5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-07",
+      "type": "Anúncio de procedimento",
+      "number": "8607/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8607/2026  -  Diário da República n.º 67/2026, Série II de 2026-04-07",
+      "summary": "Secretaria Regional do Turismo, Mobilidade e Infraestruturas SERVIÇOS DE TRANSPORTE PÚBLICO COLETIVO REGULAR DE PASSAGEIROS EM HORÁRIO DIURNO, EXCLUINDO O PERÍODO DE FIM DE SEMANA, NA ILHA DE S. MIGUEL",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8607-1082614986",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-07T10:36:53.358300Z"
+    },
     {
       "id": "63d8fd7b978fa0a271bc754a55d06e22",
       "source": "parlamento-agenda",
@@ -2506,5 +3138,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 106
+  "entry_count": 133
 }
