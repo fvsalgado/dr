@@ -1,6 +1,379 @@
 {
-  "last_updated": "2026-04-07T11:28:17.231986+00:00",
+  "last_updated": "2026-04-08T11:14:40.587329+00:00",
   "entries": [
+    {
+      "id": "5a723b5a1285d48c374ae53f50ed4b44",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-04-07",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[L]",
+      "title": "Projeto de Lei 559/XVII/1 [L]",
+      "summary": "Recupera o regime jurídico do alojamento local e retoma a contribuição extraordinária sobre o alojamento local",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356541",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T11:14:40.522975+00:00"
+    },
+    {
+      "id": "e0956ed0aac88a806789bf3c987c137b",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-04-07",
+      "type": "Projeto de Lei",
+      "number": "",
+      "issuer": "[BE]",
+      "title": "Projeto de Lei 557/XVII/1 [BE]",
+      "summary": "Reposição de medidas de regulação do alojamento local em zonas de pressão habitacional (Altera o Decreto-Lei n.º 128/2014, de 29 de agosto e o Decreto-lei n.º 76/2024, de 23 de outubro)",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356538",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T11:14:40.523652+00:00"
+    },
+    {
+      "id": "e15417802a65be0521b1b492357fc4c9",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-04-07",
+      "type": "Projeto de Resolução",
+      "number": "",
+      "issuer": "[L]",
+      "title": "Projeto de Resolução 829/XVII/1 [L]",
+      "summary": "Recomenda transparência na recolha e partilha de dados relativos aos serviços de alojamento local e o uso desta informação em políticas de habitação e turismo",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356542",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "alojamento local",
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T11:14:40.524599+00:00"
+    },
+    {
+      "id": "507b4bc423a4e5c4ca5075dcb3d5c551",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-08",
+      "type": "Resolução da Assembleia da República",
+      "number": "66/2026",
+      "issuer": "",
+      "title": "Resolução da Assembleia da República n.º 66/2026  -  Diário da República n.º 68/2026, Série I de 2026-04-08",
+      "summary": "Assembleia da República Recomenda ao Governo a adoção de medidas para reforçar a concorrência, a transparência e a acessibilidade no mercado do GPL engarrafado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/66-2026-1082861147",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gpl"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:34.202557Z"
+    },
+    {
+      "id": "715cc25a3b46093836e3ae0b5932a8b1",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-08",
+      "type": "Portaria",
+      "number": "152/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 152/2026/1  -  Diário da República n.º 68/2026, Série I de 2026-04-08",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Aldeia do Pico ― Furo (CBR1)», localizada no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/152-1082861148",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:34.203446Z"
+    },
+    {
+      "id": "3456f5fdcd5caffad8df2bde01390388",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-08",
+      "type": "Portaria",
+      "number": "153/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 153/2026/1  -  Diário da República n.º 68/2026, Série I de 2026-04-08",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «RA1», «RA2», «RA3» e «RA4», localizadas em Troia, no concelho de Grândola.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/153-1082861149",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:34.205101Z"
+    },
+    {
+      "id": "dd6a5486b56e48b2e0952a0acf60c96a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso",
+      "number": "7863/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7863/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão do período experimental com sucesso, na carreira de técnica superior de saúde e categoria de assistente principal, das trabalhadoras Natália Santos Pissarra Nogueira e Teresa Maria Pereira Beirão.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7863-1082860194",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.348527Z"
+    },
+    {
+      "id": "fb566905b8a918d1f34f8685b13154a2",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso",
+      "number": "7864/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7864/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão do período experimental com sucesso, na carreira de técnico superior de saúde e categoria de assessor, do trabalhador Rui Jorge Gomes Correia.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7864-1082860195",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.348952Z"
+    },
+    {
+      "id": "cdbd313754d06177a0564d1d539176b1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso",
+      "number": "7865/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7865/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão do período experimental com sucesso na carreira de técnica superior de Raquel Sofia Correia Antunes.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7865-1082860196",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.349363Z"
+    },
+    {
+      "id": "c16cec7fe57042d7aebea398514fb344",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso",
+      "number": "7866/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 7866/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão do período experimental com sucesso na carreira de técnico superior de saúde e categoria de assessor do trabalhador João Paulo Barbosa Azevedo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/7866-1082860197",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.349771Z"
+    },
+    {
+      "id": "e5d59435df51c74fabf35890b55c3b45",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Despacho",
+      "number": "4608/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4608/2026  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Ambiente e Energia - Gabinete da Ministra do Ambiente e Energia Designa Francisco Cardoso de Menezes de Azevedo Menezes para exercer as funções de adjunto do Gabinete da Ministra do Ambiente e Energia.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4608-2026-1082860214",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.356850Z"
+    },
+    {
+      "id": "baab5886c8fb986d22d09c04059a571d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso (extrato)",
+      "number": "7873/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 7873/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Ambiente e Energia - Laboratório Nacional de Energia e Geologia, IP Cessação de funções por motivo de falecimento e louvor.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/7873-1082860215",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.357240Z"
+    },
+    {
+      "id": "d9a3cffe61e97eeeb4eea75010a9930f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Despacho",
+      "number": "4614/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4614/2026  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Autoridade Nacional da Aviação Civil Autorização de exploração de serviços aéreos regulares extra-União Europeia na rota Porto/São Vicente/Porto.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4614-2026-1082860227",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "aviação civil"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.362069Z"
+    },
+    {
+      "id": "b4dfbd717994377114030e8b43ec0836",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Edital",
+      "number": "393/2026",
+      "issuer": "",
+      "title": "Edital n.º 393/2026  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Município de Estarreja Declaração de caducidade de reserva de solo sobre a propriedade privada para a execução de infraestruturas viárias previstas no Plano de Urbanização da Cidade de Estarreja (PUCE).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edital/393-2026-1082860512",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.395955Z"
+    },
+    {
+      "id": "b5090782d3ed661b64128a9546dd525d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Aviso",
+      "number": "8038/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8038/2026/2  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "Serviços Municipalizados de Eletricidade, Água e Saneamento da Câmara Municipal da Maia Celebração de contrato de trabalho em funções públicas por tempo indeterminado com um técnico superior (licenciatura em Contabilidade e Administração).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8038-1082861134",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.444349Z"
+    },
+    {
+      "id": "ac6b96ea1ca1b000432781494c6ba668",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-08",
+      "type": "Anúncio de procedimento",
+      "number": "8729/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8729/2026  -  Diário da República n.º 68/2026, Série II de 2026-04-08",
+      "summary": "CMPEAE - Empresa de Águas e Energia do Município do Porto, EM Aquisição de Calçado e Luvas de Segurança",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8729-1082614759",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-08T10:40:35.447125Z"
+    },
     {
       "id": "317f15e3753b008a82bde47fb8fcf14e",
       "source": "dre-rss",
@@ -3138,5 +3511,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 133
+  "entry_count": 149
 }
