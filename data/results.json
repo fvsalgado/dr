@@ -1,6 +1,388 @@
 {
-  "last_updated": "2026-04-08T11:14:40.587329+00:00",
+  "last_updated": "2026-04-09T10:57:52.548797+00:00",
   "entries": [
+    {
+      "id": "2b63f0c80ea51931e877114d2bafd472",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-09",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:45:35.694823+00:00"
+    },
+    {
+      "id": "bd6fd9d4c07618858e306f09a4a63af0",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-09",
+      "type": "Agenda Parlamentar",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:45:35.700437+00:00"
+    },
+    {
+      "id": "80c431d319ff47e8bbd70fdd94adfb5c",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-09",
+      "type": "Portaria",
+      "number": "155/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 155/2026/1  -  Diário da República n.º 69/2026, Série I de 2026-04-09",
+      "summary": "Economia e Coesão Territorial e Ambiente e Energia Define as externalidades locais negativas que podem ser objeto de compensação aos municípios pelo mecanismo previsto no Decreto-Lei n.º 18/2024, de 2 de fevereiro, e estabelece as condições da sua operacionalização.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/155-1082906723",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:54.900950Z"
+    },
+    {
+      "id": "a43ebd89670508d7329fd4e20dfb7144",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Despacho",
+      "number": "4643/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4643/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Presidência do Conselho de Ministros, Negócios Estrangeiros, Economia e Coesão Territorial, Defesa Nacional, Educação, Ciência e Inovação e Ambiente e Energia - Gabinete do Ministro de Estado e dos Negócios Estrangeiros, Gabinete do Ministro da Economia e da Coesão Territorial, Gabinete do Ministro da Defesa Nacional, Gabinete do Ministro das Infraestruturas e Habitação, Gabinete do Ministro da Educação, Ciência e Inovação e Gabinete da Ministra do Ambiente e Energia Altera a composição do Grupo de Trabalho Interministerial para o Espaço e revoga o Despacho n.º 10547/2025, de 8 de setembro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4643-2026-1082906758",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.900325Z"
+    },
+    {
+      "id": "b26ddad2b829b66095135265e5cd027c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Aviso",
+      "number": "8054/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8054/2026/2  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão do período experimental com sucesso na carreira de técnico superior de saúde e categoria de assessor superior de Paulo Alexandre Fernandes Cunha Lorga Silva.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8054-1083043901",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.916981Z"
+    },
+    {
+      "id": "bd12b19fa95b8a219af2a4129c8a6dd5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Aviso",
+      "number": "8055/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8055/2026/2  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum com vista ao recrutamento de um posto de trabalho em regime de trabalho em funções públicas por tempo indeterminado para a carreira e categoria de técnico superior para o Instituto para os Comportamentos Aditivos e as Dependências, I. P./Centro de Respostas Integradas de Leiria.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8055-1083043902",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.917506Z"
+    },
+    {
+      "id": "44de25c02841127e9be8e1cc3bd0ea8e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Despacho",
+      "number": "4674/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4674/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Ambiente e Energia - Gabinete do Secretário de Estado Adjunto e da Energia Define, para o ano de 2026, as prestações pecuniárias devidas pelas categorias de produtos de petróleo definidas no n.º 1 do artigo 8.º do Decreto-Lei n.º 165/2013, de 16 de dezembro, na sua redação atual.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4674-2026-1083043916",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.922949Z"
+    },
+    {
+      "id": "3ad95fe90cb62243965b93dae90e0258",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Despacho",
+      "number": "4675/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4675/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Designação da encarregada de proteção de dados da Direção-Geral de Energia e Geologia, licenciada Elsa Margarida Freire Ribeiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4675-2026-1083043917",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.923322Z"
+    },
+    {
+      "id": "36d9ee335de97286841944163c8770cf",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Aviso",
+      "number": "8068/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8068/2026/2  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Região de Turismo do Algarve Concessão de licença sem retribuição ao assistente técnico Francisco Miguel Matias Soares.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8068-1083043946",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.933747Z"
+    },
+    {
+      "id": "97700f75efa1a7826e46cc7f7fd7fa74",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Despacho",
+      "number": "4708/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4708/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Município de Mogadouro Designação para dirigentes intermédios de 3.º grau para Unidade Orgânica de Cultura e Turismo, Unidade Orgânica de Música, Educação, Desporto e Juventude e para Unidade Orgânica de Ação Social e Saúde.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4708-2026-1083044193",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.954961Z"
+    },
+    {
+      "id": "391e6376e106b36cc974828f95434986",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8854/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8854/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Entidade Regional de Turismo do Centro de Portugal Produção de 100 vídeos curtos para Campanha Digital da Série \"100 Destino\" no Centro de Portugal",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8854-1082906736",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.972738Z"
+    },
+    {
+      "id": "0482183f0a12797eed69efe4ee40494b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8863/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8863/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Município de Loulé O presente projeto, visa a requalificação e valorização dos espaços exteriores do Jardim de Infância do Poço Novo, com o objetivo de melhorar as condições de utilização do espaço exterior e aumentar as possibilidades de recreio, criando um ambiente mais confortável e harmonioso em termos paisagísticos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8863-1083044236",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.976624Z"
+    },
+    {
+      "id": "3a15b51d5df26f6ea57cff94a564b598",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8865/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8865/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Empresa Municipal de Ambiente do Porto, EM, SA Aluguer Operacional de Equipamento Informático - Lotes 1, 2 e 3",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8865-1083044238",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.977321Z"
+    },
+    {
+      "id": "9dce56864a2be6b830c8274863ccf72e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8891/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8891/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Instituto de Alimentação e Mercados Agrícolas, IP R. A. CONCURSO PÚBLICO PARA A PRESTAÇÃO DE SERVIÇOS DE VIGILÂNCIA E CONTROLO DO ACESSO, PERMANÊNCIA E CIRCULAÇÃO DE PESSOAS E VIATURAS NOS MATADOUROS DE SÃO MIGUEL E DA TERCEIRA",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8891-1083044255",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.982430Z"
+    },
+    {
+      "id": "f47caf32b287921d3dccde27dacf225b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8880/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8880/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Termalistur - Termas de S. Pedro do Sul, EM, SA Aquisição de Equipamentos, por Lotes, para o Balneário Rainha D. Amélia nas Termas de S. Pedro do Sul, no âmbito da execução do Projeto Agenda Acelerar e Transformar o Turismo",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8880-1083044903",
+      "clients": [
+        {
+          "id": "ryanair-expedia",
+          "name": "Ryanair / Expedia Group",
+          "color": "#0050A0",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.986020Z"
+    },
+    {
+      "id": "fa1a20f780a9b05fe22e3c51be6dee42",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-09",
+      "type": "Anúncio de procedimento",
+      "number": "8900/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8900/2026  -  Diário da República n.º 69/2026, Série II de 2026-04-09",
+      "summary": "Empresa Municipal de Ambiente do Porto, EM, SA Prestação de serviços de manutenção preventiva e corretiva ao abrigo de contratos de manutenção para superestruturas RosRoca da frota da Porto Ambiente",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8900-1083044913",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-09T10:44:55.989727Z"
+    },
     {
       "id": "5a723b5a1285d48c374ae53f50ed4b44",
       "source": "parlamento-iniciativas",
@@ -3511,5 +3893,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 149
+  "entry_count": 165
 }
