@@ -10,6 +10,16 @@ on:
         description: "Data a processar (YYYY-MM-DD). Deixar em branco = hoje"
         required: false
         default: ""
+      days:
+        description: "DRE + Parlamento — quantos dias recuar a partir da data (inclusive)"
+        type: choice
+        required: false
+        default: "30"
+        options:
+          - "1"
+          - "7"
+          - "10"
+          - "30"
 
 permissions:
   contents: write
@@ -17,6 +27,9 @@ permissions:
 jobs:
   scrape-and-notify:
     runs-on: ubuntu-latest
+    env:
+      # Cron: sem inputs → 30 dias (igual ao default dos scrapers). Manual: usa a escolha do formulário.
+      SCRAPER_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.days || '30' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,18 +45,18 @@ jobs:
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
           if [ -n "$DATE_ARG" ]; then
-            python scraper/dre.py "$DATE_ARG"
+            python scraper/dre.py "$DATE_ARG" --days "$SCRAPER_DAYS"
           else
-            python scraper/dre.py
+            python scraper/dre.py --days "$SCRAPER_DAYS"
           fi
 
       - name: Run Parlamento scraper
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
           if [ -n "$DATE_ARG" ]; then
-            python scraper/parlamento.py "$DATE_ARG"
+            python scraper/parlamento.py "$DATE_ARG" --days "$SCRAPER_DAYS"
           else
-            python scraper/parlamento.py
+            python scraper/parlamento.py --days "$SCRAPER_DAYS"
           fi
 
       - name: Run News scrapers (headline-only)

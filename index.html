@@ -104,6 +104,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .series-badge.s2{border-color:#93C5FD;color:#1D4ED8;background:#EFF6FF}
 .series-badge.sp{border-color:#86EFAC;color:#166534;background:#F0FDF4}
 .type-badge{font-size:11px;color:var(--text3)}
+.kind-badge{font-size:10px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;padding:2px 7px;border-radius:4px}
+.kind-badge.event{background:#ECFDF5;color:#065F46;border:1px solid #A7F3D0}
+.kind-badge.initiative{background:#F5F3FF;color:#5B21B6;border:1px solid #DDD6FE}
+.kind-badge.news{background:#EFF6FF;color:#1E40AF;border:1px solid #BFDBFE}
+.kind-badge.act{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
 .issuer-badge{font-size:11px;color:var(--text3);margin-left:auto;text-align:right;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .entry-title{font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px;line-height:1.45}
 .entry-title a{color:inherit;text-decoration:none}
@@ -241,6 +246,34 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         <span class="filter-count" id="count-kaspersky">0</span>
       </div>
     </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Tipo de Conteúdo</div>
+      <div class="filter-pill active" data-kind="all" onclick="setKindFilter('all',this)">
+        <div class="filter-dot" style="background:var(--border-strong)"></div>
+        Todos
+        <span class="filter-count" id="count-kind-all">0</span>
+      </div>
+      <div class="filter-pill" data-kind="event" onclick="setKindFilter('event',this)">
+        <div class="filter-dot" style="background:#10B981"></div>
+        Eventos
+        <span class="filter-count" id="count-kind-event">0</span>
+      </div>
+      <div class="filter-pill" data-kind="initiative" onclick="setKindFilter('initiative',this)">
+        <div class="filter-dot" style="background:#8B5CF6"></div>
+        Iniciativas
+        <span class="filter-count" id="count-kind-initiative">0</span>
+      </div>
+      <div class="filter-pill" data-kind="news" onclick="setKindFilter('news',this)">
+        <div class="filter-dot" style="background:#3B82F6"></div>
+        Notícias
+        <span class="filter-count" id="count-kind-news">0</span>
+      </div>
+      <div class="filter-pill" data-kind="act" onclick="setKindFilter('act',this)">
+        <div class="filter-dot" style="background:#F59E0B"></div>
+        Atos
+        <span class="filter-count" id="count-kind-act">0</span>
+      </div>
+    </div>
     <div class="sidebar-footer">
       <div id="last-sync" style="font-size:11px;color:var(--text3)">A carregar…</div>
       <button class="logout-btn" onclick="doLogout()">Terminar sessão</button>
@@ -334,7 +367,7 @@ function doLogout(){sessionStorage.removeItem('pa_auth');location.reload()}
 document.getElementById('pw-input').addEventListener('keydown',e=>{if(e.key==='Enter')doLogin()});
 if(sessionStorage.getItem('pa_auth')==='1'){document.getElementById('login-screen').style.display='none';document.getElementById('app').classList.add('visible')}
 
-let allEntries=[],activeClient='all',activeDays='today',activeSeries='all',selectedIds=new Set();
+let allEntries=[],activeClient='all',activeDays='today',activeSeries='all',activeKind='all',selectedIds=new Set();
 
 const CLIPPING_BRAND_BY_MODE={
   weekly_ryanair:{
@@ -398,6 +431,7 @@ async function loadData(){
 if(sessionStorage.getItem('pa_auth')==='1')loadData();
 
 function setClientFilter(c,el){activeClient=c;document.querySelectorAll('[data-client]').forEach(p=>p.classList.remove('active'));el.classList.add('active');renderEntries()}
+function setKindFilter(k,el){activeKind=k;document.querySelectorAll('[data-kind]').forEach(p=>p.classList.remove('active'));el.classList.add('active');renderEntries()}
 function setDaysFilter(d,el){
   activeDays=d;
   const df=document.getElementById('filter-date-from'),dt=document.getElementById('filter-date-to');
@@ -419,6 +453,15 @@ function clearDateRange(){
 }
 function setSeriesFilter(s,el){activeSeries=s;document.querySelectorAll('[data-series]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderEntries()}
 function getTodayStr(){return new Date().toISOString().slice(0,10)}
+function inferContentKind(e){
+  if(e.content_kind)return e.content_kind;
+  const src=e.source||'';
+  if(src==='parlamento-agenda')return 'event';
+  if(src==='parlamento-iniciativas')return 'initiative';
+  if(src.startsWith('news-'))return 'news';
+  if(src.startsWith('dre'))return 'act';
+  return '';
+}
 
 function getFilteredEntries(){
   const q=document.getElementById('search-input').value.toLowerCase().trim(),today=getTodayStr();
@@ -441,6 +484,7 @@ function getFilteredEntries(){
     }
     if(activeSeries==='parlamento'&&!(e.source||'').startsWith('parlamento'))return false;
     if(activeSeries!=='all'&&activeSeries!=='parlamento'&&!(e.series||'').startsWith(activeSeries))return false;
+    if(activeKind!=='all'&&inferContentKind(e)!==activeKind)return false;
     if(activeClient!=='all'&&!e.clients.some(c=>c.id===activeClient))return false;
     if(q){const h=(e.title+' '+e.summary+' '+e.issuer).toLowerCase();if(!h.includes(q))return false}
     return true;
@@ -455,6 +499,11 @@ function updateCounts(){
   document.getElementById('count-all').textContent=allEntries.length;
   const today=getTodayStr();
   document.getElementById('count-today').textContent=allEntries.filter(e=>(e.date||'').slice(0,10)===today).length;
+  const kinds=['all','event','initiative','news','act'];
+  kinds.forEach(k=>{
+    const n=k==='all'?allEntries.length:allEntries.filter(e=>inferContentKind(e)===k).length;
+    const el=document.getElementById('count-kind-'+k);if(el)el.textContent=n;
+  });
 }
 
 function highlightKeywords(text,kws){
@@ -501,6 +550,8 @@ function renderCard(e){
   const hTitle=highlightKeywords(e.title||'Sem título',kws);
   const hSummary=e.summary?highlightKeywords(e.summary,kws):'';
   const isParlamento=(e.source||'').startsWith('parlamento');
+  const kind=inferContentKind(e);
+  const kindLabel=kind==='event'?'Evento':kind==='news'?'Notícia':kind==='act'?'Ato':kind==='initiative'?'Iniciativa':'';
   const sClass=isParlamento?'sp':(e.series||'').startsWith('1')?'s1':(e.series||'').startsWith('2')?'s2':'';
   const seriesLabel=isParlamento?(e.source==='parlamento-agenda'?'Agenda':'Iniciativa'):(e.series||'');
   const clientTags=e.clients.map(c=>`<span class="client-tag"><span class="client-tag-dot" style="background:${c.color}"></span>${c.name}</span>`).join('');
@@ -511,6 +562,7 @@ function renderCard(e){
     <div class="entry-body">
       <div class="entry-meta">
         <span class="series-badge ${sClass}">${seriesLabel}</span>
+        ${kindLabel?`<span class="kind-badge ${kind}">${kindLabel}</span>`:''}
         ${e.type?`<span class="type-badge">${e.type}</span>`:''}
         ${e.issuer?`<span class="issuer-badge">${e.issuer}</span>`:''}
       </div>

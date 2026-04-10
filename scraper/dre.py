@@ -408,6 +408,7 @@ def run(target_date: date | None = None, days: int = 30):
                     "series": item["series"],
                     "date": item["date"],
                     "type": item["type"],
+                    "content_kind": "act",
                     "number": item["number"],
                     "issuer": item["issuer"],
                     "title": item["title"],

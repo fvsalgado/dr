@@ -114,6 +114,7 @@ def run():
                 "series": item.get("series", "NEWS"),
                 "date": item["date"],
                 "type": item["type"],
+                "content_kind": "news",
                 "number": item.get("number", ""),
                 "issuer": item.get("issuer", ""),
                 "title": item["title"],
