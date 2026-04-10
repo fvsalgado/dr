@@ -48,6 +48,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .filter-pill.today-pill:hover{background:#DBEAFE}
 .filter-pill.today-pill.active{background:var(--today-accent);color:#fff;border-color:var(--today-accent)}
 .filter-pill.today-pill.active .filter-count{background:rgba(255,255,255,.25);color:#fff}
+.sidebar-section-subtitle{font-size:10px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--text3);margin:12px 0 6px}
+.date-range-row{display:flex;flex-direction:column;gap:8px;padding:0 0 8px}
+.date-range-label{font-size:11px;color:var(--text2);display:flex;flex-direction:column;gap:4px}
+.date-range-input{padding:6px 8px;border:1px solid var(--border);border-radius:6px;font-family:inherit;font-size:12px;background:var(--bg);color:var(--text)}
+.date-range-clear{font-size:11px;background:none;border:none;color:var(--text3);cursor:pointer;text-decoration:underline;padding:0;text-align:left;margin-bottom:4px}
+.date-range-clear:hover{color:var(--text2)}
 .sidebar-footer{margin-top:auto;padding:14px 20px;border-top:1px solid var(--border)}
 .logout-btn{background:none;border:none;color:var(--text3);font-family:inherit;font-size:11px;cursor:pointer;padding:0;text-decoration:underline;margin-top:4px;display:block}
 .logout-btn:hover{color:var(--text2)}
@@ -66,13 +72,16 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .topbar-stats{font-size:12px;color:var(--text3);white-space:nowrap}
 /* SELECTION BAR */
 #selection-bar{display:none;align-items:center;gap:12px;padding:10px 24px;background:var(--digest-bg);border-bottom:1px solid #C7D2FE;position:sticky;top:53px;z-index:9}
-#selection-bar.visible{display:flex}
+#selection-bar.visible{display:flex;flex-wrap:wrap}
+.selection-actions{display:flex;flex-wrap:wrap;gap:8px;margin-left:auto;align-items:center}
 .sel-count{font-size:13px;font-weight:600;color:var(--digest-accent)}
 .sel-count span{font-weight:400;color:#6366F1}
 .sel-clear{font-size:12px;color:var(--text3);cursor:pointer;text-decoration:underline}
 .sel-clear:hover{color:var(--text2)}
-.digest-btn{display:flex;align-items:center;gap:6px;padding:7px 14px;background:var(--digest-accent);color:#fff;border:none;border-radius:7px;font-family:inherit;font-size:13px;font-weight:500;cursor:pointer;transition:background .15s;margin-left:auto}
+.digest-btn{display:flex;align-items:center;gap:6px;padding:7px 14px;background:var(--digest-accent);color:#fff;border:none;border-radius:7px;font-family:inherit;font-size:13px;font-weight:500;cursor:pointer;transition:background .15s}
 .digest-btn:hover{background:#4338CA}
+.digest-btn-teal{background:#0F766E}
+.digest-btn-teal:hover{background:#0D9488}
 /* CONTENT */
 .content{padding:24px 24px 60px}
 .date-group{margin-bottom:32px}
@@ -114,7 +123,9 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
 #digest-overlay.visible{display:flex}
 .digest-panel{background:var(--surface);border-radius:14px;width:100%;max-width:820px;box-shadow:0 20px 60px rgba(0,0,0,.2);overflow:hidden;flex-shrink:0}
 .digest-header{padding:24px 28px 20px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:14px}
-.digest-header-text{flex:1}
+.digest-header-brand{flex-shrink:0;display:flex;align-items:center;justify-content:center;min-width:100px;min-height:48px}
+.digest-header-brand img{max-height:48px;max-width:160px;width:auto;height:auto;object-fit:contain;display:block}
+.digest-header-text{flex:1;min-width:0}
 .digest-header-title{font-family:'Instrument Serif',serif;font-size:22px;color:var(--text);margin-bottom:3px}
 .digest-header-meta{font-size:12px;color:var(--text3)}
 .digest-close{width:32px;height:32px;border:1px solid var(--border);border-radius:7px;background:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:18px;flex-shrink:0;transition:background .12s}
@@ -143,6 +154,8 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
 .digest-item-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px;padding-left:30px}
 .digest-item-summary{font-size:13px;color:var(--text2);line-height:1.6;padding-left:30px}
 .digest-item-summary.translated{border-left:2px solid #C7D2FE;padding-left:12px;margin-left:30px}
+.digest-item-source{font-size:11px;color:var(--text3);padding-left:30px;margin-top:8px;word-break:break-all}
+.digest-item-source a{color:var(--digest-accent)}
 </style>
 </head>
 <body>
@@ -183,6 +196,12 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         <div class="filter-dot" style="background:var(--border-strong)"></div>
         Todo o histórico
       </div>
+      <div class="sidebar-section-subtitle">Intervalo de datas</div>
+      <div class="date-range-row">
+        <label class="date-range-label">De<input type="date" id="filter-date-from" class="date-range-input" onchange="onDateRangeChange()"></label>
+        <label class="date-range-label">Até<input type="date" id="filter-date-to" class="date-range-input" onchange="onDateRangeChange()"></label>
+      </div>
+      <button type="button" class="date-range-clear" onclick="clearDateRange()">Limpar datas</button>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-section-title">Clientes</div>
@@ -191,10 +210,15 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         Todos
         <span class="filter-count" id="count-all">0</span>
       </div>
-      <div class="filter-pill" data-client="ryanair-expedia" onclick="setClientFilter('ryanair-expedia',this)">
-        <div class="filter-dot" style="background:#0050A0"></div>
-        Ryanair / Expedia
-        <span class="filter-count" id="count-ryanair-expedia">0</span>
+      <div class="filter-pill" data-client="ryanair" onclick="setClientFilter('ryanair',this)">
+        <div class="filter-dot" style="background:#073590"></div>
+        Ryanair
+        <span class="filter-count" id="count-ryanair">0</span>
+      </div>
+      <div class="filter-pill" data-client="expedia-group" onclick="setClientFilter('expedia-group',this)">
+        <div class="filter-dot" style="background:#0057A8"></div>
+        Expedia Group
+        <span class="filter-count" id="count-expedia-group">0</span>
       </div>
       <div class="filter-pill" data-client="bimbo" onclick="setClientFilter('bimbo',this)">
         <div class="filter-dot" style="background:#E30613"></div>
@@ -243,10 +267,20 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
     <div id="selection-bar">
       <span class="sel-count"><span id="sel-num">0</span> selecionados</span>
       <span class="sel-clear" onclick="clearSelection()">Limpar seleção</span>
-      <button class="digest-btn" onclick="openDigest()">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        Criar Weekly Digest
-      </button>
+      <div class="selection-actions">
+        <button class="digest-btn" onclick="openClipping('weekly_ryanair')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Ryanair Weekly (EN)
+        </button>
+        <button class="digest-btn" onclick="openClipping('weekly_expedia')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Expedia Weekly (EN)
+        </button>
+        <button class="digest-btn digest-btn-teal" onclick="openClipping('daily_dow')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Dow Daily (EN)
+        </button>
+      </div>
     </div>
 
     <div class="content" id="content">
@@ -263,8 +297,11 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
 <div id="digest-overlay">
   <div class="digest-panel">
     <div class="digest-header">
+      <div class="digest-header-brand" id="digest-brand-wrap" hidden>
+        <img id="digest-logo" src="" alt="" width="160" height="48" loading="lazy" decoding="async">
+      </div>
       <div class="digest-header-text">
-        <div class="digest-header-title">Weekly Digest</div>
+        <div class="digest-header-title" id="digest-title">Weekly Digest</div>
         <div class="digest-header-meta" id="digest-meta">—</div>
       </div>
       <button class="digest-close" onclick="closeDigest()">✕</button>
@@ -278,6 +315,7 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
         Copiar texto
       </button>
+      <button class="copy-btn" id="copy-html-btn" onclick="copyDigestHtml()">Copiar HTML</button>
       <span class="translate-status" id="translate-status"></span>
     </div>
     <div id="digest-loading">
@@ -298,7 +336,58 @@ if(sessionStorage.getItem('pa_auth')==='1'){document.getElementById('login-scree
 
 let allEntries=[],activeClient='all',activeDays='today',activeSeries='all',selectedIds=new Set();
 
+const CLIPPING_BRAND_BY_MODE={
+  weekly_ryanair:{
+    title:'Ryanair Weekly Clipping',
+    textLine:'PA Monitor — Ryanair Weekly Clipping',
+    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/240px-Ryanair_logo.svg.png',
+    logoAlt:'Ryanair'
+  },
+  weekly_expedia:{
+    title:'Expedia Group Weekly Clipping',
+    textLine:'PA Monitor — Expedia Group Weekly Clipping',
+    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/240px-Expedia_2012_logo.svg.png',
+    logoAlt:'Expedia Group'
+  },
+  daily_dow:{
+    title:'Dow Daily Clipping',
+    textLine:'PA Monitor — Dow Daily Clipping',
+    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/240px-Dow_Chemical_Company_logo.svg.png',
+    logoAlt:'Dow'
+  }
+};
+const RYANAIR_KW=new Set(['aviação civil','aviação','aeroporto','aeronáutica','tap','ana aeroportos','taxas aeroportuárias','ets','etd','emissões aviação','anac','navegação aérea','transporte aéreo','companhia aérea','ryanair','easyjet','low cost']);
+const EXPEDIA_KW=new Set(['turismo','taxa turística','agências de viagem','agência de viagem','alojamento local','alojamento turístico','distribuição turística','plataformas digitais turismo','ota','booking','reservas online']);
+function entryKwSet(entry){
+  return new Set((entry.clients||[]).flatMap(c=>c.matched_keywords||[]).map(k=>String(k).toLowerCase()));
+}
+function intersectsKw(entry,kwSet){
+  for(const k of entryKwSet(entry)){if(kwSet.has(k))return true;}
+  return false;
+}
+function entryMatchesClipping(entry,mode){
+  if(!selectedIds.has(entry.id))return false;
+  const clients=entry.clients||[];
+  const has=id=>clients.some(c=>c.id===id);
+  if(mode==='daily_dow')return has('dow-portugal');
+  if(mode==='weekly_ryanair'){
+    if(has('ryanair'))return true;
+    if(has('ryanair-expedia')&&intersectsKw(entry,RYANAIR_KW))return true;
+    return false;
+  }
+  if(mode==='weekly_expedia'){
+    if(has('expedia-group'))return true;
+    if(has('ryanair-expedia')&&intersectsKw(entry,EXPEDIA_KW))return true;
+    return false;
+  }
+  return false;
+}
+
 async function loadData(){
+  if(location.protocol==='file:'){
+    document.getElementById('content').innerHTML='<div class="empty-state"><div class="empty-state-title">Abra via servidor (não via ficheiro)</div><p>O browser bloqueia <code>fetch()</code> em <code>file://</code>. Use <code>python server.py</code> e abra <code>http://localhost:8000</code>.</p></div>';
+    return;
+  }
   try{
     const res=await fetch('data/results.json?t='+Date.now()),data=await res.json();
     allEntries=data.entries||[];
@@ -309,18 +398,47 @@ async function loadData(){
 if(sessionStorage.getItem('pa_auth')==='1')loadData();
 
 function setClientFilter(c,el){activeClient=c;document.querySelectorAll('[data-client]').forEach(p=>p.classList.remove('active'));el.classList.add('active');renderEntries()}
-function setDaysFilter(d,el){activeDays=d;document.querySelectorAll('[data-days]').forEach(p=>p.classList.remove('active'));el.classList.add('active');renderEntries()}
+function setDaysFilter(d,el){
+  activeDays=d;
+  const df=document.getElementById('filter-date-from'),dt=document.getElementById('filter-date-to');
+  if(df)df.value='';if(dt)dt.value='';
+  document.querySelectorAll('[data-days]').forEach(p=>p.classList.remove('active'));el.classList.add('active');renderEntries();
+}
+function onDateRangeChange(){
+  document.querySelectorAll('[data-days]').forEach(p=>p.classList.remove('active'));
+  activeDays='custom';
+  renderEntries();
+}
+function clearDateRange(){
+  const df=document.getElementById('filter-date-from'),dt=document.getElementById('filter-date-to');
+  if(df)df.value='';if(dt)dt.value='';
+  activeDays='today';
+  document.querySelectorAll('[data-days]').forEach(p=>p.classList.remove('active'));
+  const t=document.querySelector('[data-days="today"]');if(t)t.classList.add('active');
+  renderEntries();
+}
 function setSeriesFilter(s,el){activeSeries=s;document.querySelectorAll('[data-series]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderEntries()}
 function getTodayStr(){return new Date().toISOString().slice(0,10)}
 
 function getFilteredEntries(){
   const q=document.getElementById('search-input').value.toLowerCase().trim(),today=getTodayStr();
+  const fromEl=document.getElementById('filter-date-from'),toEl=document.getElementById('filter-date-to');
+  const dateFrom=(fromEl&&fromEl.value)||'',dateTo=(toEl&&toEl.value)||'';
+  const useDateRange=!!(dateFrom||dateTo);
   let cutoff=null;
-  if(activeDays==='today')cutoff=today;
-  else if(activeDays>0)cutoff=new Date(Date.now()-activeDays*86400000).toISOString().slice(0,10);
+  if(!useDateRange){
+    if(activeDays==='today')cutoff=today;
+    else if(typeof activeDays==='number'&&activeDays>0)cutoff=new Date(Date.now()-activeDays*86400000).toISOString().slice(0,10);
+  }
   return allEntries.filter(e=>{
-    if(activeDays==='today'&&(e.date||'').slice(0,10)!==today)return false;
-    if(activeDays!=='today'&&cutoff&&e.date<cutoff)return false;
+    const d=(e.date||'').slice(0,10);
+    if(useDateRange){
+      if(dateFrom&&(!d||d<dateFrom))return false;
+      if(dateTo&&(!d||d>dateTo))return false;
+    } else {
+      if(activeDays==='today'&&d!==today)return false;
+      if(activeDays!=='today'&&typeof activeDays==='number'&&activeDays>0&&cutoff&&(!d||d<cutoff))return false;
+    }
     if(activeSeries==='parlamento'&&!(e.source||'').startsWith('parlamento'))return false;
     if(activeSeries!=='all'&&activeSeries!=='parlamento'&&!(e.series||'').startsWith(activeSeries))return false;
     if(activeClient!=='all'&&!e.clients.some(c=>c.id===activeClient))return false;
@@ -330,7 +448,7 @@ function getFilteredEntries(){
 }
 
 function updateCounts(){
-  ['ryanair-expedia','bimbo','dow-portugal','gasib','kaspersky'].forEach(cid=>{
+  ['ryanair','expedia-group','bimbo','dow-portugal','gasib','kaspersky'].forEach(cid=>{
     const n=allEntries.filter(e=>e.clients.some(c=>c.id===cid)).length;
     const el=document.getElementById('count-'+cid);if(el)el.textContent=n;
   });
@@ -403,21 +521,40 @@ function renderCard(e){
   </div>`;
 }
 
-// DIGEST
-let digestData=[],translatedData=null;
-function openDigest(){
-  digestData=allEntries.filter(e=>selectedIds.has(e.id));
+// DIGEST / CLIPPINGS
+let digestData=[],translatedData=null,clippingMode='weekly_ryanair';
+function openClipping(mode){
+  clippingMode=mode;
+  const brand=CLIPPING_BRAND_BY_MODE[mode];
+  digestData=allEntries.filter(e=>entryMatchesClipping(e,mode));
+  if(!digestData.length){
+    if(mode==='daily_dow')alert('Seleciona pelo menos 1 tópico Dow Portugal.');
+    else if(mode==='weekly_ryanair')alert('Seleciona pelo menos 1 tópico Ryanair (ou legado Ryanair/Expedia com keyword de aviação).');
+    else alert('Seleciona pelo menos 1 tópico Expedia Group (ou legado com keyword OTA/turismo).');
+    return;
+  }
   translatedData=null;
   document.getElementById('translate-status').textContent='';
   document.getElementById('translate-btn').disabled=false;
   document.getElementById('translate-btn').style.background='var(--digest-accent)';
   document.getElementById('translate-btn').innerHTML=`<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>Traduzir para inglês com IA`;
-  document.getElementById('digest-meta').textContent=`${digestData.length} publicaç${digestData.length!==1?'ões':'ão'} selecionada${digestData.length!==1?'s':''} · ${new Date().toLocaleDateString('pt-PT',{day:'numeric',month:'long',year:'numeric'})}`;
+  document.getElementById('digest-title').textContent=brand.title;
+  const wrap=document.getElementById('digest-brand-wrap');
+  const img=document.getElementById('digest-logo');
+  img.src=brand.logo;
+  img.alt=brand.logoAlt;
+  wrap.hidden=false;
+  document.getElementById('digest-meta').textContent=`${digestData.length} tópico${digestData.length!==1?'s':''} · ${new Date().toLocaleDateString('pt-PT',{day:'numeric',month:'long',year:'numeric'})}`;
   renderDigestContent(false);
   document.getElementById('digest-overlay').classList.add('visible');
   document.body.style.overflow='hidden';
 }
-function closeDigest(){document.getElementById('digest-overlay').classList.remove('visible');document.body.style.overflow=''}
+function closeDigest(){
+  document.getElementById('digest-overlay').classList.remove('visible');
+  document.body.style.overflow='';
+  document.getElementById('digest-brand-wrap').hidden=true;
+  document.getElementById('digest-logo').removeAttribute('src');
+}
 document.getElementById('digest-overlay').addEventListener('click',e=>{if(e.target===document.getElementById('digest-overlay'))closeDigest()});
 
 function renderDigestContent(translated){
@@ -440,6 +577,7 @@ function renderDigestContent(translated){
       </div>
       <div class="digest-item-tags">${tags}</div>
       ${summary?`<div class="digest-item-summary${isTr?' translated':''}">${summary}</div>`:''}
+      ${item.url?`<div class="digest-item-source"><a href="${item.url}" target="_blank" rel="noopener">${item.url}</a></div>`:''}
     </div>`;
   });
   document.getElementById('digest-content').innerHTML=html;
@@ -452,18 +590,15 @@ async function translateDigest(){
   document.getElementById('digest-content').style.opacity='.3';
   status.textContent='A traduzir…';
   const items=digestData.map((e,i)=>({idx:i,title:e.title||'',summary:e.summary||''}));
-  const prompt=`You are a professional legal translator. Translate these Portuguese legal gazette (Diário da República) entries to English.
-Return ONLY a JSON array (no markdown, no backticks) with objects: [{idx, title_en, summary_en}].
-Be precise with legal terminology.
-
-Entries:
-${JSON.stringify(items,null,2)}`;
   try{
-    const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:4000,messages:[{role:'user',content:prompt}]})});
-    const data=await res.json();
-    const raw=data.content.map(b=>b.text||'').join('');
-    const cleaned=raw.replace(/```json|```/g,'').trim();
-    const translations=JSON.parse(cleaned);
+    const endpoint=getTranslateEndpoint();
+    if(!endpoint)throw new Error('No translate endpoint configured');
+    const res=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items})});
+    if(!res.ok){
+      const errText=await res.text();
+      throw new Error('Translate failed: '+res.status+' '+errText);
+    }
+    const translations=await res.json();
     translatedData=digestData.map((e,i)=>{const t=translations.find(x=>x.idx===i)||{};return{...e,title_en:t.title_en,summary_en:t.summary_en}});
     renderDigestContent(true);
     status.textContent='✓ Traduzido';
@@ -479,10 +614,23 @@ ${JSON.stringify(items,null,2)}`;
   }
 }
 
+function getTranslateEndpoint(){
+  if(window.PA_TRANSLATE_ENDPOINT)return window.PA_TRANSLATE_ENDPOINT;
+  if(location.hostname==='localhost'||location.hostname==='127.0.0.1')return '/api/translate';
+  return '';
+}
+
+function clippingHeaderText(){
+  const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+  const brand=CLIPPING_BRAND_BY_MODE[clippingMode]||CLIPPING_BRAND_BY_MODE.weekly_ryanair;
+  let out=`${brand.textLine}\n${dateStr}\n${'='.repeat(40)}\n`;
+  if(brand.logo)out+=`\n[Logo] ${brand.logo}\n`;
+  return out+'\n';
+}
+
 function copyDigest(){
   const isTr=!!translatedData,src=isTr?translatedData:digestData;
-  const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
-  let text=`PA Monitor — Weekly Digest\n${dateStr}\n${'─'.repeat(40)}\n\n`;
+  let text=clippingHeaderText();
   src.forEach((item,i)=>{
     const title=isTr&&item.title_en?item.title_en:item.title;
     const summary=isTr&&item.summary_en?item.summary_en:(item.summary||'');
@@ -499,6 +647,29 @@ function copyDigest(){
     const btn=document.getElementById('copy-btn');
     btn.innerHTML='✓ Copiado!';
     setTimeout(()=>{btn.innerHTML=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>Copiar texto`},2000);
+  });
+}
+
+function copyDigestHtml(){
+  const isTr=!!translatedData,src=isTr?translatedData:digestData;
+  const brand=CLIPPING_BRAND_BY_MODE[clippingMode]||CLIPPING_BRAND_BY_MODE.weekly_ryanair;
+  const title=brand.textLine;
+  const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+  let html=`<div style="margin-bottom:16px"><img src="${brand.logo}" alt="${brand.logoAlt}" style="max-height:48px;max-width:200px;height:auto;width:auto"/></div><h2 style="margin:0 0 8px">${title}</h2><p style="margin:0;color:#555">${dateStr}</p><hr/>`;
+  src.forEach((item,i)=>{
+    const t=isTr&&item.title_en?item.title_en:item.title;
+    const s=isTr&&item.summary_en?item.summary_en:(item.summary||'');
+    const clients=(item.clients||[]).map(c=>c.name).join(', ');
+    html+=`<p><strong>${i+1}. ${t||''}</strong><br/>`;
+    if(clients)html+=`<em>Client:</em> ${clients}<br/>`;
+    if(s)html+=`${s}<br/>`;
+    if(item.url)html+=`<a href="${item.url}" target="_blank" rel="noopener">${item.url}</a>`;
+    html+='</p>';
+  });
+  navigator.clipboard.writeText(html).then(()=>{
+    const btn=document.getElementById('copy-html-btn');
+    btn.textContent='✓ HTML copiado!';
+    setTimeout(()=>{btn.textContent='Copiar HTML'},2000);
   });
 }
 </script>

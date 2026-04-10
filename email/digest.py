@@ -8,13 +8,14 @@ Variáveis de ambiente necessárias:
   EMAIL_TO         — destinatários separados por vírgula
 """
 
-import json
-import os
-import urllib.request
-import urllib.parse
-import urllib.error
 import base64
+import json
 import logging
+import os
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import date, datetime
 from pathlib import Path
 
@@ -23,6 +24,8 @@ BASE_DIR = Path(__file__).parent.parent
 DATA_FILE = BASE_DIR / "data" / "results.json"
 
 CLIENT_COLORS = {
+    "ryanair": "#073590",
+    "expedia-group": "#0057A8",
     "ryanair-expedia": "#0050A0",
     "bimbo": "#E30613",
     "dow-portugal": "#CC0000",
@@ -45,6 +48,11 @@ _SOURCE_LABELS = {
     "dre-rss": "DRE",
     "parlamento-agenda": "Agenda Parlamentar",
     "parlamento-iniciativas": "Iniciativas Parlamentares",
+    "news-publituris": "Publituris",
+    "news-eco": "ECO",
+    "news-expresso": "Expresso",
+    "news-ambienteonline": "Ambiente Online",
+    "news-ambitur": "Ambitur",
 }
 
 
@@ -124,7 +132,8 @@ def send_mailgun(html: str, subject: str):
 
     if not all([api_key, domain, to_addrs]):
         log.warning("Mailgun not configured — skipping email send")
-        print(html)
+        # Windows terminals often default to cp1252; write UTF-8 bytes directly.
+        sys.stdout.buffer.write((html + "\n").encode("utf-8", errors="backslashreplace"))
         return
 
     credentials = base64.b64encode(f"api:{api_key}".encode()).decode()
