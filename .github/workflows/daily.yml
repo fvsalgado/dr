@@ -59,6 +59,27 @@ jobs:
             python scraper/parlamento.py --days "$SCRAPER_DAYS"
           fi
 
+      - name: Validate configured news sources
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scraper")
+          import news
+
+          required = {
+              "news-publituris",
+              "news-eco",
+              "news-expresso",
+              "news-ambienteonline",
+              "news-ambitur",
+          }
+          configured = set(news.configured_news_sources())
+          missing = sorted(required - configured)
+          if missing:
+              raise SystemExit(f"Missing news sources in scraper/news.py: {missing}")
+          print("Configured news sources:", sorted(configured))
+          PY
+
       - name: Run News scrapers (headline-only)
         run: python scraper/news.py
 

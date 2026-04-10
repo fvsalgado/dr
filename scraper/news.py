@@ -26,6 +26,14 @@ BASE_DIR = Path(__file__).parent.parent
 KEYWORDS_FILE = BASE_DIR / "keywords" / "clients.json"
 DATA_FILE = BASE_DIR / "data" / "results.json"
 DATA_FILE.parent.mkdir(exist_ok=True)
+UNFILTERED_NEWS_PER_SOURCE = 10
+NEWS_FETCHERS = [
+    ("Publituris", "news-publituris", fetch_publituris),
+    ("ECO", "news-eco", fetch_eco),
+    ("Expresso", "news-expresso", fetch_expresso),
+    ("Ambiente Online", "news-ambienteonline", fetch_ambienteonline),
+    ("Ambitur", "news-ambitur", fetch_ambitur),
+]
 
 
 def load_keywords() -> list[dict]:
@@ -77,21 +85,18 @@ def entry_id(source: str, source_id: str) -> str:
     return hashlib.md5(key.encode()).hexdigest()
 
 
+def configured_news_sources() -> list[str]:
+    return [source for _, source, _ in NEWS_FETCHERS]
+
+
 def run():
     clients = load_keywords()
     existing = load_existing_results()
     existing_ids = {e["id"] for e in existing["entries"]}
     all_new: list[dict] = []
 
-    fetchers = [
-        ("Publituris", fetch_publituris),
-        ("ECO", fetch_eco),
-        ("Expresso", fetch_expresso),
-        ("Ambiente Online", fetch_ambienteonline),
-        ("Ambitur", fetch_ambitur),
-    ]
-
-    for label, fetch in fetchers:
+    for label, _, fetch in NEWS_FETCHERS:
+        added_unfiltered = 0
         try:
             raw_items = fetch(limit=50)
         except Exception as e:
@@ -101,11 +106,12 @@ def run():
 
         for item in raw_items:
             matched = match_clients(item["full_text"], clients)
-            if not matched:
-                continue
+            include_unfiltered = not matched and added_unfiltered < UNFILTERED_NEWS_PER_SOURCE
 
             eid = entry_id(item["source"], item["source_id"])
             if eid in existing_ids:
+                continue
+            if not matched and not include_unfiltered:
                 continue
 
             entry = {
@@ -123,6 +129,10 @@ def run():
                 "clients": matched,
                 "scraped_at": datetime.now(tz=timezone.utc).isoformat(),
             }
+            if include_unfiltered:
+                entry["clients"] = []
+                entry["summary"] = item.get("summary", "") or "Notícia sem match de cliente (incluída para cobertura por fonte)."
+                added_unfiltered += 1
             all_new.append(entry)
             existing_ids.add(eid)
 
