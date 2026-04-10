@@ -70,6 +70,7 @@ def _load_version_info() -> dict:
 
 
 DRE_VERSION_INFO = _load_version_info()
+_DRE_API_VERSION_MISMATCH_DETECTED = False
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -219,6 +220,11 @@ def fetch_dre_day(target_date: date, series: int) -> list[dict]:
     date_str = target_date.strftime("%Y-%m-%d")
     series_label = _SERIES_LABEL[series]
     results = []
+    global _DRE_API_VERSION_MISMATCH_DETECTED
+
+    # Avoid repeating known-failing API calls for the rest of the run.
+    if _DRE_API_VERSION_MISMATCH_DETECTED:
+        return []
 
     # Step 1 — list of Diários for this date
     try:
@@ -233,8 +239,10 @@ def fetch_dre_day(target_date: date, series: int) -> list[dict]:
         # Keep the scraper running (RSS fallback for today), but surface a clear hint.
         vi = raw.get("versionInfo", {}) if isinstance(raw, dict) else {}
         if vi.get("hasApiVersionChanged") is True:
+            _DRE_API_VERSION_MISMATCH_DETECTED = True
             log.warning(
                 "DRE API version mismatch (hasApiVersionChanged=true). "
+                "DRE API calls will be skipped for the remaining dates in this run. "
                 "Set DRE_VERSION_INFO_JSON from the browser network payload to restore full results."
             )
         return []
