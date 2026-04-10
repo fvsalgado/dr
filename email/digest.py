@@ -63,6 +63,19 @@ def _source_label(entry: dict) -> str:
     return f"{label} {series}".strip() if series else label
 
 
+def _content_kind_label(entry: dict) -> str:
+    kind = (entry.get("content_kind") or "").strip().lower()
+    if not kind:
+        src = entry.get("source", "")
+        if src == "parlamento-agenda":
+            kind = "event"
+        elif src.startswith("news-"):
+            kind = "news"
+        elif src.startswith("dre"):
+            kind = "act"
+    return {"event": "Evento", "news": "Notícia", "act": "Ato", "initiative": "Iniciativa"}.get(kind, "")
+
+
 def build_html(entries: list[dict], report_date: str) -> str:
     if not entries:
         body = "<p style='color:#666'>Sem publicações relevantes hoje.</p>"
@@ -87,7 +100,7 @@ def build_html(entries: list[dict], report_date: str) -> str:
                 rows += f"""
                 <tr>
                   <td style="padding:10px 12px;border-bottom:1px solid #f0f0f0;vertical-align:top">
-                    <div style="font-size:11px;color:#888;margin-bottom:3px">{_source_label(e)} · {e['type']} · {e['issuer']}</div>
+                    <div style="font-size:11px;color:#888;margin-bottom:3px">{_source_label(e)} · {_content_kind_label(e) or e['type']} · {e['issuer']}</div>
                     <a href="{e['url']}" style="color:{color};font-weight:600;font-size:13px;text-decoration:none">{e['title'] or 'Ver publicação'}</a>
                     <div style="font-size:12px;color:#555;margin-top:4px">{e['summary'][:200] + '…' if len(e.get('summary','')) > 200 else e.get('summary','')}</div>
                     <div style="margin-top:6px">{kw_pills}</div>
