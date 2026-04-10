@@ -9,6 +9,7 @@ import re
 import sys
 import hashlib
 import logging
+import os
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from xml.etree import ElementTree
@@ -26,9 +27,12 @@ DATA_FILE.parent.mkdir(exist_ok=True)
 
 DRE_BASE = "https://dre.pt"
 
-# Real endpoints — POST + JSON payload; CSRF header required but value not validated
-DRE_EP_CALENDAR = "https://www.dre.pt/dre/screenservices/DRE/Home/home/DataActionGetDRByDataCalendario"
-DRE_EP_DIPLOMAS = "https://www.dre.pt/dre/screenservices/DRE/Legislacao_Conteudos/ListaDiplomas/DataActionGetDados"
+# OutSystems endpoints moved behind redirects in 2026.
+# If you call the old dre.pt endpoints with urllib, a 301 redirect can convert POST→GET,
+# causing HTTP 405. We preserve POST across redirects in _post().
+DRE_API_BASE = "https://diariodarepublica.pt/dr/screenservices/dr"
+DRE_EP_CALENDAR = f"{DRE_API_BASE}/Home/home/DataActionGetDRByDataCalendario"
+DRE_EP_DIPLOMAS = f"{DRE_API_BASE}/Legislacao_Conteudos/ListaDiplomas/DataActionGetDados"
 
 RSS_FEEDS = {
     1: "http://files.diariodarepublica.pt/rss/serie1-html.xml",
@@ -43,15 +47,65 @@ _HEADERS = {
 
 _SERIES_LABEL = {1: "Série I", 2: "Série II"}
 
+def _load_version_info() -> dict:
+    """
+    diariodarepublica.pt now requires a non-empty 'versionInfo' object.
+    If the API starts returning {"hasApiVersionChanged": true} with empty data,
+    set DRE_VERSION_INFO_JSON to the value observed in browser network calls.
+    """
+    raw = os.environ.get("DRE_VERSION_INFO_JSON", "").strip()
+    if not raw:
+        # Default: compatible with the older dre.pt API envelope; may require override.
+        return {"hasModuleVersionChanged": True, "hasApiVersionChanged": False}
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError:
+        log.warning("Invalid DRE_VERSION_INFO_JSON (not JSON). Using default versionInfo.")
+        return {"hasModuleVersionChanged": True, "hasApiVersionChanged": False}
+    if not isinstance(parsed, dict) or not parsed:
+        log.warning("Invalid DRE_VERSION_INFO_JSON (must be a non-empty object). Using default versionInfo.")
+        return {"hasModuleVersionChanged": True, "hasApiVersionChanged": False}
+    return parsed
+
+
+DRE_VERSION_INFO = _load_version_info()
+
 
 # ── helpers ───────────────────────────────────────────────────────────────────
 
-def _post(url: str, payload: dict) -> dict:
-    """POST a JSON payload and return the parsed response."""
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+_OPENER_NO_REDIRECT = urllib.request.build_opener(_NoRedirect)
+
+
+def _post(url: str, payload: dict, *, timeout_s: int = 30, max_redirects: int = 5) -> dict:
+    """POST a JSON payload and return the parsed response, preserving POST on redirects."""
     body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=body, headers=_HEADERS, method="POST")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    headers = dict(_HEADERS)
+    # Helps when the server is picky; harmless otherwise.
+    headers.setdefault("Origin", "https://diariodarepublica.pt")
+    headers.setdefault("Referer", "https://diariodarepublica.pt/")
+
+    redirects = 0
+    while True:
+        req = urllib.request.Request(url, data=body, headers=headers, method="POST")
+        try:
+            with _OPENER_NO_REDIRECT.open(req, timeout=timeout_s) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code in (301, 302, 303, 307, 308):
+                loc = e.headers.get("Location", "")
+                if not loc:
+                    raise
+                redirects += 1
+                if redirects > max_redirects:
+                    raise RuntimeError(f"Too many redirects while POSTing to DRE (last={url})")
+                url = urllib.parse.urljoin(url, loc)
+                continue
+            raise
 
 
 def _parse_json_out(raw: dict) -> dict:
@@ -127,7 +181,7 @@ def match_clients(text: str, clients: list[dict]) -> list[dict]:
 
 def _calendar_payload(date_str: str) -> dict:
     return {
-        "versionInfo": {"hasModuleVersionChanged": True, "hasApiVersionChanged": False},
+        "versionInfo": DRE_VERSION_INFO,
         "viewName": "Home.home",
         "screenData": {
             "variables": {
@@ -142,7 +196,7 @@ def _calendar_payload(date_str: str) -> dict:
 
 def _diplomas_payload(diario_id: int) -> dict:
     return {
-        "versionInfo": {"hasModuleVersionChanged": True, "hasApiVersionChanged": False},
+        "versionInfo": DRE_VERSION_INFO,
         "viewName": "Legislacao_Conteudos.ListaDiplomas",
         "screenData": {
             "variables": {
@@ -170,6 +224,17 @@ def fetch_dre_day(target_date: date, series: int) -> list[dict]:
         cal_data = _parse_json_out(raw)
     except Exception as e:
         log.warning("DRE calendar error (series=%s, date=%s): %s", series, date_str, e)
+        return []
+
+    if not cal_data:
+        # diariodarepublica.pt currently returns empty data if versionInfo is outdated.
+        # Keep the scraper running (RSS fallback for today), but surface a clear hint.
+        vi = raw.get("versionInfo", {}) if isinstance(raw, dict) else {}
+        if vi.get("hasApiVersionChanged") is True:
+            log.warning(
+                "DRE API version mismatch (hasApiVersionChanged=true). "
+                "Set DRE_VERSION_INFO_JSON from the browser network payload to restore full results."
+            )
         return []
 
     hits = cal_data.get("hits", {}).get("hits", [])
@@ -349,7 +414,7 @@ def run(target_date: date | None = None, days: int = 30):
                     "summary": item["summary"],
                     "url": item["url"],
                     "clients": matched,
-                    "scraped_at": datetime.utcnow().isoformat() + "Z",
+                    "scraped_at": datetime.now(tz=timezone.utc).isoformat(),
                 }
                 all_new.append(entry)
                 existing_ids.add(eid)

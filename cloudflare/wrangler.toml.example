@@ -1,0 +1,7 @@
+name = "pa-monitor-translate"
+main = "worker.js"
+compatibility_date = "2026-04-10"
+
+[vars]
+ANTHROPIC_MODEL = "claude-sonnet-4-20250514"
+

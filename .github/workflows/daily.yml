@@ -46,6 +46,9 @@ jobs:
             python scraper/parlamento.py
           fi
 
+      - name: Run News scrapers (headline-only)
+        run: python scraper/news.py
+
       - name: Commit updated data
         run: |
           git config user.name  "pa-monitor[bot]"
@@ -63,5 +66,5 @@ jobs:
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
           MAILGUN_DOMAIN:  ${{ secrets.MAILGUN_DOMAIN }}
           EMAIL_FROM:      ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO:        "fsalgado@atrevia.com,bchambel@atrevia.com"
+          EMAIL_TO:        ${{ secrets.EMAIL_TO }}
         run: python email/digest.py

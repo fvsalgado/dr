@@ -1,19 +1,28 @@
 {
   "clients": [
     {
-      "id": "ryanair-expedia",
-      "name": "Ryanair / Expedia Group",
-      "color": "#0050A0",
+      "id": "ryanair",
+      "name": "Ryanair",
+      "color": "#073590",
       "keywords": [
         "aviação civil", "aviação", "aeroporto", "aeronáutica",
-        "turismo", "taxa turística",
         "TAP", "ANA Aeroportos", "taxas aeroportuárias",
-        "agências de viagem", "agência de viagem",
-        "alojamento local", "alojamento turístico",
         "ETS", "ETD", "emissões aviação",
         "ANAC", "navegação aérea",
         "transporte aéreo", "companhia aérea",
-        "distribuição turística", "plataformas digitais turismo"
+        "Ryanair", "easyJet", "low cost"
+      ]
+    },
+    {
+      "id": "expedia-group",
+      "name": "Expedia Group",
+      "color": "#0057A8",
+      "keywords": [
+        "turismo", "taxa turística",
+        "agências de viagem", "agência de viagem",
+        "alojamento local", "alojamento turístico",
+        "distribuição turística", "plataformas digitais turismo",
+        "OTA", "booking", "reservas online"
       ]
     },
     {
