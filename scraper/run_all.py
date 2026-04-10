@@ -25,10 +25,17 @@ def discover_targets() -> list[str]:
     return sorted(targets)
 
 
-def run_target(target: str, date_arg: str, days: int, news_sources: str) -> int:
+def run_target(target: str, date_arg: str, days: int, news_sources: str, news_max_age_days: float) -> int:
     script = BASE_DIR / f"{target}.py"
     if target == "news":
-        cmd = [sys.executable, str(script), "--sources", news_sources]
+        cmd = [
+            sys.executable,
+            str(script),
+            "--sources",
+            news_sources,
+            "--max-age-days",
+            str(news_max_age_days),
+        ]
     else:
         cmd = [sys.executable, str(script)]
         if date_arg:
@@ -48,6 +55,12 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=30, help="Days lookback for non-news scrapers")
     parser.add_argument("--targets", default="all", help="Comma-separated targets or 'all'")
     parser.add_argument("--news-sources", default="all", help="Comma-separated news sources or 'all'")
+    parser.add_argument(
+        "--news-max-age-days",
+        type=float,
+        default=7.0,
+        help="News scraper: only items published within the last N days (0 = no date filter)",
+    )
     parser.add_argument("--allow-partial", action="store_true", help="Do not fail if one target fails")
     args = parser.parse_args()
 
@@ -69,7 +82,13 @@ def main() -> int:
 
     failures: list[str] = []
     for target in selected:
-        rc = run_target(target, date_arg=date_arg, days=args.days, news_sources=args.news_sources)
+        rc = run_target(
+            target,
+            date_arg=date_arg,
+            days=args.days,
+            news_sources=args.news_sources,
+            news_max_age_days=args.news_max_age_days,
+        )
         if rc != 0:
             failures.append(target)
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Scraper de fontes noticiosas (headline-only), normalizado para data/results.json.
+Só grava entradas em que o texto (título + resumo + issuer) faz match a keywords de cliente.
 """
 
 from __future__ import annotations
@@ -11,7 +12,7 @@ import re
 import sys
 import hashlib
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from news_publituris import fetch_latest as fetch_publituris
@@ -32,7 +33,7 @@ KEYWORDS_FILE = BASE_DIR / "keywords" / "clients.json"
 DATA_FILE = BASE_DIR / "data" / "results.json"
 BACKUP_FILE = BASE_DIR / "data" / "results.backup.json"
 DATA_FILE.parent.mkdir(exist_ok=True)
-UNFILTERED_NEWS_PER_SOURCE = 10
+DEFAULT_NEWS_MAX_AGE_DAYS = 7.0
 NEWS_FETCHERS = [
     ("Publituris", "news-publituris", fetch_publituris),
     ("ECO", "news-eco", fetch_eco),
@@ -116,7 +117,7 @@ def _selected_fetchers(selected_sources: list[str] | None) -> list[tuple[str, st
 def _enrich_news_item(item: dict) -> dict:
     source = item.get("source", "")
     brand = source_brand(source)
-    article_meta = {"image_url": "", "published_at": "", "article_section": ""}
+    article_meta: dict = {"image_url": "", "published_at": "", "article_section": "", "description": ""}
     try:
         html_text = get_html(item["url"], retries=1, timeout_s=20)
         article_meta = extract_article_meta(html_text)
@@ -125,13 +126,49 @@ def _enrich_news_item(item: dict) -> dict:
     out = dict(item)
     out["source_label"] = brand["label"]
     out["source_logo_url"] = brand["logo_url"]
-    out["image_url"] = article_meta.get("image_url", "")
-    out["published_at"] = article_meta.get("published_at", "")
-    out["article_section"] = article_meta.get("article_section", "")
+    out["image_url"] = (article_meta.get("image_url") or "").strip() or out.get("image_url", "")
+    meta_pub = (article_meta.get("published_at") or "").strip()
+    out["published_at"] = meta_pub or (out.get("published_at") or "").strip()
+    out["article_section"] = (article_meta.get("article_section") or "").strip() or out.get("article_section", "")
+    meta_desc = (article_meta.get("description") or "").strip()
+    summary = (out.get("summary") or "").strip() or meta_desc
+    out["summary"] = summary
+    out["full_text"] = f"{out.get('title', '')} {summary} {out.get('issuer', '')}".strip()
     return out
 
 
-def run(selected_sources: list[str] | None = None):
+def _parse_item_datetime(item: dict) -> datetime | None:
+    pub = (item.get("published_at") or "").strip()
+    if pub:
+        try:
+            dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except ValueError:
+            pass
+    d = (item.get("date") or "").strip()
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", d)
+    if m:
+        try:
+            y, mo, day = (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            return datetime(y, mo, day, tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    return None
+
+
+def _within_max_age(item: dict, max_age_days: float) -> bool:
+    if max_age_days <= 0:
+        return True
+    dt = _parse_item_datetime(item)
+    if dt is None:
+        return True
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(days=max_age_days)
+    return dt >= cutoff
+
+
+def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT_NEWS_MAX_AGE_DAYS):
     clients = load_keywords()
     existing = load_existing_results()
     existing_ids = {e["id"] for e in existing["entries"]}
@@ -141,9 +178,8 @@ def run(selected_sources: list[str] | None = None):
         raise ValueError("No valid news sources selected")
 
     for label, source_id, fetch in fetchers:
-        added_unfiltered = 0
         try:
-            raw_items = fetch(limit=50)
+            raw_items = fetch(limit=150)
         except Exception as e:
             log.warning("%s fetch error: %s", label, e)
             continue
@@ -151,13 +187,14 @@ def run(selected_sources: list[str] | None = None):
 
         for item in raw_items:
             item = _enrich_news_item(item)
+            if not _within_max_age(item, max_age_days):
+                continue
             matched = match_clients(item["full_text"], clients)
-            include_unfiltered = not matched and added_unfiltered < UNFILTERED_NEWS_PER_SOURCE
+            if not matched:
+                continue
 
             eid = entry_id(source_id, item["source_id"])
             if eid in existing_ids:
-                continue
-            if not matched and not include_unfiltered:
                 continue
 
             entry = {
@@ -180,10 +217,6 @@ def run(selected_sources: list[str] | None = None):
                 "source_label": item.get("source_label", item.get("source", "")),
                 "article_section": item.get("article_section", ""),
             }
-            if include_unfiltered:
-                entry["clients"] = []
-                entry["summary"] = item.get("summary", "") or "Notícia sem match de cliente (incluída para cobertura por fonte)."
-                added_unfiltered += 1
             all_new.append(entry)
             existing_ids.add(eid)
 
@@ -204,11 +237,17 @@ if __name__ == "__main__":
             default="all",
             help="Comma-separated source IDs (default: all). Ex: news-eco,news-expresso",
         )
+        parser.add_argument(
+            "--max-age-days",
+            type=float,
+            default=DEFAULT_NEWS_MAX_AGE_DAYS,
+            help="Incluir apenas notícias com data de publicação nas últimas N dias (0 = sem filtro). Padrão: 7",
+        )
         args = parser.parse_args()
         selected = None
         if args.sources and args.sources.lower() != "all":
             selected = [s.strip() for s in args.sources.split(",") if s.strip()]
-        run(selected_sources=selected)
+        run(selected_sources=selected, max_age_days=args.max_age_days)
     except Exception as e:
         log.error("Fatal news scraper error: %s", e)
         sys.exit(1)
