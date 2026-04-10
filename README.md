@@ -114,6 +114,8 @@ Existe um exemplo de worker em `cloudflare/worker.js`.
 
 Em **Actions → Daily PA Monitor → Run workflow**
 
+Opcionalmente define **DRE + Parlamento — quantos dias recuar** (por exemplo **10**) para alargar a janela de pesquisa; o cron diário continua a usar **30** dias por omissão. Os scrapers de imprensa (`news.py`) não usam este parâmetro.
+
 ---
 
 ## Personalização de keywords
