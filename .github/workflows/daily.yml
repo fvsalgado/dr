@@ -20,6 +20,26 @@ on:
           - "7"
           - "10"
           - "30"
+      targets:
+        description: "Scrapers a correr (all ou CSV: dre,parlamento,news)"
+        required: false
+        default: "all"
+      news_sources:
+        description: "Fontes de news (all ou CSV: news-eco,news-expresso,...)"
+        required: false
+        default: "all"
+      strict_mode:
+        description: "Falhar workflow se algum scraper falhar (true/false)"
+        type: choice
+        required: false
+        default: "false"
+        options:
+          - "false"
+          - "true"
+      backup_retention_days:
+        description: "Dias de retenção de snapshots em data/backups"
+        required: false
+        default: "30"
 
 permissions:
   contents: write
@@ -30,6 +50,10 @@ jobs:
     env:
       # Cron: sem inputs → 30 dias (igual ao default dos scrapers). Manual: usa a escolha do formulário.
       SCRAPER_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.days || '30' }}
+      SCRAPER_TARGETS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.targets || 'all' }}
+      NEWS_SOURCES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.news_sources || 'all' }}
+      STRICT_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.strict_mode || 'false' }}
+      BACKUP_RETENTION_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.backup_retention_days || '30' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,22 +65,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run DRE scraper
+      - name: Create backup snapshot
         run: |
-          DATE_ARG="${{ github.event.inputs.date }}"
-          if [ -n "$DATE_ARG" ]; then
-            python scraper/dre.py "$DATE_ARG" --days "$SCRAPER_DAYS"
+          mkdir -p data/backups
+          if [ -f data/results.json ]; then
+            cp data/results.json data/results.backup.json
+            cp data/results.json "data/backups/results-$(date -u +%Y%m%dT%H%M%SZ).json"
+            echo "Backup created"
           else
-            python scraper/dre.py --days "$SCRAPER_DAYS"
-          fi
-
-      - name: Run Parlamento scraper
-        run: |
-          DATE_ARG="${{ github.event.inputs.date }}"
-          if [ -n "$DATE_ARG" ]; then
-            python scraper/parlamento.py "$DATE_ARG" --days "$SCRAPER_DAYS"
-          else
-            python scraper/parlamento.py --days "$SCRAPER_DAYS"
+            echo '{"last_updated": null, "entries": []}' > data/results.backup.json
+            echo "Initialized backup baseline"
           fi
 
       - name: Validate configured news sources
@@ -72,6 +90,8 @@ jobs:
               "news-expresso",
               "news-ambienteonline",
               "news-ambitur",
+              "news-observador",
+              "news-jornaldenegocios",
           }
           configured = set(news.configured_news_sources())
           missing = sorted(required - configured)
@@ -80,14 +100,54 @@ jobs:
           print("Configured news sources:", sorted(configured))
           PY
 
-      - name: Run News scrapers (headline-only)
-        run: python scraper/news.py
+      - name: Run selected scrapers (resilient)
+        id: scrape
+        run: |
+          DATE_ARG="${{ github.event.inputs.date }}"
+          if [ "$STRICT_MODE" = "true" ]; then
+            python scraper/run_all.py \
+              --date "${DATE_ARG}" \
+              --days "$SCRAPER_DAYS" \
+              --targets "$SCRAPER_TARGETS" \
+              --news-sources "$NEWS_SOURCES"
+          else
+            python scraper/run_all.py \
+              --date "${DATE_ARG}" \
+              --days "$SCRAPER_DAYS" \
+              --targets "$SCRAPER_TARGETS" \
+              --news-sources "$NEWS_SOURCES" \
+              --allow-partial
+          fi
+
+      - name: Restore from backup if results are invalid
+        if: failure()
+        run: |
+          if [ -f data/results.backup.json ]; then
+            cp data/results.backup.json data/results.json
+            echo "Restored data/results.json from backup"
+          fi
+
+      - name: Upload results backup artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-backups
+          path: |
+            data/results.backup.json
+            data/backups/*.json
+
+      - name: Cleanup old backup snapshots
+        if: always()
+        run: |
+          if [ -d data/backups ]; then
+            find data/backups -type f -name "results-*.json" -mtime +"$BACKUP_RETENTION_DAYS" -delete
+          fi
 
       - name: Commit updated data
         run: |
           git config user.name  "pa-monitor[bot]"
           git config user.email "pa-monitor[bot]@users.noreply.github.com"
-          git add data/results.json
+          git add data/results.json data/results.backup.json data/backups/*.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

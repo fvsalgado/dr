@@ -4,6 +4,7 @@
       "id": "ryanair-expedia",
       "name": "Ryanair / Expedia Group",
       "color": "#0050A0",
+      "logo_url": "",
       "keywords": [
         "aviação civil", "aviação", "aeroporto", "aeronáutica",
         "turismo", "taxa turística",
@@ -20,6 +21,7 @@
       "id": "bimbo",
       "name": "Bimbo",
       "color": "#E30613",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
       "keywords": [
         "géneros alimentícios", "produtos alimentares", "alimentação",
         "rotulagem", "rotulagem alimentar",
@@ -37,6 +39,7 @@
       "id": "dow-portugal",
       "name": "Dow Portugal",
       "color": "#CC0000",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
       "keywords": [
         "indústria química", "química",
         "REACH", "substâncias químicas", "produtos químicos",
@@ -56,6 +59,7 @@
       "id": "gasib",
       "name": "Gasib",
       "color": "#F5820A",
+      "logo_url": "",
       "keywords": [
         "gás natural", "gás",
         "GPL", "gás propano", "gás butano",
@@ -71,6 +75,7 @@
       "id": "kaspersky",
       "name": "Kaspersky",
       "color": "#006F51",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
       "keywords": [
         "cibersegurança", "segurança informática", "segurança digital",
         "proteção de dados", "dados pessoais",

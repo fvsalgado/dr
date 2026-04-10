@@ -107,12 +107,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .series-badge.s2{border-color:#93C5FD;color:#1D4ED8;background:#EFF6FF}
 .series-badge.sp{border-color:#86EFAC;color:#166534;background:#F0FDF4}
 .type-badge{font-size:11px;color:var(--text3)}
+.source-badge{display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border-radius:5px;border:1px solid var(--border);background:#F8FAFC;color:#334155;font-size:11px}
+.logo-mini{width:14px;height:14px;object-fit:contain;border-radius:2px;flex-shrink:0}
 .kind-badge{font-size:10px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;padding:2px 7px;border-radius:4px}
 .kind-badge.event{background:#ECFDF5;color:#065F46;border:1px solid #A7F3D0}
 .kind-badge.initiative{background:#F5F3FF;color:#5B21B6;border:1px solid #DDD6FE}
 .kind-badge.news{background:#EFF6FF;color:#1E40AF;border:1px solid #BFDBFE}
 .kind-badge.act{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
-.issuer-badge{font-size:11px;color:var(--text3);margin-left:auto;text-align:right;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.issuer-badge{font-size:11px;color:var(--text3);margin-left:auto;text-align:right;max-width:360px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .entry-title{font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px;line-height:1.45}
 .entry-title a{color:inherit;text-decoration:none}
 .entry-title a:hover{text-decoration:underline}
@@ -479,10 +481,25 @@ function sourceLabel(source){
   if(s==='news-publituris')return 'Publituris';
   if(s==='news-ambienteonline')return 'Ambiente Online';
   if(s==='news-ambitur')return 'Ambitur';
+  if(s==='news-observador')return 'Observador';
+  if(s==='news-jornaldenegocios')return 'Jornal de Negócios';
   if(s==='parlamento-agenda')return 'Parlamento Agenda';
   if(s==='parlamento-iniciativas')return 'Parlamento Iniciativas';
   if(s==='dre-rss')return 'DRE';
   return s||'Desconhecida';
+}
+function sourceLogo(source){
+  const s=String(source||'');
+  if(s==='news-eco')return 'https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg';
+  if(s==='news-expresso')return 'https://expresso.pt/static/img/logos/expresso.svg';
+  if(s==='news-publituris')return 'https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg';
+  if(s==='news-ambienteonline')return 'https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png';
+  if(s==='news-ambitur')return 'https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png';
+  if(s==='news-observador')return 'https://observador.pt/wp-content/themes/observador/images/observador-logo.svg';
+  if(s==='news-jornaldenegocios')return 'https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg';
+  if(s==='parlamento-agenda'||s==='parlamento-iniciativas')return 'https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png';
+  if(s==='dre'||s==='dre-rss')return 'https://dre.pt/o/dre-theme/images/logo-dre.png';
+  return '';
 }
 function setSourceFilter(s,el){
   activeSource=s;
@@ -602,6 +619,13 @@ function updateSelectionBar(){
 }
 
 function formatDate(s){if(!s)return'—';const d=new Date(s+(s.length===10?'T00:00:00':''));return d.toLocaleDateString('pt-PT',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}
+function metaDateTime(e){
+  const value=e.published_at||e.scraped_at||'';
+  if(!value)return '';
+  const d=new Date(value);
+  if(Number.isNaN(d.getTime()))return '';
+  return d.toLocaleString('pt-PT',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+}
 
 function renderEntries(){
   const entries=getFilteredEntries(),today=getTodayStr();
@@ -628,12 +652,14 @@ function renderCard(e){
   const kindLabel=kind==='event'?'Evento':kind==='news'?'Notícia':kind==='act'?'Ato':kind==='initiative'?'Iniciativa':'';
   const sClass=isParlamento?'sp':(e.series||'').startsWith('1')?'s1':(e.series||'').startsWith('2')?'s2':'';
   const seriesLabel=isParlamento?(e.source==='parlamento-agenda'?'Agenda':'Iniciativa'):(e.series||'');
-  const clientTags=e.clients.map(c=>`<span class="client-tag"><span class="client-tag-dot" style="background:${c.color}"></span>${c.name}</span>`).join('');
-  const sourceTag=`<span class="client-tag"><span class="client-tag-dot" style="background:#64748B"></span>${sourceLabel(e.source)}</span>`;
+  const clientTags=e.clients.map(c=>`<span class="client-tag">${c.logo_url?`<img class="logo-mini" src="${c.logo_url}" alt="${c.name}">`:''}<span class="client-tag-dot" style="background:${c.color}"></span>${c.name}</span>`).join('');
+  const sourceTag=`<span class="source-badge">${sourceLogo(e.source)?`<img class="logo-mini" src="${sourceLogo(e.source)}" alt="${sourceLabel(e.source)}">`:''}${sourceLabel(e.source)}</span>`;
   const kwChips=kws.slice(0,8).map(k=>`<span class="kw-chip">${k}</span>`).join('');
   const sel=selectedIds.has(e.id);
   const showKind=kindLabel&&kindLabel!==seriesLabel&&kindLabel!==(e.type||'');
   const showType=e.type&&e.type!==kindLabel&&e.type!==seriesLabel;
+  const dt=metaDateTime(e);
+  const articleMeta=[e.article_section,dt].filter(Boolean).join(' · ');
   return`<div class="entry-card${sel?' selected':''}" data-entry-id="${e.id}">
     <div class="entry-checkbox-wrap"><input type="checkbox" class="entry-checkbox"${sel?' checked':''} onchange="toggleSelect('${e.id}')"></div>
     <div class="entry-body">
@@ -641,9 +667,10 @@ function renderCard(e){
         <span class="series-badge ${sClass}">${seriesLabel}</span>
         ${showKind?`<span class="kind-badge ${kind}">${kindLabel}</span>`:''}
         ${showType?`<span class="type-badge">${e.type}</span>`:''}
-        ${e.issuer?`<span class="issuer-badge">${e.issuer}</span>`:''}
+        ${(e.issuer||articleMeta)?`<span class="issuer-badge">${[e.issuer,articleMeta].filter(Boolean).join(' · ')}</span>`:''}
       </div>
       <div class="entry-title">${e.url?`<a href="${e.url}" target="_blank" rel="noopener">${hTitle}</a>`:hTitle}</div>
+      ${e.image_url?`<div class="entry-summary"><a href="${e.url}" target="_blank" rel="noopener"><img src="${e.image_url}" alt="" style="max-height:84px;max-width:220px;border-radius:6px;object-fit:cover"></a></div>`:''}
       ${hSummary?`<div class="entry-summary">${hSummary}</div>`:''}
       <div class="entry-footer">${sourceTag}${clientTags}<span style="margin-left:4px">${kwChips}</span></div>
     </div>
