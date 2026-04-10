@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import html
+import time
 import re
 import urllib.parse
 import urllib.request
@@ -14,16 +15,33 @@ _HEADERS = {
 }
 
 
-def get_html(url: str) -> str:
-    req = urllib.request.Request(url, headers=_HEADERS, method="GET")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        raw = resp.read()
+def _decode_bytes(raw: bytes) -> str:
     for enc in ("utf-8", "latin-1"):
         try:
             return raw.decode(enc)
         except UnicodeDecodeError:
             continue
     return raw.decode("utf-8", errors="replace")
+
+
+def get_html(url: str, fallback_urls: list[str] | None = None, retries: int = 2, timeout_s: int = 30) -> str:
+    urls = [url] + [u for u in (fallback_urls or []) if u and u != url]
+    last_exc: Exception | None = None
+    for current_url in urls:
+        for attempt in range(retries + 1):
+            req = urllib.request.Request(current_url, headers=_HEADERS, method="GET")
+            try:
+                with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+                    return _decode_bytes(resp.read())
+            except Exception as exc:
+                last_exc = exc
+                if attempt < retries:
+                    time.sleep(0.8 * (attempt + 1))
+                    continue
+                break
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("Could not fetch any URL")
 
 
 def strip_html(text: str) -> str:
@@ -78,5 +96,24 @@ def make_news_item(source: str, issuer: str, title: str, url: str, summary: str 
         "summary": summary,
         "url": url,
         "full_text": full_text,
+    }
+
+
+def extract_article_meta(html_text: str) -> dict:
+    def _meta(prop: str) -> str:
+        m = re.search(
+            rf'<meta[^>]+(?:property|name)=["\']{re.escape(prop)}["\'][^>]+content=["\']([^"\']+)["\']',
+            html_text,
+            re.IGNORECASE,
+        )
+        return html.unescape(m.group(1).strip()) if m else ""
+
+    image_url = _meta("og:image") or _meta("twitter:image")
+    published_at = _meta("article:published_time") or _meta("date") or _meta("publish_date")
+    article_section = _meta("article:section")
+    return {
+        "image_url": image_url,
+        "published_at": published_at,
+        "article_section": article_section,
     }
 

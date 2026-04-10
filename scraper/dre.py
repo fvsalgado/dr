@@ -16,6 +16,7 @@ from xml.etree import ElementTree
 import urllib.request
 import urllib.parse
 import urllib.error
+from source_meta import source_brand
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("dre_scraper")
@@ -172,6 +173,7 @@ def match_clients(text: str, clients: list[dict]) -> list[dict]:
                 "id": client["id"],
                 "name": client["name"],
                 "color": client["color"],
+                "logo_url": client.get("logo_url", ""),
                 "matched_keywords": sorted(found),
             })
     return matches
@@ -417,6 +419,11 @@ def run(target_date: date | None = None, days: int = 30):
                     "clients": matched,
                     "scraped_at": datetime.now(tz=timezone.utc).isoformat(),
                 }
+                brand = source_brand(item["source"])
+                entry["source_label"] = brand["label"]
+                entry["source_logo_url"] = brand["logo_url"]
+                entry["published_at"] = ""
+                entry["image_url"] = ""
                 all_new.append(entry)
                 existing_ids.add(eid)
 

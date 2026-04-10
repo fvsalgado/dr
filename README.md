@@ -72,9 +72,12 @@ Em **Settings → Secrets and variables → Actions → New repository secret**,
 ### 5. Testar o scraper manualmente
 
 ```bash
-python scraper/dre.py              # Hoje
-python scraper/dre.py 2025-01-15   # Data específica
-python scraper/news.py             # Fontes de imprensa (headline-only)
+python scraper/dre.py                         # Hoje
+python scraper/parlamento.py --days 30       # Parlamento
+python scraper/news.py --sources all          # Todas as fontes de imprensa
+python scraper/news.py --sources news-eco,news-expresso
+python scraper/run_all.py --targets all --days 30
+python scraper/run_all.py --targets dre,news --news-sources news-eco
 ```
 
 **Publituris:** o scraper usa o **sitemap** indicado em `robots.txt` (`/sitemap-index.xml` → `sitemap-0.xml` …), com User-Agent de browser. A rota `/rss` costuma devolver HTML (Next.js), não XML fiável.
@@ -112,9 +115,19 @@ Existe um exemplo de worker em `cloudflare/worker.js`.
 
 ### 6. Forçar execução do workflow
 
-Em **Actions → Daily PA Monitor → Run workflow**
+Em **Actions → Daily PA Monitor → Run workflow**.
 
-Opcionalmente define **DRE + Parlamento — quantos dias recuar** (por exemplo **10**) para alargar a janela de pesquisa; o cron diário continua a usar **30** dias por omissão. Os scrapers de imprensa (`news.py`) não usam este parâmetro.
+Podes escolher:
+- `targets`: `all` ou subset (`dre,parlamento,news`)
+- `news_sources`: `all` ou subset (`news-eco,news-expresso,news-observador,news-jornaldenegocios,...`)
+- `days`: janela para DRE/Parlamento
+- `strict_mode`: `true` para falhar o workflow se algum scraper falhar
+- `backup_retention_days`: número de dias para manter snapshots antigos
+
+O workflow cria sempre:
+- `data/results.backup.json` (backup de segurança)
+- snapshots em `data/backups/` com timestamp
+- artifact `results-backups` para recuperação
 
 ---
 
