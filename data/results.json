@@ -1,6 +1,1971 @@
 {
-  "last_updated": "2026-04-09T10:57:52.548797+00:00",
+  "last_updated": "2026-04-10T08:45:34.266308+00:00",
   "entries": [
+    {
+      "id": "1aa3ec271def19b53897b62ba70d68df",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo EM Transformacao AS Competencias Que Moldarao O Futuro DO Setor",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-em-transformacao-as-competencias-que-moldarao-o-futuro-do-setor",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.147375+00:00"
+    },
+    {
+      "id": "2f84c48b0dfcdf3dfe407cecb66bc5b5",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: O Turismo E A Sustentabilidade Com Base NA Comunidade",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/o-turismo-e-a-sustentabilidade-com-base-na-comunidade",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.147973+00:00"
+    },
+    {
+      "id": "9ca1803e538a3233294d22e2fafea48b",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Ousadia Tecnologia E Alam Portuguesa A Formula Para Vencer NO Turismo",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/ousadia-tecnologia-e-alam-portuguesa-a-formula-para-vencer-no-turismo",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.148535+00:00"
+    },
+    {
+      "id": "46e7d5e39559e164ce6a3c458ff2a311",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Sem Pessoas Nao HA Turismo OS Desafios DO Capital Humano NO Setor",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/sem-pessoas-nao-ha-turismo-os-desafios-do-capital-humano-no-setor",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.149615+00:00"
+    },
+    {
+      "id": "29cf9b2ceb6275409407c406b3b387e0",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Crescer Juntos O Papel DO Associativismo NA Transformacao DO Turismo",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/crescer-juntos-o-papel-do-associativismo-na-transformacao-do-turismo",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.149898+00:00"
+    },
+    {
+      "id": "82bf64d9b3f0717012aa9445724f5397",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Portugal Turismo E Saude Oral UM Convite A Excelencia E Nao AO Preco",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/portugal-turismo-e-saude-oral-um-convite-a-excelencia-e-nao-ao-preco",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.151016+00:00"
+    },
+    {
+      "id": "b09896cdffc62ed6648a6e9fc5c3622e",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo Fora Das Grandes Cidades Pequenos Momentos Que Deixam Marcas Profundas",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-fora-das-grandes-cidades-pequenos-momentos-que-deixam-marcas-profundas",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.151300+00:00"
+    },
+    {
+      "id": "b299346e41097ddf3e129d40277c03ef",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo Religioso UM Inegavel Produto Turistico",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-religioso-um-inegavel-produto-turistico",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.152379+00:00"
+    },
+    {
+      "id": "36f6251e9c453ab55e3ba3c5fec3c79b",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo DA Extracao A Regeneracao Seremos Capazes DE Mudar O Guiao",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-da-extracao-a-regeneracao-seremos-capazes-de-mudar-o-guiao",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.152657+00:00"
+    },
+    {
+      "id": "355c74b54961576ea4e8039db6840a13",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Como Portugal Pode Equilibrar O Crescimento DO Setor DO Turismo Com A Sustentabilidade Ambiental Especialmente EM Areas Sensiveis Como O Algarve E Lisboa",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/como-portugal-pode-equilibrar-o-crescimento-do-setor-do-turismo-com-a-sustentabilidade-ambiental-especialmente-em-areas-sensiveis-como-o-algarve-e-lisboa",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.152980+00:00"
+    },
+    {
+      "id": "573542ccb029f1e99a69849562191ca4",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Como Pode Portugal Manter A Sua Identidade Cultural Autentica AO SE Adaptar A Procura Global DE Turismo DE Luxo E Modernidade",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/como-pode-portugal-manter-a-sua-identidade-cultural-autentica-ao-se-adaptar-a-procura-global-de-turismo-de-luxo-e-modernidade",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.154092+00:00"
+    },
+    {
+      "id": "b841c0143e44e09b93345bc2f45470af",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo Dop Uma Categoria Distinta E Regulamentada Dentro DO Turismo Enogastronomico",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-dop-uma-categoria-distinta-e-regulamentada-dentro-do-turismo-enogastronomico",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.155703+00:00"
+    },
+    {
+      "id": "79baa1857ca34f320aa01136097cfe5b",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: A Proxima Grande Aposta DO Turismo Portugues Olhe Para Oriente",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/a-proxima-grande-aposta-do-turismo-portugues-olhe-para-oriente",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.157591+00:00"
+    },
+    {
+      "id": "8877871ffb5b72416c34ce9731e1c47e",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Tribunal DE Haia Valida A Proibicao DE Publicidade Sobre Atividades Com Consumo DE Energia Fossil Transporte Aereo Cruzeiros E Automoveis Incluindo OS Hibridos",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/tribunal-de-haia-valida-a-proibicao-de-publicidade-sobre-atividades-com-consumo-de-energia-fossil-transporte-aereo-cruzeiros-e-automoveis-incluindo-os-hibridos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.158166+00:00"
+    },
+    {
+      "id": "fad7fd0f2770c764079920e5ddab199f",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Recursos Humanos NO Turismo Captacao E Retencao DE Talento",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/recursos-humanos-no-turismo-captacao-e-retencao-de-talento",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.159484+00:00"
+    },
+    {
+      "id": "777fc9cfa8d6a2905f0f3be2f3d6b736",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Wellness Tourism O Turismo DE Bem Estar E O Hidrotermalismo",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/wellness-tourism-o-turismo-de-bem-estar-e-o-hidrotermalismo",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.160044+00:00"
+    },
+    {
+      "id": "cc1513531cb79cd8af60407338cd7b8d",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Turismo EM 2025 O Futuro Pertence A Quem Conhece O Seu Hospede",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/turismo-em-2025-o-futuro-pertence-a-quem-conhece-o-seu-hospede",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.160332+00:00"
+    },
+    {
+      "id": "6a1596ccaa23d22ed50142dd35c48880",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Opinião: Preparar O Turismo Para O Futuro Estrategia Turismo 2035",
+      "summary": "",
+      "url": "https://www.publituris.pt/opiniao/preparar-o-turismo-para-o-futuro-estrategia-turismo-2035",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:27.160611+00:00"
+    },
+    {
+      "id": "8ff2b56d995ff021674f69ceba795bdd",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Emitidos primeiros certificados de origem para biometano produzido em Portugal",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/emitidos-primeiros-certificados-de-origem-para-biometano-produzido-em-portugal",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.151841+00:00"
+    },
+    {
+      "id": "58b304d376bcaba5a8b7aee861c02cc9",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Valorsul implementa inteligência artificial para aumentar eficiência na triagem de resíduos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/valorsul-implementa-inteligencia-artificial-para-aumentar-eficiencia-na-triagem-de-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.152175+00:00"
+    },
+    {
+      "id": "15cb70abc7ca6388903f92d80f45c3cb",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Central solar do Fundão vai contar com armazenamento de energia por baterias",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/central-solar-do-fundao-vai-contar-com-armazenamento-de-energia-por-baterias",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.152463+00:00"
+    },
+    {
+      "id": "d80b4a8f427a41675b2eabaea27633cf",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Autarquia de Benavente aponta falhas na Ecolezíria e constrangimentos na recolha de resíduos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/autarquia-de-benavente-aponta-falhas-na-ecoleziria-e-constrangimentos-na-recolha-de-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.152752+00:00"
+    },
+    {
+      "id": "3c43e5951aaf248fe7f79356ad1156b4",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Galp compra 17 parques eólicos em Espanha",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/galp-compra-17-parques-eolicos-em-espanha",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.153053+00:00"
+    },
+    {
+      "id": "ab356d8245c3641ab10d438193da20a5",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Ministra do Ambiente defende vigilância permanente e cogestão da bacia do Mondego",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/ministra-do-ambiente-defende-vigilancia-permanente-e-cogestao-da-bacia-do-mondego",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.153334+00:00"
+    },
+    {
+      "id": "b36f86a2471538c1d2f3ca16e3fd1ea6",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal desperdiça óleos alimentares usados que podiam gerar biocombustível, alerta ZERO",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-desperdica-oleos-alimentares-usados-que-podiam-gerar-biocombustivel-alerta-zero",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.153612+00:00"
+    },
+    {
+      "id": "d91e354102a48f7872d940dda5688f45",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Águas do Douro e Paiva investe 2,7 milhões de euros na reabilitação do Reservatório de Jovim",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/aguas-do-douro-e-paiva-investe-2-7-milhoes-de-euros-na-reabilitacao-do-reservatorio-de-jovim",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.153901+00:00"
+    },
+    {
+      "id": "2445a05cbcba5ba2f171c158a2a83dc1",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Vila Real vai imputar à Resinorte custos com envio de resíduos para aterro alternativo",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/vila-real-vai-imputar-a-resinorte-custos-com-envio-de-residuos-para-aterro-alternativo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.154211+00:00"
+    },
+    {
+      "id": "c53b7ae35cc513133eff2f1aa79fbb99",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "APA rejeita críticas e reforça responsabilidade da indústria farmacêutica na gestão de resíduos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/apa-rejeita-criticas-e-reforca-responsabilidade-da-industria-farmaceutica-na-gestao-de-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.154494+00:00"
+    },
+    {
+      "id": "395a0fdd384e79e5b9210a27d1d7b259",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "NOTÍCIAS COM LASTRO - MARÇO",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/noticias-com-lastro-marco",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.154757+00:00"
+    },
+    {
+      "id": "c0a8ae2d23333e1a8a06ee997963e871",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ADENE lança manual com medidas práticas para enfrentar crise energética",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/adene-lanca-manual-com-medidas-praticas-para-enfrentar-crise-energetica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.155046+00:00"
+    },
+    {
+      "id": "af676445e602bb1cd1a4fb317dee25c8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Projeto de central solar no Crato em consulta pública até 27 de abril",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/projeto-de-central-solar-no-crato-em-consulta-publica-ate-27-de-abril",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.155328+00:00"
+    },
+    {
+      "id": "d06c229d48bc5d1c919d0b64222b0891",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Tecnologia portuguesa chega ao Bangladesh para reduzir poluição marítima",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/tecnologia-portuguesa-chega-ao-bangladesh-para-reduzir-poluicao-maritima",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.155599+00:00"
+    },
+    {
+      "id": "d9f0ea7f0811b3d9b18e06534025b0c2",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Sintra avança com compra de 42 viaturas de recolha de resíduos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/sintra-avanca-com-compra-de-42-viaturas-de-recolha-de-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.155875+00:00"
+    },
+    {
+      "id": "9c8f3869124899dcc427062f46c3accb",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo prevê investir 174 milhões de euros no litoral até 2027 após danos provocados por tempestades",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/governo-preve-investir-174-milhoes-de-euros-no-litoral-ate-2027-apos-danos-provocados-por-tempestades",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.156186+00:00"
+    },
+    {
+      "id": "8faafb1ad6e00d83f792f749316e6438",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Ministra garante objetivo de conservação na criação da Reserva Marinha D. Carlos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/ministra-garante-objetivo-de-conservacao-na-criacao-da-reserva-marinha-d-carlos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.156465+00:00"
+    },
+    {
+      "id": "91195145e004627370b60594a768126b",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal precisa acelerar regras para atrair investimento em biometano",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-precisa-acelerar-regras-para-atrair-investimento-em-biometano",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.156736+00:00"
+    },
+    {
+      "id": "02323b0254eabe6166ce34fadd329146",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Vila Real acusa Resinorte de violar concessão após interdição do aterro",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/vila-real-acusa-resinorte-de-violar-concessao-apos-interdicao-do-aterro",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.157023+00:00"
+    },
+    {
+      "id": "3838703a575bc71249287d2439fb0c22",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Podcast: Novo regulamento tarifário para Água",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/podcast-novo-regulamento-tarifario-para-agua",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.157291+00:00"
+    },
+    {
+      "id": "859c9624a0facd87e80d4e591de870ce",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Podcast: Em plenas férias, as surpresas do Decreto-Lei 85/2025, de 24 de junho",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/podcast-em-plenas-ferias-as-surpresas-do-decreto-lei-85-2025-de-24-de-junho",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.157584+00:00"
+    },
+    {
+      "id": "ff71216d8d914bec37c72da4c1789e15",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Podcast: Medidas prioritárias para a nova equipa do Ministério do Ambiente e Energia no setor da Água",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/podcast-medidas-prioritarias-para-a-nova-equipa-do-ministerio-do-ambiente-e-energia-no-setor-da-agua",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.157872+00:00"
+    },
+    {
+      "id": "85452aaa8b1208ba164710844eef40ba",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Podcast: Prioridades para o novo Secretário de Estado do Ambiente nos resíduos",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/podcast-prioridades-para-o-novo-secretario-de-estado-do-ambiente-nos-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.158171+00:00"
+    },
+    {
+      "id": "7a253d2d07895b8281a5f01832bedf49",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Tratolixo aumenta proveitos e regista valores recorde",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/tratolixo-aumenta-proveitos-e-regista-valores-recorde",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.158441+00:00"
+    },
+    {
+      "id": "a8b1e1d622ca6f4b30d878af43eebba7",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "5 desafios da gestão da água em 2026 (e na próxima década)",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/5-desafios-da-gestao-da-agua-em-2026-e-na-proxima-decada",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.158728+00:00"
+    },
+    {
+      "id": "98e7c606c1d5b1af140031c17b1fd9ab",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Tratolixo - Reciclagem de Vidro",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/-399",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.159013+00:00"
+    },
+    {
+      "id": "54b8982c3a39551f7cc3605a6b917a51",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Company’s Day: Água para o Futuro 2025 reforça a urgência da resiliência nos setores essenciais",
+      "summary": "",
+      "url": "https://www.ambienteonline.pt/noticias/companys-day-agua-para-o-futuro-2025-reforca-a-urgencia-da-resiliencia-nos-setores-essenciais",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:30.159317+00:00"
+    },
+    {
+      "id": "647f5cbdbc7d76204b3b68113fce26ef",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "TAP Air Portugal mantém lucros pelo quarto ano consecutivo",
+      "summary": "",
+      "url": "https://www.ambitur.pt/tap-air-portugal-mantem-lucros-pelo-quarto-ano-consecutivo/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.252342+00:00"
+    },
+    {
+      "id": "1841a33b5be0ef7abe5762a8d6187e83",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Escolas de Hotelaria e Turismo abrem 1.945 vagas por todo o país",
+      "summary": "",
+      "url": "https://www.ambitur.pt/escolas-de-hotelaria-e-turismo-abrem-1-945-vagas-por-todo-o-pais/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.254898+00:00"
+    },
+    {
+      "id": "780f32d934bcb1a71214bf7df480db50",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Crescimento da capacidade aeroportuária na Europa pode atingir 60% e impulsionar turismo e investimento imobiliário",
+      "summary": "",
+      "url": "https://www.ambitur.pt/crescimento-da-capacidade-aeroportuaria-na-europa-pode-atingir-60-e-impulsionar-turismo-e-investimento-imobiliario/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.255481+00:00"
+    },
+    {
+      "id": "9aaf52bc9ff28b24999b3a22dc2de326",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Cabo Verde é destino seguro, garante Presidente do Instituto do Turismo do país",
+      "summary": "",
+      "url": "https://www.ambitur.pt/cabo-verde-e-destino-seguro-garante-presidente-do-instituto-do-turismo-do-pais/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.256335+00:00"
+    },
+    {
+      "id": "4ef70a6439cf68a7f43791cb2eeafc8a",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "IPDT: Conflitos no Médio Oriente podem levar Portugal a captar 500M€ do turismo alemão",
+      "summary": "",
+      "url": "https://www.ambitur.pt/ipdt-conflitos-no-medio-oriente-podem-levar-portugal-a-captar-500me-do-turismo-alemao/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.256926+00:00"
+    },
+    {
+      "id": "20aa9965e5bfaaee9ff179f6878bbb8a",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "KIPT CoLAB junta especialistas internacionais em Loulé para debater futuro do turismo",
+      "summary": "",
+      "url": "https://www.ambitur.pt/kipt-colab-junta-especialistas-internacionais-em-loule-para-debater-futuro-do-turismo/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.257484+00:00"
+    },
+    {
+      "id": "a794821d3c9b5ec9b488c45dcd218571",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Escola de Hotelaria e Turismo do Porto realiza edição do “Talent For You” a 15 de abril",
+      "summary": "",
+      "url": "https://www.ambitur.pt/escola-de-hotelaria-e-turismo-do-porto-realiza-edicao-do-talent-for-you-a-15-de-abril/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.257782+00:00"
+    },
+    {
+      "id": "fd670780c414262dee979182a1c0f9f3",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Abertas as candidaturas ao prémio Capitais Europeias do Turismo 2027",
+      "summary": "",
+      "url": "https://www.ambitur.pt/abertas-as-candidaturas-ao-premio-capitais-europeias-do-turismo-2027/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.258076+00:00"
+    },
+    {
+      "id": "ba57ae73e7d5557eb808a79a9af6827c",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Conferência internacional sobre turismo ferroviário acontece a 15 de abril",
+      "summary": "",
+      "url": "https://www.ambitur.pt/conferencia-internacional-sobre-turismo-ferroviario-acontece-a-15-de-abril/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.259444+00:00"
+    },
+    {
+      "id": "f66709fbbe28d49caf1d3a4239f12702",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Parceria aposta em piloto para testar risco e escalar solução no turismo",
+      "summary": "",
+      "url": "https://www.ambitur.pt/parceria-aposta-em-piloto-para-testar-risco-e-escalar-solucao-no-turismo/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.264509+00:00"
+    },
+    {
+      "id": "be0466915e0a00fa2d9d7182ded7a9c6",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "AHP: “Turismo em Portugal continuará a crescer mas com um claro abrandamento” em 2026",
+      "summary": "",
+      "url": "https://www.ambitur.pt/ahp-turismo-em-portugal-continuara-a-crescer-mas-com-um-claro-abrandamento-em-2026/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:45:34.266231+00:00"
+    },
+    {
+      "id": "4dc9beb5c192cf1727bc0f59eb44ff12",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-09",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Visita ao stand de Portugal na Exposi&#xE7;&#xE3;o Internacional de Turismo (MITE) de Macau",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:39.270319+00:00"
+    },
+    {
+      "id": "5d1ceab355a4a43e93b6318fac2a8d8c",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-14",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 39 Local: N&#xE3;o dispon&#xED;vel &nbsp; Informa&ccedil;&otilde;es. 15H00 Audi&ccedil;&atilde;o a requerimento do GP do CH e de entidades aditadas pelo GP do PSD &laquo;sobre a expans&atilde;o de 120 mil hectares de regadio prevista na estrat&eacute;gia &ldquo;&Aacute;gua que Une&rdquo;&raquo;: - Federa&ccedil;&atilde;o Nacional de Regantes de Portugal (FENAREG); - Diretor-Geral da Dire&ccedil;&atilde;o Geral de Agricultura e Desenvolvimento Rural (DGADR), Dr. Rog&eacute;rio Lima Ferreira; - Presidente do Conselho de Administra&ccedil;&atilde;o da Empresa de Desenvolvimento de Infraestruturas do Alqueva, S.A. (EDIA), Eng.&ordm; Jos&eacute; Pedro Salema. 16H30 Audi&ccedil;&atilde;o a requerimento do GP do PS &laquo;sobre o esc&acirc;ndalo das am&ecirc;ijoas contaminadas do estu&aacute;rio do Tejo&raquo; e a requerimento do GP do PSD &laquo;relativa &agrave; situa&ccedil;&atilde;o da apanha ilegal de am&ecirc;ijoa-japonesa no estu&aacute;rio do Tejo &raquo;, das seguintes entidades: - Presidente do Instituto Portugu&ecirc;s do Mar e da Atmosfera (IPMA); - Diretor-Geral da Dire&ccedil;&atilde;o-Geral de Recursos Naturais, Seguran&ccedil;a e Servi&ccedil;os Mar&iacute;timos (DGRM); - Inspetor-Geral da Autoridade de Seguran&ccedil;a Alimentar e Econ&oacute;mica (ASAE); - Diretor-Geral da Autoridade Mar&iacute;tima; (a confirmar) - Comandante-Geral da Pol&iacute;cia Mar&iacute;tima; (a confirmar) - Presidente da Docapesca - Portos e Lotas, S.A.; (a confirmar) - Diretor Regional da Conserva&ccedil;&atilde;o da Natureza e Florestas de Lisboa e Vale do Tejo. Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 509/XVII/1.&ordf; (PAN) &ndash; Prev&ecirc; a monitoriza&ccedil;&atilde;o dos pre&ccedil;os dos bens alimentares e a prote&ccedil;&atilde;o do consumidor contra condutas especulativas e il&iacute;citos concorrenciais; Relatora: Deputada Ana Martins (CH) Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 521/XVII/1.&ordf; (PAN) &ndash; Pelo fim da utiliza&ccedil;&atilde;o de ve&iacute;culos de tra&ccedil;&atilde;o animal e reconvers&atilde;o para ve&iacute;culos de tra&ccedil;&atilde;o el&eacute;trica. Relator: Deputado Firmino Ferreira (PSD) Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 522/XVII/1.&ordf; (PAN) &ndash; Adequa&ccedil;&atilde;o do sistema de identifica&ccedil;&atilde;o dos equ&iacute;deos, procedendo &agrave; altera&ccedil;&atilde;o ao Decreto&ndash;Lei n.&ordm; 123/2013, de 28 de agosto. Relatora: Deputada Irene Costa (PS) Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) - Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto relativo ao Projeto de Lei &ordm; 454/XVII/1.&ordf; (PAN) - Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos. Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 434/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a reclassifica&ccedil;&atilde;o da castanha como fruto fresco. Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 239/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo da Rep&uacute;blica a revis&atilde;o do regime jur&iacute;dico de habilita&ccedil;&atilde;o para a aplica&ccedil;&atilde;o de produtos fitofarmac&ecirc;uticos, prolongando a validade da licen&ccedil;a e estabelecendo vitaliciedade para aplicadores seniores. Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 608/XVII/1.&ordf; (CH) &ndash; Pela altera&ccedil;&atilde;o do defeso para a apanha dos perceves no Parque Natural do Sudoeste Alentejano e Costa Vicentina. Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 609/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo que agilize todos os procedimentos necess&aacute;rios para a georreferencia&ccedil;&atilde;o das explora&ccedil;&otilde;es agr&iacute;colas, pecu&aacute;rias e florestais para fins de gest&atilde;o de cat&aacute;strofes. Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 729/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo a implementa&ccedil;&atilde;o de medidas no setor da apanha da am&ecirc;ijoa japonesa. Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, por 90 dias, do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica, em conex&atilde;o com a Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias (1.&ordf; Comiss&atilde;o): Metodologia a adotar Redistribui&ccedil;&atilde;o &agrave; Comiss&atilde;o de Agricultura e Pescas e baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, sem vota&ccedil;&atilde;o, por 60 dias, do Projeto de Lei n.&ordm; 482/XVII/1.&ordf; (PAN) &ndash; Inclui a prote&ccedil;&atilde;o e o socorro de animais nas medidas de resposta a inc&ecirc;ndios rurais, procedendo &agrave; terceira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 98-A/2025, de 24 de agosto. Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator &ndash; Relat&oacute;rio intitulado &laquo; Portugal na Uni&atilde;o Europeia &ndash; 2025 &raquo;. Cabe ao GP do PSD Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)128 &ndash; Proposta alterada de DECIS&Atilde;O DO PARLAMENTO EUROPEU E DO CONSELHO relativa &agrave; equival&ecirc;ncia das inspe&ccedil;&otilde;es de campo de culturas produtoras de sementes efetuadas em pa&iacute;ses terceiros e &agrave; equival&ecirc;ncia das sementes produzidas em pa&iacute;ses terceiros (codifica&ccedil;&atilde;o); - COM(2025)1030 &ndash; Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera os Regulamentos (CE) n.&ordm;&nbsp;999/2001, (CE) n.&ordm;&nbsp;1829/2003, (CE) n.&ordm;&nbsp;1831/2003, (CE) n.&ordm;&nbsp;852/2004, (CE) n.&ordm;&nbsp;853/2004, (CE) n.&ordm;&nbsp;396/2005, (CE) n.&ordm;&nbsp;1099/2009, (CE) n.&ordm;&nbsp;1107/2009, (UE) n.&ordm;&nbsp;528/2012 e (UE) 2017/625 no que diz respeito &agrave; simplifica&ccedil;&atilde;o e ao refor&ccedil;o dos requisitos de seguran&ccedil;a dos g&eacute;neros aliment&iacute;cios e dos alimentos para animais; - COM(2026)142 &ndash; RELAT&Oacute;RIO DA COMISS&Atilde;O AO PARLAMENTO EUROPEU E AO CONSELHO sobre a aplica&ccedil;&atilde;o do artigo 29.&ordm; do Regulamento (UE) 2018/848 do Parlamento Europeu e do Conselho relativo &agrave; produ&ccedil;&atilde;o biol&oacute;gica e &agrave; rotulagem dos produtos biol&oacute;gicos, sobre a presen&ccedil;a de produtos e subst&acirc;ncias cuja utiliza&ccedil;&atilde;o n&atilde;o &eacute; autorizada na produ&ccedil;&atilde;o biol&oacute;gica nos termos do artigo 9.&ordm;, n.&ordm; 3, primeiro par&aacute;grafo, do referido Regulamento (UE) 2018/848 e sobre a avalia&ccedil;&atilde;o das regras nacionais a que se refere o artigo 29.&ordm;, n.&ordm; 5. Outros | Informa&ccedil;&otilde;es. | Audi&ccedil;&atilde;o a requerimento do GP do CH e de entidades aditadas pelo GP do PSD &laquo;sobre a expans&atilde;o de 120 mil hectares de regadio prevista na estrat&eacute;gia &ldquo;&Aacute;gua que Une&rdquo;&raquo;: - Federa&ccedil;&atilde;o Nacional de Regantes de Portugal (FENAREG); - Diretor-Geral da Dire&ccedil;&atilde;o Geral de Agricultura e Desenvolvimento Rural (DGADR), Dr. Rog&eacute;rio Lima Ferreira; - Presidente do Conselho de Administra&ccedil;&atilde;o da Empresa de Desenvolvimento de Infraestruturas do Alqueva, S.A. (EDIA), Eng.&ordm; Jos&eacute; Pedro Salema. | Audi&ccedil;&atilde;o a requerimento do GP do PS &laquo;sobre o esc&acirc;ndalo das am&ecirc;ijoas contaminadas do estu&aacute;rio do Tejo&raquo; e a requerimento do GP do PSD &laquo;relativa &agrave; situa&ccedil;&atilde;o da apanha ilegal de am&ecirc;ijoa-japonesa no estu&aacute;rio do Tejo &raquo;, das seguintes entidades: - Presidente do Instituto Portugu&ecirc;s do Mar e da Atmosfera (IPMA); - Diretor-Geral da Dire&ccedil;&atilde;o-Geral de Recursos Naturais, Seguran&ccedil;a e Servi&ccedil;os Mar&iacute;timos (DGRM); - Inspetor-Geral da Autoridade de Seguran&ccedil;a Alimentar e Econ&oacute;mica (ASAE); - Diretor-Geral da Autoridade Mar&iacute;tima; (a confirmar) - Comandante-Geral da Pol&iacute;cia Mar&iacute;tima; (a confirmar) - Presidente da Docapesca - Portos e Lotas, S.A.; (a confirmar) - Diretor Regional da Conserva&ccedil;&atilde;o da Natureza e Florestas de Lisboa e Vale do Tejo. | Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 509/XVII/1.&ordf; (PAN) &ndash; Prev&ecirc; a monitoriza&ccedil;&atilde;o dos pre&ccedil;os dos bens alimentares e a prote&ccedil;&atilde;o do consumidor contra condutas especulativas e il&iacute;citos concorrenciais; Relatora: Deputada Ana Martins (CH) | Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 521/XVII/1.&ordf; (PAN) &ndash; Pelo fim da utiliza&ccedil;&atilde;o de ve&iacute;culos de tra&ccedil;&atilde;o animal e reconvers&atilde;o para ve&iacute;culos de tra&ccedil;&atilde;o el&eacute;trica. Relator: Deputado Firmino Ferreira (PSD) | Discuss&atilde;o e vota&ccedil;&atilde;o do relat&oacute;rio relativo ao Projeto de Lei n.&ordm; 522/XVII/1.&ordf; (PAN) &ndash; Adequa&ccedil;&atilde;o do sistema de identifica&ccedil;&atilde;o dos equ&iacute;deos, procedendo &agrave; altera&ccedil;&atilde;o ao Decreto&ndash;Lei n.&ordm; 123/2013, de 28 de agosto. Relatora: Deputada Irene Costa (PS) | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto relativo ao Projeto de Resolu&ccedil;&atilde;o n.&ordm; 525/XVII/1.&ordf; (JPP) - Recomenda ao Governo da Rep&uacute;blica a ado&ccedil;&atilde;o de medidas urgentes de reposi&ccedil;&atilde;o das capacidades produtivas agr&iacute;colas e de apoio excecional aos agricultores afetados pelas tempestades ocorridas no final de janeiro de 2026. | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final do texto relativo ao Projeto de Lei &ordm; 454/XVII/1.&ordf; (PAN) - Cria um regime excecional de apoio financeiro &agrave;s entidades de prote&ccedil;&atilde;o animal afetadas pela tempestade &ldquo;Kristin&rdquo; e por outros eventos clim&aacute;ticos extremos. | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 434/XVII/1.&ordf; (IL) &ndash; Recomenda ao Governo a reclassifica&ccedil;&atilde;o da castanha como fruto fresco. | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 239/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo da Rep&uacute;blica a revis&atilde;o do regime jur&iacute;dico de habilita&ccedil;&atilde;o para a aplica&ccedil;&atilde;o de produtos fitofarmac&ecirc;uticos, prolongando a validade da licen&ccedil;a e estabelecendo vitaliciedade para aplicadores seniores. | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 608/XVII/1.&ordf; (CH) &ndash; Pela altera&ccedil;&atilde;o do defeso para a apanha dos perceves no Parque Natural do Sudoeste Alentejano e Costa Vicentina. | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 609/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo que agilize todos os procedimentos necess&aacute;rios para a georreferencia&ccedil;&atilde;o das explora&ccedil;&otilde;es agr&iacute;colas, pecu&aacute;rias e florestais para fins de gest&atilde;o de cat&aacute;strofes. | Discuss&atilde;o do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 729/XVII/1.&ordf; (CH) &ndash; Recomenda ao Governo a implementa&ccedil;&atilde;o de medidas no setor da apanha da am&ecirc;ijoa japonesa. | Baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, por 90 dias, do Projeto de Lei n.&ordm; 205/XVII/1.&ordf; (PS) &ndash; Procede &agrave; revis&atilde;o do regime da propriedade r&uacute;stica, em conex&atilde;o com a Comiss&atilde;o de Assuntos Constitucionais, Direitos, Liberdades e Garantias (1.&ordf; Comiss&atilde;o): Metodologia a adotar | Redistribui&ccedil;&atilde;o &agrave; Comiss&atilde;o de Agricultura e Pescas e baixa &agrave; comiss&atilde;o para nova aprecia&ccedil;&atilde;o na generalidade, sem vota&ccedil;&atilde;o, por 60 dias, do Projeto de Lei n.&ordm; 482/XVII/1.&ordf; (PAN) &ndash; Inclui a prote&ccedil;&atilde;o e o socorro de animais nas medidas de resposta a inc&ecirc;ndios rurais, procedendo &agrave; terceira altera&ccedil;&atilde;o ao Decreto-Lei n.&ordm; 98-A/2025, de 24 de agosto. | Distribui&ccedil;&atilde;o e nomea&ccedil;&atilde;o de relator &ndash; Relat&oacute;rio intitulado &laquo; Portugal na Uni&atilde;o Europeia &ndash; 2025 &raquo;. Cabe ao GP do PSD | Informa&ccedil;&atilde;o sobre iniciativas europeias: - COM(2026)128 &ndash; Proposta alterada de DECIS&Atilde;O DO PARLAMENTO EUROPEU E DO CONSELHO relativa &agrave; equival&ecirc;ncia das inspe&ccedil;&otilde;es de campo de culturas produtoras de sementes efetuadas em pa&iacute;ses terceiros e &agrave; equival&ecirc;ncia das sementes produzidas em pa&iacute;ses terceiros (codifica&ccedil;&atilde;o); - COM(2025)1030 &ndash; Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera os Regulamentos (CE) n.&ordm;&nbsp;999/2001, (CE) n.&ordm;&nbsp;1829/2003, (CE) n.&ordm;&nbsp;1831/2003, (CE) n.&ordm;&nbsp;852/2004, (CE) n.&ordm;&nbsp;853/2004, (CE) n.&ordm;&nbsp;396/2005, (CE) n.&ordm;&nbsp;1099/2009, (CE) n.&ordm;&nbsp;1107/2009, (UE) n.&ordm;&nbsp;528/2012 e (UE) 2017/625 no que diz respeito &agrave; simplifica&ccedil;&atilde;o e ao refor&ccedil;o dos requisitos de seguran&ccedil;a dos g&eacute;neros aliment&iacute;cios e dos alimentos para animais; - COM(2026)142 &ndash; RELAT&Oacute;RIO DA COMISS&Atilde;O AO PARLAMENTO EUROPEU E AO CONSELHO sobre a aplica&ccedil;&atilde;o do artigo 29.&ordm; do Regulamento (UE) 2018/848 do Parlamento Europeu e do Conselho relativo &agrave; produ&ccedil;&atilde;o biol&oacute;gica e &agrave; rotulagem dos produtos biol&oacute;gicos, sobre a presen&ccedil;a de produtos e subst&acirc;ncias cuja utiliza&ccedil;&atilde;o n&atilde;o &eacute; autorizada na produ&ccedil;&atilde;o biol&oacute;gica nos termos do artigo 9.&ordm;, n.&ordm; 3, primeiro par&aacute;grafo, do referido Regulamento (UE) 2018/848 e sobre a avalia&ccedil;&atilde;o das regras nacionais a que se refere o artigo 29.&ordm;, n.&ordm; 5.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "matched_keywords": [
+            "asae",
+            "rotulagem"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:39.294365+00:00"
+    },
+    {
+      "id": "1d781e39a4376e01208f1bc22c92b171",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-10",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "156/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 156/2026/1  -  Diário da República n.º 70/2026, Série I de 2026-04-10",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «L9 (P2-100)», destinada ao abastecimento público para consumo humano, localizada no concelho de Pombal.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/156-1083325918",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:06.516538+00:00"
+    },
+    {
+      "id": "cf57a80d5580fa08e63a44015dfa1317",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-10",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "157/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 157/2026/1  -  Diário da República n.º 70/2026, Série I de 2026-04-10",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção de captações de águas subterrâneas do polo de Pinhal de Negreiros, destinadas ao abastecimento público, no concelho de Setúbal, e procede à revogação das Portarias n.os 689/2008, de 22 de julho, e 670/2015, de 8 de setembro, e à revogação parcial da Portaria n.º 97/2011, de 9 de março.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/157-1083325919",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:06.517524+00:00"
+    },
+    {
+      "id": "2e4c05a6e099a258a37af2a58aa56fa5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4725/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4725/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Gabinete da Ministra do Ambiente e Energia Elaboração dos planos quinquenais de desenvolvimento e investimento das redes de distribuição de gás (PDIRD-G) ― diretrizes para elaboração das propostas a apresentar pelos operadores da rede nacional de distribuição de gás.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4725-2026-1082907072",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "distribuição de gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.288633+00:00"
+    },
+    {
+      "id": "83fd82c87332a6092816fecdb28ea762",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4730/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4730/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Autoridade Nacional da Aviação Civil Autorização de exploração de serviços aéreos regulares extra-União Europeia, na rota Porto/Rabat/Porto ― Ryanair Designated Activity Company.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4730-2026-1083044588",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "matched_keywords": [
+            "aviação civil",
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.290335+00:00"
+    },
+    {
+      "id": "3a658d648b8b16b165a5ca224fbcc101",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8182/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8182/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Município de Aljezur Conclusão do período experimental de Luis Miguel Diogo da Rosa na carreira e categoria de assistente operacional ― cantoneiro de vias/limpeza ― Divisão de Obras Municipais e Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8182-1083044622",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.295560+00:00"
+    },
+    {
+      "id": "8eb13a5d032f95c63b36f05ce135607a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8209/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8209/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Município de Oeiras Procedimento concursal comum com vista à ocupação imediata de um posto de trabalho para a carreira de assistente técnico e categoria de coordenador técnico, da área administrativa, para o Departamento de Ambiente e Qualidade de Vida (DAQV), na modalidade de contrato de trabalho em funções públicas por tempo indeterminado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8209-1083044653",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.307045+00:00"
+    },
+    {
+      "id": "fd4df655bdccaf26af3457cf18844d83",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8159/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8159/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Extinção por caducidade do contrato MN/PP/001/23 denominada «Casal da Rola».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8159-1082907073",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.314252+00:00"
+    },
+    {
+      "id": "43d60202d9cca69b4555ca14f163940b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8160/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8160/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Extinção por caducidade do contrato MN/PP/002/23 denominada «Casais do Porto».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8160-1082907074",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.314635+00:00"
+    },
+    {
+      "id": "28221f98f074f0bac8412705dd8f5d6b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8161/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8161/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Instituto da Conservação da Natureza e das Florestas, IP Abertura do período de discussão pública das propostas de atualização dos limites do Parque Natural do Douro Internacional, Parque Natural de Montesinho e Parque Natural do Alvão.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8161-1083044577",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.315063+00:00"
+    },
+    {
+      "id": "46044d9b2d6b55e89839192ce47fc8a6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8162/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8162/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Instituto da Conservação da Natureza e das Florestas, IP Abertura do período de discussão pública das propostas de atualização dos limites da Reserva Natural das Dunas de São Jacinto, Reserva Natural do Paul de Arzila e Paisagem Protegida da Serra do Açor.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8162-1083044578",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.315485+00:00"
+    },
+    {
+      "id": "756fa7523b9f3e78a67ba7c90ad8471d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8245/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8245/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Serviços Municipalizados de Água e Saneamento da Câmara Municipal de Leiria Celebração de contrato de trabalho em funções públicas por tempo indeterminado na carreira e categoria de técnico superior ― área de química.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8245-1083044895",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.326989+00:00"
+    },
+    {
+      "id": "0344d355b4cdd7a05c146e23d1e3beb7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "367/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 367/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica António Xavier Regulamento para Atribuição de Apoios ao Abrigo do Programa «Impulso Mais Digital ― Reforma e Modernização das Ciências Agrárias» do Plano de Recuperação e Resiliência 2021-2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/367-2026-1083044613",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.330627+00:00"
+    },
+    {
+      "id": "70428f1a174fb604a3a01c10a20dcf66",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Despacho (extrato)",
+      "content_kind": "act",
+      "number": "4726/2026",
+      "issuer": "",
+      "title": "Despacho (extrato) n.º 4726/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Conclusão sem sucesso do período experimental do vínculo na carreira e categoria de técnico superior ― Ana Isabel Martins dos Reis.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho-extrato/4726-2026-1083044575",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.342388+00:00"
+    },
+    {
+      "id": "cfb1a62851219a998aa3cf4f2a11be67",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Despacho (extrato)",
+      "content_kind": "act",
+      "number": "4727/2026",
+      "issuer": "",
+      "title": "Despacho (extrato) n.º 4727/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Consolidação definitiva da mobilidade na categoria do técnico superior João Carlos Sousa Lobato Forte, com efeitos a 1 de abril de 2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho-extrato/4727-2026-1083044576",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.342799+00:00"
+    },
+    {
+      "id": "71f90c7c4ab03a37904361e582cb415a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8177/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8177/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica António Xavier Procedimento concursal de recrutamento e contratação de doutorado ― referência 007/TRI-PhD/2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8177-1083044611",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.352105+00:00"
+    },
+    {
+      "id": "e406fc8c338eb53e31b5691d109c2585",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8178/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8178/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica António Xavier Procedimento concursal de recrutamento e contratação de doutorado ― referência 002/TRI-PhD/2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8178-1083044612",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.352522+00:00"
+    },
+    {
+      "id": "05690e84f71dc0ad4b671610bb2f7139",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8221/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8221/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Município de Santa Cruz das Flores Procedimento concursal comum para constituição de relação jurídica de emprego público, através da celebração de contrato de trabalho em funções públicas por tempo indeterminado, destinado ao preenchimento de dois postos de trabalho da carreira e categoria de assistente operacional, recolha resíduos, para exercer funções na Unidade Orgânica Obras, Urbanismo e Serviços Urbanos e Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8221-1083044665",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.355424+00:00"
+    },
+    {
+      "id": "9afe128b700ea141c1fa26acb6913814",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8222/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8222/2026/2  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Município de Santa Cruz das Flores Procedimento concursal comum para constituição de relação jurídica de emprego público, através da celebração de contrato de trabalho em funções públicas por tempo indeterminado, destinado ao preenchimento de dois postos de trabalho da carreira e categoria de assistente operacional, seviços gerais, para exercer funções na unidade orgânica obras, urbanismo e serviços urbanos e ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8222-1083044666",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.355898+00:00"
+    },
+    {
+      "id": "9b31ce237f1594b93fba305ad7037374",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "8998/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8998/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Serviços Municipalizados de Água e Saneamento de Sintra Prestação de Serviços de Manutenção do Licenciamento VMware de Suporte à Plataforma de Virtualização dos Datacenters dos SMAS de Sintra",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8998-1083324213",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.360743+00:00"
+    },
+    {
+      "id": "7d48f0acc20f62a558003c243005ce93",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9017/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9017/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Tejo Ambiente - Empresa Intermunicipal de Ambiente do Médio Tejo, EIM, SA Prestação de Serviços de Assistência Técnica na Área da Manutenção Preventiva e Reparação de Viaturas Pesadas de Desobstrução e Despejo de Fossas e Ligeiras de Desobstrução e Despejo de Fossas",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9017-1083324225",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.367887+00:00"
+    },
+    {
+      "id": "1b321ca590bac7175e3a552a97222530",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9018/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9018/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Tejo Ambiente - Empresa Intermunicipal de Ambiente do Médio Tejo, EIM, SA Execução de Redes e Ramais de Drenagem de Águas Residuais nos Concelhos de Ferreira do Zêzere, Mação, Ourém, Sardoal, Tomar, e Vila Nova da Barquinha e de Abastecimento de Água nos Concelhos de Ferreira do Zêzere, Mação, Sardoal, Tomar e Vila Nova da Barquinha",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9018-1083324226",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.368893+00:00"
+    },
+    {
+      "id": "ac8416a6d6575f9913d46f9d612839cf",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "8996/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 8996/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "APPACDM de Coimbra - Associação Portuguesa de Pais e Amigos do Cidadão Deficiente Mental Fornecimento de gás propano a granel",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/8996-1083325890",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "matched_keywords": [
+            "gás propano"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.374383+00:00"
+    },
+    {
+      "id": "e57fc20cc6e7f003fffc11b75fe49b54",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-10",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9023/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9023/2026  -  Diário da República n.º 70/2026, Série II de 2026-04-10",
+      "summary": "Município de Constância Empreitada de obra pública “Eficiência energética na Administração Local - Piscina”.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9023-1083325913",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-10T08:34:07.380358+00:00"
+    },
     {
       "id": "2b63f0c80ea51931e877114d2bafd472",
       "source": "parlamento-agenda",
@@ -3893,5 +5858,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 165
+  "entry_count": 246
 }
