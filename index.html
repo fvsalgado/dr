@@ -280,6 +280,10 @@ mark.kw{background:var(--kw-bg);color:var(--kw-text);border-radius:3px;padding:0
         <span class="filter-count" id="count-kind-act">0</span>
       </div>
     </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Fonte / Origem</div>
+      <div id="source-filters"></div>
+    </div>
     <div class="sidebar-footer">
       <div id="last-sync" style="font-size:11px;color:var(--text3)">A carregar…</div>
       <button class="logout-btn" onclick="doLogout()">Terminar sessão</button>
@@ -365,7 +369,7 @@ function doLogout(){sessionStorage.removeItem('pa_auth');location.reload()}
 document.getElementById('pw-input').addEventListener('keydown',e=>{if(e.key==='Enter')doLogin()});
 if(sessionStorage.getItem('pa_auth')==='1'){document.getElementById('login-screen').style.display='none';document.getElementById('app').classList.add('visible')}
 
-let allEntries=[],activeClient='all',activeDays='today',activeSeries='all',activeKind='all',selectedIds=new Set();
+let allEntries=[],activeClient='all',activeDays='today',activeSeries='all',activeKind='all',activeSource='all',selectedIds=new Set();
 
 const CLIPPING_BRAND_BY_MODE={
   weekly_ryanair:{
@@ -422,6 +426,7 @@ async function loadData(){
   try{
     const res=await fetch('data/results.json?t='+Date.now()),data=await res.json();
     allEntries=data.entries||[];
+    buildSourceFilters();
     if(data.last_updated){const d=new Date(data.last_updated);document.getElementById('last-sync').textContent='Atualizado '+d.toLocaleString('pt-PT');document.getElementById('last-updated-text').textContent='Última sincronização: '+d.toLocaleString('pt-PT')}
     updateCounts();renderEntries();
   }catch(e){document.getElementById('content').innerHTML='<div class="empty-state"><div class="empty-state-title">Sem dados disponíveis</div><p>Execute o scraper para popular os dados.</p></div>'}
@@ -467,6 +472,40 @@ function inferSeriesGroup(e){
   if(src.startsWith('dre'))return 'regulatorio';
   return 'regulatorio';
 }
+function sourceLabel(source){
+  const s=String(source||'');
+  if(s==='news-eco')return 'ECO';
+  if(s==='news-expresso')return 'Expresso';
+  if(s==='news-publituris')return 'Publituris';
+  if(s==='news-ambienteonline')return 'Ambiente Online';
+  if(s==='news-ambitur')return 'Ambitur';
+  if(s==='parlamento-agenda')return 'Parlamento Agenda';
+  if(s==='parlamento-iniciativas')return 'Parlamento Iniciativas';
+  if(s==='dre-rss')return 'DRE';
+  return s||'Desconhecida';
+}
+function setSourceFilter(s,el){
+  activeSource=s;
+  document.querySelectorAll('[data-source-filter]').forEach(p=>p.classList.remove('active'));
+  if(el)el.classList.add('active');
+  renderEntries();
+}
+function buildSourceFilters(){
+  const wrap=document.getElementById('source-filters');
+  if(!wrap)return;
+  const counts={};
+  allEntries.forEach(e=>{
+    const s=e.source||'unknown';
+    counts[s]=(counts[s]||0)+1;
+  });
+  const sources=Object.keys(counts).sort((a,b)=>sourceLabel(a).localeCompare(sourceLabel(b),'pt'));
+  let html=`<div class="filter-pill ${activeSource==='all'?'active':''}" data-source-filter="all" onclick="setSourceFilter('all',this)"><div class="filter-dot" style="background:var(--border-strong)"></div>Todas<span class="filter-count">${allEntries.length}</span></div>`;
+  sources.forEach(s=>{
+    const safe=s.replace(/"/g,'&quot;');
+    html+=`<div class="filter-pill ${activeSource===s?'active':''}" data-source-filter="${safe}" onclick="setSourceFilter('${safe}',this)"><div class="filter-dot" style="background:#94A3B8"></div>${sourceLabel(s)}<span class="filter-count">${counts[s]}</span></div>`;
+  });
+  wrap.innerHTML=html;
+}
 
 function getFilteredEntries(){
   const q=document.getElementById('search-input').value.toLowerCase().trim(),today=getTodayStr();
@@ -489,6 +528,7 @@ function getFilteredEntries(){
     }
     if(activeSeries!=='all'&&inferSeriesGroup(e)!==activeSeries)return false;
     if(activeKind!=='all'&&inferContentKind(e)!==activeKind)return false;
+    if(activeSource!=='all'&&(e.source||'')!==activeSource)return false;
     if(activeClient!=='all'&&!e.clients.some(c=>c.id===activeClient))return false;
     if(q){const h=(e.title+' '+e.summary+' '+e.issuer).toLowerCase();if(!h.includes(q))return false}
     return true;
@@ -522,6 +562,7 @@ function updateDynamicDayCounts(){
     if(dateTo&&(!d||d>dateTo))return false;
     if(activeSeries!=='all'&&inferSeriesGroup(e)!==activeSeries)return false;
     if(activeKind!=='all'&&inferContentKind(e)!==activeKind)return false;
+    if(activeSource!=='all'&&(e.source||'')!==activeSource)return false;
     if(activeClient!=='all'&&!e.clients.some(c=>c.id===activeClient))return false;
     if(q){const h=(e.title+' '+e.summary+' '+e.issuer).toLowerCase();if(!h.includes(q))return false}
     return true;
@@ -588,6 +629,7 @@ function renderCard(e){
   const sClass=isParlamento?'sp':(e.series||'').startsWith('1')?'s1':(e.series||'').startsWith('2')?'s2':'';
   const seriesLabel=isParlamento?(e.source==='parlamento-agenda'?'Agenda':'Iniciativa'):(e.series||'');
   const clientTags=e.clients.map(c=>`<span class="client-tag"><span class="client-tag-dot" style="background:${c.color}"></span>${c.name}</span>`).join('');
+  const sourceTag=`<span class="client-tag"><span class="client-tag-dot" style="background:#64748B"></span>${sourceLabel(e.source)}</span>`;
   const kwChips=kws.slice(0,8).map(k=>`<span class="kw-chip">${k}</span>`).join('');
   const sel=selectedIds.has(e.id);
   const showKind=kindLabel&&kindLabel!==seriesLabel&&kindLabel!==(e.type||'');
@@ -603,7 +645,7 @@ function renderCard(e){
       </div>
       <div class="entry-title">${e.url?`<a href="${e.url}" target="_blank" rel="noopener">${hTitle}</a>`:hTitle}</div>
       ${hSummary?`<div class="entry-summary">${hSummary}</div>`:''}
-      <div class="entry-footer">${clientTags}<span style="margin-left:4px">${kwChips}</span></div>
+      <div class="entry-footer">${sourceTag}${clientTags}<span style="margin-left:4px">${kwChips}</span></div>
     </div>
   </div>`;
 }
