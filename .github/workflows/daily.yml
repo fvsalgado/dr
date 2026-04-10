@@ -104,19 +104,35 @@ jobs:
         id: scrape
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
+          rm -f scrape.log
           if [ "$STRICT_MODE" = "true" ]; then
             python scraper/run_all.py \
               --date "${DATE_ARG}" \
               --days "$SCRAPER_DAYS" \
               --targets "$SCRAPER_TARGETS" \
-              --news-sources "$NEWS_SOURCES"
+              --news-sources "$NEWS_SOURCES" 2>&1 | tee scrape.log
           else
             python scraper/run_all.py \
               --date "${DATE_ARG}" \
               --days "$SCRAPER_DAYS" \
               --targets "$SCRAPER_TARGETS" \
               --news-sources "$NEWS_SOURCES" \
-              --allow-partial
+              --allow-partial 2>&1 | tee scrape.log
+          fi
+
+      - name: Add scraper health notes to summary
+        if: always()
+        run: |
+          if [ ! -f scrape.log ]; then
+            exit 0
+          fi
+          if grep -q "DRE API version mismatch (hasApiVersionChanged=true)" scrape.log; then
+            {
+              echo "### Scraper health notes"
+              echo "- ⚠️ DRE API returned \`hasApiVersionChanged=true\` during this run."
+              echo "- DRE scraper switched to degraded mode (skip failing API calls + RSS fallback only for today)."
+              echo "- To restore full DRE coverage, update \`DRE_VERSION_INFO_JSON\` with the latest browser network payload."
+            } >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Restore from backup if results are invalid

@@ -377,19 +377,22 @@ const CLIPPING_BRAND_BY_MODE={
   weekly_ryanair:{
     title:'Ryanair Weekly Clipping',
     textLine:'PA Monitor — Ryanair Weekly Clipping',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/240px-Ryanair_logo.svg.png',
+    logo:'https://www.google.com/s2/favicons?domain=ryanair.com&sz=128',
+    logoFallback:'https://www.google.com/s2/favicons?domain=ryanair.com&sz=128',
     logoAlt:'Ryanair'
   },
   weekly_expedia:{
     title:'Expedia Group Weekly Clipping',
     textLine:'PA Monitor — Expedia Group Weekly Clipping',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/240px-Expedia_2012_logo.svg.png',
+    logo:'https://www.google.com/s2/favicons?domain=expediagroup.com&sz=128',
+    logoFallback:'https://www.google.com/s2/favicons?domain=expediagroup.com&sz=128',
     logoAlt:'Expedia Group'
   },
   daily_dow:{
     title:'Dow Daily Clipping',
     textLine:'PA Monitor — Dow Daily Clipping',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/240px-Dow_Chemical_Company_logo.svg.png',
+    logo:'https://www.google.com/s2/favicons?domain=dow.com&sz=128',
+    logoFallback:'https://www.google.com/s2/favicons?domain=dow.com&sz=128',
     logoAlt:'Dow'
   }
 };
@@ -843,7 +846,8 @@ function openPrintableDigest(){
   if(!src.length)return;
 
   const brand=CLIPPING_BRAND_BY_MODE[clippingMode]||CLIPPING_BRAND_BY_MODE.weekly_ryanair;
-  const atreviaLogo='https://www.atrevia.com/wp-content/themes/atrevia-theme/assets/images/logo-atrevia.svg';
+  const atreviaLogo='https://www.google.com/s2/favicons?domain=atrevia.com&sz=128';
+  const atreviaLogoFallback='https://www.google.com/s2/favicons?domain=atrevia.com&sz=128';
   const dateStr=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
   const docTitle=`${brand.title} - ${dateStr}`;
   const rows=src.map((item,i)=>{
@@ -894,8 +898,8 @@ function openPrintableDigest(){
 <body>
   <main class="page">
     <header class="header">
-      <img class="logo" src="${escapeHtml(brand.logo)}" alt="${escapeHtml(brand.logoAlt)} logo">
-      <img class="logo" src="${escapeHtml(atreviaLogo)}" alt="Atrevia logo">
+      <img class="logo" src="${escapeHtml(brand.logo)}" alt="${escapeHtml(brand.logoAlt)} logo" onerror="if(this.dataset.fallbackApplied==='1')return;this.dataset.fallbackApplied='1';this.src='${escapeHtml(brand.logoFallback||'https://www.google.com/s2/favicons?domain=example.com&sz=128')}';">
+      <img class="logo" src="${escapeHtml(atreviaLogo)}" alt="Atrevia logo" onerror="if(this.dataset.fallbackApplied==='1')return;this.dataset.fallbackApplied='1';this.src='${escapeHtml(atreviaLogoFallback)}';">
     </header>
     <h1 class="title">${escapeHtml(brand.title)}</h1>
     <p class="subtitle">${escapeHtml(dateStr)} · ${src.length} topic${src.length!==1?'s':''}</p>
