@@ -1,6 +1,157 @@
 {
-  "last_updated": "2026-04-10T17:42:04.033312+00:00",
+  "last_updated": "2026-04-11T13:49:56.269120+00:00",
   "entries": [
+    {
+      "id": "8dfadce05999c1a0cb8763f5910b7cda",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "PSP suspende biometria nas partidas dos aeroportos para evitar perdas de voos",
+      "summary": "A recolha de dados biométricos nas partidas nos aeroportos de Lisboa, Porto e Faro foi suspensa esta manhã para evitar que os passageiros perdessem os seus voos devido às longas filas, segundo a PSP. “Face ao elevado tempo de espera nos aeroportos de Faro, Porto e Lisboa, ou seja, Aeroporto Gago Coutinho, Aeroporto Francisco Sá […]",
+      "url": "https://eco.sapo.pt/2026/04/11/psp-suspende-biometria-nas-partidas-dos-aeroportos-para-evitar-perdas-de-voos/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-11T13:40:20.496833+00:00",
+      "published_at": "2026-04-11T12:23:05Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-46310998-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": ""
+    },
+    {
+      "id": "5f9a1c8137a984012d28367ad238c579",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Navio turco chega à Somália para prospeção de petróleo e gás",
+      "summary": "Um navio de perfuração turco atracou esta sexta-feira no porto de Mogadíscio, a capital da Somália, para iniciar as primeiras perfurações petrolíferas ao largo deste país devastado por décadas de guerra, anunciaram as autoridades turcas e somalis. A chegada do navio ao porto foi assinalada por uma cerimónia que contou com a presença do ministro […]",
+      "url": "https://eco.sapo.pt/2026/04/10/navio-turco-chega-a-somalia-para-prospecao-de-petroleo-e-gas/",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-11T13:40:24.763585+00:00",
+      "published_at": "2026-04-10T18:40:13Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-45931474-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": ""
+    },
+    {
+      "id": "be3ec07c9d79f35835acb67b6fe3c415",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "PRR: Revisão com mais 20 milhões para armazenamento de energia e 12 milhões para gases renováveis",
+      "summary": "“Estamos a acelerar a capacidade do sistema elétrico para integrar mais energias renováveis com segurança e eficiência, garantindo resposta aos novos desafios energéticos”, referiu a ministra do Ambiente e Energia.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/prr-revisao-com-mais-20-milhoes-para-armazenamento-de-energia-e-12-milhoes-para-gases-renovaveis",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-11T13:47:48.329605+00:00",
+      "published_at": "2026-04-11T13:37:00+00:00",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-09/img_1200x676uu2025-09-16-15-21-30-509366.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negocios",
+      "article_section": ""
+    },
+    {
+      "id": "4eda725b5c4ad575da90f55e0ac098e5",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Cuidar do ambiente é cuidar das comunidades",
+      "summary": "Cuidar do ambiente é cuidar das comunidades que dele dependem. É nesse equilíbrio, entre a natureza, pessoas e compromisso, que se constrói um futuro mais sustentável e mais consciente.",
+      "url": "https://www.jornaldenegocios.pt/opiniao/detalhe/cuidar-do-ambiente-e-cuidar-das-comunidades",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-11T13:47:50.804688+00:00",
+      "published_at": "2026-04-11T13:00:00+00:00",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_394x514uu2026-04-10-17-20-22-521876.png",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negocios",
+      "article_section": ""
+    },
+    {
+      "id": "3ac8004f221e8db7ea05caf3e9050d63",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-10",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Wall Street dividida antes de negociações no Paquistão. S&P 500 tem melhor semana desde novembro",
+      "summary": "Os principais índices perderam gás perto do final da sessão num dia em que foram conhecidos novos dados da inflação. Os investidores estão expectantes quanto ao resultado das negociações entre os EUA e o Irão, e o encontro agendado para amanhã no Paquistão irá centrar atenções. Para a semana começa a época de resultados do primeiro trimestre.",
+      "url": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/wall-street-dividida-antes-de-negociacoes-no-paquistao-s-p-500-tem-melhor-semana-desde-novembro",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-11T13:48:06.035498+00:00",
+      "published_at": "2026-04-10T20:19:45+00:00",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-06/img_1200x676uu2025-06-12-20-57-48-504105.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negocios",
+      "article_section": ""
+    },
     {
       "id": "89b04f5242980aa27b370151375254d4",
       "source": "parlamento-agenda",
@@ -12248,5 +12399,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 531
+  "entry_count": 536
 }
