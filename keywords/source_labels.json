@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "sources": {
+    "dre": { "label": "DRE", "logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png" },
+    "dre-rss": { "label": "DRE", "logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png" },
+    "parlamento-agenda": {
+      "label": "Parlamento Agenda",
+      "logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png"
+    },
+    "parlamento-iniciativas": {
+      "label": "Parlamento Iniciativas",
+      "logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png"
+    },
+    "news-publituris": {
+      "label": "Publituris",
+      "logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg"
+    },
+    "news-eco": { "label": "ECO", "logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg" },
+    "news-expresso": {
+      "label": "Expresso",
+      "logo_url": "https://expresso.pt/static/img/logos/expresso.svg"
+    },
+    "news-ambienteonline": {
+      "label": "Ambiente Online",
+      "logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png"
+    },
+    "news-ambitur": {
+      "label": "Ambitur",
+      "logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png"
+    },
+    "news-observador": {
+      "label": "Observador",
+      "logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg"
+    },
+    "news-jornaldenegocios": {
+      "label": "Jornal de Negócios",
+      "logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg"
+    }
+  }
+}

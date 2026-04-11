@@ -22,6 +22,8 @@ from pathlib import Path
 log = logging.getLogger("digest")
 BASE_DIR = Path(__file__).parent.parent
 DATA_FILE = BASE_DIR / "data" / "results.json"
+sys.path.insert(0, str(BASE_DIR / "scraper"))
+from source_meta import SOURCE_META  # noqa: E402
 
 CLIENT_COLORS = {
     "ryanair": "#073590",
@@ -43,22 +45,10 @@ def load_todays_entries() -> list[dict]:
     return [e for e in data.get("entries", []) if e.get("date", "").startswith(today)]
 
 
-_SOURCE_LABELS = {
-    "dre": "DRE",
-    "dre-rss": "DRE",
-    "parlamento-agenda": "Agenda Parlamentar",
-    "parlamento-iniciativas": "Iniciativas Parlamentares",
-    "news-publituris": "Publituris",
-    "news-eco": "ECO",
-    "news-expresso": "Expresso",
-    "news-ambienteonline": "Ambiente Online",
-    "news-ambitur": "Ambitur",
-}
-
-
 def _source_label(entry: dict) -> str:
     src = entry.get("source", "")
-    label = _SOURCE_LABELS.get(src, src)
+    meta = SOURCE_META.get(src, {})
+    label = meta.get("label", src)
     series = entry.get("series", "")
     return f"{label} {series}".strip() if series else label
 
@@ -74,6 +64,16 @@ def _content_kind_label(entry: dict) -> str:
         elif src.startswith("dre"):
             kind = "act"
     return {"event": "Evento", "news": "Notícia", "act": "Ato", "initiative": "Iniciativa"}.get(kind, "")
+
+
+def _row_meta_line(entry: dict) -> str:
+    typ = (entry.get("type") or "").strip() or _content_kind_label(entry)
+    issuer = (entry.get("issuer") or "").strip()
+    sec = (entry.get("article_section") or "").strip()
+    parts = [_source_label(entry), typ, issuer]
+    if sec and sec.lower() != typ.lower():
+        parts.insert(-1, sec)
+    return " · ".join(p for p in parts if p)
 
 
 def build_html(entries: list[dict], report_date: str) -> str:
@@ -100,7 +100,7 @@ def build_html(entries: list[dict], report_date: str) -> str:
                 rows += f"""
                 <tr>
                   <td style="padding:10px 12px;border-bottom:1px solid #f0f0f0;vertical-align:top">
-                    <div style="font-size:11px;color:#888;margin-bottom:3px">{_source_label(e)} · {_content_kind_label(e) or e['type']} · {e['issuer']}</div>
+                    <div style="font-size:11px;color:#888;margin-bottom:3px">{_row_meta_line(e)}</div>
                     <a href="{e['url']}" style="color:{color};font-weight:600;font-size:13px;text-decoration:none">{e['title'] or 'Ver publicação'}</a>
                     <div style="font-size:12px;color:#555;margin-top:4px">{e['summary'][:200] + '…' if len(e.get('summary','')) > 200 else e.get('summary','')}</div>
                     <div style="margin-top:6px">{kw_pills}</div>

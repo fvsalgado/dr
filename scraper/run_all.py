@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Run scrapers sequentially. Targets share data/results.json — do not run in parallel
+without merging logic (each script read-modify-writes the same file).
+"""
 from __future__ import annotations
 
 import argparse

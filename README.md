@@ -15,20 +15,32 @@ Monitor automático de publicações do Diário da República para consultoria d
 ## Estrutura do projeto
 
 ```
-public-affairs-monitor/
-├── .github/
-│   └── workflows/
-│       └── daily.yml          # Corre de seg a sex às 07:00 UTC
+├── .github/workflows/
+│   ├── daily.yml              # Cron (dias úteis) + scrapers + commit + email
+│   └── ci.yml                 # pytest em push/PR
 ├── data/
-│   └── results.json           # Resultados acumulados (auto-gerado)
+│   ├── results.json           # Resultados acumulados (auto-gerado)
+│   └── backups/               # Snapshots por execução
 ├── email/
-│   └── digest.py              # Envio do digest diário (Mailgun)
+│   └── digest.py              # Digest diário (Mailgun)
 ├── keywords/
-│   └── clients.json           # Perfis de keywords por cliente
+│   ├── clients.json           # Keywords por cliente
+│   └── source_labels.json     # Nomes e logos por `source` (dashboard + digest)
 ├── scraper/
-│   └── dre.py                 # Scraper do Diário da República
+│   ├── dre.py                 # Diário da República
+│   ├── parlamento.py          # Agenda e iniciativas
+│   ├── news.py                # Imprensa (várias fontes news-*.py)
+│   ├── news_common.py         # HTTP, RSS, meta HTML, rubrica Opinião
+│   ├── source_meta.py         # Carrega source_labels.json
+│   └── run_all.py             # Orquestra alvo a alvo (não paralelizar: mesmo JSON)
+├── tests/                     # pytest (ver requirements.txt)
+├── server.py                  # Dev: estático + POST /api/translate
 └── index.html                 # Dashboard (GitHub Pages)
 ```
+
+**Imprensa / Opinião:** artigos cujo título contém a palavra «opinião» são classificados como rubrica Opinião (`article_section` / `type`) e podem filtrar-se na vista Imprensa no dashboard.
+
+**Testes:** `pip install -r requirements.txt` e `pytest tests/ -v`.
 
 ---
 

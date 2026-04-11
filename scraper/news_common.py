@@ -15,9 +15,49 @@ from email.utils import parsedate_to_datetime
 log = logging.getLogger("news_common")
 
 _HEADERS = {
-    "User-Agent": "PublicAffairsMonitor/1.0",
+    "User-Agent": "Mozilla/5.0 (compatible; PublicAffairsMonitor/1.1; +https://github.com)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.5",
 }
+
+# Word "opinião" in titles (Portuguese letters); mirrors JS isOpinionTitle for dashboard.
+_OPINION_TITLE_RE = re.compile(
+    r"(?<![0-9A-Za-záàãâéèêíìîóòõôúùûçñÁÀÃÂÉÈÊÍÌÎÓÒÕÔÚÙÛÇÑ])"
+    r"opinião"
+    r"(?![0-9A-Za-záàãâéèêíìîóòõôúùûçñÁÀÃÂÉÈÊÍÌÎÓÒÕÔÚÙÛÇÑ])",
+    re.IGNORECASE,
+)
+
+
+def is_opinion_title(title: str) -> bool:
+    t = (title or "").strip()
+    return bool(t and _OPINION_TITLE_RE.search(t))
+
+
+def apply_opinion_rubric(item: dict) -> dict:
+    """Set article_section and type when the headline is an opinion piece."""
+    out = dict(item)
+    if is_opinion_title(out.get("title", "")):
+        out["article_section"] = "Opinião"
+        out["type"] = "Opinião"
+    return out
+
+
+def canonical_url(url: str) -> str:
+    """Normalize URL for duplicate detection (fragment stripped, host lowercased, trailing slash on path)."""
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    raw, _frag = urllib.parse.urldefrag(raw)
+    p = urllib.parse.urlparse(raw)
+    if not p.netloc:
+        return raw
+    scheme = (p.scheme or "https").lower()
+    netloc = p.netloc.lower()
+    path = p.path or "/"
+    if len(path) > 1 and path.endswith("/"):
+        path = path.rstrip("/")
+    return urllib.parse.urlunparse((scheme, netloc, path, p.params, p.query, ""))
 
 
 def _decode_bytes(raw: bytes) -> str:
@@ -41,7 +81,7 @@ def get_html(url: str, fallback_urls: list[str] | None = None, retries: int = 2,
             except Exception as exc:
                 last_exc = exc
                 if attempt < retries:
-                    time.sleep(0.8 * (attempt + 1))
+                    time.sleep(min(6.0, 0.6 * (2**attempt)))
                     continue
                 break
     if last_exc:
@@ -168,7 +208,7 @@ def fetch_rss_xml(url: str, retries: int = 2, timeout_s: int = 35) -> str:
         except Exception as exc:
             last_exc = exc
             if attempt < retries:
-                time.sleep(0.8 * (attempt + 1))
+                time.sleep(min(6.0, 0.6 * (2**attempt)))
                 continue
             break
     if last_exc:
@@ -252,9 +292,12 @@ def fetch_rss_as_news_items(
     items: list[dict] = []
     seen: set[str] = set()
     for title, link, summary, pub_iso in rows:
-        if link in seen:
+        curl = canonical_url(link)
+        if link in seen or (curl and curl in seen):
             continue
         seen.add(link)
+        if curl:
+            seen.add(curl)
         d = pub_iso[:10] if len(pub_iso) >= 10 else date.today().isoformat()
         items.append(
             make_news_item(
@@ -290,7 +333,20 @@ def extract_article_meta(html_text: str) -> dict:
         return html.unescape(m.group(1).strip()) if m else ""
 
     image_url = _meta("og:image") or _meta("twitter:image") or _meta_content_first("og:image")
-    published_at = _meta("article:published_time") or _meta("date") or _meta("publish_date")
+    json_ld_pub = ""
+    m_ld = re.search(
+        r'"datePublished"\s*:\s*"([^"]+)"',
+        html_text,
+        re.IGNORECASE,
+    )
+    if m_ld:
+        json_ld_pub = html.unescape(m_ld.group(1).strip())
+    published_at = (
+        _meta("article:published_time")
+        or _meta("date")
+        or _meta("publish_date")
+        or json_ld_pub
+    )
     article_section = _meta("article:section")
     description = _meta("og:description") or _meta("description") or _meta_content_first("og:description")
     description = strip_html(description)[:2000] if description else ""
