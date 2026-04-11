@@ -1,4 +1,3 @@
-# PA Monitor — Diário da República
 
 Monitor automático de publicações do Diário da República para consultoria de public affairs.
 
