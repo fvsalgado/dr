@@ -10,6 +10,7 @@ import json
 import logging
 import re
 import sys
+import time
 import hashlib
 import argparse
 from datetime import datetime, timedelta, timezone
@@ -22,8 +23,11 @@ from news_ambienteonline import fetch_latest as fetch_ambienteonline
 from news_ambitur import fetch_latest as fetch_ambitur
 from news_observador import fetch_latest as fetch_observador
 from news_jornaldenegocios import fetch_latest as fetch_jornaldenegocios
-from news_common import get_html, extract_article_meta
+from news_common import apply_opinion_rubric, canonical_url, extract_article_meta, get_html
 from source_meta import source_brand
+
+NEWS_SCRAPER_VERSION = "1.1.0"
+_FETCHER_DELAY_S = 0.35
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("news_scraper")
@@ -119,7 +123,7 @@ def _enrich_news_item(item: dict) -> dict:
     brand = source_brand(source)
     article_meta: dict = {"image_url": "", "published_at": "", "article_section": "", "description": ""}
     try:
-        html_text = get_html(item["url"], retries=1, timeout_s=20)
+        html_text = get_html(item["url"], retries=2, timeout_s=25)
         article_meta = extract_article_meta(html_text)
     except Exception as exc:
         log.debug("Metadata extraction failed for %s: %s", item.get("url", ""), exc)
@@ -132,9 +136,20 @@ def _enrich_news_item(item: dict) -> dict:
     out["article_section"] = (article_meta.get("article_section") or "").strip() or out.get("article_section", "")
     meta_desc = (article_meta.get("description") or "").strip()
     summary = (out.get("summary") or "").strip() or meta_desc
-    out["summary"] = summary
-    out["full_text"] = f"{out.get('title', '')} {summary} {out.get('issuer', '')}".strip()
+    out["summary"] = summary[:2000] if summary else ""
+    out["full_text"] = f"{out.get('title', '')} {out['summary']} {out.get('issuer', '')}".strip()
+    out = apply_opinion_rubric(out)
     return out
+
+
+def _valid_news_item(item: dict) -> bool:
+    url = (item.get("url") or "").strip()
+    if not url.startswith(("http://", "https://")):
+        return False
+    title = (item.get("title") or "").strip()
+    if len(title) < 3:
+        return False
+    return True
 
 
 def _parse_item_datetime(item: dict) -> datetime | None:
@@ -172,12 +187,19 @@ def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT
     clients = load_keywords()
     existing = load_existing_results()
     existing_ids = {e["id"] for e in existing["entries"]}
+    existing_canonical_urls = {
+        canonical_url(e["url"])
+        for e in existing["entries"]
+        if e.get("url") and canonical_url(e["url"])
+    }
     all_new: list[dict] = []
     fetchers = _selected_fetchers(selected_sources)
     if not fetchers:
         raise ValueError("No valid news sources selected")
 
-    for label, source_id, fetch in fetchers:
+    for idx, (label, source_id, fetch) in enumerate(fetchers):
+        if idx > 0:
+            time.sleep(_FETCHER_DELAY_S)
         try:
             raw_items = fetch(limit=150)
         except Exception as e:
@@ -186,6 +208,8 @@ def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT
         log.info("%s: %d items", label, len(raw_items))
 
         for item in raw_items:
+            if not _valid_news_item(item):
+                continue
             item = _enrich_news_item(item)
             if not _within_max_age(item, max_age_days):
                 continue
@@ -194,7 +218,8 @@ def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT
                 continue
 
             eid = entry_id(source_id, item["source_id"])
-            if eid in existing_ids:
+            curl = canonical_url(item["url"])
+            if eid in existing_ids or (curl and curl in existing_canonical_urls):
                 continue
 
             entry = {
@@ -205,10 +230,10 @@ def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT
                 "type": item["type"],
                 "content_kind": "news",
                 "number": item.get("number", ""),
-                "issuer": item.get("issuer", ""),
-                "title": item["title"],
+                "issuer": (item.get("issuer") or "")[:500],
+                "title": item["title"].strip()[:500],
                 "summary": item.get("summary", ""),
-                "url": item["url"],
+                "url": item["url"].strip(),
                 "clients": matched,
                 "scraped_at": datetime.now(tz=timezone.utc).isoformat(),
                 "published_at": item.get("published_at", ""),
@@ -216,9 +241,12 @@ def run(selected_sources: list[str] | None = None, max_age_days: float = DEFAULT
                 "source_logo_url": item.get("source_logo_url", ""),
                 "source_label": item.get("source_label", item.get("source", "")),
                 "article_section": item.get("article_section", ""),
+                "ingest": {"scraper": "news", "version": NEWS_SCRAPER_VERSION},
             }
             all_new.append(entry)
             existing_ids.add(eid)
+            if curl:
+                existing_canonical_urls.add(curl)
 
     log.info("Found %d new relevant news entries", len(all_new))
     existing["entries"] = all_new + existing["entries"]

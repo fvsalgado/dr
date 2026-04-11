@@ -1,0 +1,3 @@
+# Runtime: Python 3.12+ stdlib only for scrapers (no install required).
+# CI / dev:
+pytest>=8.0
