@@ -1,6 +1,1016 @@
 {
-  "last_updated": "2026-04-13T08:10:16.717273+00:00",
+  "last_updated": "2026-04-13T12:09:10.884560+00:00",
   "entries": [
+    {
+      "id": "fd4955a9a7d4aacaabe0401492eaada0",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Portuguesa Cloudcomputing compra tecnológica britânica de cibersegurança com negócio nos EUA",
+      "summary": "A Cloudcomputing, empresa portuguesa especializada em identidade digital e cibersegurança, anunciou esta segunda-feira a aquisição da tecnológica britânica Innovate IT. Este negócio, cujo valor não foi divulgado, “terá um impacto de 400% na capacidade de delivery” da empresa comandada por Ricardo Martins nos mercados britânico e norte-americano. Com a compra da Innovate IT, que conta […]",
+      "url": "https://eco.sapo.pt/2026/04/13/portuguesa-cloudcomputing-compra-tecnologica-britanica-de-ciberseguranca-com-negocio-nos-eua/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:54:22.372992+00:00",
+      "published_at": "2026-04-13T10:27:00Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-ricardo-martins-ceo-cloudcomputing-foto1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ab5ad1f0c08da76b439a7b3f081e36f1",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "INE confirma aceleração da inflação para 2,7% em março",
+      "summary": "A taxa de inflação homóloga, medida pelo Índice de Preços no Consumidor (IPC), acelerou para 2,7% em março, mais 0,6 pontos percentuais do que no mês anterior, puxado pela subida dos preços da energia devido à escalada do custo do petróleo na sequência da guerra no Irão, confirmou esta segunda-feira pelo Instituto Nacional de Estatística […]",
+      "url": "https://eco.sapo.pt/2026/04/13/ine-confirma-aceleracao-da-inflacao-para-27-em-marco/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:54:22.412423+00:00",
+      "published_at": "2026-04-13T10:16:28Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/03/cropped-doc2026032046794050-aps1649-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d3638f154ead5ab875d4da1dc2ca1cda",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "TAP vende empresa de serviços de catering à suíça Gate Gourmet",
+      "summary": "A TAP adjudicou a venda dos 51% que tem na Cateringpor à Gate Gourmet, que já detém os restantes 49%, por 1,78 milhões de euros, cumprindo um dos compromissos em falta no plano de reestruturação acordado com a Comissão Europeia em 2021. A transportadora aérea lançou a 30 de dezembro um concurso público para a […]",
+      "url": "https://eco.sapo.pt/2026/04/13/tap-vende-empresa-de-servicos-de-catering-a-suica-gate-gourmet/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:54:23.119129+00:00",
+      "published_at": "2026-04-13T09:57:14Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-aeroporto39.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0d84f35840ca3e474854bbc8e183c796",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Das vassouras de \"Harry Potter\" às escovas centenárias: lojas históricas do Porto estão a reinventar-se",
+      "summary": "Lojas históricas do Porto reinventam-se e atraem turismo com produtos artesanais de qualidade. Conheça os espaços que estão a atrair novos clientes",
+      "url": "https://expresso.pt/economia/economia_turismo/2026-04-13-video-das-vassouras-de-harry-potter-as-escovas-centenarias-lojas-historicas-do-porto-estao-a-reinventar-se-0182fef3",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:54:30.840067+00:00",
+      "published_at": "2026-04-13T09:55:33.289Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-13-escovadoria.jpg-57cabdbf/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e8a82dbe84308b4d70352caed912ff5e",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Produção de uva nos Açores em 2025 bate recorde",
+      "summary": "Secretário regional da Agricultura e Alimentação, António Ventura, considera que o setor da vitivinicultura nos Açores vive um momento de \"forte dinamismo e empreendedorismo regenerativo\".",
+      "url": "https://observador.pt/2026/04/13/producao-de-uva-nos-acores-em-2025-bate-recorde-em-duas-decadas/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:38.516724+00:00",
+      "published_at": "2026-04-13T12:41:23+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A1484%3A835%3Anowe%3A58%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2025%2F10%2F20211902%2Fuvas.jpeg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f956185d2b2994367076232a463305f5",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "12h. INE: Preços subiram 2,7% no mês de março",
+      "summary": "Taxa de inflação atingiu os 2,7% e fica a 0,6 pontos percentuais acima da taxa de fevereiro. Ainda, ex-secretário de Estado Nuno Ribeiro da Silva afasta cenário de \"de escassez\" de energia.",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-12h-2299/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:39.968886+00:00",
+      "published_at": "2026-04-13T12:13:51+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/04/13113304/770-podcast-noticiario.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4d99ae65545dc9fb132f9230556cccc6",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Timor prepara orçamento retificativo após subida de preços",
+      "summary": "Para mitigar o impacto da subida de preços, está a ser esboçado um ajuste para garantir fundos para subsídios de segurança alimentar e de combustíveis, segundo a ministra das Finanças timorense.",
+      "url": "https://observador.pt/2026/04/13/governo-timorense-prepara-orcamento-retificativo-apos-subida-de-precos/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:43.954897+00:00",
+      "published_at": "2026-04-13T10:41:18+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1126%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F04%2F13094947%2F26926177.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "616abe3b5f39d0293488d8794bf4d6be",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Macau. Feira de turismo encerra com 60 acordos assinados",
+      "summary": "Evento contou com mais de 700 expositores dos mercados nacional e internacional e nove de países de língua portuguesa. 120 instituições culturais turísticas participaram na cerimónia de assinatura.",
+      "url": "https://observador.pt/2026/04/13/feira-de-turismo-de-macau-encerra-com-a-assinatura-de-60-acordos/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:45.256028+00:00",
+      "published_at": "2026-04-13T10:37:51+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A1999%3A1122%3Anowe%3A0%3A211%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F03%2F27091519%2F40176262.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "137a026e7ddd0c4681a7a9d01a3e8901",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "TAP vende posição na Cateringpor",
+      "summary": "A TAP alienou a posição que detinha na Cateringpor, no âmbito de concurso público. Esta era uma obrigação do plano de reestruturação com Bruxelas.",
+      "url": "https://observador.pt/2026/04/13/tap-vende-posicao-na-catering/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:45.963608+00:00",
+      "published_at": "2026-04-13T10:32:29+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A104%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F01%2F25143309%2F46310963.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c9f89df5c0ba367cb558813076d96c5c",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "\"Não estamos perante uma escassez energética\"",
+      "summary": "Nuno Ribeiro da Silva, antigo secretário de Estado da Energia, alerta para \"crise energética inédita\" por causa do conflito no Médio Oriente, mas afirma que há reservas de petróleo \"para três meses\".",
+      "url": "https://observador.pt/programas/comissao-de-inquerito/nuno-ribeiro-da-silva-nao-estamos-perante-uma-escassez-energetica/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:48.448835+00:00",
+      "published_at": "2026-04-13T10:31:19+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2025/11/06151954/770-podcast-comissao-de-inquerito-2025-v2.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "35bd6af2e193bc8f16c3a3b9090e70b1",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Renováveis asseguram 78,5% da eletricidade no 1.º trimestre",
+      "summary": "Entre janeiro e março registaram-se 571 horas não consecutivas em que a produção renovável foi suficiente para cobrir todo o consumo elétrico nacional, o equivalente a cerca de 23 dias completos.",
+      "url": "https://observador.pt/2026/04/13/renovaveis-asseguram-785-da-eletricidade-no-1-o-trimestre-diz-associacao-de-energias-renovaveis/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:58:51.680862+00:00",
+      "published_at": "2026-04-13T09:56:04+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A104%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2024%2F04%2F17080437%2F42367349.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0a567adec3f85ebf1c92007263c35414",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Bruxelas deverá recomendar corte de impostos na eletricidade para aliviar choque energético",
+      "summary": "Comissão Europeia prepara pacote de medidas para mitigar subida do gás e do petróleo antes da reunião de líderes europeus, na próxima semana. Propostas deverão ser temporárias, focadas na eletricidade e na promoção de tecnologias limpas, num esforço para travar preços sem agravar inflação ou défices.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/bruxelas-devera-recomendar-corte-de-impostos-na-eletricidade-para-aliviar-choque-energetico",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:59:07.128588+00:00",
+      "published_at": "2026-04-13",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-12/img_1200x676uu2025-12-17-09-12-50-514860.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "21e5b3cef19a88e407a2e33f9d752899",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "TAP conclui venda da Cateringpor",
+      "summary": "A companhia aérea deu mais um passo no processo de reestruturação. Com a venda da empresa de catering fechada, só falta a TAP vender a empresa de handling.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/tap-conclui-venda-da-cateringpor",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:59:16.438531+00:00",
+      "published_at": "2026-04-13",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-01/img_1200x676uu2026-01-02-15-37-56-515620.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0c1b7a93123165d3a01b77506ba7a1be",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Dependência energética cai, mas Portugal continua exposto a choques externos",
+      "summary": "Portugal reduziu a sua dependência energética para 64,5% em 2024, mas cerca de dois terços da energia disponível dependem ainda de importações, aponta uma análise do CFP. Com o Brent a subir mais de 30 euros em 2026, o impacto poderá traduzir-se numa deterioração da balança energética em “cerca de 1,8% do PIB”, próximo do choque de 2022.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/dependencia-energetica-cai-mas-portugal-continua-exposto-a-choques-externos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:59:18.621393+00:00",
+      "published_at": "2026-04-13",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-03/img_1200x676uu2026-03-26-12-01-20-521106.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a000afe6e1f4ca16024582a35395266e",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-13",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "158/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 158/2026/1  -  Diário da República n.º 71/2026, Série I de 2026-04-13",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas inseridas no Sistema Aquífero de Sines ― Zona Norte, localizadas no concelho de Santiago do Cacém, e revoga as Portarias n.os 119/2015, de 30 de abril, e 137/2023, de 24 de maio.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/158-1084345990",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:33.789855+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f6fada99fa4bb7da1b7702df8737b8d0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4750/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4750/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Presidência do Conselho de Ministros, Economia e Coesão Territorial e Ambiente e Energia - Gabinete do Ministro da Economia e da Coesão Territorial, Gabinete do Ministro das Infraestruturas e Habitação e Gabinete da Ministra do Ambiente e Energia Prorroga o mandato do grupo de trabalho para a melhoria da qualidade do ar nas zonas ou aglomerações com excedências aos objetivos de proteção da saúde para o dióxido de azoto.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4750-2026-1084035716",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.142605+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "45580c11ac6629acdd062826a8462fd6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8271/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8271/2026/2  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Região de Turismo do Algarve Celebração de contrato de trabalho a termo resolutivo incerto com Natacha Martins Soares.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8271-1084035770",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.163993+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "efa5ed0ea9e9135712cf2dcd4139ce35",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8272/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8272/2026/2  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Região de Turismo do Algarve Celebração de contrato individual de trabalho com Jorge Manuel Costa Bravo e Marília de Jesus Viegas Pereira.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8272-1084035771",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.164406+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "41654f34e1000846ecfd00ceb9cd7022",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "374/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 374/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Universidade de Aveiro Alteração ao Regulamento do Departamento de Ambiente e Ordenamento da Universidade de Aveiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/374-2026-1084035774",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.184714+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "25caebd1948bb97a224d31e1ccd1490a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8279/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8279/2026/2  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Universidade do Porto - Faculdade de Engenharia Procedimento concursal de âmbito internacional para a contratação de um doutorado de nível inicial no âmbito do Laboratório Associado em Engenharia Química ALiCE ― LA/P/0045/2020 ― CEFT ― Centro de Estudos de Fenómenos de Transporte.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8279-1084096490",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.204351+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d44448d1c29d5d76cb4e57e8c3f643e0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8356/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8356/2026/2  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Águas Públicas em Altitude - Serviços Intermunicipalizados, APAL-SIM Celebração de contrato de trabalho em funções públicas por tempo indeterminado e homologação da avaliação final do período experimental, concluído com sucesso, na carreira e categoria de técnico superior (ambiente) do funcionário Davide Gabriel Luís Rebelo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8356-1084096779",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.212699+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e5937871e2643d1b1088e36951d919ee",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8357/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8357/2026/2  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Águas Públicas em Altitude - Serviços Intermunicipalizados, APAL-SIM Celebração de contrato de trabalho em funções públicas por tempo indeterminado e homologação da avaliação final do período experimental, concluído com sucesso, na carreira e categoria de técnico superior (ambiente) do funcionário André Diogo de Jesus Correia.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8357-1084096780",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.213146+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "958d09f447ff1b320ea2638569956610",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9175/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9175/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Comunidade Intermunicipal do Oeste Serviços de Apoio Técnico para Gestão e Coordenação do Consórcio, Envolvimento das Partes Interessadas e Monitorização da Avaliação de Base e Criação de uma Rota Transnacional de Turismo de Surf Sustentável e Inclusivo na Região Atlântica (WP1) no Âmbito do Projeto INTERREG EAPA_0084/2024 iSURFATLANTIC",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9175-1084346003",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.218761+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cd4e5f4f0fe5855fad39cb0638f264e2",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9181/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9181/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Município do Montijo Aquisição do serviço de fornecimento de produtos alimentares e não alimentares bem como a prestação de serviços relacionados com o fornecimento de refeições escolares no Concelho do Montijo, no período compreendido entre 01 de setembro de 2026 e 31 de julho de 2028",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9181-1084346009",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "produtos alimentares"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.219962+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "164559a2f42f785d7fd5658c125e0697",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9193/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9193/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Instituto para os Comportamentos Aditivos e as Dependências, IP Aquisição de serviços de deteção e resposta de rede",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9193-1084346015",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.222106+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0f108f943f562689d87902cc24bdfbb7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9227/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9227/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Instituto de Alimentação e Mercados Agrícolas, IP R. A. CONCURSO PÚBLICO PARA A PRESTAÇÃO DE SERVIÇOS DE DEPOSIÇÃO DE GORDURA, LAMAS E CONTEÚDO RUMINAL, PRODUZIDOS PELOS MATADOUROS DE SÃO MIGUEL E FAIAL, EM UNIDADE DE TRATAMENTO DE SUBPRODUTOS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9227-1084346032",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.228489+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "518e706686a6e83d975c856189425e4b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9178/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9178/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP 26AS00007738 - Aquisição de adicional ao contrato e licenciamento Microsoft",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9178-1084666405",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.231772+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9fbcc35aa8ab678637362ad7cb7fa962",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9192/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9192/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Instituto para os Comportamentos Aditivos e as Dependências, IP Aquisição de Material informático",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9192-1084666412",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.234357+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "657e7ac3571aa576766b865ec1e9228b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9208/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9208/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Município de Sines Fornecimento de eletricidade para o Município de Sines em instalação BTN, BTE e MT",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9208-1084666420",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.237369+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d88cf3f7fb549be4d241d6c851e1b60e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9226/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9226/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Agência Portuguesa do Ambiente, IP A modelação hidrológica e hidráulica desempenha um papel fundamental na compreensão e previsão de fenómenos extremos, como as cheias, cada vez mais frequentes e intensos devido às alterações climáticas, como se observou nos eventos de dezembro de 2022. Estas ferramentas permitem simular o comportamento dos sistemas hídricos, desde a precipitação e o escoamento superficial até ao escoamento nos cursos de água, fornecendo informações cruciais para antecipar cenários de inundação em diferentes escalas espaciais e temporais.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9226-1084666429",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.240882+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ecf24ea63e2e5e137b1d1df0c6157127",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9234/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9234/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "Águas do Douro e Paiva, SA Aquisição de Sistema de Cibersegurança de Gestão e Análise de Eventos de Segurança SIEM - Security Information and Event Management",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9234-1084666433",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.242399+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b008b8feed94248faa45dbd6d5760867",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9238/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9238/2026  -  Diário da República n.º 71/2026, Série II de 2026-04-13",
+      "summary": "SIMDOURO - Saneamento do Grande Porto, SA Aquisição de Serviços de Verificação e Manutenção de Analisadores de Energia da SIMDOURO",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9238-1084666435",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T11:52:34.243127+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "fc9164a5a1e69bf2bf3de3c24c3b91be",
       "source": "news-eco",
@@ -12681,5 +13691,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 544
+  "entry_count": 576
 }
