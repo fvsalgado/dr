@@ -1,6 +1,288 @@
 {
-  "last_updated": "2026-04-11T15:45:54.516194+00:00",
+  "last_updated": "2026-04-13T08:10:16.717273+00:00",
   "entries": [
+    {
+      "id": "fc9164a5a1e69bf2bf3de3c24c3b91be",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Manuel Tarré: “A vida que eu tenho nem sequer nos meus sonhos pensei ter”",
+      "summary": "Manuel Tarré, presidente da Gelpeixe, é o 73º convidado do podcast “E Se Corre Bem?”. Cresceu a acompanhar os negócios dos pais, que durante muitos anos se dedicaram à venda de tecidos e acessórios para vestuário, mas acabou por herdar esse legado numa área completamente diferente: a indústria alimentar. “Eu cresci atrás de um balcão. […]",
+      "url": "https://eco.sapo.pt/2026/04/13/manuel-tarre-a-vida-que-eu-tenho-nem-sequer-nos-meus-sonhos-pensei-ter/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "indústria alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:52:46.356755+00:00",
+      "published_at": "2026-04-13T07:00:25Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/03/cropped-eco-podcast-e-se-corre-bem-manuel-tarre-2000px-020-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "06994e3a1744ff09550831e0d3854146",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Licenciamento do Benfica District sai até ao verão, antecipa CFO da Benfica SAD",
+      "summary": "O Benfica District é, neste momento, o projeto mais ambicioso da história do clube da Luz e, segundo Nuno Catarino, também o mais apetecível para os investidores internacionais. O responsável financeiro da Benfica SAD revela, nesta segunda parte da sua entrevista ao ECO (leia aqui a primeira parte da entrevista), que o interesse no megaprojeto […]",
+      "url": "https://eco.sapo.pt/entrevista/licenciamento-do-benfica-district-sai-ate-ao-verao-antecipa-cfo-da-benfica-sad/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:52:48.945789+00:00",
+      "published_at": "2026-04-13T05:34:06Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-eco-nuno-catarino-cfo-slb-2000px-011.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b9beb7084ffc905cf57e9080feefc48c",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "ECO Clima Intelligence de 13 a 19 de abril. Clima alivia, energia continua a mandar",
+      "summary": "A semana de 13 a 19 de abril será, do ponto de vista meteorológico, favorável à operação económica em Portugal continental. O sinal dominante é de menos chuva, mais estabilidade e temperaturas amenas, com impacto positivo na mobilidade, na logística, na construção, no turismo urbano e no consumo de proximidade. A eletricidade grossista continua em […]",
+      "url": "https://eco.sapo.pt/especiais/clima-alivia-energia-continua-a-mandar/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:52:51.422376+00:00",
+      "published_at": "2026-04-12T18:12:09Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/03/eco-clima-intelligence-2-2100x1125-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6330f566243d07590ab23e14a79cd8dc",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "“Dizem-se soberanistas, mas não querem saber das pessoas.” Como uma revolta de ambientalistas pode custar a Orbán o seu maior bastião",
+      "summary": "Na pequena vila de Mikepércs, o tema destas eleições é o ambiente. A China investiu milhões de euros em fábricas de produção de baterias elétricas, mas a população está preocupada com a poluição e com a desvalorização das suas propriedades. Os distritos eleitorais aqui à volta sempre foram fiéis a Orbán. Desta vez não há certezas",
+      "url": "https://expresso.pt/uniao-europeia/2026-04-12-dizem-se-soberanistas-mas-nao-querem-saber-das-pessoas.-como-uma-revolta-de-ambientalistas-pode-custar-a-orban-o-seu-maior-bastiao-46b7cb3e",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:53:14.011691+00:00",
+      "published_at": "2026-04-12T10:42:54.912Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-03-15-orban-magyar.jpg-2b58ac68/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "74236470558fe6767ec0c1dce0c1ab61",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "“Nos próximos quatro, cinco anos, vamos eletrificar tudo. Ter um automóvel a combustão vai ser uma raridade e um luxo, como ter um barco”",
+      "summary": "\"Num futuro muito próximo, será o carro autónomo a deixar-nos num local da cidade e ir à sua vida\". José Teixeira, responsável da BMW na BMCar, defende que o carro elétrico é o presente da mobilidade e daqui a cinco anos começaremos a sentir mudanças grandes nas cidades. Nesta conversa com Luís Costa Branco, fala sobre eletrificação, hidrogénio e mudanças culturais no setor automóvel. Oiça aqui o Mobi Boom , o podcast de mobilidade do Expresso",
+      "url": "https://expresso.pt/podcasts/mobi-boom/2026-04-12-nos-proximos-quatro-cinco-anos-vamos-eletrificar-tudo.-ter-um-automovel-a-combustao-vai-ser-uma-raridade-e-um-luxo-como-ter-um-barco-3dca3d86",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "hidrogénio"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:53:16.609924+00:00",
+      "published_at": "2026-04-12T06:01:38.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-11-jose-teixeira-responsavel-da-bmw-na-bmcar-mobi-boom-7a33b199/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ec1ea759c4e6e24213edf169fab2d920",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Saúde e Turismo puxam pelo salário médio em Portugal: cresceu 11% em seis anos (já descontando a inflação)",
+      "summary": "Remuneração média aumentou 11,1% em termos reais entre 2019 e 2025. Mas pode cair em 2026, avisam os economistas ouvidos pelo Expresso",
+      "url": "https://expresso.pt/emprego/2026-04-11-saude-e-turismo-puxam-pelo-salario-medio-em-portugal-cresceu-11-em-seis-anos--ja-descontando-a-inflacao--fd5a01b9",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:53:19.859623+00:00",
+      "published_at": "2026-04-11T18:12:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-08-pmn_1747_t-_idp.jpg-1922a56a/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "10485d7697cff94f98334f927563df12",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Carvão vendido garante futuro a famílias em Moçambique",
+      "summary": "Vender carvão na rua, que continua a ser fonte de energia doméstica para a maioria da população, é uma das atividades que alimentam a economia informal em Moçambique.",
+      "url": "https://observador.pt/2026/04/13/carvao-vendido-nas-ruas-ainda-garante-futuro-a-familias-em-mocambique-apesar-do-gas/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:56:43.151910+00:00",
+      "published_at": "2026-04-13T07:58:15+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1121%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F04%2F13050346%2F46902345.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "eba1319e46d4ed4e5abb1680165bb4ad",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Ameaças de Trump levam petróleo de volta acima dos 100 dólares. Gás dispara 17%",
+      "summary": "O fim das negociações entre EUA e Irão, sem um acordo de paz, levantam dúvidas sobre o futuro do cessar-fogo temporário.",
+      "url": "https://www.jornaldenegocios.pt/mercados/materias-primas/petroleo/detalhe/ameacas-de-trump-levam-petroleo-de-volta-acima-dos-100-dolares-por-barril",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-13T07:57:15.604517+00:00",
+      "published_at": "2026-04-12",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-08-22-27-51-521766.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
     {
       "id": "8dfadce05999c1a0cb8763f5910b7cda",
       "source": "news-eco",
@@ -12399,5 +12681,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 536
+  "entry_count": 544
 }
