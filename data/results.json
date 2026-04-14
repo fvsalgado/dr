@@ -1,6 +1,1089 @@
 {
-  "last_updated": "2026-04-13T12:09:10.884560+00:00",
+  "last_updated": "2026-04-14T08:36:15.970666+00:00",
   "entries": [
+    {
+      "id": "28a21f287d4fc64c0564404123b8d7e3",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "5 coisas que vão marcar o dia",
+      "summary": "Esta terça-feira, o Parlamento recebe a audição do CEO do Banco Português de Fomento, enquanto o Presidente da República reúne-se com a nova liderança do PS. O INE divulga dados da atividade no transporte aéreo e na construção, e o Eurostat publica estatísticas do comércio externo da zona euro. No plano internacional, António Costa encontra-se […]",
+      "url": "https://eco.sapo.pt/2026/04/14/5-coisas-que-vao-marcar-o-dia-1986/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "transporte aéreo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:21:46.436002+00:00",
+      "published_at": "2026-04-14T05:57:49Z",
+      "image_url": "https://eco.imgix.net/uploads/2018/05/cropped-5_coisas_s_-patrocinio-20.png?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cb05922bcc51ec232529be266c992e75",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Num setor de pessoas, menos carga fiscal e formação fazem a diferença. E um novo aeroporto",
+      "summary": "Num setor de pessoas para pessoas, a carga fiscal pesada e a necessidade mais formação são entraves ao crescimento, segundo as três empresárias da indústria do luxo neste painel Mulheres com ECO: Angélica Salvador, chef do restaurante In Diferente, no Porto, que acaba de ganhar uma estrela Michelin, Margarida Almeida, CEO da Amazing Evolution, e […]",
+      "url": "https://eco.sapo.pt/2026/04/14/num-setor-de-pessoas-menos-carga-fiscal-e-formacao-fazem-a-diferenca-e-um-novo-aeroporto/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:21:46.516092+00:00",
+      "published_at": "2026-04-14T05:47:10Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-mulheres-eco-avenida22.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "582452457908b12b1099c527a3a5b307",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Plataforma portuguesa para investir no futebol vai internacionalizar e dinamizar turismo dentro dos clubes",
+      "summary": "A empresa portuguesa Brands Capital Sports, que trabalha na negociação de compra e venda de clubes de futebol, está a desenvolver programas de turismo desportivo e fidelização de adeptos para que os clubes mais pequenos aumentem as suas receitas e se tornem mais atrativos para os investidores nacionais e estrangeiros. O plano, que deverá ser […]",
+      "url": "https://eco.sapo.pt/2026/04/14/plataforma-portuguesa-para-investir-no-futebol-vai-internacionalizar-e-dinamizar-turismo-dentro-dos-clubes/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:21:46.778837+00:00",
+      "published_at": "2026-04-14T05:47:06Z",
+      "image_url": "https://eco.imgix.net/uploads/2024/09/cropped-22218424.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d7124a095cada372e16741f31224d327",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Alimentação, gasóleo e roupa nova lideram aumento de preços em março",
+      "summary": "Assim que os primeiros mísseis começaram a voar sobre o Médio Oriente a 28 de fevereiro, os preços do petróleo Brent não tardaram a responder. Se em fevereiro o barril negociava perto dos 70 dólares, em março chegou a tocar nos 119,5 dólares, o valor mais elevado em mais de um ano, fechando o mês […]",
+      "url": "https://eco.sapo.pt/2026/04/14/alimentacao-gasoleo-e-roupa-nova-lideram-aumento-de-precos-em-marco/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:21:47.601227+00:00",
+      "published_at": "2026-04-14T05:42:38Z",
+      "image_url": "https://eco.imgix.net/uploads/2024/09/cropped-21940759-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6ee98f9ab1fa1a466c913b76db26705a",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Grandes consumidores de energia pedem mais apoios face a preços “insustentáveis”. Linha de crédito não torna operação “viável”",
+      "summary": "O Governo lançou recentemente uma medida para ajudar as empresas cuja atividade depende fortemente de energia. A Associação Portuguesa dos Industriais Grandes Consumidores de Energia (APIGCEE) frisa que, apesar de todas as medidas de apoio serem “bem-vindas”, uma linha de crédito não resolve as dificuldades em manter a viabilidade e rentabilidade da operação, num contexto […]",
+      "url": "https://eco.sapo.pt/2026/04/14/grandes-consumidores-de-energia-pedem-mais-apoios-face-a-precos-insustentaveis-linha-de-credito-nao-torna-operacao-viavel/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:21:48.940321+00:00",
+      "published_at": "2026-04-14T05:41:09Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-25959648-scaled-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2c6a837d47a59057e84ebebff5c175a5",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Balada da praia dos invisíveis",
+      "summary": "Entre o estudo de personagem e a criação de um ambiente próximo do thriller, “O Barqueiro” tem trunfos sólidos narrativos",
+      "url": "https://expresso.pt/revista/culturas/cinema/2026-04-13-balada-da-praia-dos-invisiveis-087d755a",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:05.662049+00:00",
+      "published_at": "2026-04-13T21:57:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-13-o-barqueiro-2_t-_idp.jpg-a28bda26/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9802e595aa112e9787de052e58440b44",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "PS aperta Governo sobre programa que monitoriza informação online",
+      "summary": "Socialistas perguntaram em conferência de imprensa se a Comissão Nacional de Proteção de Dados foi consultada antes da celebração do contrato entre a secretaria-geral do Governo e a NewsWhip Media",
+      "url": "https://expresso.pt/partidos-politicos/2026-04-13-ps-aperta-governo-sobre-programa-que-monitoriza-informacao-online-e8b68104",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:12.809632+00:00",
+      "published_at": "2026-04-13T16:15:08.832Z",
+      "image_url": "https://images.impresa.pt/expresso/2020-12-12-andremozcaldas.jpg-21a1d033/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "584b1dea6120bebdee1e9d37a445dc57",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Charme rural e vista para o Tâmega convidam a escapar até Ribeira de Pena",
+      "summary": "Conforto moderno e charme em ambiente rural. Esta é a proposta do Exclusive Pena Rio, alojamento inaugurado em fevereiro de 2025, em Ribeira de Pena. As cinco suítes, emolduradas pela paisagem, espreitam o rio Tâmega",
+      "url": "https://expresso.pt/boa-cama-boa-mesa/viagens-hoteis/hoteis/2026-04-13-charme-rural-e-vista-para-o-tamega-convidam-a-escapar-ate-ribeira-de-pena-2a554278",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:20.505650+00:00",
+      "published_at": "2026-04-13T14:35:26.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-06-exclusive-pena-rio---4-.jpg-0cd31cbb/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1db759dd7f1fece115db6375d602b7ed",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Preços dos restaurantes, alimentação e combustíveis pesam cada vez mais no bolso dos portugueses",
+      "summary": "Em março, os grandes “motores” da inflação foram precisamente as classes de bens e serviços mais relevantes nos orçamentos familiares, detalha o Instituto Nacional de Estatística",
+      "url": "https://expresso.pt/custo-vida/2026-04-13-precos-dos-restaurantes-alimentacao-e-combustiveis-pesam-cada-vez-mais-no-bolso-dos-portugueses-e6f5cc5f",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:25.018961+00:00",
+      "published_at": "2026-04-13T12:36:46.344Z",
+      "image_url": "https://images.impresa.pt/expresso/2025-07-16-foto-nuno-fox_t-_idp.jpg-50560b0c/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bef3dc47540f3b8fc4a71d90bc1b87e7",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "TAP vende Cateringpor ao grupo suíço Gate Gourmet",
+      "summary": "Gate Gourmet já era acionista da Cateringpor e foi o único candidato à compra. A venda de 51% da empresa de serviços de restauração a bordo era uma imposição do Plano de Reestruturação. O preço foi de 9,75 milhões de euros",
+      "url": "https://expresso.pt/empresas-negocios/2026-04-13-tap-vende-cateringpor-ao-grupo-suico-gate-gourmet-f30fe25e",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:25.261257+00:00",
+      "published_at": "2026-04-13T12:24:57.953Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-27-fox_aeroporto_000060.jpg-d9b3cc6c/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "be8d78914494e3ed10717b055d037a2f",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Revisão do PRR reforça em 20 milhões flexibilidade da rede elétrica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/revisao-do-prr-reforca-em-20-milhoes-flexibilidade-da-rede-eletrica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:57.322827+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fb6041b506fe4c78a4609edf7485a841",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Resialentejo lidera reciclagem pelo terceiro ano consecutivo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/resialentejo-lidera-reciclagem-pelo-terceiro-ano-consecutivo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:57.716926+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "45172e1410c0354ddea8a4c620ada6c8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Ministra do Ambiente admite incluir vidro no sistema de reembolso de embalagens",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ministra-do-ambiente-admite-incluir-vidro-no-sistema-de-reembolso-de-embalagens",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:59.159274+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7b59dd7013e03aae5c2dcabfb82e7ca8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Macroalgas podem ajudar a limpar água contaminada com corantes, revela estudo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/macroalgas-podem-ajudar-a-limpar-agua-contaminada-com-corantes-revela-estudo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:22:59.976446+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e94af2eaa0ebc8d10497e356a4f705b7",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Socialistas pedem explicações sobre projeto de volfrâmio junto à fronteira portuguesa",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/socialistas-pedem-explicacoes-sobre-projeto-de-volframio-junto-a-fronteira-portuguesa",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:23:00.511825+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f66fa8f02242d8ef687c1f00c73a7297",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Graça Carvalho pede rapidez na construção da Barragem do Pisão para não pôr financiamento em risco",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/graca-carvalho-pede-rapidez-na-construcao-da-barragem-do-pisao-para-nao-por-financiamento-em-risco",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:23:00.904694+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fc72f396adb222884ffd770d9a232539",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Veículos elétricos representam quase metade da frota adquirida nos Açores",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/veiculos-eletricos-representam-quase-metade-da-frota-adquirida-nos-acores",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:23:01.208078+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "874c5f9e2260c292d3a4b772edcf6d0a",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ZERO: poluição do ar em Portugal continua longe das metas europeias para 2030",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/zero-poluicao-do-ar-em-portugal-continua-longe-das-metas-europeias-para-2030",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:23:03.085616+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9a472590951c1c62247b67d41e60264d",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal mais protegido de falhas no abastecimento de energia, diz ministra",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-mais-protegido-de-falhas-no-abastecimento-de-energia-diz-ministra",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:23:03.512052+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7e57556491956f7a9a118c996b2b4577",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Mais de 600 mil em pobreza energética e soluções deficientes",
+      "summary": "Segundo quatro organizações, falhas nos programas de eficiência energética \"agravam frustrações das famílias\", pelo que defendem soluções como o isolamento térmico e substituição de janelas e portas.",
+      "url": "https://observador.pt/2026/04/14/mais-de-600-mil-pessoas-em-pobreza-energetica-e-com-solucoes-deficientes-alertam-organizacoes/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:25:55.162829+00:00",
+      "published_at": "2026-04-14T08:12:35+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A4000%3A2245%3Anowe%3A0%3A422%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2024%2F01%2F04192853%2Fgettyimages-141704377.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b5229cf2b83685ec0486ef294be21c73",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Homenagem às padeiras da Lapa, Sernancelhe",
+      "summary": "O autor evoca as mãos mágicas que faziam o pão da Lapa, donas de uma fama com mais de um século, como antes dele lembrou Aquilino Ribeiro várias vezes nas “Terras do Demo”.",
+      "url": "https://observador.pt/programas/a-historia-das-historias/homenagem-as-padeiras-da-lapa-sernancelhe/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "pão"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:26:08.555265+00:00",
+      "published_at": "2026-04-14T06:02:54+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2024/10/01194959/770-podcast-a-historia-das-historias.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d707eeda9aef204f7a6c3d1195c71609",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "TAP vende Cateringpor. Tem menos de três meses para se desfazer do \"handling\"",
+      "summary": "Um dos dois obstáculos à conclusão do plano de reestruturação está resolvido, ficando a faltar a venda da posição na ex-Groudforce. A TAP tem 77 dias para vender os 49,9% que tem na Menzies, através da SPdH, mas o processo não se avizinha fácil.",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/tap-vende-cateringpor-tem-menos-de-tres-meses-para-se-desfazer-do-handling",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:26:26.685823+00:00",
+      "published_at": "2026-04-14",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-03/img_1200x676uu2026-03-17-07-41-30-520413.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9556011c2fd5ce9e828484f0766096f2",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "CEO da United discute possível fusão com American. Negócio criaria maior companhia aérea do mundo",
+      "summary": "Scott Kirby, o CEO da United Airlines, apresentou a ideia a responsáveis governamentais de topo, de acordo com a Bloomberg. A United e a American estão entre as quatro maiores companhias aéreas dos EUA, controlando mais de um terço do mercado, pelo que a aprovação da regulação seria difícil.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/ceo-da-united-discute-possivel-fusao-com-american-negocio-criaria-maior-companhia-aerea-do-mundo",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:26:31.622964+00:00",
+      "published_at": "2026-04-14",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-14-00-17-05-521981.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7168285155ae8dfe228ca9dc87c4729b",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-14",
+      "type": "Resolução da Assembleia Legislativa da Região Autónoma dos Açores",
+      "content_kind": "act",
+      "number": "16/2026/A",
+      "issuer": "",
+      "title": "Resolução da Assembleia Legislativa da Região Autónoma dos Açores n.º 16/2026/A  -  Diário da República n.º 72/2026, Série I de 2026-04-14",
+      "summary": "Região Autónoma dos Açores - Assembleia Legislativa Recomenda ao Governo Regional que proceda à reposição imediata dos incentivos à ­eficiência energética e à mobilidade elétrica.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-legislativa-regiao-autonoma-acores/16-1084346073",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.145587+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3316303818682e81a7a9210515aa49aa",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4789/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4789/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Economia e Coesão Territorial e Ambiente e Energia - Gabinete do Ministro da Economia e da Coesão Territorial e Gabinete do Secretário de Estado do Ambiente Reconhece como ação de relevante interesse público a construção de acesso mecânico ao Castelo de Ourém.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4789-2026-1084805694",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.758555+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "af30bac440a00d0bddf927dafb750fd4",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8368/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8368/2026/2  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal para constituição de relação jurídica de emprego público por tempo indeterminado para dois postos de trabalho para a carreira/categoria de assistente técnico para a Unidade de Desabituação ― Centro das Taipas, do Instituto para os Comportamentos Aditivos e as Dependências, I. P.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8368-1084805727",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.771038+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b87e22055696536a9e337e2e3f861c43",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Declaração",
+      "content_kind": "act",
+      "number": "25/2026/2",
+      "issuer": "",
+      "title": "Declaração n.º 25/2026/2  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Ambiente e Energia - Gabinete do Secretário de Estado do Ambiente Reconhece o interesse ambiental da atividade e das iniciativas promovidas em 2025 pelos Amigos da Montanha ― Associação de Montanhismo de Barcelinhos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/declaracao/25-1084805745",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.778665+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "287d7a65bf41cc21a53d38e4e1874bd7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8427/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8427/2026/2  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Município do Cadaval Cessação de comissão de serviço no cargo de direção intermédia de 3.º grau, da Unidade de Serviços e Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8427-1084666123",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.809630+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "98eaeda3ca865232242d5ece78e03bb5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4840/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4840/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Município de Reguengos de Monsaraz Delegação de competências no pessoal dirigente ― chefe da Divisão de Planeamento Urbanístico, Obras e Ambiente (DPUOA).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4840-2026-1084666168",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.826668+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ced56a3a58bef7e8c482ec68ea5b1cb6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9354/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9354/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Município de Oeiras Aquisição da prestação de serviços para alojamento, refeições e pacotes turísticos, no âmbito da gestão do Programa de Turismo Sénior 2026, em regime de fornecimento continuo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9354-1085062604",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.843388+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e68ca3fdf4392fb94ca40923162b2656",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9359/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9359/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Município de Albufeira Aquisição de GPL, propano e butano",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9359-1085062610",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gpl"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.845295+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b222ff626bf325b475b92dd31a596420",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9365/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9365/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Secretaria Regional do Ambiente e Ação Climática SERVIÇOS DE VIAGENS E ALOJAMENTOS PARA O ANO DE 2026, PARA A SECRETARIA REGIONAL DO AMBIENTE E AÇÃO CLIMÁTICA",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9365-1085062614",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.846822+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "44ad0280b220b1b6c52475b9ffcb6d7f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-14",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9379/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9379/2026  -  Diário da República n.º 72/2026, Série II de 2026-04-14",
+      "summary": "Unidade Local de Saúde do Tâmega e Sousa, EPE Aquisição e instalação de três grupos geradores destinados à alimentação elétrica de emergência, incluindo o fornecimento do equipamento, a sua montagem e todos os trabalhos e serviços necessários à entrada em funcionamento em condições de segurança e conformidade com os requisitos técnicos definidos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9379-1085062621",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-14T08:19:37.849726+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "fd4955a9a7d4aacaabe0401492eaada0",
       "source": "news-eco",
@@ -13691,5 +14774,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 576
+  "entry_count": 609
 }
