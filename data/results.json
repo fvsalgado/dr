@@ -1,6 +1,3052 @@
 {
-  "last_updated": "2026-04-14T08:36:15.970666+00:00",
+  "last_updated": "2026-04-15T08:40:09.990637+00:00",
   "entries": [
+    {
+      "id": "185d50c101fcdb6c30bd5ff530852b4c",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-16",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel 10h00 - Fundação Mendes Gonçalves 10h00 - Microsoft Portugal 10h00 - Associação do Alojamento Local (ALEP) 11h00 - Associação Portuguesa de Seguradores 11h00 - Serviços Portugueses de Handling, S.A 11h30 - Pedro Sequeira 12h00 - Paulo Bento - Mergulhador Profissional - Peticionista 12h00 - Associação Sindical do Corpo Especial de Fiscalização e Controlo (ACTVS) 12h00 - Associação Nacional Táxis Unidos de Portugal (ANTUP) 14h00 - Sindicato dos Médicos Dentistas do Setor Público e Social Português (SMDSP) &nbsp;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:30:18.388582+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5a3db2f5e2474a5c40b71ceec9140c0c",
+      "source": "parlamento-iniciativas",
+      "series": "",
+      "date": "2026-04-13",
+      "type": "Projeto de Resolução",
+      "content_kind": "initiative",
+      "number": "",
+      "issuer": "[IL]",
+      "title": "Projeto de Resolução 834/XVII/1 [IL]",
+      "summary": "Correta atualização das comparticipações por alimentação escolar",
+      "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=356553",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:40:09.934066+00:00",
+      "source_label": "Parlamento Iniciativas",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a56551ef62770431d4898a3ae13ec3e9",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Hoje nas notícias: dívida pública, energia e Previdência",
+      "summary": "A Unidade Técnica de Apoio Orçamental (UTAO) alerta que a presença do país no mercado de financiamento vai ser condicionada ao longo dos próximos anos por um grande volume de reembolsos de títulos como obrigações, mas também empréstimos da União Europeia e ainda o remanescente do tempo da troika. A crise energética provocada pela guerra […]",
+      "url": "https://eco.sapo.pt/2026/04/15/hoje-nas-noticias-divida-publica-energia-e-previdencia/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:23:03.845593+00:00",
+      "published_at": "2026-04-15T07:05:16Z",
+      "image_url": "https://eco.imgix.net/uploads/2020/02/cropped-cropped-revista_nacional_partilha-1-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cb4ecd5709d49e523d6944c19a6bf7bc",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Da dívida pública à segurança alimentar: os 5 avisos e recomendações do FMI para a crise",
+      "summary": "O Fundo Monetário Internacional (FMI) cortou as previsões de crescimento económico global e reviu em alta as da inflação, admitindo mesmo que o PIB fique próximo de uma recessão mundial se a guerra do Irão se agravar. Ao mesmo tempo, a instituição deixou alertas e recomendações sobre e para o atual contexto. Nas Previsões Económicas […]",
+      "url": "https://eco.sapo.pt/2026/04/15/da-divida-publica-a-seguranca-alimentar-os-5-avisos-e-recomendacoes-do-fmi-para-a-crise/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:23:05.149239+00:00",
+      "published_at": "2026-04-15T05:38:00Z",
+      "image_url": "https://eco.imgix.net/uploads/2023/01/cropped-imf-fmi-kristalina-georgieva.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "195b50614604072329bf0cf106ec3de3",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Bruxelas prepara pacote para a energia, mas países já se chegaram à frente com apoios de €9 mil milhões",
+      "summary": "Comissão Europeia quer apoiar combustíveis e pretende ver menos impostos na eletricidade. Na próxima semana serão apresentadas várias medidas para ajudar os Estados-membros a fazer face ao aumento do custo da energia devido à crise no Médio Oriente",
+      "url": "https://expresso.pt/economia/economia_energia/2026-04-15-bruxelas-prepara-pacote-para-a-energia-mas-paises-ja-se-chegaram-a-frente-com-apoios-de-9-mil-milhoes-d8b618fb",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:23:10.412908+00:00",
+      "published_at": "2026-04-15T08:00:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-08-bombas-de-gasolina-e3e6da34/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6b35a3991e18c85926e0da12bfff5864",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "“A minha amizade mais improvável é com o Miguel Poiares Maduro. Conhecemo-nos no padel e senti uma enorme química pessoal por ele”",
+      "summary": "Mais recente convidado do Posto Emissor, Fernando Alvim falou sobre o seu Festival Termómetro, cuja 30ª edição está a decorrer, mas a conversa serpenteou facilmente para temas como o humor e a amizade, tendo o radialista e comunicador revelado no Posto Emissor que fez “por causa do padel” um amigo improvável: “Ele vem do meio político e [eu não]. Por causa do desporto a amizade começou a crescer.”",
+      "url": "https://expresso.pt/blitz/2026-04-14-a-minha-amizade-mais-improvavel-e-com-o-miguel-poiares-maduro.-conhecemo-nos-no-padel-e-senti-uma-enorme-quimica-pessoal-por-ele-8e9edb93",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:23:43.287569+00:00",
+      "published_at": "2026-04-14T18:33:34.531Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-10-_rc01853ritacarmo.jpg-23025c8b/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5007e7e800cbb19fa096f50d015ef8ac",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Hungria de Magyar mantém energia russa e rejeita “via rápida” para a Ucrânia na UE",
+      "summary": "O futuro chefe do Governo húngaro garantiu que “a bússola aponta para Ocidente, não para Oriente” e que terminou a “diplomacia de vassalagem”. Péter Magyar prometeu desmantelar o sistema de “Estado capturado” construído por Orbán, mas reconheceu a dependência energética em relação a Moscovo e moderou o apoio à adesão de Kiev ao bloco comunitário",
+      "url": "https://expresso.pt/europa/hungria/2026-04-14-hungria-de-magyar-mantem-energia-russa-e-rejeita-via-rapida-para-a-ucrania-na-ue-730a2908",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:23:50.348755+00:00",
+      "published_at": "2026-04-14T17:42:50.464Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-14-gettyimages-2270757795.jpg-067339c5/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "761d779a3e0facb444550b3cdb5442fb",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Mundo deverá consumir menos petróleo este ano: queda pode chegar a 1,5 milhões de barris por dia no segundo trimestre",
+      "summary": "A Agência Internacional de Energia espera que as entregas regulares de petróleo e gás do Médio Oriente possam ser retomadas até meados do ano. Mas se isso não acontecer o mundo deve preparar-se para um cenário de escassez e cortes no abastecimento",
+      "url": "https://expresso.pt/economia/economia_energia/2026-04-14-mundo-devera-consumir-menos-petroleo-este-ano-queda-pode-chegar-a-15-milhoes-de-barris-por-dia-no-segundo-trimestre-c71d1518",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:24:09.906523+00:00",
+      "published_at": "2026-04-14T14:58:06.706Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-13-gettyimages-2251941013.jpg-57096d1c/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1373bf52a9a770b4c093d2d2564cf941",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "A energia, as novas formas de aproveitamento e a intermitência",
+      "summary": "Os desafios são claros: assegurar segurança de abastecimento, reduzir emissões, integrar ainda mais renováveis e acomodar novas formas de consumo elétrico",
+      "url": "https://expresso.pt/opiniao/2026-04-14-a-energia-as-novas-formas-de-aproveitamento-e-a-intermitencia-513e1426",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:24:39.583764+00:00",
+      "published_at": "2026-04-14T10:50:30.100Z",
+      "image_url": "https://images.impresa.pt/expresso/2023-01-19-Hugo-Oliveira_peq.png-ecd76d11-1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "786f18105b90567d6e2eaa2307919c76",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Venezuela: cerca de 150 milhões de barris de petróleo vendidos desde captura de Maduro",
+      "summary": "Desde 3 de janeiro, os EUA venderam cerca de 150 milhões de barris de petróleo, avança o secretário da Energia dos Estados Unidos, Chris Wright",
+      "url": "https://expresso.pt/venezuela/2026-04-14-venezuela-cerca-de-150-milhoes-de-barris-de-petroleo-vendidos-desde-captura-de-maduro-bb21b6be",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:24:45.608972+00:00",
+      "published_at": "2026-04-14T10:08:20.700Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-14-secretario-da-energia-dos-estados-unidos-chris-wright-4bb171b9/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "67dc96a90595fb5dd92f8a6c5796f265",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Cinema: “O Barqueiro” encontra no Mar da Palha um Portugal dos invisíveis",
+      "summary": "Entre o estudo de personagem e a criação de um ambiente próximo do thriller, “O Barqueiro” tem trunfos sólidos narrativos",
+      "url": "https://expresso.pt/revista/culturas/cinema/2026-04-13-cinema-o-barqueiro-encontra-no-mar-da-palha-um-portugal-dos-invisiveis-087d755a",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:31.933387+00:00",
+      "published_at": "2026-04-13T21:57:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-13-o-barqueiro-2_t-_idp.jpg-a28bda26/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4c506232675c0f93b1c92f62df79c9dc",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Águas de Portugal entra na produção hidroelétrica com investimento de 20 milhões",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/aguas-de-portugal-entra-na-producao-hidroeletrica-com-investimento-de-20-milhoes",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:38.758514+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "67f421e5db08d865be6cf7f0197f5a49",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Alargamento do aterro da Braval em consulta pública até maio",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/alargamento-do-aterro-da-braval-em-consulta-publica-ate-maio",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:39.198754+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "69913495246ed6f11cdfa39d88697571",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Novo Verde supera metas de reciclagem no primeiro ano do novo sistema",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/novo-verde-supera-metas-de-reciclagem-no-primeiro-ano-do-novo-sistema",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:39.848776+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "56d7876d0bc330ff3754ccf982b36ccb",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "PCP alerta para fonte de poluição e pede reabilitação das antigas minas do Portelo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/pcp-alerta-para-fonte-de-poluicao-e-pede-reabilitacao-das-antigas-minas-do-portelo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:41.668622+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "482eb6d3939439eb3570a60b5c932db6",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Produtores de bioenergia pedem transposição urgente de diretiva europeia sobre gases renováveis",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/produtores-de-bioenergia-pedem-transposicao-urgente-de-diretiva-europeia-sobre-gases-renovaveis",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:42.066404+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1e38f647a3eeb1ee013012f25000b62e",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "APA aponta resíduos, erosão costeira e qualidade do ar como principais desafios ambientais até 2030",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/apa-aponta-residuos-erosao-costeira-e-qualidade-do-ar-como-principais-desafios-ambientais-ate-2030",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:42.515596+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "788a8e4929937efd176481876e75b731",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Presidente promulga novas regras sobre substâncias perigosas e cria áreas protegidas",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/presidente-promulga-novas-regras-sobre-substancias-perigosas-e-cria-areas-protegidas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:44.713477+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a8f1372015b63ce3d1d46f6e4743c7d0",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Eurelectric alerta para défice anual de investimento na transição energética da UE",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/eurelectric-alerta-para-defice-anual-de-investimento-na-transicao-energetica-da-ue",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:25:45.255133+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "642090d6524f453fc4d7d96c43fd3f2c",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "easyJet reforça liderança na Madeira com aumento de capacidade e nova rota para Nice",
+      "summary": "A easyJet vai reforçar a sua operação na Região Autónoma da Madeira em 2026, prevendo um aumento de 5% na capacidade anual",
+      "url": "https://www.ambitur.pt/easyjet-reforca-lideranca-na-madeira-com-aumento-de-capacidade-e-nova-rota-para-nice/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "easyjet"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:26:13.118569+00:00",
+      "published_at": "2026-04-14T11:21:53+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/easyjet-madeira-e1776165676389.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "63657aeef1abaf54d4a12a2efa38887e",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Turismo Centro de Portugal associa-se a conferência internacional sobre turismo industrial e ferroviário",
+      "summary": "A Turismo Centro de Portugal associa-se à realização da conferência internacional “Turismo Industrial e Ferroviário”",
+      "url": "https://www.ambitur.pt/turismo-centro-de-portugal-associa-se-a-conferencia-internacional-sobre-turismo-industrial-e-ferroviario/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:26:57.523603+00:00",
+      "published_at": "2026-04-14T09:43:51+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/ferrovia-centro.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "534c2486a3bbc5559f4ae29bec04fe87",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "‘Passeios no Alentejo com o Cante no ouvido’: um convite a explorar a região em cinco percursos",
+      "summary": "A Entidade Regional de Turismo do Alentejo apresenta um novo produto de promoção do território alentejano através da criação de “5 Passeios no Alentejo com o Cante no Ouvido”.",
+      "url": "https://www.ambitur.pt/passeios-no-alentejo-com-o-cante-no-ouvido-um-convite-a-explorar-a-regiao-em-cinco-percursos/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:27:34.196235+00:00",
+      "published_at": "2026-04-14T09:55:49+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/cante-alentejo.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a452428a5d91711c9309d77472370c42",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-15",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Portugal volta ao mercado de dívida e 4 outras coisas que precisa de saber para começar o dia",
+      "summary": "Por cá, o IGCP vai ao mercado de dívida para captar até 1,75 mil milhões de euros. Lá fora, a época de resultados avança a todo o gás, com a banca a fechar contas nos EUA e duas das maiores empresas europeias a revelarem os seus desempenhos trimestrais.",
+      "url": "https://www.jornaldenegocios.pt/mercados/detalhe/portugal-volta-ao-mercado-de-divida-e-4-outras-coisas-que-precisa-de-saber-para-comecar-o-dia",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:29:44.938270+00:00",
+      "published_at": "2026-04-15",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-14-18-19-00-522026.png",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b888aa7751bde2289da18c0d1fa04588",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-14",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Um corte epistemológico",
+      "summary": "Os norte-americanos escolheram o seu caminho ao eleger Trump. Os europeus, em vez de despenderem energia lamentando a opção, devem definir autonomamente o rumo que pretendem seguir.",
+      "url": "https://www.jornaldenegocios.pt/opiniao/editorial/celso-filipe/detalhe/um-corte-epistemologico",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:29:49.866860+00:00",
+      "published_at": "2026-04-14",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2022-11/img_394x514uu2022-11-08-09-49-45-439912.png",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5676a553196fbc0061e8c78dd03c1031",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "159/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 159/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Economia e Coesão Territorial Procede à primeira alteração à Portaria n.º 50/2025/1, de 20 de fevereiro, que cria e regulamenta o programa Crescer com o Turismo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/159-1085738184",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.590779+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a82cba749e8d159e3740ca22364dd6b0",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "160/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 160/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Monte Serro», destinada ao abastecimento público para consumo humano, localizada no concelho de Castro Verde.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/160-1085738185",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.591257+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9c1f8b354ad9c91b0cf71e43664b04a0",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "161/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 161/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «SO5 ― Casal da Rola», destinada ao abastecimento público para consumo humano, localizada no concelho de Pombal.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/161-1085738186",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.592148+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "75ac53be175e69974ac5aaedbfa6dc71",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "162/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 162/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Corvatos», destinada ao abastecimento público para consumo humano, localizada no concelho de Almodôvar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/162-1085738187",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.593015+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3a55c86d2b5e96b80bec9a8db81ce8c1",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "163/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 163/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Fontes Ferrenhas I», «Fontes Ferrenhas II» e «Fontes Ferrenhas III», destinadas ao abastecimento público para consumo humano, localizadas no concelho de Almodôvar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/163-1085738188",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.593884+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "24d98b715a2f24d4c519e8a83f7490a2",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "164/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 164/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Almodôvar-Poço 1», «Almodôvar-Poço 2», «Almodôvar-Poço 3» e «Almodôvar-Furo 1 (Rabaça)», destinadas ao abastecimento público para consumo humano, localizadas no concelho de Almodôvar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/164-1085738189",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.594795+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "76229fcc8e434e5e4d13f2f7a18e3035",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-15",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "165/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 165/2026/1  -  Diário da República n.º 73/2026, Série I de 2026-04-15",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Corte Zorrinho-Furo», destinada ao abastecimento público para consumo humano, localizada no concelho de Almodôvar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/165-1085738190",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:53.597036+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0862c0e489f8ce69ab45f605ac4cd082",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4849/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4849/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Defesa Nacional - Direção-Geral de Armamento e Património da Defesa Nacional Designação em regime de substituição da licenciada Ana Cristina Marques Correia para exercer o cargo de diretor de serviços de Infraestruturas, Ambiente e Ordenamento do Território.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4849-2026-1085332691",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.343308+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e4b492cda68f219985d92af236d6af79",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4850/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4850/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Defesa Nacional - Direção-Geral de Armamento e Património da Defesa Nacional Designação, em regime de substituição, do Coronel Sidónio Carneiro Dias para exercer o cargo de diretor de serviços de Património e Turismo Militar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4850-2026-1085332692",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.343759+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8d3b7faa29bc01b80a79baa21db137e5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4851/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4851/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Defesa Nacional - Direção-Geral de Armamento e Património da Defesa Nacional Designação em regime de substituição da licenciada Ana Isabel Jorge Domingos Dias Alvoeiro Romano Delgado para exercer o cargo de chefe da Divisão de Património e Turismo Militar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4851-2026-1085332693",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.344179+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "dbc5f9be35c16e586eb30874d75bb8c0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4857/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4857/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Defesa Nacional - Direção-Geral de Armamento e Património da Defesa Nacional Designação, em regime de substituição, do Tenente-Coronel Armando Carlos Morgado Venâncio para exercer o cargo de chefe da Divisão de Infraestruturas, Ambiente, Qualidade e Ordenamento do Território.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4857-2026-1085332699",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.346588+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "60be2b14333c84bac69dd06239d6dfa7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8516/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8516/2026/2  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Abertura de procedimento concursal comum para o preenchimento de dois postos de trabalho, na carreira e categoria de técnico superior, na modalidade de contrato de trabalho em funções públicas por tempo indeterminado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8516-1085332726",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.357848+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ba1c8c7c77ed1a5d33e5c234fe14128a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "101/2026",
+      "issuer": "",
+      "title": "Édito n.º 101/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 161/01/08/557 ― PC: 4503812265 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos AT ― Norte, Área Investimento Subestações, para o estabelecimento do posto de corte, a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/101-2026-1085332727",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.358360+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0b21178a975394ad47f732d52f833930",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "102/2026",
+      "issuer": "",
+      "title": "Édito n.º 102/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5425 ― PC: 4503825524 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/102-2026-1085332728",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.358872+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "48a004dbc650cd42424143a935096207",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "103/2026",
+      "issuer": "",
+      "title": "Édito n.º 103/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia PROC: 171/15.10/1014 - PC - 4503853013 - projeto apresentado pela E-REDES - Distribuição de Eletricidade, S.A., Direção Serviço aos Ativos AT - Sul, Área Investimento Redes, para a Modificação Linha mista, a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/103-2026-1085332729",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.359356+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c13917702602315dfcd95962fb89dd3a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "104/2026",
+      "issuer": "",
+      "title": "Édito n.º 104/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 171/11.7/1915 ― PC: 4503853011 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Lisboa, para a modificação da linha mista de MT, a 10 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/104-2026-1085332730",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.359876+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "476daa135f60899bf5c3903e9799cff3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "105/2026",
+      "issuer": "",
+      "title": "Édito n.º 105/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17044 ― PC: 4503847356 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha mista a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/105-2026-1085332731",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.360409+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6075fa39e1bf75c6ae570be5bd4ab3e8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "106/2026",
+      "issuer": "",
+      "title": "Édito n.º 106/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17052 ― PC: 4503847360 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/106-2026-1085332732",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.360927+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "41ec8922d467baa7b967a4be51354aeb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "107/2026",
+      "issuer": "",
+      "title": "Édito n.º 107/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17059 ― PC: 4503847362 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para estabelecimento de posto de transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/107-2026-1085332733",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.361416+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a99f06e3cc29aaf5a7337e0dfc38ce99",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "108/2026",
+      "issuer": "",
+      "title": "Édito n.º 108/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17063 ― PC: 4503847366 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos MT e BT-Sul, Área de Ativos Alentejo e Algarve, para estabelecimento de posto de transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/108-2026-1085332734",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.361916+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "fc6bbb57eeea05c353c98466bb5fa4ab",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "109/2026",
+      "issuer": "",
+      "title": "Édito n.º 109/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17064 ― PC: 4503847368 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha subterrânea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/109-2026-1085332735",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.362415+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "4bcca8fa42687f8ab51812b50b8a8765",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "110/2026",
+      "issuer": "",
+      "title": "Édito n.º 110/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo n.º 0161/1/10/666 ― PC: 4503854802 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT, Área Investimento Redes, para o estabelecimento da linha mista a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/110-2026-1085332736",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.362919+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "78a5dcd21edf96ec3a7bac14a16bf0d9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "111/2026",
+      "issuer": "",
+      "title": "Édito n.º 111/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17072 ― PC: 4503854721 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a Estabelecimento Posto de Transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/111-2026-1085332737",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.363405+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "50b639b3fbc11189428d6b7a1ba9ced0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "112/2026",
+      "issuer": "",
+      "title": "Édito n.º 112/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17073 ― PC: 4503854722 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/112-2026-1085332738",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.363909+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3b9bd33bac2a8e436bb995281b7b4cfe",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "113/2026",
+      "issuer": "",
+      "title": "Édito n.º 113/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17075 ― PC: 4503854724 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o Estabelecimento Posto de Transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/113-2026-1085332739",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.364398+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f6419428de5b1af3cb9b51f6eb367a30",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "114/2026",
+      "issuer": "",
+      "title": "Édito n.º 114/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 171/14.20/149 ― PC: 4503862337 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Tejo, para o estabelecimento da linha mista de MT, a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/114-2026-1085332740",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.364927+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "eb29fc74b7e32fc48cfe6f22d229a2d1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "115/2026",
+      "issuer": "",
+      "title": "Édito n.º 115/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo n.º 171/15.10/1016 ― PC: 4503860726 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Sul, Área Investimento Redes, para o estabelecimento da linha aérea a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/115-2026-1085332741",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.365428+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a4fc20c4d533005f6dec265c513c652e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "116/2026",
+      "issuer": "",
+      "title": "Édito n.º 116/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17074 ― PC: 4503873908 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/116-2026-1085332742",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.365947+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "566f5288aa764ca2820989b4c9ed1aed",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "117/2026",
+      "issuer": "",
+      "title": "Édito n.º 117/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 5436 ― PC: 4503894379 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/117-2026-1085332743",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.366449+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "42dfd38bdf9d030083c4997e6c63047b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "118/2026",
+      "issuer": "",
+      "title": "Édito n.º 118/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5437 ― PC: 4503894383 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento do posto de transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/118-2026-1085332744",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.366953+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "eb15aa7643858c0de2081e725c360616",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "119/2026",
+      "issuer": "",
+      "title": "Édito n.º 119/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5438 ― PC: 4503894381 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/119-2026-1085332745",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.367470+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b1c7161af2c9e81b77512a54a6204dfd",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "120/2026",
+      "issuer": "",
+      "title": "Édito n.º 120/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17050 ― PC: 4503907768 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Tejo, para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/120-2026-1085332746",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.367967+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "560dff544cfa63fd7740f713db8d65fb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "121/2026",
+      "issuer": "",
+      "title": "Édito n.º 121/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17043 ― PC: 4503907771 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/121-2026-1085332747",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.368476+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "efe428dc4d3301e08e0e124c1d8f95fb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "122/2026",
+      "issuer": "",
+      "title": "Édito n.º 122/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 17021 ― PC: 4503907766 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha mista a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/122-2026-1085332748",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.368975+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "57498cb78bec81332a4ea86e62ea36ad",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "123/2026",
+      "issuer": "",
+      "title": "Édito n.º 123/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17022 ― PC: 4503927488 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha mista a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/123-2026-1085332749",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.369482+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "edb13d13d7a3d9267d1afffa52566b51",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "124/2026",
+      "issuer": "",
+      "title": "Édito n.º 124/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17037 ― PC: 4503907773 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT-Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha subterrânea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/124-2026-1085332750",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.369976+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e4f1bfec54c93b3f599d46ef49171d27",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "125/2026",
+      "issuer": "",
+      "title": "Édito n.º 125/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17046 ― PC: 4503907775 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Área Investimentos Redes, para estabelecimento da linha mista a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/125-2026-1085332751",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.370454+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "214fa7b580ad507cba9e1dfb39a54060",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "126/2026",
+      "issuer": "",
+      "title": "Édito n.º 126/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia PROC: 161/10/09/2105 - PC - 4503912605 - projeto apresentado pela E-REDES - Distribuição de Eletricidade, S.A., Direção Serviço aos Ativos AT - Sul, Área Investimento Redes, para a Modificação Linha Aérea, a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/126-2026-1085332752",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.370949+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "739d3761a029f355bc555435d72c3c2d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "127/2026",
+      "issuer": "",
+      "title": "Édito n.º 127/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo n.º 0161/6/2/190 ― PC: 4503912618 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Norte, Área de Ativos Mondego, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/127-2026-1085332753",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.371452+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "641c4d46b4b2184c9378f698506e3eaf",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "128/2026",
+      "issuer": "",
+      "title": "Édito n.º 128/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 0161/6/2/652 ― PC: 4503912616 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Norte, Área de Ativos Mondego, para o estabelecimento do posto de transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/128-2026-1085332754",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.371969+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d6f499e57df86d5413c1593fc85a8709",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "129/2026",
+      "issuer": "",
+      "title": "Édito n.º 129/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo n.º 0161/6/11/394 ― PC: 4503912614 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Norte, Área de Ativos Mondego, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/129-2026-1085332755",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.372492+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5d59d9ce01d0304b826b01c1437d7173",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "130/2026",
+      "issuer": "",
+      "title": "Édito n.º 130/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 0161/9/1/201 ― PC: 4503912612 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S.A., Direção de Serviço aos Ativos MT e BT ― Norte, Área de Ativos Mondego, para o estabelecimento da linha aérea de MT, a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/130-2026-1085332756",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.373004+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6f2657f73a544c4fb76ef49cae85387a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "131/2026",
+      "issuer": "",
+      "title": "Édito n.º 131/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17076 ― PC: 4503920912 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Tejo, para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/131-2026-1085332757",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.373503+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f00718d925a8ff1827a30615c18f3bd5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "132/2026",
+      "issuer": "",
+      "title": "Édito n.º 132/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17077 ― PC: 4503920909 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/132-2026-1085332758",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.374016+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5ccdd94ddb79ed86a4b45f1e7d637e57",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "133/2026",
+      "issuer": "",
+      "title": "Édito n.º 133/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17078 ― PC: 4503920907 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/133-2026-1085332759",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.374568+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "32c42eb4318e9a58336b41edd347d8ad",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "134/2026",
+      "issuer": "",
+      "title": "Édito n.º 134/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: SPUB/15/09/10519 ― PC: 4503920914 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha aérea a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/134-2026-1085332760",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.375076+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6d56def72c4b64d82702db7875dea73e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "135/2026",
+      "issuer": "",
+      "title": "Édito n.º 135/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: SPUB/08/08/11389 ― PC: 4503927490 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/135-2026-1085332761",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.375590+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d31c9982ba0520354bcf4024aa486fc9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "136/2026",
+      "issuer": "",
+      "title": "Édito n.º 136/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5439 ― PC: 4503939495 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Sul, Área Investimento Redes, para a modificação linha aérea, a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/136-2026-1085332762",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.376074+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "bfd0b5b37c553442e0b265cb62b008bb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "137/2026",
+      "issuer": "",
+      "title": "Édito n.º 137/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5430 ― PC: 4503939499 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/137-2026-1085332763",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.376580+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b4087ec937986b4ee934833d3aca5a61",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "138/2026",
+      "issuer": "",
+      "title": "Édito n.º 138/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5431 ― PC: 4503939501 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento do posto de transformação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/138-2026-1085332764",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.377069+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "49c7c0efedde19395fe1914dbb3ee4f8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "139/2026",
+      "issuer": "",
+      "title": "Édito n.º 139/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5433 ― PC: 4503939491 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/139-2026-1085332765",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.377570+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9f10ca9b72fae072455172a4964d0d3d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "140/2026",
+      "issuer": "",
+      "title": "Édito n.º 140/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 5434 ― PC: 4503939493 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/140-2026-1085332766",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.378064+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "dbad6bdc29e98af975ed2e7b023b5590",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "141/2026",
+      "issuer": "",
+      "title": "Édito n.º 141/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 5440 ― PC: 4503939497 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para a modificação de linha mista a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/141-2026-1085332767",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.378565+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "46f734d2cec1b1a458909a3df621bfcb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "142/2026",
+      "issuer": "",
+      "title": "Édito n.º 142/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU/44189 ― PC: 4503956200 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos MT e BT-Norte, Área de Ativos Douro, para o estabelecimento de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/142-2026-1085332768",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.379051+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c2f22800c90042d270081dba51b10b0d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "143/2026",
+      "issuer": "",
+      "title": "Édito n.º 143/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 16975 ― PC: 4503956197 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Sul, Área Investimento Redes, para a modificação de linha aérea a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/143-2026-1085332769",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.379546+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "4ad232e01b8289d4988c8e379afd9e21",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "144/2026",
+      "issuer": "",
+      "title": "Édito n.º 144/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU 17080 ― PC: 4503956202 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Sul, Área Investimento Subestações, para o estabelecimento da subestação, a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/144-2026-1085332770",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.380029+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "581a55bf6b99c73096f8f01580ac3f31",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "145/2026",
+      "issuer": "",
+      "title": "Édito n.º 145/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU 17079 ― PC: 4503956729 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento da linha aérea de MT, a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/145-2026-1085332771",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.380540+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "158ba92ac45cfdc809319ff3993ac39f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "146/2026",
+      "issuer": "",
+      "title": "Édito n.º 146/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo EPU n.º 5441 ― PC: 4503956032 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Norte, Área de Ativos Alentejo e Algarve, para a modificação de linha aérea a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/146-2026-1085332772",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.381034+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "1b1b884a7147d42af8a6d3c510f9677a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "147/2026",
+      "issuer": "",
+      "title": "Édito n.º 147/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 171/15.10/1015 ― PC: 4503956826 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos AT ― Sul, Área Investimento Redes, para o estabelecimento da linha aérea a 60 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/147-2026-1085332773",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.381540+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "451fd6f6d02f4e08688cbd8fe6007019",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "148/2026",
+      "issuer": "",
+      "title": "Édito n.º 148/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 171/14.11/236 ― PC: 4503956830 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção de Serviço aos Ativos MT e BT ― Sul, Área de Ativos Tejo, para a modificação da linha subterrânea 10 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/148-2026-1085332774",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.382037+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0d948eb92d2159b415c263cf67b03a75",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "149/2026",
+      "issuer": "",
+      "title": "Édito n.º 149/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: 171/11.9/1080 ― PC: 4503956832 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Lisboa, para o estabelecimento da linha mista de MT a 10 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/149-2026-1085332975",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.382597+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3e614bc065c2c2cafdc5e1352deb8188",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "385/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 385/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Universidade de Aveiro Alteração ao Regulamento do Departamento de Química da Universidade de Aveiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/385-2026-1085333007",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.395322+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2369da0c77ae3118ff5c73a2c3f8f7e6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4892/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4892/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Universidade do Minho - Escola de Engenharia Avocação de competência para a presidência do júri das provas de doutoramento em Engenharia Química e Biológica requeridas pela mestre Joana Sofia Gomes Dias no Prof. António Vicente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4892-2026-1085333033",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.405528+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "06e94077f5e931b174ca7a7a2b3f9363",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4893/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4893/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Universidade do Minho - Reitoria Extinção do doutoramento em Química (Despacho RT/C-13/2023).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4893-2026-1085333034",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.405913+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c0d8610b88284ca266bcdf54642afc34",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8560/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8560/2026/2  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Município de Lisboa Homologação da lista unitária de ordenação final respeitante ao procedimento concursal comum para técnico superior (engenharia do ambiente).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8560-1085333279",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.424034+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c70bb74c07bf554c9068b93d09b4bcf3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8585/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8585/2026/2  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Comunidade Intermunicipal da Região de Coimbra Recrutamento de técnico/a superior para a Unidade de Desenvolvimento Económico ― Turismo e Cultura.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8585-1085333306",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.434289+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5851968bc51bd0f0362518bc2e1b8048",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9511/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9511/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Vitrus Ambiente, EM, SA Locação de Escavadora Hidráulica de Rastos, com opção de compra",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9511-1085333360",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.438152+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cdc0c35d9c8be103e7f497b060d7aa68",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9501/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9501/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "BRAVAL - Valorização e Tratamento de Resíduos Sólidos, SA Fornecimento de Energia Elétrica em Média Tensão (MT) e Baixa Tensão Especial (BTE)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9501-1085638488",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.441642+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "1d9b9830624b57952c6031d2a86798d7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9549/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9549/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Secretaria Regional do Ambiente e Ação Climática PRESTAÇÃO DE SERVIÇOS DE HIGIENE E LIMPEZA DAS INSTALAÇÕES DOS CENTROS AMBIENTAIS, ILHAS DO FAIAL, SÃO JORGE, TERCEIRA E SÃO MIGUEL",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9549-1085638518",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.451048+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a0b806dd4be91dc395e56ed9a7f43fff",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9565/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9565/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "EEM - Empresa de Electricidade da Madeira, SA Fornecimento e Montagem de Cinco Transformadores de Ppotência de AT/MT, para a Rede de Transporte de Energia Elétrica da EEM na Ilha da Madeira.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9565-1085638526",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.454206+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b199b761716dc93eb34bfb088690b3ab",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9536/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9536/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Unidade Local de Saúde de Braga, EPE Aquisição de Pinças de Energia Bipolar Avançada",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9536-1085738202",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.459941+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5b384788307a4387c9a2ecb4cf11f293",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9544/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9544/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Autoridade Tributária e Aduaneira 17/CP/AT/2026_Aquisição do licenciamento do software SPLUNK (renovação).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9544-1085738206",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.461477+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "657e8c469bf9d5c64d773086c356db97",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-15",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9564/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9564/2026  -  Diário da República n.º 73/2026, Série II de 2026-04-15",
+      "summary": "Associação Turismo do Algarve Serviços de Agência de Comunicação no Reino Unido",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9564-1085738216",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-15T08:20:54.465257+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "28a21f287d4fc64c0564404123b8d7e3",
       "source": "news-eco",
@@ -14774,5 +17820,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 609
+  "entry_count": 706
 }
