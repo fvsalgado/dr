@@ -1,6 +1,1003 @@
 {
-  "last_updated": "2026-04-15T08:40:09.990637+00:00",
+  "last_updated": "2026-04-16T08:37:14.196748+00:00",
   "entries": [
+    {
+      "id": "5c5c808bd228b825e5b6c5ea8f6b5ba1",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo admite cerca de 4 mil milhões de euros para reforçar rede elétrica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-admite-cerca-de-4-mil-milhoes-de-euros-para-reforcar-rede-eletrica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:24:22.656950+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2c08d922ae72ad17aef2d66f66980f5a",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Graça Carvalho: Portugal tem sistema elétrico mais protegido do que Espanha",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/graca-carvalho-portugal-tem-sistema-eletrico-mais-protegido-do-que-espanha",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:24:25.094723+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f7128f93dffa07328928149d6df66a38",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal não recebeu aviso prévio antes do apagão de abril de 2025, afirma ministra do Ambiente",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-nao-recebeu-aviso-previo-antes-do-apagao-de-abril-de-2025-afirma-ministra-do-ambiente",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:24:25.466825+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "70b7dbe6455c2b46ef6456521b6e9022",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ERSAR mantém limites de água não faturada para cálculo da taxa de recursos hídricos em 2026",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ersar-mantem-limites-de-agua-nao-faturada-para-calculo-da-taxa-de-recursos-hidricos-em-2026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:24:28.138002+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "393742f681c20a2bbc7e09cba5b2339f",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Verdelago renova certificação internacional e reforça aposta no turismo sustentável",
+      "summary": "O Verdelago Resort renovou a certificação internacional Green Globe, consolidando o seu posicionamento como uma das principais referências.",
+      "url": "https://www.ambitur.pt/verdelago-renova-certificacao-internacional-e-reforca-aposta-no-turismo-sustentavel/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:24:50.230256+00:00",
+      "published_at": "2026-04-15T10:00:25+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/verdelago.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8464f7a7dfbb6ad6f4c57c3dffae7a75",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "WTTC: Turismo bate recordes em 2025 e afirma-se como o setor que mais cresce na economia global",
+      "summary": "O setor das viagens e turismo registou em 2025 o melhor ano de sempre, consolidando-se como o segmento económico",
+      "url": "https://www.ambitur.pt/wttc-turismo-bate-recordes-em-2025-e-afirma-se-como-o-setor-que-mais-cresce-na-economia-global/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:25:30.822821+00:00",
+      "published_at": "2026-04-15T10:10:05+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2023/04/turismo-wttc.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f52e25c1e05da65fb6b0614fa18ba650",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "HEA 2026 abrem candidaturas para distinguir excelência no ensino do turismo",
+      "summary": "Os Hospitality Education Awards já deram início ao processo de recomendações e candidaturas para a edição de 2026",
+      "url": "https://www.ambitur.pt/hea-2026-abrem-candidaturas-para-distinguir-excelencia-no-ensino-do-turismo/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:25:45.810032+00:00",
+      "published_at": "2026-04-15T09:11:15+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/HEA2026.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b72a7fb6d74e3a575ce31eb7976e488d",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Deixou de ser possível saber quem financia partidos e campanhas políticas",
+      "summary": "Alteração acontece depois de alguns partidos terem invocado o Regulamento Geral de Proteção de Dados para se recusarem a enviar a lista de doadores. ECFP vai continuar a poder identificar internamente os doadores dos partidos, mas deixa de permitir o acesso a terceiros.",
+      "url": "https://www.jornaldenegocios.pt/economia/politica/detalhe/deixou-de-ser-possivel-saber-quem-financia-partidos-e-campanhas-politicas",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:28:47.642208+00:00",
+      "published_at": "2026-04-16",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2021-05/img_1200x676uu2021-05-23-13-29-16-403919.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fb7d2308a5dc3c4c05db07df7c4da692",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Bruxelas quer teletrabalho obrigatório para enfrentar a crise energética",
+      "summary": "Guerra entre os EUA e o Irão está a passar uma fatura pesada aos países europeus, com a escalada dos preços da energia. Comissão Europeia prepara pacote de medidas para mitigar a subida das matérias-primas, mas também para reduzir os consumos.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/bruxelas-quer-teletrabalho-obrigatorio-para-enfrentar-a-crise-energetica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:28:55.601754+00:00",
+      "published_at": "2026-04-16",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2024-04/img_1200x676uu2024-04-17-19-24-13-475412.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f21dd1ff92e73872cb771c70e409703a",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "167/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 167/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Trabalho, Solidariedade e Segurança Social Portaria de extensão das alterações do contrato coletivo entre a Associação Nacional de Revendedores de Energia, Combustíveis, Estações de Serviço, Estacionamentos e Lavagens Automóveis - ANAREC e a FEPCES - Federação Portuguesa dos Sindicatos do Comércio, Escritórios e Serviços e outros.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/167-1086140540",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.347998+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2c3e3998a980828de27695132c4ca654",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "168/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 168/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo Vacariça», destinada ao abastecimento público para consumo humano, localizada no concelho de Ponte de Lima.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/168-1086140541",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.348483+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "529a9563c41912892aa76ffce5adfe35",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "169/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 169/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo Avelar - Cabreiro», destinada ao abastecimento público para consumo humano, localizada no concelho de Arcos de Valdevez.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/169-1086140542",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.349348+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "da30ea264041a3cda80dd92ac73141c3",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "170/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 170/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo JFF-Torre da Gadanha (Herdade da Torre) (458/96)» destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/170-1086140543",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.350218+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c0b1b67ef2980edca2848f04438e666c",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "171/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 171/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Poço PFT1-São Cristóvão (Herdade do Freixo) (458/87)» e «Furo TCN3-São Cristóvão (Herdade da Misericórdia) (469/67)», destinadas ao abastecimento público para consumo humano, localizadas no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/171-1086140544",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.351144+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ddf08aad4a3aae5efa42828391a9e2bc",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "172/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 172/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Poço PFT1 - São Brissos (459/226)», destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/172-1086140545",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.352564+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "aac21dd26b841cd297aed000103d1d1a",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "173/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 173/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Poço-Casa Branca (Poço da CP) (469/68)», destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/173-1086140546",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.353462+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "add481e54fe08e03c7b6ad2e8362f2e1",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "174/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 174/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas do polo de captação de Silveiras, destinadas ao abastecimento público para consumo humano, localizadas no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/174-1086140547",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.354300+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8286ad4712bd30c87584ae932adf8483",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "175/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 175/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas do polo de captação da Cabrela, destinadas ao abastecimento público para consumo humano, localizadas no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/175-1086140548",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.356337+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "7fa81855fb125ac6883c48fd1a1ffce3",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "176/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 176/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo ABL6-Biscaia (458/94)», destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/176-1086140549",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.358771+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "46c88bfb1e5cebc1ad80260aee07b634",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "177/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 177/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo FT2-Baldios (457/45)», destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/177-1086140550",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.359610+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "48a7f1329462a4f164f90699011621a5",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "178/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 178/2026/1  -  Diário da República n.º 74/2026, Série I de 2026-04-16",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Furo S. Mamede», destinada ao abastecimento público para consumo humano, localizada no concelho de Ponte de Lima.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/178-1086140551",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.360435+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f413d013c0af811646b98eadef7ae735",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "4908/2026",
+      "issuer": "",
+      "title": "Despacho n.º 4908/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Presidência do Conselho de Ministros - Instituto Nacional de Estatística, IP Renovação da comissão de serviço da diretora do Núcleo de Estatísticas do Ambiente do INE, I. P.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/4908-2026-1085990815",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.840102+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "66c5e1b6ebd38d7ad06cad7749205658",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "212/2026/2",
+      "issuer": "",
+      "title": "Portaria n.º 212/2026/2  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Finanças e Economia e Coesão Territorial - Gabinete do Secretário de Estado Adjunto e do Orçamento e Gabinete do Secretário de Estado do Turismo, Comércio e Serviços Procede à primeira alteração à Portaria n.º 13/2025/2, de 6 de janeiro, que autoriza o Turismo de Portugal, I. P., a assumir os encargos para aquisição de serviços de assessoria mediática e desenvolvimento de ações de relações públicas nos mercados internacionais do Espaço Económico Europeu.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/212-1085990822",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.844276+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f30a1ebfdbe4ba530ba907db858ece7f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8611/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8611/2026/2  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Universidade de Coimbra Nomeação de Bernardo Carvalho Torres de Sousa, em regime de substituição, para cargo de direção intermédia de 2.º grau, chefe de divisão da Divisão de Manutenção, Ambiente e Segurança.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8611-1086129772",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.901538+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "1a42e9fb79088deae686624eb1727b43",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8616/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8616/2026/2  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica António Xavier Concurso para recrutamento externo de um professor catedrático, na área de Química, subárea de Química Organometálica, com ênfase em Catálise e Desenvolvimento de Metalofármacos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8616-1086129986",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.906958+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "aaac5931bfe909cca2edddc780e8326a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "8617/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 8617/2026/2  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica António Xavier Concurso para recrutamento externo de um professor catedrático, na área de Bioquímica, subárea de Biocatálise, com ênfase em Engenharia de Enzimas e Enzimologia Molecular.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/8617-1086129987",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.907397+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b9a8c578f72a0ab6bd1a99a1d0870115",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9669/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9669/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Empresa Municipal de Ambiente do Porto, EM, SA Fornecimento Contínuo de Detergente para Lavagem de vias urbanas com ação de controlo biológico, no Âmbito da Limpeza do Espaço Público no Município do Porto",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9669-1085738246",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.937223+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f70383e75557f988498a2d50714832dc",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9719/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9719/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Associação Turismo do Algarve Aquisição de serviços Agência de Comunicação e Assessoria Mediática na Alemanha",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9719-1086140570",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.947354+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e4833690c397a10c1e7c6fffafbce928",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9725/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9725/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Secretaria Regional de Turismo, Ambiente e Cultura Iluminações Decorativas das Festas de Natal e de Fim do Ano 2026/2027 e 2027/2028 - 6 Lotes",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9725-1086140573",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.948496+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d004e6a89c54d08dc699e42933f0324b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9702/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9702/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "AGERE- Empresa de Águas Efluentes e Resíduos de Braga, EM Fornecimento de energia elétrica MT/BTE/BTN em regime indexado para a AGERE-EM em 2026",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9702-1086177393",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.956249+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "937eb8cbc692e3c1a235702ba195f495",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9704/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9704/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "Universidade Nova de Lisboa Fornecimento Contínuo de Géneros Alimentícios e Bebidas, para as várias Unidades Alimentares dos Serviços de Ação Social da Universidade NOVA de Lisboa (SASNOVA)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9704-1086177394",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "géneros alimentícios"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.956682+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0efb7fc27383b684be89e2a9e220048c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-16",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "9710/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 9710/2026  -  Diário da República n.º 74/2026, Série II de 2026-04-16",
+      "summary": "AINTAR - Associação de Municípios para o Sistema Intermunicipal de Águas Residuais Fornecimento de Energia Elétrica para as instalações alimentadas em Média Tensão (MT), Baixa Tensão Especial (BTE) e Baixa Tensão Normal (BTN)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/9710-1086177397",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T08:21:14.957913+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "185d50c101fcdb6c30bd5ff530852b4c",
       "source": "parlamento-agenda",
@@ -17820,5 +18817,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 706
+  "entry_count": 738
 }
