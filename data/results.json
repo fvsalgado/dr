@@ -1,6 +1,339 @@
 {
-  "last_updated": "2026-04-16T08:37:14.196748+00:00",
+  "last_updated": "2026-04-16T11:15:33.313719+00:00",
   "entries": [
+    {
+      "id": "db5cc435ec01bb8a8f8bb180d704c1ed",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-16",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:06:28.042128+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "dd0c3dc4d9ee3c160a43f1eed5c61285",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-16",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:06:28.057028+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8342fbc503d9d793e59e33dbfee3b2e3",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Ciberataque expõe contratos e dados da Navigator na dark web",
+      "summary": "A Navigator foi alvo de um ataque informático em março e viu parte dos seus dados e documentos irem parar à darkweb, avança o Expresso. A ação terá sido conduzida pelo grupo de cibercrime Safepay, conhecido por realizar ataques de ransomware — um tipo de software malicioso que bloqueia o acesso a sistemas ou ficheiros, […]",
+      "url": "https://eco.sapo.pt/2026/04/16/ciberataque-expoe-contratos-e-dados-da-navigator-na-dark-web/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "ciberataque"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T10:55:25.600930+00:00",
+      "published_at": "2026-04-16T10:31:31Z",
+      "image_url": "https://eco.imgix.net/uploads/2022/05/cropped-navigator_pessoas-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "551111d1d838b2d675d3c64f80e09343",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "easyJet mantém ocupação elevada, mas antecipa prejuízo significativo",
+      "summary": "A easyJet antecipa um prejuízo antes de impostos entre 540 e 560 milhões de libras (cerca de 630 e 655 milhões de euros)",
+      "url": "https://www.ambitur.pt/easyjet-mantem-ocupacao-elevada-mas-antecipa-prejuizo-significativo/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "easyjet"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T10:58:06.844939+00:00",
+      "published_at": "2026-04-16T10:14:54+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2024/04/easyJet-a321neo-e1712673393235.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d0ae9893251533492e98b5cbdde8bb4e",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Conflito com o Irão provoca forte quebra nas ligações aéreas entre as Américas e o Médio Oriente",
+      "summary": "A escalada do conflito com o Irão está a ter um impacto significativo na aviação internacional, com uma redução acentuada das ligações aéreas",
+      "url": "https://www.ambitur.pt/conflito-com-o-irao-provoca-forte-quebra-nas-ligacoes-aereas-entre-as-americas-e-o-medio-oriente/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T10:59:28.183947+00:00",
+      "published_at": "2026-04-16T09:04:56+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/aviao-mabrian.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bc27a6aa355b88c561e2d61cf97f03bf",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Arraiolos recebe Fórum Walking & Cycling 2026 para reforçar turismo ativo no Alentejo e Ribatejo",
+      "summary": "Arraiolos acolhe amanhã, 17 de abril, o Fórum Walking & Cycling Alentejo e Ribatejo 2026, uma iniciativa que pretende fortalecer",
+      "url": "https://www.ambitur.pt/arraiolos-recebe-forum-walking-cycling-2026-para-reforcar-turismo-ativo-no-alentejo-e-ribatejo/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:00:44.470822+00:00",
+      "published_at": "2026-04-16T10:03:21+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/forum-walking-alentejo.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7c93ccc5640b19c023f11eea9bc81d7c",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Inflação da zona euro revista em alta para 2,6% em março",
+      "summary": "Eurostat tinha estimado uma taxa de inflação de 2,5% para março. Mas esta quinta-feira foi revista em alta para 2,6%, devido à subida dos preços da energia, fruto da crise causada pela guerra no Irão.",
+      "url": "https://observador.pt/2026/04/16/inflacao-da-zona-euro-revista-em-alta-para-26-em-marco/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:05:09.134933+00:00",
+      "published_at": "2026-04-16T11:56:02+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A51%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F01%2F19102317%2F41455832.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5c4e63ed3abcdcf487390bf93cbb041b",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Japão reativou a maior central nuclear do mundo após 14 anos",
+      "summary": "A central de Kashiwazaki-Kariwa, com uma capacidade superior a 8.000 MW, \"fornece energia à área metropolitana de Tóquio e à parte leste da província de Shizuoka\", segundo a empresa gestora.",
+      "url": "https://observador.pt/2026/04/16/japao-reativou-a-maior-central-nuclear-do-mundo-apos-14-anos-de-fecho/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:05:12.410464+00:00",
+      "published_at": "2026-04-16T11:54:50+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1123%3Anowe%3A0%3A211%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2025%2F11%2F21092352%2F18902555.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "925d548907c3b9829496b229a6c15f83",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "EasyJet espera prejuízos maiores devido à guerra. Ações chegam a afundar 9%",
+      "summary": "A companhia aérea \"low-cost\" indica esperar que os prejuízos do primeiro semestre do ano fiquem entre os 621 milhões e 644 milhões de euros.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/easyjet-espera-prejuizos-maiores-devido-a-guerra-acoes-chegam-a-afundar-9",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "easyjet"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:05:56.513672+00:00",
+      "published_at": "2026-04-16",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2023-05/img_1200x676uu2023-05-18-09-58-10-452923.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f5691686297a64dd51d9dd69b2580d4d",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Ataque informático expõe dados da Navigator na \"darkweb\"",
+      "summary": "Empresa confirma incidente de cibersegurança após ataque de \"ransomware\". Informação sensível como dados de trabalhadores, atas de reuniões ou resultados de auditorias foi divulgada online.",
+      "url": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/ataque-informatico-expoe-dados-da-navigator-na-darkweb",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-16T11:06:02.129262+00:00",
+      "published_at": "2026-04-16",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2022-02/img_1200x676uu2022-02-08-19-39-13-421754.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
     {
       "id": "5c5c808bd228b825e5b6c5ea8f6b5ba1",
       "source": "news-ambienteonline",
@@ -18817,5 +19150,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 738
+  "entry_count": 748
 }
