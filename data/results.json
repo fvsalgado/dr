@@ -1,6 +1,1336 @@
 {
-  "last_updated": "2026-04-20T09:19:43.292889+00:00",
+  "last_updated": "2026-04-21T08:43:47.809903+00:00",
   "entries": [
+    {
+      "id": "a00c836abc0ec98e15086f43b87a6095",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-21",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:32:25.167808+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "794dbb85cd8b873389fe5d1d3fd7bccf",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Estados Unidos confiantes nas negociações de paz com o Irão",
+      "summary": "Perspectiva positiva traz alívio aos mercados. Petróleo e gás estão a descer, maior parte das moedas mantém-se estável.",
+      "url": "https://eco.sapo.pt/2026/04/21/estados-unidos-confiantes-nas-negociacoes-de-paz-com-o-irao/",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:26.792178+00:00",
+      "published_at": "2026-04-21T06:44:02Z",
+      "image_url": "https://eco.imgix.net/uploads/2025/08/cropped-45406104-scaled-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5242e5f03f758daa4cb34627bcaa4d0a",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Renováveis superam subida da procura global de eletricidade em 2025",
+      "summary": "O crescimento recorde da energia solar, sobretudo na China e na Índia, foi determinante para que as fontes limpas superassem a forte procura global de eletricidade em 2025, segundo uma análise global do setor elétrico divulgada esta terça-feira. A produção de eletricidade limpa aumentou 887 terawatts-hora no ano passado, ultrapassando o crescimento da procura mundial, […]",
+      "url": "https://eco.sapo.pt/2026/04/21/renovaveis-superam-subida-da-procura-global-de-eletricidade-em-2025/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:27.034031+00:00",
+      "published_at": "2026-04-21T06:30:44Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-46901342-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "48d36eee2efbc05f0a4c038c704e7ef4",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Data centers criam “oportunidade certa” para a energia eólica offshore",
+      "summary": "A indústria da energia eólica vai estar no centro da discussão nos dias 21 a 23 de abril, na conferência da associação do setor a nível europeu, a Wind Europe, que se realiza em Madrid. O último dia irá a lançar os holofotes sobre a tecnologia que leva as torres até ao oceano: girará em […]",
+      "url": "https://eco.sapo.pt/entrevista/data-centers-criam-oportunidade-certa-para-a-energia-eolica-offshore/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:27.744923+00:00",
+      "published_at": "2026-04-21T06:01:19Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-pedro-amaral-jorge11.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0becc69b9c895f53f3d8859cc8bcf2d4",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Portugal aprendeu com lições da crise de 2022, mas o verdadeiro teste será o ISP",
+      "summary": "Primeiro foi Christine Lagarde, depois Ursula von der Leyen e por fim Kristalina Georgieva. Três líderes, mas o mesmo aviso: retiraram-se lições da crise energética e inflacionista, de 2022, e é preciso agora não repetir erros perante a escalada de preços na energia a que se assiste devido à guerra no Irão e que já […]",
+      "url": "https://eco.sapo.pt/especiais/portugal-aprendeu-com-licoes-da-crise-de-2022-mas-o-verdadeiro-teste-sera-o-isp/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:28.328204+00:00",
+      "published_at": "2026-04-21T05:58:51Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/medidas-ue-para-baixar-precos-energia-2000x1125-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a2b17b3e5d2a8722fc3b075082da7777",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "“Se Kristin entrasse 150 km mais a sul teríamos quatro vezes mais danos”",
+      "summary": "A Fidelidade estima que se a depressão Kristin tivesse “entrado no continente 150 km para sul” haveria “provavelmente quatro vezes mais sinistros”. Já os CEO da E Redes, Infraestruturas de Portugal e Cellnex estão preocupados com a interdependência entre infraestruturas críticas e a fraca resiliência social num contexto de desastres naturais. O debate sobre a […]",
+      "url": "https://eco.sapo.pt/2026/04/21/se-kristin-entrasse-150-km-mais-a-sul-teriamos-4-vezes-mais-danos/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "infraestruturas críticas"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:29.171759+00:00",
+      "published_at": "2026-04-21T05:00:11Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/debateproforum.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b6c205ffbb26aa1e4ce9735a01e72342",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "A máfia do aeroporto",
+      "summary": "Há uma quebra generalizada da legalidade no aeroporto. Faz parte do deslaçamento geral de um país onde a justiça não funciona e já não é um pilar do regime",
+      "url": "https://expresso.pt/opiniao/2026-04-21-a-mafia-do-aeroporto-ec8592c4",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:45.074036+00:00",
+      "published_at": "2026-04-21T06:29:45.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2024-11-05-clara-ferreira-alves.png-05456ba9-1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7ffe339392e579970e07f741632fd3c0",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Denúncias de intrusismo atingem recorde: até profissionais de saúde realizam procedimentos estéticos ilegais, alerta ASAE",
+      "summary": "Intrusismo é praticado, sobretudo, por profissionais da área da estética e beleza. Mas são cada vez mais os fisioterapeutas, enfermeiros, farmacêuticos e até médicos sem a devida especialização a aplicar botox e a realizar preenchimentos faciais, garante a ASAE",
+      "url": "https://expresso.pt/sociedade/saude/2026-04-21-denuncias-de-intrusismo-atingem-recorde-ate-profissionais-de-saude-realizam-procedimentos-esteticos-ilegais-alerta-asae-37465fd0",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "asae"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:27:51.233364+00:00",
+      "published_at": "2026-04-21T05:01:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2021-10-09-botox--f1907356/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5bd72d4ce2f90774d2ca34ad228003fa",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-20",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Avião da TAP que divergiu para Paris devido a evento de fumes com rota reestabelecida esta segunda-feira",
+      "summary": "Detetada a existência de odores a bordo (os chamados eventos de fumes) num voo da TAP de Lisboa para Frankfurt no domingo ao fim do dia, o avião aterrou de emergência em Paris. Esta segunda-feira os passageiros retomaram a viagem para a capital alemã. Companhia afasta impactos na saúde",
+      "url": "https://expresso.pt/economia/2026-04-20-aviao-da-tap-que-divergiu-para-paris-devido-a-evento-de-fumes-com-rota-reestabelecida-esta-segunda-feira-ae03b288",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:01.249397+00:00",
+      "published_at": "2026-04-20T18:02:44.734Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-27-fox_aeroporto_000079.jpg-84f65f99/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "35c06644280e78b1ddc1a92423f4c5e2",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-20",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Governo afasta para já cenário de cancelamentos de voos da TAP por falta de combustíveis",
+      "summary": "Miguel Pinto Luz assegura que o Executivo está a acompanhar a situação do armazenamento de combustível para aviação em Portugal e diz que por agora \"acredita\" que a oferta TAP se manterá garantida",
+      "url": "https://expresso.pt/economia/2026-04-20-governo-afasta-para-ja-cenario-de-cancelamentos-de-voos-da-tap-por-falta-de-combustiveis-9c496a81",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:03.928216+00:00",
+      "published_at": "2026-04-20T17:19:03.804Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-01-07-fox_aeroporto_0032.jpg-6e0da562/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e1d961ec77c16077786513f6b0c46a7f",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-20",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Eleições na Bulgária: vitória serena de Radev, sem festejos nem protestos",
+      "summary": "Sem surpresa no resultado, mas sim na dimensão, a vitória de Rumen Radev marca uma viragem na Bulgária, num ambiente de calma e sem euforia, entre expectativas de mudança interna e prudência externa",
+      "url": "https://expresso.pt/uniao-europeia/2026-04-20-eleicoes-na-bulgaria-vitoria-serena-de-radev-sem-festejos-nem-protestos-039ee142",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:12.354179+00:00",
+      "published_at": "2026-04-20T14:09:15.993Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-20-rumen-radev.jpg-ed274785/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "aebaeea1d3c7ed7bc64a316e72146c95",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-20",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Arrendamentos falsos: PSP detém suspeito de 26 crimes de burla em Lisboa",
+      "summary": "Um homem foi detido no aeroporto de Lisboa por liderar esquema de burlas no arrendamento durante dois anos. É suspeito de 26 crimes, dirigidos a pessoas vulneráveis",
+      "url": "https://expresso.pt/justica/2026-04-20-video-arrendamentos-falsos-psp-detem-suspeito-de-26-crimes-de-burla-em-lisboa-31fe0d07",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:24.382929+00:00",
+      "published_at": "2026-04-20T09:54:26.452Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-03-26-alta_gettyimages-1192943639_t-_idp.jpg-928d4a66/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "291c056ce7956eb39600cf8a57dca0fa",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Políticas ambientais: envolver os cidadãos e garantir execução dos planos são desafios transversais",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/politicas-ambientais-envolver-os-cidadaos-e-garantir-execucao-dos-planos-sao-desafios-transversais",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:48.149151+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "34524f04bad326cf9ac07ee2e120315b",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo prevê investir 4 mil milhões de euros no reforço da rede elétrica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-preve-investir-4-mil-milhoes-de-euros-no-reforco-da-rede-eletrica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:50.037410+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bc60651edc8f210bcead20bd4705018b",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal apresenta relatório sobre segurança nuclear em encontro internacional",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-apresenta-relatorio-sobre-seguranca-nuclear-em-encontro-internacional",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:50.331068+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "484e5210a861f07b9c7e510e0da56657",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Novas regras europeias de segurança química entram em vigor em 2026",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/novas-regras-europeias-de-seguranca-quimica-entram-em-vigor-em-2026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia",
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:50.726728+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8956f59840b8427f34235914ee0753cd",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Ambientalistas contestam instalação de 25 mil painéis solares na Serra do Marão",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ambientalistas-contestam-instalacao-de-25-mil-paineis-solares-na-serra-do-marao",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:51.212728+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "54d97dc18dacdbec33b4efd91f2bd2da",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Luságua contesta rescisão de contrato anunciada pela Câmara de Vila Verde",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/lusagua-contesta-rescisao-de-contrato-anunciada-pela-camara-de-vila-verde",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:51.497180+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e44646d16635231eb55c629e30c061f4",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Investimento de 180 milhões de euros para recuperar rios nacionais entra em consulta pública",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/investimento-de-180-milhoes-de-euros-para-recuperar-rios-nacionais-entra-em-consulta-publica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:53.170059+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "aee80913f49f5eee643bfe241d0b1dd4",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "China quer travar excesso de produção e baixos preços no setor solar",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/china-quer-travar-excesso-de-producao-e-baixos-precos-no-setor-solar",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:53.537883+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b7055108b1df904d4b2e2dfc72da4509",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo contabiliza 129 balcões de apoio à energia com chegada do serviço ao Alentejo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-contabiliza-129-balcoes-de-apoio-a-energia-com-chegada-do-servico-ao-alentejo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:28:53.949837+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bcfbcd90bfba7a6fd036977ab66b2883",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Centro de Portugal reforça aposta nos Caminhos de Santiago como motor turístico sustentável",
+      "summary": "A Turismo Centro de Portugal está a reforçar o seu posicionamento estratégico nos Caminhos de Santiago, destacando o potencial",
+      "url": "https://www.ambitur.pt/centro-de-portugal-reforca-aposta-nos-caminhos-de-santiago-como-motor-turistico-sustentavel/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:29:37.524857+00:00",
+      "published_at": "2026-04-20T10:42:48+00:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/centro-e1776681751724.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "58c2f76f274375fe76cfa3222de4f057",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Lula da Silva em visita oficial a Lisboa",
+      "summary": "O chefe de estado brasileiro é recebido hoje em Lisboa, onde deverá reunir-se com Luís Montenegro e António José Seguro, para discutir temas como imigração, xenofobia e aeronáutica.",
+      "url": "https://observador.pt/liveblogs/lula-da-silva-em-visita-oficial-a-lisboa-presidente-brasileiro-deve-reunir-se-com-montenegro-e-seguro/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeronáutica"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:31:25.331868+00:00",
+      "published_at": "2026-04-21T06:06:25+00:00",
+      "image_url": "",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "10c33206c6faf09b6cbbc985cc1d4657",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Guerra criou a \"maior crise energética da história\", diz AIE",
+      "summary": "Enquanto as atenções se centram nas negociações em Islamabad, diretor da Agência Internacional de Energia avisa que estamos perante a \"maior crise energética da história\".",
+      "url": "https://observador.pt/liveblogs/paquistao-recebe-hoje-mais-uma-ronda-de-negociacoes-jd-vance-a-caminho-de-islamabad/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:31:27.221550+00:00",
+      "published_at": "2026-04-21T06:01:02+00:00",
+      "image_url": "",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7087c4825b58097afbdce1ffddafc843",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Depois do ambiente: há espaço para o Social?",
+      "summary": "Com Ramiro Brito, presidente da AE Minho, e Cristina Cabral Ribeiro, Legal Lead Partner da PwC, analisamos como as empresas estão a tratar o pilar social nas suas políticas e decisões de negócio.",
+      "url": "https://observador.pt/programas/do-compromisso-a-acao/depois-do-ambiente-ha-espaco-para-o-social/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:31:33.122273+00:00",
+      "published_at": "2026-04-21T06:04:26+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1541:866:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2026/04/13154843/dcac-pwc-1540.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8e90890d0d9bc7b7e023e1961468c9fc",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "182/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 182/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Santiago do Escoural/RLA1/Pomar da Valdarca/Galeria», «Santiago do Escoural-RLA2», «Santiago do Escoural-RLA7 (Furo 1)», «Santiago do Escoural-RLA8 (Furo 1)», «Santiago do Escoural/PFT1/Carvoeiro de Cima (Poço Escoural)» e «Santiago do Escoural-Furo Novo (FT1)», localizadas no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/182-1087226612",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.795772+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "abaaa27030cc2debd053f0bdbadd2711",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "183/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 183/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Barrancão - Furo 1» e «Barrancão - Furo 2», destinada ao abastecimento público para consumo humano, localizada no concelho de Montemor-o-Novo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/183-1087226613",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.799334+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "90209bb1566cbd48ad9ea70de46e7166",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "184/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 184/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Vale de Rodão», «Celorica», «Fonte do Concelho», «Pitaranha» e «Porto Roque», destinadas ao abastecimento público para consumo humano, localizadas no concelho de Marvão.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/184-1087226614",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.800665+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8da2f130c1ada722eea2511efcc459ec",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "185/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 185/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Ficalho/Horta do Marquês - Poço», destinada ao abastecimento público para consumo humano, localizada no concelho de Serpa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/185-1087226615",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.803236+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "58c5657d00858219e5fe451a09c1fc81",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "186/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 186/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Serpa/Caldeira - Furo (Barbuda 2)», destinada ao abastecimento público para consumo humano, localizada no concelho de Serpa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/186-1087226616",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.804057+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "391a303601514cfdda1f1ac78c74922c",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "187/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 187/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «Serpa/Caldeira - Furo», destinada ao abastecimento público para consumo humano, localizada no concelho de Serpa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/187-1087226617",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.804867+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "50c88601af85c29ea485252634f217a0",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-21",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "188/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 188/2026/1  -  Diário da República n.º 77/2026, Série I de 2026-04-21",
+      "summary": "Ambiente e Energia Aprova a delimitação dos perímetros de proteção das captações de águas subterrâneas designadas por «Pias/Aguieiros - Furo 1», «Pias/Aguieiros - Furo 2» e «Pias/Aguieiros - Furo 3», destinadas ao abastecimento público para consumo humano, localizadas no concelho de Serpa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/188-1087226618",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:16.805728+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "88de3344a597f556848d7b3d106303fc",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5186/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5186/2026  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Finanças - Autoridade Tributária e Aduaneira Delegação e subdelegação de competências da diretora-geral na diretora da Alfândega do Aeroporto do Porto, Marta Cristina Martins Coelho.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5186-2026-1087228918",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.535485+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b802ae3d1fe4764645b2ec63063031fb",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "8979/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 8979/2026/2  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Ambiente e Energia - Instituto da Conservação da Natureza e das Florestas, IP Procedimento concursal para preenchimento de dois postos de trabalho da carreira e categoria de técnico superior.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/8979-1087228963",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.553532+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d3603137f4007ca498361bb755ef2171",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "9003/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 9003/2026/2  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Universidade de Trás-os-Montes e Alto Douro Abertura de procedimento concursal comum para contratação em regime de contrato de trabalho em funções públicas a termo resolutivo certo para ocupação de um posto de trabalho da carreira/categoria de técnico superior ― licenciatura em Química ou áreas afins.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/9003-1087366218",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.574993+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e9a1112f198f706aa5d6ae6714e9c125",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "9004/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 9004/2026/2  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Universidade de Trás-os-Montes e Alto Douro Abertura de procedimento concursal comum para contratação em regime de contrato de trabalho em funções públicas a termo resolutivo certo para ocupação de um posto de trabalho da carreira/categoria de técnico superior ― licenciatura na área de Ciências do Ambiente, Engenharia do Ambiente, Biologia e Geologia, Engenharia Agronómica ou Engenharia Mecânica.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/9004-1087366219",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.575521+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "19b281ce7782d6afc9a0830bdda93512",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "9005/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 9005/2026/2  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Universidade de Trás-os-Montes e Alto Douro Abertura de procedimento concursal comum para contratação em regime de contrato de trabalho em funções públicas a termo resolutivo certo para ocupação de um posto de trabalho da carreira/categoria de técnico superior ― licenciatura em Gastronomia (áreas CNAEF 811 ― Hotelaria e Restauração ou 812 ― Turismo e Lazer) ou áreas afins.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/9005-1087366220",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.576036+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f3d098dd7e8427b48767f24a6055bece",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "405/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 405/2026  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Município de Estarreja Torna público o projeto do Regulamento de Apoio à Vacinação Pneumocócica de Adultos de Estarreja.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/405-2026-1087366248",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.587147+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "786f0410788f185b9293af6df2510997",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "10159/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 10159/2026  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA Informamos da atualização do Sistema de Qualificação 23/SQF/2017 »Transformadores de Medição com a atualização dos documentos normativos DMA-C42-552, DMA-C42-550,DMA-C42-510 ; a introdução dos Objetos de Qualificação 20236418 - TC BT 2000/5A NUCLEO ABRIR 2.5VA CL0.5 e 20236419 - TC BT 2000/5A NUCLEO FECHADO 2.5VA CL0.5 e atualização da descrição dos objetos de qualificação 20155570 - TC BT 100/5A NUCLEO FECHADO 2.5VA CL0.5, 20155572 - TC BT 200/5A NUCLEO FECHADO 2.5VA CL0.5. 20155574 - TC BT 300/5A NUCLEO FECHADO 2.5VA CL0.5, 20155576 - TC BT 500/5A NUCLEO FECHADO 2.5VA CL0.5, 20147093 - TC BT 500/5A NUCLEO ABRIR 2.5VA CL0.5, 20155578 - TC BT 750/5A NUCLEO FECHADO 2.5VA CL0.5, 20147094 - TC BT 750/5A NUCLEO ABRIR 2.5VA CL0.5, 20155580 - TC BT 1000/5A NUCLEO FECHADO 2.5VA CL0.5, 20147095 - TC BT 1000/5A NUCLEO ABRIR 2.5VA CL0.5 .",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/10159-1087226630",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.621713+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ff4f4322e403e3c5433307177f7ea69d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "10171/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 10171/2026  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Rádio e Televisão de Portugal, SA CP 09/2026-CF - Aquisição de licenciamento de módulos SAP de business intelligence na modalidade SaaS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/10171-1087226636",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.624293+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "206893d3318d24e8673389b12bfec478",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-21",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "10142/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 10142/2026  -  Diário da República n.º 77/2026, Série II de 2026-04-21",
+      "summary": "Município de Alfândega da Fé O procedimento contratual visa a contratação da empreitada de reabilitação de um edifício multifamiliar situado entre a rua das Eiras e a rua dos Combatentes, freguesia de Alfândega da Fé, concelho Alfândega da Fé. Prevê-se implementar novos sistemas construtivos de melhoria da eficiência energética, visando o aumento do nível do conforto e habitabilidade do imóvel municipal, com vista a promover soluções habitacionais de acordo com a estratégia local de habitação do município para suprir as necessidades habitacionais das pessoas e agregados familiares desfavorecidos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/10142-1087366529",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-21T08:25:17.626441+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "0897841a613a74c261447c5139042cbf",
       "source": "parlamento-agenda",
@@ -21724,5 +23054,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 827
+  "entry_count": 868
 }
