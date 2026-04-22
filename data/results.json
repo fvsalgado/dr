@@ -1,6 +1,1482 @@
 {
-  "last_updated": "2026-04-21T08:43:47.809903+00:00",
+  "last_updated": "2026-04-22T08:44:33.504623+00:00",
   "entries": [
+    {
+      "id": "4f6cb5a8fa1e1f7830c5709d3c84e029",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-22",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 14h00 – Alojamento Local em Portugal (ALEP) 14h30 – Angelini Pharma Portugal 16h00 – Associação de Descendentes de Judeus Sefarditas Portugueses (ANUSIM)",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:32:27.235158+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "669f55b254353d1a0fc46545a486d2ce",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-04-23",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel 10h00 – Presidente do Conselho Geral Independente (CGI) da RTP 10h00 – Sindicato dos Trabalhadores dos Aeroportos Manutenção e Aviação (STAMA) 10h00 &nbsp;– Comissão Nacional de Trabalhadores do Banco Santander Totta (CNT) 11h00 – Associação Portuguesa do Imobilário (API) 11h00 - Conselho Coordenador dos Institutos Superiores Politécnicos (CCISP) 11h00 - Associação dos Fruticultores, Viticultores e Olivicultores do Planalto de Ansiães (AFUVOPA) 12h00 – Sindicato dos Transportes Fluviais, Costeiros e da Marinha Mercante&nbsp; 14h00 - Peticionários - \"Pela valorização dos orientadores de formação hospitalar\" &nbsp;",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:32:27.252570+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "baaf259a06f1c64831b2bd175c6761ec",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Hoje nas notícias: TAP, praias e euromilionários",
+      "summary": "Os aviões que vão chegar até ao fim do primeiro semestre deste ano não podem ser utilizados ao serviço da TAP, por decisão de Bruxelas de fazer prevalecer o plano de reestruturação. Compensar os estragos causados na orla costeira pelas tempestades que assolaram o país vai custar 84 milhões de euros, segundo uma estimativa da […]",
+      "url": "https://eco.sapo.pt/2026/04/22/hoje-nas-noticias-tap-praias-e-euromilionarios/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:25:24.762475+00:00",
+      "published_at": "2026-04-22T07:11:48Z",
+      "image_url": "https://eco.imgix.net/uploads/2020/02/cropped-cropped-revista_nacional_partilha-1-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4176af60756602776a7085b86dc8db3b",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Governo duplica o pudim e faz o diabético comer até rebentar",
+      "summary": "Imagine um diabético. Não precisa de imaginar muito, basta espreitar a mesa do almoço de domingo. O diabético sabe que não pode comer de tudo. Pode comer um bocado de pão. Pode também, com muita parcimónia, espreitar a sobremesa. Não pode, em caso algum, enterrar a cara no pudim Abade de Priscos como se não […]",
+      "url": "https://eco.sapo.pt/opiniao/governo-duplica-o-pudim-e-faz-o-diabetico-comer-ate-rebentar/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "pão"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:25:25.735837+00:00",
+      "published_at": "2026-04-22T06:23:28Z",
+      "image_url": "https://ecoonline.s3.amazonaws.com/uploads/2026/03/cropped-profile05.png?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0c8950ff93174c3e47a2b44228e0ba3b",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Pelo menos cinco estudantes guineenses retidos no aeroporto de Lisboa em \"condições desumanas\", denuncia associação",
+      "summary": "Documentação apresentada pelos estudantes não terá sido suficiente para garantir autorização de entrada no país. Outros cinco jovens foram repatriados esta terça-feira. Associação de Estudantes da Guiné-Bissau em Lisboa diz que os jovens não conseguem tomar banho e a comida não chega para todos",
+      "url": "https://expresso.pt/seguranca/2026-04-22-pelo-menos-cinco-estudantes-guineenses-retidos-no-aeroporto-de-lisboa-em-condicoes-desumanas-denuncia-associacao-0c3dd343",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:25:59.695470+00:00",
+      "published_at": "2026-04-22T06:00:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2025-11-03-controlo-de-passaportes-no-aeroporto-de-lisboa-89290793-1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "25b27bf2abdcbb664dcd1d6ec0cdc5ed",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Aumento de 20% no gás em botija afeta milhões de famílias portuguesas",
+      "summary": "Proprietários rurais e empresários da restauração são particularmente afetados pelo aumento de preços",
+      "url": "https://expresso.pt/economia/2026-04-21-video-aumento-de-20-no-gas-em-botija-afeta-milhoes-de-familias-portuguesas-f219dbde",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:26:39.857900+00:00",
+      "published_at": "2026-04-21T14:12:47.329Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-20-gas-stock-ghetty-17d938b3/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "04440a4e7877759ce8850df797e6ccd1",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Bruxelas propõe teletrabalho e menos viagens para reduzir consumo energético após crise no Médio Oriente",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/bruxelas-propoe-teletrabalho-e-menos-viagens-para-reduzir-consumo-energetico-apos-crise-no-medio-oriente",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:22.917850+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "80e06c7fb9f7673166213b62a942f97f",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "REN defende investimentos essenciais nas redes e deixa projetos complementares nas mãos do Governo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ren-defende-investimentos-essenciais-nas-redes-e-deixa-projetos-complementares-nas-maos-do-governo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:23.377701+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "387f546e7f81dcfd8f31790ae016f169",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Vila Real garante continuar a recorrer a meios legais para travar deposição de resíduos em aterro",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/vila-real-garante-continuar-a-recorrer-a-meios-legais-para-travar-deposicao-de-residuos-em-aterro",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:23.728376+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3166f7f462c8870b7d78f1e712a78ed4",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ERSE apresenta norma de fiabilidade do sistema elétrico com risco aceitável de 1,46 horas de interrupção por ano",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/erse-apresenta-norma-de-fiabilidade-do-sistema-eletrico-com-risco-aceitavel-de-1-46-horas-de-interrupcao-por-ano",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "erse"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:25.462745+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e64ed9ea60f15dd8799ada02e9b6883b",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Produção de eletricidade renovável na Europa atinge máximo histórico no início do ano",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/producao-de-eletricidade-renovavel-na-europa-atinge-maximo-historico-no-inicio-do-ano",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:25.896111+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "33eca998ab4372e7e9d07f06410a901d",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Energia solar lidera crescimento da oferta mundial num ano de procura mais moderada",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/energia-solar-lidera-crescimento-da-oferta-mundial-num-ano-de-procura-mais-moderada",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:28.867975+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "45ae9392889beeae61368c4b8324126a",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Mercado livre de eletricidade somou 5,8 milhões de clientes em janeiro",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/mercado-livre-de-eletricidade-somou-5-8-milhoes-de-clientes-em-janeiro",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:29.436381+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2aa38947ae544f2821309d31d334e323",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Projeto HY4ARES: energia renovável com moinhos de água",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/projeto-hy4ares-energia-renovavel-com-moinhos-de-agua",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:34.289552+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "07f0f6d949d3b7675e08082ed90b6437",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Minor Hotels lança Colbert Collection no Reino Unido com novo hotel em Londres",
+      "summary": "A Minor Hotels anunciou a abertura da sua primeira unidade da Colbert Collection no Reino Unido, com o lançamento do The WestDill Mayfair Hotel London, Colbert Collection, previsto para o quarto trimestre deste ano. O projeto marca a entrada da nova soft brand premium do grupo numa das cidades mais competitivas do turismo global. Localizado […]",
+      "url": "https://www.ambitur.pt/minor-hotels-lanca-colbert-collection-no-reino-unido-com-novo-hotel-em-londres/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:50.228958+00:00",
+      "published_at": "2026-04-21 09:55:23+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/colbert-londres-minor.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3e22460ce48c170658c8abc1dbf3d1e5",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Turkish Airlines reforça ligações a África e Médio Oriente com aumento de frequências em 2026",
+      "summary": "A Turkish Airlines anunciou o reforço da sua operação para vários destinos estratégicos em África e no Médio Oriente ao longo de 2026, aumentando frequências e retomando rotas sazonais para responder à crescente procura internacional. A partir de 7 de junho, a companhia aérea passará a operar 10 voos semanais para Maurícia, face aos atuais […]",
+      "url": "https://www.ambitur.pt/turkish-airlines-reforca-ligacoes-a-africa-e-medio-oriente-com-aumento-de-frequencias-em-2026/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:27:55.152560+00:00",
+      "published_at": "2026-04-20 11:34:16+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/11/turkish-airlines.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4ec8850c67f2e8257a4f4c6a39ce95f6",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "ARAC e Turismo de Portugal lançam Plano de Formação 2026 para qualificar setor do rent-a-car",
+      "summary": "A ARAC e o Turismo de Portugal vão lançar o Plano de Formação ARAC 2026, uma iniciativa estratégica destinada a reforçar a qualificação dos profissionais do setor do rent-a-car e a aumentar a competitividade das empresas num contexto de rápida transformação. O programa, intitulado “Rent-a-Car – Mobilidade, Serviço e Experiência”, surge num momento em que […]",
+      "url": "https://www.ambitur.pt/arac-e-turismo-de-portugal-lancam-plano-de-formacao-2026-para-qualificar-setor-do-rent-a-car/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:28:13.734315+00:00",
+      "published_at": "2026-04-21 12:24:38+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/arac_logo.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e05b95a769358b4cba0045f19a68af27",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Fundação Inatel (I): “A nossa rede hoteleira distingue-se por ser referência no turismo para todos, inclusivo e acessível”",
+      "summary": "A Fundação Inatel é uma das instituições mais históricas do turismo português, mas também uma das que mais tem evoluído para responder aos desafios contemporâneos do setor. Nesta primeira parte da entrevista a José Manuel da Costa Soares, o responsável traça o posicionamento atual da entidade, sublinhando a sua missão social e a ambição de […]",
+      "url": "https://www.ambitur.pt/fundacao-inatel-i-a-nossa-rede-hoteleira-distingue-se-por-ser-referencia-no-turismo-para-todos-inclusivo-e-acessivel1/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:28:16.407733+00:00",
+      "published_at": "2026-04-21 11:25:36+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/jose-manuel-costa-soares-in-e1776768629591.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b7f543d4d6316c5d414d135c5b5f0d04",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "ANAV alerta para riscos nos aeroportos e pede resposta urgente das autoridades",
+      "summary": "A ANAV alerta para os constrangimentos operacionais nos aeroportos portugueses, considerando que a atual situação pode comprometer a competitividade do turismo nacional, especialmente em períodos de maior procura. No centro das preocupações está a implementação do Entry/Exit System (EES), o novo sistema europeu de controlo de fronteiras. Embora concebido para reforçar a segurança no espaço […]",
+      "url": "https://www.ambitur.pt/anav-alerta-para-riscos-nos-aeroportos-e-pede-resposta-urgente-das-autoridades/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:28:19.474109+00:00",
+      "published_at": "2026-04-20 13:15:34+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2024/06/Miguel-Quintas_ANAV-e1718882044201.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f638e5e4680ed6fdae88f662b231f72d",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Delcy pede acesso a 4,26 mil milhões de euros bloqueados",
+      "summary": "Presidente interina pede acesso a cinco mil milhões de dólares bloqueados no FMI, para \"recuperar infraestruturas essenciais, como a eletricidade e a água e garantir a estabilidade macroeconómica\".",
+      "url": "https://observador.pt/2026/04/22/delcy-rodriguez-pede-acesso-a-426-mil-milhoes-de-euros-bloqueados-no-fundo-monetario-internacional/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:30:43.502521+00:00",
+      "published_at": "2026-04-22T08:22:40+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1121%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F03%2F15011540%2F46750030.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3659ffe7f1fe6c4c134670cc0e01490d",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Restauração dos solos é eficaz para arrefecer planeta",
+      "summary": "\"Restaurar a saúde do solo representa uma das oportunidades mais rápidas e económicas para estabilizar o clima, melhorando simultaneamente a segurança alimentar\", diz a Save Soil.",
+      "url": "https://observador.pt/2026/04/22/restauracao-dos-solos-e-meio-mais-eficaz-para-arrefecer-planeta/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:30:44.893369+00:00",
+      "published_at": "2026-04-22T08:21:22+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2244%3A1263%3Anowe%3A0%3A72%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2024%2F01%2F24123746%2Fistock-1035659536.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bb3eec29fdc9eb2a67f438a9ec068311",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Tempestades. Recuperação de praias vai custar 84 milhões",
+      "summary": "Agência Portuguesa do Ambiente identificou 570 ocorrências em 147 zonas, com destaque para arribas e passadiços destruídos. Trabalhos decorrem sob pressão com época balnear a arrancar a 1 de junho.",
+      "url": "https://observador.pt/2026/04/22/tempestades-recuperacao-do-litoral-do-pais-vai-custar-84-milhoes-de-euros-apa-fala-em-processo-lento-e-gradual/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:30:48.539715+00:00",
+      "published_at": "2026-04-22T08:19:44+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A3200%3A1795%3Anowe%3A0%3A148%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F02%2F04003322%2Fefeitos-da-depressao-kristin-em-vieira-de-leiria-diogo-faria-reis-1906.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3b2d11a7bfeafac151210e812e164ee0",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Recuperar praias afetadas pelas tempestades custa 84 milhões",
+      "summary": "DN: Agência Portuguesa do Ambiente diz que algumas intervenções no areal só avançam em maio. Negócios: Impacto do conflito no Médio Oriente nos juros da casa já é maior do que na guerra da Ucrânia.",
+      "url": "https://observador.pt/programas/conferencia-de-imprensa/recuperar-praias-afetadas-pelas-tempestades-custa-84-milhoes/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:31:13.110924+00:00",
+      "published_at": "2026-04-22T06:47:44+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/04/10163300/770-podcast-conferencia-de-imprensa.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a46df32b9a152901d1de07b4632e8cdc",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Bruxelas estaciona 4 aviões da TAP durante este semestre",
+      "summary": "Mesmo com justificações da TAP para operar com as aeronaves encomendadas em 2015, a Comissão Europeia decidiu fazer prevalecer o plano de reestruturação. Os aviões que vão chegar até junho não podem ser utilizados ao serviço da companhia.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/bruxelas-estaciona-4-avioes-da-tap-durante-este-semestre",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:31:43.567985+00:00",
+      "published_at": "2026-04-22",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-01-14-54-25-521463.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0453f7cf5e2af6e99b837fc5839caa6e",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-22",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Encerrar edifícios públicos, criar bilhetes sazonais e vouchers energéticos. As medidas de Bruxelas",
+      "summary": "Comissão Europeia apresenta esta quarta-feira um pacote de perto de duas dezenas de medidas para fazer face ao aumento dos preços da energia. Proposta ainda está sujeita a alterações.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/encerrar-edificios-publicos-criar-bilhetes-sazonais-e-vouchers-energeticos-as-medidas-de-bruxelas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:31:44.415112+00:00",
+      "published_at": "2026-04-22",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-21-20-20-25-522420.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cd1e64383c281aedd939d0d88b7a6654",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-21",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "A afirmação de Portugal na operação tecnológica global",
+      "summary": "Portugal combina talento qualificado, proficiência linguística de referência e forte capacidade de adaptação multicultural. Esta combinação cria um ambiente altamente favorável ao desenvolvimento e operação de serviços SAP à escala global.",
+      "url": "https://www.jornaldenegocios.pt/opiniao/detalhe/a-afirmacao-de-portugal-na-operacao-tecnologica-global",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:31:52.395524+00:00",
+      "published_at": "2026-04-21",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_394x514uu2026-04-21-17-16-29-522378.png",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "373fc690a9a58df4703b0efedd90805d",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-04-22",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "190/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 190/2026/1  -  Diário da República n.º 78/2026, Série I de 2026-04-22",
+      "summary": "Ambiente e Energia Aprova a delimitação do perímetro de proteção da captação de águas subterrâneas designada por «V. N. S. Bento/Monte Novo ― Furo 1», destinada ao abastecimento público para consumo humano, localizada no concelho de Serpa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/190-1087907686",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:09.890330+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9a06af7c88fc01c5257b7cb2d62f7276",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5237/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5237/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Autorização para a prossecução e alargamento do licenciamento para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial por quotas denominada RODASA ― Tecnologias, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5237-2026-1087907722",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.440980+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c375e21f294f587da830cdad21a3312c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5285/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5285/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Ambiente e Energia e Agricultura e Mar - Gabinete da Ministra do Ambiente e Energia e Gabinete do Secretário de Estado das Pescas e do Mar O Fundo Azul transfere para a Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos (DGRM) uma dotação até ao montante de € 70 000 (setenta mil euros), a inscrever no seu orçamento para o ano de 2026, destinada a suportar os encargos com a destruição de exemplares de amêijoa-japonesa (Ruditapes philippinarum) apreendidos no âmbito das ações de fiscalização da pesca e da apanha de bivalves.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5285-2026-1088525402",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.454586+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "869982462f02ed9e6d8866c8244e9adc",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5270/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5270/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Delegação da presidência do conselho coordenador da avaliação na vogal do conselho diretivo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5270-2026-1088525384",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.456366+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6ab8b99ec80559fab210f7e08742c983",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5271/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5271/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Delegação de competências para homologação das avaliações de desempenho.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5271-2026-1088525385",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.456805+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "57262df32330b937948a62529051eec1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9169/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9169/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Município de Pinhel Abertura de procedimento concursal para o recrutamento do cargo de direção intermédia de 2.º grau ― chefe da Divisão de Cultura e Turismo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9169-1088525713",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.476014+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cbc0b75b7b2eb8e18c87d2b2ccec3ca9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9152/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9152/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Município de Coruche Abertura de procedimento concursal comum para preenchimento de dois postos de trabalho na carreira/categoria de assistente operacional ― DSUAZV-33 ― Departamento de Projetos, Obras, Equipamentos e Ambiente ― Divisão de Espaços Públicos, Ambiente e Energia― Direção de Ambiente e Energia ― Serviço de Higiene Pública.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9152-1088525689",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.485169+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c333f5a8ba1a15ceda5fa019b8bd8f13",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9121/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9121/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Conclusão com sucesso do período experimental da técnica superior Rita da Silva Lourenço, no âmbito do contrato de trabalho em funções públicas por tempo indeterminado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9121-1088525381",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.490845+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0b468f83ac44576fccfc454646a01d76",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9126/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9126/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da técnica superior Luciana Lourenço dos Santos.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9126-1088525406",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.492493+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "daa825c647e83fa4f49ffea8be143665",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9127/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9127/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da assistente técnica Alexandra Filipa Colaço Bernardino.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9127-1088525407",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.492900+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "02b9d8247190bb525e6597f1d8e79937",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9128/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9128/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria do técnico superior Artur Alfredo Dias Carneiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9128-1088525408",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.493318+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "adea298c1685859fe89d66aa70c1996d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9129/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9129/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da técnica superior Joana Margarida da Silva Monteiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9129-1088525409",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.493737+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2436d20fdfe32f516587313e0c527eb0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9130/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9130/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da técnica superior Marília de Jesus da Ponte.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9130-1088525410",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.494156+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "bd5f4399b766421cc519e04d82d7507f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "9131/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 9131/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da assistente técnica Francisca Abreu da Silva Neto.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/9131-1088525411",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.494565+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "556cc73103237e7575d0ef09cd545189",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "414/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 414/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Freguesia de Gafanhoeira (São Pedro) Publicação do Regulamento de Atribuição de Subsídios e Apoios às Coletividades e Associações sem Fins Lucrativos, Regulamento de Licenciamento de Atividades Diversas e Tabela de Taxas e Licenças e Regulamento para Aluguer de Espaço Multiusos com Equipamentos de Catering.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/414-2026-1088525753",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.501891+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f73f42f5e3fc5fc3dfcaaf211655d5ee",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Deliberação",
+      "content_kind": "act",
+      "number": "486/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 486/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Designação da licenciada Teresa Manuela Flores Machado Veríssimo como assessora da coordenadora nacional para os Comportamentos Aditivos e as Dependências.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/486-2026-1088525383",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.506337+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5bf9bd9929d55298e363dd3bc4d16414",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Edital",
+      "content_kind": "act",
+      "number": "451/2026",
+      "issuer": "",
+      "title": "Edital n.º 451/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Universidade de Lisboa - Faculdade de Farmácia Concurso documental internacional para recrutamento de um professor auxiliar na área disciplinar de Química Farmacêutica e Terapêutica do Departamento de Ciências Farmacêuticas e do Medicamento da Faculdade de Farmácia da Universidade de Lisboa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edital/451-2026-1088525463",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.507983+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "980287b7b521d1bd3e7df872cfe09e3e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "9122/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 9122/2026/2  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum na modalidade de contrato de trabalho em funções públicas por tempo indeterminado para ocupação de um posto de trabalho na carreira de assistente técnico.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/9122-1088525382",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.541544+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a2589be3acd0f1ccf8fb1270ba2b1651",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "10257/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 10257/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Município de Paços de Ferreira Fornecimento de Pão para os refeitórios escolares e de bens para os lanches do Programa \"Aprender a Nadar\", por lotes, para o ano letivo 2026/2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/10257-1088196187",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "pão"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.557221+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "775078472e5d1502f3e86a1fc23a9aa1",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-04-22",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "10273/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 10273/2026  -  Diário da República n.º 78/2026, Série II de 2026-04-22",
+      "summary": "Instituto do Turismo de Portugal, IP Prestação de serviços de higiene e limpeza, com fornecimento de consumíveis de casa de banho para as instalações do Instituto do Turismo de Portugal, I.P.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/10273-1088522774",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-04-22T08:23:10.563619+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "a00c836abc0ec98e15086f43b87a6095",
       "source": "parlamento-agenda",
@@ -23054,5 +24530,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 868
+  "entry_count": 914
 }
