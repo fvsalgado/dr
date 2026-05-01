@@ -1,6 +1,769 @@
 {
-  "last_updated": "2026-04-30T09:21:26.506150+00:00",
+  "last_updated": "2026-05-01T09:10:33.959598+00:00",
   "entries": [
+    {
+      "id": "267000255131f021a68a548609c96b71",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-05",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 3 Local: Sala Senado 14h30 - Sess&atilde;o de abertura 14h35 - Painel &nbsp; 15h20 - Mesa Redonda &nbsp; 16h00 - Pausa &nbsp; 16h10 - Debate &nbsp; 16h40 - Respostas dos Oradores &nbsp; 17h30 - Interven&ccedil;&otilde;es dos Grupos Parlamentares &nbsp; 18h00 - Encerramento",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "h2"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:02:59.991389+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "36e79207714b3da2d9d0f51adc9ff57f",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-06",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 44 Local: N&#xE3;o dispon&#xED;vel 1.&ordf; Parte &nbsp; 1. Informa&ccedil;&otilde;es gerais &nbsp; 2. Aprova&ccedil;&atilde;o das atas n.&ordm; 43 e 44, relativas &agrave;s reuni&otilde;es dos dias 28 e 29 de abril de 2026 &nbsp; 3. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;audi&ccedil;&atilde;o urgente da administra&ccedil;&atilde;o da TAP para esclarecimentos sobre indemniza&ccedil;&otilde;es, insolv&ecirc;ncia da TAP SGPS, restri&ccedil;&otilde;es operacionais e cumprimento do plano de reestrutura&ccedil;&atilde;o&raquo; &nbsp; 4. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP IL, para &laquo;audi&ccedil;&atilde;o da Presidente do Conselho de Administra&ccedil;&atilde;o do Metropolitano de Lisboa, E.P.E e antiga Secret&aacute;ria de Estado da Gest&atilde;o da Sa&uacute;de, Dra. Cristina Vaz Tom&eacute;&raquo; &nbsp; 5. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP CH, para &laquo;pedido de audi&ccedil;&atilde;o das entidades subscritoras da carta aberta &ldquo;Sugest&atilde;o de altera&ccedil;&atilde;o de microlocaliza&ccedil;&atilde;o do novo Aeroporto Lu&iacute;s de Cam&otilde;es&rdquo; de 21 de janeiro de 2026&raquo; &nbsp; 6. Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do requerimento, apresentado pelo GP PSD, sobre &laquo;recusa de entrega de encomendas, a aplica&ccedil;&atilde;o de custos de envio desproporcionados e a limita&ccedil;&atilde;o do acesso a condi&ccedil;&otilde;es comerciais equivalentes &agrave;s do territ&oacute;rio continental&raquo; &nbsp; 7. Baixa inicial dos Projetos de Resolu&ccedil;&atilde;o: &nbsp; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 876/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a publica&ccedil;&atilde;o anual, por parte dos munic&iacute;pios, de um relat&oacute;rio p&uacute;blico sobre as habita&ccedil;&otilde;es municipais&raquo; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 877/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a Concretiza&ccedil;&atilde;o da Liga&ccedil;&atilde;o do Munic&iacute;pio da Trofa &agrave; Rede de Metro do Porto&raquo; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 880/XVII/1.&ordf; (IL) - &laquo;Pela abertura internacional da ferrovia em Portugal&raquo; &nbsp; 8. Outros assuntos &nbsp; &nbsp; &nbsp; 2.&ordf; Parte &nbsp; Audi&ccedil;&otilde;es no &acirc;mbito da aprecia&ccedil;&atilde;o das iniciativas legislativas que alteram o regime TVDE: &nbsp; 10h30 &ndash; ANTRAL 11h30 &ndash; Federa&ccedil;&atilde;o Portuguesa do T&aacute;xi &nbsp; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 876/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a publica&ccedil;&atilde;o anual, por parte dos munic&iacute;pios, de um relat&oacute;rio p&uacute;blico sobre as habita&ccedil;&otilde;es municipais&raquo; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 877/XVII/1.&ordf; (CH) - &laquo;Recomenda ao Governo a Concretiza&ccedil;&atilde;o da Liga&ccedil;&atilde;o do Munic&iacute;pio da Trofa &agrave; Rede de Metro do Porto&raquo; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 880/XVII/1.&ordf; (IL) - &laquo;Pela abertura internacional da ferrovia em Portugal&raquo; | 10h30 &ndash; ANTRAL | 11h30 &ndash; Federa&ccedil;&atilde;o Portuguesa do T&aacute;xi",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:03:00.009211+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "744108363e7a2412fca9d3abf7bbbaa2",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-06",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 39 Local: N&#xE3;o dispon&#xED;vel Parte I 11h30 &nbsp; Audi&ccedil;&atilde;o, conjunta com a Comiss&atilde;o da Reforma do Estado e Poder Local, do Presidente da Comiss&atilde;o de Coordena&ccedil;&atilde;o e Desenvolvimento Regional do Alentejo, I.P., Ricardo Pinheiro, a requerimento do Grupo Parlamentar do CH sobre a &ldquo;previs&atilde;o do Alentejo ter uma redu&ccedil;&atilde;o em cerca de 700 milh&otilde;es de euros no respeitante aos fundos europeus de coes&atilde;o da Uni&atilde;o Europeia, previstos para 2028-2034&rdquo; &nbsp; Parte II &nbsp; Informa&ccedil;&otilde;es gerais; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas das reuni&otilde;es n. os 44 e 45, de 28 e 29 de abril; &nbsp; An&uacute;ncio e distribui&ccedil;&atilde;o de iniciativas: nomea&ccedil;&atilde;o de relatores e delibera&ccedil;&atilde;o sobre consultas a promover; &nbsp; Distribui&ccedil;&atilde;o de iniciativas europeias e nomea&ccedil;&atilde;o de relatores; COM(2026)16 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo &agrave;s redes digitais, que altera o Regulamento (UE) 2015/2120, a Diretiva 2002/58/CE e a Decis&atilde;o n.&ordm; 676/2002/CE e que revoga o Regulamento (UE) 2018/1971, a Diretiva (UE) 2018/1972 e a Decis&atilde;o n.&ordm; 243/2012/UE (Regulamento Redes Digitais) - Deputado Relator: GP CH &nbsp; Discuss&atilde;o, nos termos dos n. os 1 e 2 do artigo 128.&ordm; do RAR, do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 796/XVII/1.&ordf; (PS) - Recomenda ao Governo a ced&ecirc;ncia do antigo Internato de Santo Ant&oacute;nio ao Turismo de Portugal para a cria&ccedil;&atilde;o da Resid&ecirc;ncia de Estudantes da Escola de Hotelaria e Turismo de Portalegre; &nbsp; Nova aprecia&ccedil;&atilde;o na generalidade, nos termos do artigo 146.&ordm; do Regimento da Assembleia da Rep&uacute;blica, com vota&ccedil;&atilde;o de eventuais propostas de altera&ccedil;&atilde;o para aprova&ccedil;&atilde;o de um texto de substitui&ccedil;&atilde;o do Projeto de Lei n.&ordm; 441/XVII/1.&ordf; (L) - Cria a ag&ecirc;ncia Recuperar Portugal, alargando a abrang&ecirc;ncia da Estrutura de Miss&atilde;o &laquo;Reconstru&ccedil;&atilde;o da regi&atilde;o Centro do Pa&iacute;s&raquo;; &nbsp; Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do Relat&oacute;rio Final da Peti&ccedil;&atilde;o n.&ordm; 92/XVII/1&ordf; - Por Centros Hist&oacute;ricos vivos e aut&ecirc;nticos &ndash; revis&atilde;o do Regime de Licenciamento Zero; Deputada Relatora: Dulcineia Moura (PSD) &nbsp; Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final, nos termos do disposto no artigo 156.&ordm; do RAR: Projeto de Resolu&ccedil;&atilde;o n.&ordm; 712/XVII/1.&ordf; (CH) - Recomenda ao Governo que assegure a transpar&ecirc;ncia nos processos de apoio relativos &agrave;s tempestades; Projeto de Resolu&ccedil;&atilde;o n.&ordm; 626/XVII/1.&ordf; (CH) - Recomenda ao Governo a cria&ccedil;&atilde;o urgente do Fundo para Cat&aacute;strofes Naturais. &nbsp; Outros assuntos. | Informa&ccedil;&otilde;es gerais; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o das atas das reuni&otilde;es n. os 44 e 45, de 28 e 29 de abril; | An&uacute;ncio e distribui&ccedil;&atilde;o de iniciativas: nomea&ccedil;&atilde;o de relatores e delibera&ccedil;&atilde;o sobre consultas a promover; | Distribui&ccedil;&atilde;o de iniciativas europeias e nomea&ccedil;&atilde;o de relatores; | Discuss&atilde;o, nos termos dos n. os 1 e 2 do artigo 128.&ordm; do RAR, do Projeto de Resolu&ccedil;&atilde;o n.&ordm; 796/XVII/1.&ordf; (PS) - Recomenda ao Governo a ced&ecirc;ncia do antigo Internato de Santo Ant&oacute;nio ao Turismo de Portugal para a cria&ccedil;&atilde;o da Resid&ecirc;ncia de Estudantes da Escola de Hotelaria e Turismo de Portalegre; | Nova aprecia&ccedil;&atilde;o na generalidade, nos termos do artigo 146.&ordm; do Regimento da Assembleia da Rep&uacute;blica, com vota&ccedil;&atilde;o de eventuais propostas de altera&ccedil;&atilde;o para aprova&ccedil;&atilde;o de um texto de substitui&ccedil;&atilde;o do Projeto de Lei n.&ordm; 441/XVII/1.&ordf; (L) - Cria a ag&ecirc;ncia Recuperar Portugal, alargando a abrang&ecirc;ncia da Estrutura de Miss&atilde;o &laquo;Reconstru&ccedil;&atilde;o da regi&atilde;o Centro do Pa&iacute;s&raquo;; | Aprecia&ccedil;&atilde;o e vota&ccedil;&atilde;o do Relat&oacute;rio Final da Peti&ccedil;&atilde;o n.&ordm; 92/XVII/1&ordf; - Por Centros Hist&oacute;ricos vivos e aut&ecirc;nticos &ndash; revis&atilde;o do Regime de Licenciamento Zero; | Fixa&ccedil;&atilde;o da reda&ccedil;&atilde;o final, nos termos do disposto no artigo 156.&ordm; do RAR: | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 712/XVII/1.&ordf; (CH) - Recomenda ao Governo que assegure a transpar&ecirc;ncia nos processos de apoio relativos &agrave;s tempestades; | Projeto de Resolu&ccedil;&atilde;o n.&ordm; 626/XVII/1.&ordf; (CH) - Recomenda ao Governo a cria&ccedil;&atilde;o urgente do Fundo para Cat&aacute;strofes Naturais. | Outros assuntos.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:03:00.018768+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0e7ce151dff74de85f03472bb6effe6b",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-08",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 4 Local: Audit&#xF3;rio Ant&#xF3;nio de Almeida Santos Audi&ccedil;&atilde;o p&uacute;blica sobre o Projeto de Lei n.&ordm; 398/XVII/1.&ordf; (PSD) &ndash; Estabelece medidas de prote&ccedil;&atilde;o de crian&ccedil;as em ambientes digitais 14h30 - Painel 3 &ndash; A avalia&ccedil;&atilde;o da escola e dos pais Modera&ccedil;&atilde;o: Deputado Pedro Delgado Alves (GP do PS) Confedera&ccedil;&atilde;o Nacional das Associa&ccedil;&otilde;es de Pais (CONFAP), representada pelo membro do Conselho Executivo, Jos&eacute; Miguel Antunes Federa&ccedil;&atilde;o Nacional de Educa&ccedil;&atilde;o (FNE), representado pelo Vice-Secret&aacute;rio-Geral, Ant&oacute;nio Jorge Pinto e pelo Secret&aacute;rio Nacional, Pedro Brand&atilde;o FENPROF, representada pelo membro do Secretariado Nacional da FENPROF, Jorge Gon&ccedil;alves Movimento de Pais \"Screens Can Wait, Childhood Can't\", representado por Ana de Oliveira Monteiro Iniciativa &ldquo;Inf&acirc;ncia Sem Smartphones CAP&rdquo;, representada por Tiago Lu&iacute;s Lavandeira Castela e Maria Madalena da Cunha e Silva Roeber Movimento \"Menos Ecr&atilde;s Mais Vida&rdquo;, representado por M&oacute;nica Pereira, Gisela Costa e Sandra Rosa Movimento de Pais \"Smartphone Free Childhood Portugal\" - a confirmar Movimento \"Mi&uacute;dos Seguros na Net\", representado por Tito Morais e Cristiane Miranda&nbsp; Debate 16h15 &ndash; Pausa para caf&eacute; 16h30 - Painel 4 &ndash; Impactos na sa&uacute;de e desenvolvimento das crian&ccedil;as Modera&ccedil;&atilde;o: Deputado Jorge Miguel Teixeira (GP da IL) Departamento Psiquiatria da Inf&acirc;ncia e Adolesc&ecirc;ncia, representado pelo Chefe de Servi&ccedil;o no Hospital Dona Estef&acirc;nia e Presidente da Associa&ccedil;&atilde;o Portuguesa de Psiquiatria da Inf&acirc;ncia e Adolesc&ecirc;ncia, Augusto Carreira - a confirmar Sociedade Portuguesa de Psiquiatria e Sa&uacute;de Mental (SPPSM), representada pelo Professor Lu&iacute;s Madeira Sociedade Portuguesa de Neuropediatria (SPNP), representada pela Presidente, M&oacute;nica Vasconcelos Instituto para os Comportamentos Aditivos e as Depend&ecirc;ncias, I.P. (ICAD), representado pela Presidente, Joana de Almeida Guerra Margarida Gaspar de Matos, Professora Catedr&aacute;tica da Universidade Cat&oacute;lica Portuguesa UNICEF Portugal, representada pela Diretora Executiva, Beatriz Imperatori Debate",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:03:00.042573+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6770c2083f7603d300e036a2ff93ffac",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Chairman da TAP antevê “verão seguro” sem previsão de falta de combustível",
+      "summary": "O chairman da TAP, Carlos Oliveira, garantiu esta quinta-feira, numa visita à cidade norte-americana de Newark, não ter previsão de indisponibilidade de combustível em Portugal, avaliando que o “verão estará seguro”. “A TAP tem estado a acompanhar com muita atenção e de uma forma diária todas as dinâmicas do mercado. As informações que temos […] […]",
+      "url": "https://eco.sapo.pt/2026/04/30/chairman-da-tap-anteve-verao-seguro-sem-previsao-de-falta-de-combustivel/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:55:44.455830+00:00",
+      "published_at": "2026-04-30T18:47:23Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-28956414-scaled-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8d1ad401a52179221adfa3a53b955fec",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Governo anuncia 20 milhões para apoiar custos dos fertilizantes e energia e 60 milhões para regadio",
+      "summary": "O Governo anunciou, pela voz do primeiro-ministro Luís Montenegro, um apoio financeiro “excecional” de 60 milhões de euros para a reabilitação do regadio afetado pelos fenómenos meteorológicos adversos, assim como 20 milhões de euros destinados a compensar os sistemas produtivos agrícolas mais expostos aos efeitos do aumento dos custos com fertilizantes e energia. “São ações […]",
+      "url": "https://eco.sapo.pt/2026/04/30/governo-anuncia-20-milhoes-para-apoiar-custos-dos-fertilizantes-e-energia-e-60-milhoes-para-regadio/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:55:46.930165+00:00",
+      "published_at": "2026-04-30T17:33:37Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/03/cropped-44666877-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f5e10bde2ec3df3ee7144830bc4958a6",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Trabalhadores da Carristur em greve no sábado",
+      "summary": "Trabalhadores da Carristur, empresa da transportadora Carris que presta serviços de turismo, cumprem no sábado uma greve de 12 horas, reivindicando um aumento salarial e a revisão do acordo de empresa. Segundo o pré-aviso do STRUP – Sindicato dos Trabalhadores de Transportes Rodoviários e Urbanos de Portugal, a paralisação está prevista entre as 07:30 e […]",
+      "url": "https://eco.sapo.pt/2026/04/30/trabalhadores-da-carristur-em-greve-no-sabado/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:55:49.127943+00:00",
+      "published_at": "2026-04-30T17:00:16Z",
+      "image_url": "https://eco.imgix.net/uploads/2020/05/cropped-pndr7801.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "99444e0480d79e6c3f8d68e750ba436c",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Fátima prevê crescimento anual do turismo de 5% apesar da guerra no Irão",
+      "summary": "Região está com aumento de reservas antes e depois do 13 de maio, até de asiáticos",
+      "url": "https://expresso.pt/economia/economia_turismo/2026-04-30-fatima-preve-crescimento-anual-do-turismo-de-5-apesar-da-guerra-no-irao-2452b95d",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:57:28.846392+00:00",
+      "published_at": "2026-04-30T21:57:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-04-29-vp2i7755_t-_idp.jpg-136711d1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c4ab281920add1044c38805d76d4742e",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Ferrovia, energia, defesa e investimento em ações nos Altos e Baixos da Economia",
+      "summary": "Alguns dos destaques esta semana na área económica em Portugal",
+      "url": "https://expresso.pt/semanario/primeiro/em-destaque/altos--baixos/2026-04-30-ferrovia-energia-defesa-e-investimento-em-acoes-nos-altos-e-baixos-da-economia-4637e084",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:57:57.517692+00:00",
+      "published_at": "2026-04-30T21:57:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2023-01-26-ThumbExpresso.png-4e5403e6/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2036e2b823197fd937e2a1232176c22a",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "CEO da Floene eleito presidente de associação europeia de distribuidores de gás",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ceo-da-floene-eleito-presidente-de-associacao-europeia-de-distribuidores-de-gas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:39.824856+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6ed86995490a1efd9b7f9edf6b1449a8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Baião dá parecer desfavorável a central fotovoltaica no Marão",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/baiao-da-parecer-desfavoravel-a-central-fotovoltaica-no-marao",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:40.289313+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2eac585e2302637d6eded87071f19457",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo cria mecanismo para partilhar custos de ligação de gases renováveis à rede",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-cria-mecanismo-para-partilhar-custos-de-ligacao-de-gases-renovaveis-a-rede",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:42.701087+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "608b826497f2fc22b63c8b657c3a3f53",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ERSAR vai lançar concurso público para rever custos das obras no setor da água",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/ersar-vai-lancar-concurso-publico-para-rever-custos-das-obras-no-setor-da-agua",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:43.470860+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fb2ae5f7f54082c07031af7af0d3330c",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Enercon encerra produção de geradores em Lanheses após mudança tecnológica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/enercon-encerra-producao-de-geradores-em-lanheses-apos-mudanca-tecnologica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:43.860667+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1a26d64e646f84131e670049bd566e21",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Mundo enfrenta “a mais grave crise energética da história”, diz diretor da AIE",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/mundo-enfrenta-a-mais-grave-crise-energetica-da-historia-diz-diretor-da-aie",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:50.988835+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "47b1fb44e60f6dba54c0299050bf723f",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "LIPOR mantém campanha para incentivar reciclagem e alerta para metas por cumprir",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/lipor-mantem-campanha-para-incentivar-reciclagem-e-alerta-para-metas-por-cumprir",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:58:51.605062+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1d71a74916cd2984e9870abfdfaf9298",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Ryanair pede ao Governo português suspensão do sistema EES até setembro",
+      "summary": "Ambitur",
+      "url": "https://www.ambitur.pt/ryanair-pede-ao-governo-portugues-suspensao-do-sistema-ees-ate-setembro/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:59:07.003574+00:00",
+      "published_at": "2026-04-30 12:57:27+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/Ryan/ir/Ryanair_2451382b.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fc555ba182d2f749a70223fd17e5bcf8",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-01",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Associação de Turismo do Porto e Norte quer manter crescimento histórico após resultados recorde em 2025",
+      "summary": "Ambitur",
+      "url": "https://www.ambitur.pt/associacao-de-turismo-do-porto-e-norte-quer-manter-crescimento-historico-apos-resultados-recorde-em-2025/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T08:59:41.440897+00:00",
+      "published_at": "2026-04-30 10:26:28+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/luis-pedro-martins-e1777474097968.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "efb49b31b4eb405cd848676682faea52",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "A fatura da energia começa na falta de estratégia europeia",
+      "summary": "Os combustíveis não estão caros por acaso, resultam de dependência energética, decisões geopolíticas e ausência de planeamento estratégico na Europa.",
+      "url": "https://observador.pt/opiniao/a-fatura-da-energia-comeca-na-falta-de-estrategia-europeia/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:01:56.814190+00:00",
+      "published_at": "2026-05-01T00:01:02+01:00",
+      "image_url": "https://wm.observador.pt/wm-op/wide-circle/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A900%2Fc%3A467%3A467%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2025%2F09%2F22150656%2Fgjpsantos-800-pass.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4f65b82c9b68c1b959b79c0578d9dd12",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Chairman da TAP antevê \"verão seguro\" sem previsão de falta de combustível",
+      "summary": "Apesar de Carlos Oliveira não antecipar uma escassez de jet fuel, ressalva que tudo \"dependerá de como a situação evolui, sabendo que a TAP, obviamente, opera de muitos aeroportos no mundo todo e, portanto, não depende apenas da disponibilidade em Lisboa\".",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/chairman-da-tap-anteve-verao-seguro-sem-previsao-de-falta-de-combustivel",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:02:18.985220+00:00",
+      "published_at": "2026-04-30",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-01-14-54-28-521464.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d65cb8b86c48521fed78b7635152d36d",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "PSI segue ganhos europeus com impulso do grupo EDP e BCP",
+      "summary": "A sessão foi positiva, com os investidores concentrados na temporada de resultados, nas decisões de bancos centrais e numa possível escalada da situação no Médio Oriente, que impulsionou os preços da energia.",
+      "url": "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/psi-segue-ganhos-europeus-com-impulso-do-grupo-edp-e-bcp",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:02:34.867463+00:00",
+      "published_at": "2026-04-30",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-09/img_1200x676uu2025-09-02-15-05-15-508476.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2aadd4259dee2cdea8d5e673de251e19",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-04-30",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Impactos da guerra na inflação começam a ir além dos preços da energia, alerta Filipe Grilo",
+      "summary": "A subida da inflação subjacente é \"preocupante\", no entanto os efeitos da guerra no Médio Oriente só deverão ter maior impacto na inflação e no PIB a partir de maio. A economia portuguesa está mais protegida dos efeitos do conflito devido à exposição ao turismo.",
+      "url": "https://www.jornaldenegocios.pt/economia/conjuntura/detalhe/impactos-da-guerra-na-inflacao-comecam-a-ir-alem-dos-precos-da-energia-alerta-filipe-grilo",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-01T09:02:36.642932+00:00",
+      "published_at": "2026-04-30",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-04/img_1200x676uu2026-04-30-10-28-33-522873.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
     {
       "id": "e7812782d53d97ab2bd7c0c1c2b60775",
       "source": "parlamento-agenda",
@@ -33617,5 +34380,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1196
+  "entry_count": 1218
 }
