@@ -1,6 +1,791 @@
 {
-  "last_updated": "2026-05-01T09:10:33.959598+00:00",
+  "last_updated": "2026-05-04T09:28:19.755997+00:00",
   "entries": [
+    {
+      "id": "66491790927f00c174ffdd55c74c4281",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Reabertas Candidaturas Aos Incentivos Financeiros Para A Promocao DO Turismo Nos Acores",
+      "summary": "Estão novamente abertas as candidaturas aos sistemas de incentivos financeiros destinados ao apoio público a iniciativas de reconhecido interesse para a promoção do destino turístico Açores, informa a Secretaria Regional do Turismo, Mobilidade e Infraestruturas.",
+      "url": "https://www.publituris.pt/2026/05/04/reabertas-candidaturas-aos-incentivos-financeiros-para-a-promocao-do-turismo-nos-acores",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:36.355719+00:00",
+      "published_at": "2026-05-04T09:40:46",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2022/01/turistas-acores.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fc95ba80fc9c13eac8aca1cbce900904",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Profissionais DO Turismo Estao Satisfeitos Com A Carreira Mas Menos Confiantes NO Futuro DO Setor",
+      "summary": "Os profissionais do turismo estão mais satisfeitos com a sua carreira, mas menos confiantes no futuro do setor, revela o estudo “Experiência & Confiança no Setor (2025–2026)” apresentado pelo KIPT CoLAB no âmbito do primeiro Net Promoter Score (NPS) da profissão em Turismo e Hospitalidade.",
+      "url": "https://www.publituris.pt/2026/05/04/profissionais-do-turismo-estao-satisfeitos-com-a-carreira-mas-menos-confiantes-no-futuro-do-setor",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:38.839517+00:00",
+      "published_at": "2026-05-04T09:30:53",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2026/05/receptionists-elegant-suits-during-work-hours.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9c93ee4435af14d1e8e8cabeca510f1e",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Aposta Turistica Das Minas DE Jales",
+      "summary": "A diversificação turística é um dos elementos-chave do turismo em Portugal. No interior do país existem diversos exemplos. As minas de Jales são um deles.",
+      "url": "https://www.publituris.pt/2026/05/04/aposta-turistica-das-minas-de-jales",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:40.154748+00:00",
+      "published_at": "2026-05-04T09:21:20",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2026/05/MInas_de_Jales.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9cb72ff65925f4d51ed25528549c91e9",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Morreu o empresário Paulo Mirpuri, fundador da extinta Air Luxor",
+      "summary": "O empresário e médico Paulo Mirpuri, líder do grupo familiar Mirpuri e um dos fundadores da extinta companhia aérea Air Luxor, morreu no sábado. A informação foi confirmada pela Fundação Mirpuri. Numa nota publicada na página de Facebook da fundação, é partilhada “a notícia profundamente triste do falecimento” de Paulo Mirpuri, que “inspirou tantas pessoas”. […]",
+      "url": "https://eco.sapo.pt/2026/05/04/morreu-o-empresario-paulo-mirpuri-fundador-da-extinta-air-luxor/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:13:19.804754+00:00",
+      "published_at": "2026-05-04T06:23:13Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-paulo-mirpuri.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5de40a9a56af868e058f6e6760720b7e",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Escola de Viseu abre curso de mecânica aeronáutica para responder à escassez de profissionais",
+      "summary": "A mecânica de aeronaves é uma área crítica para as companhias aéreas devido à escassez de mão de obra qualificada",
+      "url": "https://expresso.pt/educacao/2026-05-04-video-escola-de-viseu-abre-curso-de-mecanica-aeronautica-para-responder-a-escassez-de-profissionais-d90d4607",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeronáutica"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:13:26.423267+00:00",
+      "published_at": "2026-05-04T07:54:23+00:00",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-04-ewrwe.jpg-fc3bf7b7/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2d3f5393bbd4c4b3837441c0eb765350",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Raro, violento e devastador: a cronologia de um comboio de tempestades que destruiu o centro do país (e não só)",
+      "summary": "Na madrugada de 27 de janeiro, Portugal foi atingido pela terceira tempestade em apenas uma semana. A depressão “Kristin” afetou sobretudo o centro do país, com rajadas de vento até 208 km/h. Morreram 18 pessoas e foi decretado o estado de calamidade em 68 municípios. Em plena campanha eleitoral, cerca de um milhão de pessoas ficaram sem eletricidade durante horas e, em alguns casos, meses. Cem dias depois, esta é a cronologia do que aconteceu",
+      "url": "https://multimedia.expresso.pt/tempestadekristin",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:13:33.214945+00:00",
+      "published_at": "2026-05-04T06:12:46+00:00",
+      "image_url": "https://multimedia.expresso.pt/tempestadekristin/assets/HiU6JHv44x/partilhas2-copy3-1500x1000.jpg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "337e8ff8c0a675496af3ffb297474ad5",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "“O país não vai acabar”. E a vontade de alterar o mundo do trabalho, vai?",
+      "summary": "O Presidente lembrou que “o trabalho tem de compensar, pagar a renda, a alimentação e o futuro dos filhos”. Chama-se dignidade e devia ser uma coisa que todos queremos para todos. Há cerca de meio milhão de pessoas que trabalham e, mesmo assim, são pobres. Esta é a mais urgente de todas as reformas: a que retoma o peso crescente da compensação dos trabalhadores em percentagem do PIB",
+      "url": "https://expresso.pt/opiniao/2026-05-04-o-pais-nao-vai-acabar.-e-a-vontade-de-alterar-o-mundo-do-trabalho-vai--9dbf1832",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:13:33.746044+00:00",
+      "published_at": "2026-05-04T06:02:54.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2023-04-20-350px_paulo-baldaia_a-_idp.png-d572dd07-2/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "445f48ea804dd3ee3ed7a50d40eae8a9",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-03",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Morreu Paulo Mirpuri, empresário e fundador da extinta Air Luxor",
+      "summary": "Empresário, piloto e médico, Paulo Mirpuri foi líder do grupo familiar Mirpuri, ligado sobretudo ao setor da aviação",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-03-morreu-paulo-mirpuri-empresario-e-fundador-da-extinta-air-luxor-3d17f6e2",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:13:37.437981+00:00",
+      "published_at": "2026-05-03T23:10:07.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-03-paulo-mirpuri-numa-fotografia-partilhada-pela-mirpuri-foudation-01ad1c96/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f69f656fa001855801d1be7c23850a0c",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-02",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Spirit Airlines encerra atividade após 34 anos e cancela operações de imediato",
+      "summary": "A companhia aérea norte-americana que abalou o sector com as suas campanhas publicitárias ousadas e tarifas extremamente baixas anunciou o fim da atividade. Cerca de 17 mil postos de trabalho poderão ser afetados",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-02-spirit-airlines-encerra-atividade-apos-34-anos-e-cancela-operacoes-de-imediato-01942a76",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:14:24.261376+00:00",
+      "published_at": "2026-05-02T07:52:41.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-02-doc.20260501.47029240.12926980--1-.jpg-593b9abd/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "da7262de3788f1e183ebf6b904b0a744",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "AIE deixa alerta para níveis elevados de metano e diz que há desperdício energético",
+      "summary": "Entre as medidas mais eficazes de eficiência está a redução das emissões durante as fases de exploração e produção de petróleo e gás, responsáveis por quase 80% das emissões.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/aie-deixa-alerta-para-niveis-elevados-de-metano-e-diz-que-ha-desperdicio-energetico",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:17:24.667348+00:00",
+      "published_at": "2026-05-04",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-04-09-35-14-522983.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4b9a68d44511e94ed6fcd103c91dd9d9",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Aeroporto do Dubai com quebra de 21% de passageiros nos primeiros três meses do ano",
+      "summary": "Aquele que é um dos mais movimentados aeroportos do mundo tem sentido os efeitos do prolongar do conflito na região do Médio Oriente.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/aeroporto-do-dubai-com-quebra-de-21-de-passageiros-nos-primeiros-tres-meses-do-ano",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:17:28.693552+00:00",
+      "published_at": "2026-05-04",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-04-09-04-46-522982.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0d1a439fdf014401fd764508c1b33e09",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Austrália e Japão reforçam aliança e assinam acordos em segurança económica, energia e defesa",
+      "summary": "Albanese sublinhou que ambos os países trabalharão para promover um Indo-Pacífico \"livre, aberto e estável\". Takaichi classificou as conversações como \"altamente produtivas\"",
+      "url": "https://www.jornaldenegocios.pt/economia/mundo/asia/detalhe/australia-e-japao-assinam-acordos-em-seguranca-economica-energia-e-defesa",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:17:38.450196+00:00",
+      "published_at": "2026-05-04",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-04-06-54-32-522954.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fbea303164a264ea78a31c6b28a848f5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5706/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5706/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Economia e Coesão Territorial e Cultura, Juventude e Desporto - Gabinete da Ministra da Cultura, Juventude e Desporto, Gabinete do Secretário de Estado da Administração Local e Ordenamento do Território e Gabinete do Secretário de Estado do Turismo, Comércio e Serviços Designa o júri para a avaliação das candidaturas à iniciativa Capital Portuguesa da Cultura para o ano de 2028.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5706-2026-1103935297",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.785148+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "03e5f8f5c63e8600fa8117e6e833f1e2",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5707/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5707/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Autorização de licenciamento, para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa, à sociedade comercial, sob a forma de sociedade anónima, denominada «AEROMEC ― Mecânica de Aeronaves, S. A.».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5707-2026-1103935298",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.785693+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cdaed16f0e27b64041eafbeffa74258f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5709/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5709/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição de licenciamento para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial por quotas CARGOVALOR, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5709-2026-1103935300",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.786542+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a667db8a55409f719f6b60b14a4d8e7b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10080/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10080/2026/2  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Abertura de procedimento concursal para o preenchimento de dois postos de trabalho para a carreira e categoria de assistente técnico.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10080-1103935346",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.806485+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "75204dca99ca4f67483268ceac546de3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10103/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10103/2026/2  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Município de Alcobaça Renovação da comissão de serviço de José António Nascimento Chaves Peça Francisco em cargo de direção intermédia de 1.º grau ― diretor do Departamento de Infraestruturas e Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10103-1103944816",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.835201+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f50fa64145f25663221984d73f9d15e3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11278/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11278/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Instituto Português do Mar e da Atmosfera, IP Aquisição de serviços especializados em Legislação e Regulamentação de Proteção de Dados aplicados a dados científicos",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11278-1103934934",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.862252+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "bbe0685d48f9e85b16d6946eb19f276a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11279/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11279/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Serviço de Utilização Comum dos Hospitais CP.PR2026.1553 - Aquisição de suplementos nutricionais para via oral e sondas e fórmulas de leite em pó infantil para a prestação do serviço de alimentação no Instituto Português de Oncologia Lisboa e de farinhas lácteas para preparação de papas para a prestação do serviço de alimentação nas unidades hospitalares",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11279-1103934935",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.862783+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "df25030c671a6c31d168056683339132",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11313/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11313/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Serviços de Ação Social da Universidade de Coimbra Aquisição por lotes de produtos alimentares c/transformação",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11313-1103945115",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "produtos alimentares"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.870577+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8455fdd3b723624dad267f1ea04cf225",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11321/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11321/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Universidade de Coimbra 26W00016 - 0000.0395O.02SERV - Aquisição de eletricidade em Baixa Tensão Especial (BTE) e em Baixa Tensão Normal (BTN), com garantias de origem, para as instalações da Universidade de Coimbra (UC) e dos Serviços e Ação Social da Universidade de Coimbra (SASUC).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11321-1103945119",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.872284+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "bed9634990e0aaceee5d34c7daae1891",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11294/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11294/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Município de Cascais Aquisição de serviços de licenciamento e suporte técnico da plataforma Mulesoft",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11294-1104081138",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.877457+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f2ccfd0502ec38d027b9b555d8b4adc8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11304/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11304/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Gabinete Nacional de Segurança Aquisição de portáteis, desktops, monitores e acessórios para o GNS e CNCS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11304-1104081143",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cncs"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.879458+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6c8810185dac8c779b81b4d4e0649d32",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11326/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11326/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "REN - Serviços, SA Fornecimento de sinóticos/videowalls e Sistemas de Gestão de Postos de Trabalho para o novo Despacho (Electricidade + Gás) no Edifício D de Sacavém, nas seguintes componentes de fornecimento e instalação: 1) Videowall das salas de despacho 2) Sistema de Gestão dos Postos de Trabalho 3) Mobiliário das salas de despacho e da sala de crise 4) Formação",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11326-1104081154",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.884049+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "deec8fd912bae1a70a453571a84bf46d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-04",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11328/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11328/2026  -  Diário da República n.º 85/2026, Série II de 2026-05-04",
+      "summary": "Banco de Portugal Aquisição de licenciamento e serviços de manutenção corretiva e evolutiva da solução Governance, Risk & Compliance (GRC)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11328-1104081155",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-04T09:10:30.884459+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "267000255131f021a68a548609c96b71",
       "source": "parlamento-agenda",
@@ -34380,5 +35165,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1218
+  "entry_count": 1243
 }
