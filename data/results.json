@@ -1,6 +1,1327 @@
 {
-  "last_updated": "2026-05-04T09:28:19.755997+00:00",
+  "last_updated": "2026-05-05T09:18:44.281183+00:00",
   "entries": [
+    {
+      "id": "8900a2c3f8cc1ed51bf435b9f66e93b3",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "TAP reconhece pedido de indemnização da ex-CEO nas contas",
+      "summary": "A TAP reconhece no relatório e contas de 2025 uma contingência relativa ao processo judicial movido por Chirstine Ourmières-Widener, em que a ex-CEO exige uma indemnização de 5,9 milhões de euros por considerar que o seu despedimento em 2023 foi ilegal e teve motivações políticas. As contingências civis da companhia aérea no final de 2025 […]",
+      "url": "https://eco.sapo.pt/2026/05/05/tap-reconhece-pedido-de-indemnizacao-da-ex-ceo-nas-contas/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:04.012994+00:00",
+      "published_at": "2026-05-05T08:56:07Z",
+      "image_url": "https://eco.imgix.net/uploads/2023/02/cropped-39885728-scaled-4.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a507bf05b2d82d325d3314894cd85152",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Exportações, investimento e turismo: qual a temperatura das relações entre Portugal e a Alemanha?",
+      "summary": "Em 2016, Marcelo Rebelo de Sousa, então Presidente da República, instituiu com António Costa, na figura de primeiro-ministro, a tradição de um duplo festejo das comemorações do 10 de junho. Assim, ao longo dos anos, a dupla que afinal ‘era feliz e sabia’ marcou presença por ocasião do dia de Portugal em cerimónias em território […]",
+      "url": "https://eco.sapo.pt/2026/05/05/exportacoes-investimento-e-turismo-qual-a-temperatura-das-relacoes-entre-portugal-e-a-alemanha/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:07.973590+00:00",
+      "published_at": "2026-05-05T05:39:14Z",
+      "image_url": "https://eco.imgix.net/uploads/2018/11/cropped-manchete_portugal-alemanha-01.png?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c579e5f77f872aa26a2f61424f39f9d4",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Falência da Spirit Airlines. Caso isolado ou a primeira peça a cair no dominó?",
+      "summary": "A Spirit Airlines teve origem numa empresa de camionagem do Michigan, que o empresário Ned Homfeld transformou primeiro numa companhia de voos charters no início dos anos 80, relançando-a em 1992 como transportadora aérea ultra-low-cost. Soçobrou no sábado, tornando-se a primeira vítima do impacto da guerra do Irão no setor da aviação nos EUA. O […]",
+      "url": "https://eco.sapo.pt/2026/05/05/falencia-da-spirit-airlines-caso-isolado-ou-a-primeira-peca-a-cair-no-domino/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:09.410917+00:00",
+      "published_at": "2026-05-05T05:39:10Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-doc202605044703845912930887.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9e15834195acd27d5932b762f507b000",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Sócio do Japão reduz participação na CaetanoBus. National Express cancela 60% das encomendas",
+      "summary": "A CaetanoBus avançou nas últimas semanas com um novo aumento de capital de 15 milhões de euros para “continuar a investir no segmento de aeroportos e na mobilidade urbana”, nos quais está a reposicionar o negócio na sequência das perdas nos autocarros de turismo. No entanto, segundo a documentação consultada pelo ECO, ao contrário do […]",
+      "url": "https://eco.sapo.pt/2026/05/05/socio-do-japao-reduz-participacao-na-caetanobus-national-express-cancela-60-das-encomendas/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:09.566594+00:00",
+      "published_at": "2026-05-05T05:39:01Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-voyager-1.png?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "25a63eeedd7327a51dc855236d29c979",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Angola vai cobrar 5% sobre dormidas para turistas internacionais a partir de agosto",
+      "summary": "Angola vai passar a cobrar uma taxa de 5% sobre o valor das dormidas a turistas internacionais, ao abrigo de uma Contribuição Especial para o Turismo, segundo um decreto presidencial, publicado no Diário da República. O Decreto Legislativo Presidencial n.º 4/26, de 30 de abril, determina que a contribuição incide sobre as diárias ou pernoitas […]",
+      "url": "https://eco.sapo.pt/2026/05/04/angola-vai-cobrar-5-sobre-dormidas-para-turistas-internacionais-a-partir-de-agosto/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:09.925641+00:00",
+      "published_at": "2026-05-04T20:14:43Z",
+      "image_url": "https://eco.imgix.net/uploads/2025/05/cropped-28510790-scaled-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3d7389264283b1a2027c7b05e66a182d",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Da justiça, turismo, defesa à IA: Advocatus Summit volta a reunir líderes do setor a 12 de maio",
+      "summary": "A Advocatus Summit regressa no próximo dia 12 de maio para a sua 9.ª edição, consolidando o seu posicionamento como um dos principais fóruns de ligação entre a advocacia de negócios e os agentes empresariais em Portugal. O evento terá lugar no Salão Nobre da Ordem dos Advogados, inserido nas comemorações do centenário da instituição. […]",
+      "url": "https://eco.sapo.pt/2026/05/04/da-justica-turismo-defesa-a-ia-advocatus-summit-volta-a-reunir-lideres-do-setor-a-12-de-maio/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:10.093070+00:00",
+      "published_at": "2026-05-04T19:57:19Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/artigo-advocatus-summit26-800x450-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "91049aa854a65c0dd4a506478f3de912",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Brasil bate recorde de produção de petróleo e gás pelo segundo mês consecutivo",
+      "summary": "A extração de petróleo alcançou 4,24 milhões de barris diários, um crescimento de 4,6% face ao mês anterior e um aumento de 17,3% em relação ao mesmo mês de 2025",
+      "url": "https://expresso.pt/internacional/brasil/2026-05-05-brasil-bate-recorde-de-producao-de-petroleo-e-gas-pelo-segundo-mes-consecutivo-fa8a2ae0",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:14.351932+00:00",
+      "published_at": "2026-05-05T08:44:16.600Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-05-18675784.webp-7650039f/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d54e66e81ae06b6741b0faa21f5eedda",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "FMI avisa: pior cenário energético já não está fora de hipótese; Espanha apontada como exemplo",
+      "summary": "A diretora do FMI antecipa um cenário mais adverso, com inflação e petróleo nos 120 dólares em 2027, e avisa que países com energia fiável e barata terão vantagem na era da inteligência artificial - apontando Espanha como exemplo",
+      "url": "https://expresso.pt/economia/economia_energia/2026-05-05-fmi-avisa-que-choque-energetico-no-estreito-de-ormuz-afetara-todos-os-paises-globalmente-e12ac257",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:18.918863+00:00",
+      "published_at": "2026-05-05T07:11:45.100Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-05-rc2k2la46vto.jpg-0bb6eabe/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c0a9ab689108eebb9870861a042ea8cd",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "TAP finaliza venda do 'handling' à Menzies até junho, com o Governo a prolongar licenças até outubro",
+      "summary": "Com a situação da logística de assistência em escala nos aeroportos portugueses a complicar-se, a solução vai passar pelo prolongamento das licenças da Menzies até ao final do verão IATA e, se necessário, pelo avanço do self-handling na TAP. Até junho vai avançar a venda da posição de 49,9% da TAP na SPdH à Menzies",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-04-tap-finaliza-venda-do-handling-a-menzies-ate-junho-com-o-governo-a-prolongar-licencas-ate-outubro-a6b8ea65",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:38.632686+00:00",
+      "published_at": "2026-05-04T23:01:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-27-fox_aeroporto_000113.jpg-f0daa255/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "adae89457741bc880e0e1404f7093934",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Estudo técnico indica que cerca de 7% do território tem potencial para acelerar renováveis",
+      "summary": "O 'mapa verde', como foi apelidado pela ministra de Ambiente e Energia, identifica áreas potenciais para solar fotovoltaico e eólico depois da aplicação de critérios de exclusão ambiental, territorial e patrimonial",
+      "url": "https://expresso.pt/economia/economia_energia/2026-05-04-estudo-tecnico-indica-que-cerca-de-7-do-territorio-tem-potencial-para-acelerar-renovaveis-74926d31",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:47.316879+00:00",
+      "published_at": "2026-05-04T18:57:44.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2023-01-31-central-solar-eurowind.jpg-14f13f30/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1f3c7c92694739a1dfc9ac286d3c654a",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Bernardo Trindade candidata-se à presidência da Confederação do Turismo",
+      "summary": "Bernardo Trindade foi secretário de Estado do Turismo e preside atualmente à Associação da Hotelaria de Portugal. AHP quer que a Confederação do Turismo de Portugal (CTP) \"c ontinue a afirmar-se como um parceiro social relevante, credível e construtivo\"",
+      "url": "https://expresso.pt/emprego/2026-05-04-bernardo-trindade-candidata-se-a-presidencia-da-confederacao-do-turismo-60663263",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:05:51.431014+00:00",
+      "published_at": "2026-05-04T17:40:17.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-11-bernardo-trindade.jpg-ec11c19d/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "24a5e6fb906d785729d443a6f27766a0",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-04",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Como viver mais e melhor? A resposta vai da alimentação equilibrada ao exercício físico regular",
+      "summary": "No dia 11 de maio, leia o que os médicos dizem sobre a incidência de alergias sazonais nos mais velhos. Pode acompanhar até novembro este projeto Expresso, que tem o apoio da Pharma Nord",
+      "url": "https://expresso.pt/longevidade/2026-05-04-como-viver-mais-e-melhor--a-resposta-vai-da-alimentacao-equilibrada-ao-exercicio-fisico-regular-f826e695",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:07.060535+00:00",
+      "published_at": "2026-05-04T14:32:14.269Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-04-fresh-prepared-salad-glass-bowl-with-wooden-spoon-woman-background.jpg-e4e4c3e7/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b486f4e720eb406f11b8c8f0bfcf30c3",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Macário Correia escolhido para liderar nova empresa da estratégia “Água que Une”",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/macario-correia-escolhido-para-liderar-nova-empresa-da-estrategia-agua-que-une",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:49.216060+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a84a6f881b0c9f9ea2f0d0e74c64dd22",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Dessalinizadora do Algarve volta a ser travada por providência cautelar",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/dessalinizadora-do-algarve-volta-a-ser-travada-por-providencia-cautelar",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:49.642110+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2399e90a0d02d3786ea2d7670d6bcbf7",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo define poderes da AdP AQUA e coloca Estratégia TERRA+ em consulta",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-define-poderes-da-adp-aqua-e-coloca-estrategia-terra-em-consulta",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:50.129369+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0cca6b36630e13db5be72f24cb35d5c1",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo levanta restrições a novos furos de água após melhoria da situação hídrica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-levanta-restricoes-a-novos-furos-de-agua-apos-melhoria-da-situacao-hidrica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:50.630040+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9d305811c6c50e3101d8f5953812f2cb",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Portugal tem 671 águas balneares identificadas em 2026",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/portugal-tem-671-aguas-balneares-identificadas-em-2026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:51.939517+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "abfa03fe8cd0b2c767f7f48ae659db94",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Recolha de resíduos volumosos cresce quase 28% em Sintra no início de 2026",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/recolha-de-residuos-volumosos-cresce-quase-28-em-sintra-no-inicio-de-2026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:55.267276+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ae7dc0466f2c73a00f0e706017a9b06e",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Finerge garante 115 milhões para avançar com quatro projetos solares híbridos",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/finerge-garante-115-milhoes-para-avancar-com-quatro-projetos-solares-hibridos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:06:55.687512+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0d9bdf2624bd1e2365b891b4b30ac474",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Lusanova renova certificação internacional de sustentabilidade Travelife",
+      "summary": "A Lusanova Excursões e Turismo Lda. (Portugal) renovou, pela primeira vez, a certificação Travelife Certified, reforçando o seu posicionamento como uma das referências nacionais na integração de práticas sustentáveis no setor do turismo. A renovação da certificação reconhece o compromisso continuado da empresa portuguesa com uma gestão responsável da sua atividade, abrangendo critérios ambientais, sociais […]",
+      "url": "https://www.ambitur.pt/lusanova-renova-certificacao-internacional-de-sustentabilidade-travelife/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:10.960621+00:00",
+      "published_at": "2026-05-04 12:02:28+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/Bus-Lusanova-e1777892539637.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f4f4d80edb2b6e38c5cef69a6264efb8",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Soltrópico lança operação de fim de ano para o Senegal com lugares garantidos",
+      "summary": "A Soltrópico anunciou o lançamento de uma operação especial de fim de ano para o Senegal, com lugares garantidos em voos da TAP Air Portugal, reforçando a sua programação para destinos de longo curso e clima tropical. A partida está marcada para 26 de dezembro de 2026, com saída de Lisboa, e inclui um programa […]",
+      "url": "https://www.ambitur.pt/soltropico-lanca-operacao-de-fim-de-ano-para-o-senegal-com-lugares-garantidos/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:19.005509+00:00",
+      "published_at": "2026-04-30 12:00:41+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/10/senegal_275-e1777546832289.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "99b0873f07eea94a92bc37027f5bb9dd",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Associados da AHP apoiam candidatura da Associação à Presidência da CTP",
+      "summary": "Os associados da Associação da Hotelaria de Portugal (AHP) manifestaram o seu apoio unânime, em Assembleia Geral realizada a 30 de abril, à candidatura da AHP à Presidência da Confederação do Turismo de Portugal (CTP) para o mandato 2027-2030. A candidatura será encabeçada por Bernardo Trindade, atual Presidente da AHP, e assume-se como uma candidatura […]",
+      "url": "https://www.ambitur.pt/associados-da-ahp-apoiam-candidatura-da-associacao-a-presidencia-da-ctp/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:26.749805+00:00",
+      "published_at": "2026-05-04 12:17:50+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2022/11/bernardo-trindade-11-e1708015555750.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4e3c8739f6fb5f05db0f967c82128cd3",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Turismo de Portugal e Nova SBE lançam programa de literacia financeira para PME do turismo",
+      "summary": "O Turismo de Portugal e a Nova School of Business and Economics estabeleceram um protocolo de cooperação para implementar o programa Finanças para Todos – Empresas, uma iniciativa de literacia financeira dirigida a pequenas e médias empresas do setor turístico, que pretende abranger 6.000 empresas e cerca de 50 mil trabalhadores em todo o país […]",
+      "url": "https://www.ambitur.pt/turismo-de-portugal-e-nova-sbe-lancam-programa-de-literacia-financeira-para-pme-do-turismo/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:28.621018+00:00",
+      "published_at": "2026-05-04 12:16:45+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/financas-todos.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c6443a33e22286746b8f5bd205d658dd",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Cirium: Conflito no Médio Oriente já afetou cinco milhões de passageiros e força companhias a cortar milhares de voos",
+      "summary": "O conflito no Médio Oriente está a provocar um forte abalo na aviação internacional, com impacto direto nos grandes hubs de ligação entre a Europa, a Ásia e a Oceania. De acordo com uma análise da Cirium, cerca de cinco milhões de passageiros terão sido afetados por cancelamentos de voos nas primeiras semanas da crise, […]",
+      "url": "https://www.ambitur.pt/cirium-conflito-no-medio-oriente-ja-afetou-cinco-milhoes-de-passageiros-e-forca-companhias-a-cortar-milhares-de-voos/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:30.580808+00:00",
+      "published_at": "2026-05-04 11:49:53+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/aeroporto-cirium-e1777891606715.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "440c0a798f748dfd415add53ca6a40f7",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "INE: Turismo cresce em março impulsionado pelos mercados externos e gera 432,9 milhões de euros em receitas",
+      "summary": "O setor turístico em Portugal registou um crescimento moderado em março de 2026, impulsionado sobretudo pela procura internacional. De acordo com os dados divulgados pelo Instituto Nacional de Estatística, os estabelecimentos de alojamento turístico receberam 2,3 milhões de hóspedes, mais 0,9% face ao mesmo período do ano passado, enquanto as dormidas cresceram 1,4%, totalizando 5,6 […]",
+      "url": "https://www.ambitur.pt/ine-turismo-cresce-em-marco-impulsionado-pelos-mercados-externos-e-gera-4329-milhoes-de-euros-em-receitas/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "alojamento turístico",
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:32.679212+00:00",
+      "published_at": "2026-05-04 11:15:18+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/11/turistas-ine.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "edab689083b867a0eeb11aaff0e9baa6",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Toulouse, a “cidade rosa” de França que se quer afirmar no mercado português",
+      "summary": "Toulouse, “the pink city” (a cidade rosa), apresenta-se agora ao mercado português para reforçar o turismo para este destino em França. Afirmando-se como o “autêntico sul” do país, abolindo a ideia dos destinos de luxo, esta cidade promete o melhor dos dois mundos, entre o urbano e a natureza. Numa apresentação com a imprensa do […]",
+      "url": "https://www.ambitur.pt/toulouse-a-cidade-rosa-de-franca-que-se-quer-afirmar-no-mercado-portugues/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:34.840362+00:00",
+      "published_at": "2026-04-30 15:45:10+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/toulouse-e1777560293835.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a593cf9cd899873c8415a7db628cf62a",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "ATA fecha 2025 com resultados positivos e reforça aposta num Algarve menos sazonal",
+      "summary": "A Associação Turismo do Algarve (ATA) encerrou o exercício de 2025 com resultados líquidos positivos superiores a 83 mil euros, consolidando a sua estratégia de promoção internacional e reforçando a ambição de tornar o Algarve um destino turístico menos dependente da sazonalidade. O Relatório e Contas referente ao último ano foi aprovado por unanimidade na […]",
+      "url": "https://www.ambitur.pt/ata-fecha-2025-com-resultados-positivos-e-reforca-aposta-num-algarve-menos-sazonal/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:38.663432+00:00",
+      "published_at": "2026-04-30 11:55:53+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/11/Andre-Gomes-2-e1764327458297.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f731a8307e928256b508f5f90198ca29",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Quem é… Diana Morais?",
+      "summary": "A Ambitur.pt continua a dar-lhe a conhecer um pouco melhor os profissionais que trabalham no setor hoteleiro nacional. Desta vez estamos com Diana Morais, Guest Relations no Kimpton Atlântico Algarve. Atual cargo: Guest Relations no Kimpton Atlântico Algarve Data de nascimento: 19/05/1998 Local onde nasceu: Guimarães Formação: Mestrado em Gestão e Planeamento em Turismo (Universidade […]",
+      "url": "https://www.ambitur.pt/quem-e-diana-morais/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:07:43.661197+00:00",
+      "published_at": "2026-04-30 14:03:10+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/04/diana-morais-e1776175526171.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1601face6e97bc4dda03639e2e8a7062",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Cientistas revelam papel do hidrogénio na formação estelar",
+      "summary": "\"A poeira cósmica é um dos ingredientes fundamentais do universo\". Estudo replicou à nanoescala os processos químicos de gigantes vermelhas — e encontrou no hidrogénio o agente decisivo.",
+      "url": "https://observador.pt/2026/05/05/cientistas-revelam-papel-fundamental-do-hidrogenio-na-formacao-estelar/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "hidrogénio"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:09:14.764933+00:00",
+      "published_at": "2026-05-05T06:50:59+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A105%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2024%2F12%2F16132504%2F38661697.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0c14ff0d45d744eb205aee2250ba8b09",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-05",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "BA Glass investe 62 milhões para entrar em África através de vidreira tunisina",
+      "summary": "A empresa portuguesa, uma das maiores produtoras de embalagens de vidro para a indústria alimentar e de bebidas do mundo, investiu 62 milhões de euros. Mas mais do que uma aquisição, CEO fala na conquista de uma parceria.",
+      "url": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/ba-glass-investe-62-milhoes-para-entrar-em-africa-atraves-de-vidreira-tunisina",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "indústria alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:09:52.955890+00:00",
+      "published_at": "2026-05-05",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-02/img_1200x676uu2026-02-12-16-09-48-518429.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "62df2c6a47ce561499de70dd87117027",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-05-05",
+      "type": "Resolução da Assembleia da República",
+      "content_kind": "act",
+      "number": "101/2026",
+      "issuer": "",
+      "title": "Resolução da Assembleia da República n.º 101/2026  -  Diário da República n.º 86/2026, Série I de 2026-05-05",
+      "summary": "Assembleia da República Eleição de um vogal para a Comissão Nacional de Proteção de Dados.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/101-2026-1103945166",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:42.532498+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "461f373a422a4b8d2b6368f6402bd90b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Deliberação",
+      "content_kind": "act",
+      "number": "527/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 527/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Economia e Coesão Territorial - Instituto do Turismo de Portugal, IP Aprova e regulamenta o Programa Bolsa Luís Patrão 2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/527-2026-1106828110",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.088638+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "d7d78bb7508c23dc52fc20b2b05081e9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Deliberação",
+      "content_kind": "act",
+      "number": "528/2026",
+      "issuer": "",
+      "title": "Deliberação n.º 528/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Economia e Coesão Territorial - Instituto do Turismo de Portugal, IP Subdelegação de competências na diretora coordenadora da Direção de Valorização da Oferta, Leonor Soares da Costa Picão de Abreu Ramos de Carvalho ― pagamentos decorrentes dos pedidos de cobertura de custos apresentados pelas empresas do setor do turismo, no âmbito do programa «O Turismo Acolhe».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/deliberacao/528-2026-1106828111",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.089115+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "af9bab7d23b0fbfcbcfadfea55538923",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "5780/2026",
+      "issuer": "",
+      "title": "Despacho n.º 5780/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Ambiente e Energia - Gabinete da Ministra do Ambiente e Energia Aprova a criação da iniciativa «RE:NATURE 2000» dirigida ao restauro ecológico nas áreas de Rede Natura 2000.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/5780-2026-1106828151",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.104461+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cc313b61bf7e1f9fc00a41be16cbec51",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "473/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 473/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Universidade de Aveiro Regulamento do Ciclo de Estudos Conducente ao Grau de Doutor em Ciências e Engenharia do Ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/473-2026-1106828166",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.109932+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3033bb9fe27f29b79d524f45eeb2b9ed",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "10234/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 10234/2026/2  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Município de Manteigas Lista unitária de ordenação final do procedimento concursal comum na carreira/categoria de técnico superior ― ambiente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/10234-1106848026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.131638+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a263db82e15119d16487e6d9c6e045f3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11433/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11433/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Município de Constância Empreitada de obra pública “Eficiência energética na Administração Local - Piscina”.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11433-1106869589",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eficiência energética"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.158264+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "554fc4278f0887dfb022b12b3d2f31f4",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11461/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11461/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Associação de Turismo de Lisboa - Visitors and Convention Bureau CONCURSO PÚBLICO INTERNACIONAL N.º 12.VI_VITRINES_CPI_01_2026 para Aquisição e Instalação de Equipamentos Expositivo e Elementos de Museografia no Piso Intermédio do Museu Nacional de Arte Antiga",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11461-1106869604",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.163739+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c2691d70c7eda3c8e691c261913e6e7f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11465/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11465/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Instituto Português de Oncologia de Lisboa Francisco Gentil, EPE PN/1333/2026 - Aquisição de Gás Natural",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11465-1106869607",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás natural"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.164880+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c91178c5c1a1fb5c1de596c1c0072ea0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-05",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "11462/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 11462/2026  -  Diário da República n.º 86/2026, Série II de 2026-05-05",
+      "summary": "Secretaria-Geral do Ministério da Administração Interna Proc. 15/DPIE/2025 - Aquisição de Aplicadores de Gás Pimenta, para a GNR e para a PSP, no âmbito do DLPIEFSS.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/11462-1108675969",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-05T09:02:43.169271+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "66491790927f00c174ffdd55c74c4281",
       "source": "news-publituris",
@@ -35165,5 +36486,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1243
+  "entry_count": 1283
 }
