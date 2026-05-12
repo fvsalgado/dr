@@ -1,6 +1,1071 @@
 {
-  "last_updated": "2026-05-11T10:46:56.730042+00:00",
+  "last_updated": "2026-05-12T09:52:37.991015+00:00",
   "entries": [
+    {
+      "id": "3720ab6fdbbffc8f7dc48a84d18d1a9c",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Quem tem menos vai pagar mais pela guerra no Médio Oriente, alerta estudo do BCE",
+      "summary": "O fantasma da guerra não se fica pelas trincheiras. Quando os conflitos se arrastam nas regiões produtoras de energia, os seus efeitos propagam-se silenciosamente até às poupanças de quem vive a milhares de quilómetros. É esse o aviso que um grupo de quatro economistas do Banco Central Europeu lança num estudo publicado segunda-feira no Boletim […]",
+      "url": "https://eco.sapo.pt/2026/05/12/quem-tem-menos-vai-pagar-mais-pela-guerra-no-medio-oriente-alerta-estudo-do-bce/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:30:37.140839+00:00",
+      "published_at": "2026-05-12T05:32:53Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-6p1a6000-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "036b2e0435c3f5bf96bc4dd86a9a7b42",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Grécia vai limitar número de camas nas zonas turísticas mais sobrelotadas",
+      "summary": "O Governo grego anunciou esta segunda-feira uma série de medidas para tornar o turismo mais sustentável, incluindo a proibição de os novos hotéis nas zonas mais sobrelotadas oferecerem mais de 100 camas, segundo o jornal Kathimerini. De acordo com a publicação, citada pela agência EFE, a ministra do Turismo, Olga Kefalogianni, e o ministro do […]",
+      "url": "https://eco.sapo.pt/2026/05/11/grecia-vai-limitar-numero-de-camas-nas-zonas-turisticas-mais-sobrelotadas/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:30:41.820477+00:00",
+      "published_at": "2026-05-11T19:13:40Z",
+      "image_url": "https://eco.imgix.net/uploads/2022/04/greece_ionian-sea_shipwreck-beach-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "825128120c0196ac8af7f91030618dc6",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Trump vai suspender imposto sobre combustíveis para travar subida dos preços",
+      "summary": "A subida dos combustíveis e da inflação está a aumentar a pressão sobre Donald Trump , numa altura em que a Casa Branca avança com medidas de emergência para travar os preços da energia antes das eleições intercalares nos EUA",
+      "url": "https://expresso.pt/guerra-ucrania/2026-05-12-trump-vai-suspender-imposto-sobre-combustiveis-para-travar-subida-dos-precos-7e39cfb9",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:31:11.655414+00:00",
+      "published_at": "2026-05-12T06:54:36.919Z",
+      "image_url": "https://images.impresa.pt/expresso/2024-11-04-donald-trump-maga.jpg-d003fc33/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d03ea8b325f863ad3c1d475bc0403ac1",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-11",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Grécia arma-se com Israel para travar a Turquia, mas a aliança tem custos políticos",
+      "summary": "Israel encontra-se num ambiente geopolítico muito complexo, no meio de uma reordenação histórica do poder regional. Embora nos últimos 15 anos o Estado hebraico e a Turquia tenham tentado reconciliar-se em muitas ocasiões, nos círculos de segurança israelitas, a Turquia é vista como potencial ameaça. É nesse contexto que ganha forçaa aliança israelita com a Grécia (e Chipre)",
+      "url": "https://expresso.pt/medio-oriente/conflito/2026-05-11-grecia-arma-se-com-israel-para-travar-a-turquia-mas-a-alianca-tem-custos-politicos-d2c3c265",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:32:03.702204+00:00",
+      "published_at": "2026-05-11T17:30:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-11-as-bandeiras-de-chipre-grecia-israel-e-da-uniao-europeia-no-palacio-presidencial-em-nicosia-chipre-a-4-de-setembro-de-2023-aquando-de-uma-reuniao-trilateral-entre-o-presidente-de-chipre-nicos-christodoulides-o-primeiro-ministro-grego-kyriakos-mitsotakis-e-o-primeiro-ministro-israelita-benjamin-netanyahu-d262573a/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1f21dba46f4cc0cbace87fd2bfe8a45b",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo quer identificar soluções europeias para melhorar reciclagem de plásticos agrícolas",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-quer-identificar-solucoes-europeias-para-melhorar-reciclagem-de-plasticos-agricolas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:35.341840+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7105438889a3c813f6b8c2bf8a1468bd",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Programa Sustentável 2030 abre concursos de 130 milhões para água e gestão de resíduos",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/programa-sustentavel-2030-abre-concursos-de-130-milhoes-para-agua-e-gestao-de-residuos",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:35.852895+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6759114a169cca187864a022a6f783ee",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Maioria das embalagens ainda não pode ser devolvida no sistema Volta, um mês após arranque",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/maioria-das-embalagens-ainda-nao-pode-ser-devolvida-no-sistema-volta-um-mes-apos-arranque",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:38.069698+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "78c0d5e5760adc50d4ad2aafa9a676eb",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Novas regras da UE para proteção da água já estão em vigor",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/novas-regras-da-ue-para-protecao-da-agua-ja-estao-em-vigor",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:41.796602+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3a1cec3ecc9df0528022d12e2292dab8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "AIE prevê mudança duradoura no setor energético após bloqueio do estreito de Ormuz",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/aie-preve-mudanca-duradoura-no-setor-energetico-apos-bloqueio-do-estreito-de-ormuz",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:42.371092+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "296ff5b10d2fdf119b0f18b355952579",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "PRIO instala 28 oleões na Nazaré para recolha de óleos alimentares usados",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/prio-instala-28-oleoes-na-nazare-para-recolha-de-oleos-alimentares-usados",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:42.991646+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "31dbea9a2e394e3c8a713689abedbac9",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Contentores inteligentes da Lipor ultrapassam 10 mil utilizações em fase piloto",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/contentores-inteligentes-da-lipor-ultrapassam-10-mil-utilizacoes-em-fase-piloto",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:33:43.436998+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5ab11cca062bc872cf1958379cb9fd82",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Hyatt Regency Vilamoura reforça sustentabilidade com novo projeto solar da Greenvolt",
+      "summary": "O Hyatt Regency Vilamoura Algarve concluiu, em parceria com a Greenvolt Next, a instalação de um novo sistema de energia solar na cobertura da unidade, reforçando a sua estratégia de eficiência energética e descarbonização. O projeto inclui mais de 400 módulos fotovoltaicos, com uma capacidade instalada de cerca de 170 kWp e uma produção anual […]",
+      "url": "https://www.ambitur.pt/hyatt-regency-vilamoura-reforca-sustentabilidade-com-novo-projeto-solar-da-greenvolt/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eficiência energética",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:34:09.537898+00:00",
+      "published_at": "2026-05-11 11:30:42+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/Hyatt-20.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cb2a85c6279a77d3bf224efa30d0c507",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Vê Portugal regressa a Viseu com novos formatos e reforço da dimensão nacional",
+      "summary": "A cidade de Viseu vai receber, entre 1 e 3 de junho, a 12.ª edição do Vê Portugal – Fórum de Turismo Interno, iniciativa promovida pela Turismo Centro de Portugal que este ano se apresenta com novos formatos, maior envolvimento institucional e uma ambição nacional reforçada. A apresentação oficial do evento decorreu esta segunda-feira, em […]",
+      "url": "https://www.ambitur.pt/ve-portugal-regressa-a-viseu-com-novos-formatos-e-reforco-da-dimensao-nacional/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:34:26.651484+00:00",
+      "published_at": "2026-05-12 10:28:50+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/forum-turismo-centro-e1778531464474.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e16e78d6b77eef06b1528b99de7dbeff",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "WTTC estima recuperação do turismo no Médio Oriente em dois meses se conflito terminar",
+      "summary": "A World Travel & Tourism Council (WTTC) estima que o setor das viagens e turismo no Médio Oriente poderá recuperar a normalidade num prazo mínimo de dois meses, caso seja alcançado um acordo de paz que coloque fim ao atual conflito na região. A previsão foi avançada por Gloria Guevara, presidente e CEO da WTTC, […]",
+      "url": "https://www.ambitur.pt/wttc-estima-recuperacao-do-turismo-no-medio-oriente-em-dois-meses-se-conflito-terminar/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:34:28.711707+00:00",
+      "published_at": "2026-05-12 10:27:55+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/glor/a-/gloria-guevara.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "863446853d3b2813796334a02cc061ac",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Baixo Alentejo torna-se centro mundial do enoturismo entre maio e junho",
+      "summary": "Beja recebe, de 31 de maio a 3 de junho, a terceira edição da Global Summit on Responsible Enotourism, organizada pela Global Wine Tourism Organization em parceria com a Turismo do Alentejo e Ribatejo. O evento, que terá lugar na Pousada de Beja, deverá reunir cerca de 300 participantes, entre especialistas internacionais, produtores de vinho, […]",
+      "url": "https://www.ambitur.pt/baixo-alentejo-torna-se-centro-mundial-do-enoturismo-entre-maio-e-junho/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:35:13.210083+00:00",
+      "published_at": "2026-05-11 11:35:13+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/globalwinetourism.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d3e2e850a909e7075247a79bdfc50d6e",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Acidente com avião da Turkish Airlines com origem hidráulica",
+      "summary": "Um funcionário do aeroporto nepalês onde aterrou na segunda um avião da Turkish Airlines afirmou que o trem de aterragem da aeronave ardeu, mas a companhia aérea indicou apenas uma falha hidráulica.",
+      "url": "https://observador.pt/2026/05/12/acidente-com-aviao-da-turkish-airlines-com-origem-hidraulica/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto",
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:36:54.080436+00:00",
+      "published_at": "2026-05-12T09:26:20+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F12043546%2F47079417.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ccb081745ebd267f901d1124a971df68",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Audição controlada pelo cérebro distingue voz numa multidão",
+      "summary": "Os cientistas desenvolveram um sistema que aproveita a capacidade natural do cérebro de filtrar todos os sons num ambiente complexo para isolar dinamicamente a conversa específica que se deseja ouvir.",
+      "url": "https://observador.pt/2026/05/12/sistema-de-audicao-controlado-pelo-cerebro-distingue-uma-voz-no-meio-da-multidao/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:37:00.964570+00:00",
+      "published_at": "2026-05-12T08:51:16+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F12004631%2F4924330.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a968b4fd6fd5b3318c2ecd67e3618e88",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "8h. Ministra da Saúde não se demite e só sai se PM decidir",
+      "summary": "Ana Paula Martins reconhece que o setor atravessa uma fase difícil mas considera que continua a ter o apoio de Luís Montenegro. Também no jornal o ambiente em Fátima para as celebrações do 13 de Maio",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-8h-2395/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:37:12.159510+00:00",
+      "published_at": "2026-05-12T08:14:50+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/04/13113304/770-podcast-noticiario.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "802b3025aeb8b7c0cad2c635c8ebb138",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Lúpus: suplemento natural é seguro?",
+      "summary": "No Lúpus, natural nem sempre é seguro. Alho, alfafa, vitaminas e alimentação anti-inflamatória: a Nutricionista Mariana Chaves esclarece os cuidados essenciais.",
+      "url": "https://observador.pt/programas/aprender-a-comer/lupus-suplemento-natural-e-seguro/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:37:25.259707+00:00",
+      "published_at": "2026-05-12T06:03:09+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2023/10/12171526/770-podcast-aprender-a-comerainda-bem.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fda557dcd434464ecf5a01903e26dea0",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-05-12",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "218/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 218/2026/1  -  Diário da República n.º 91/2026, Série I de 2026-05-12",
+      "summary": "Finanças e Ambiente e Energia Aprova os estatutos provisórios da Agência de Geologia e Energia, I. P., no âmbito do seu regime de instalação.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/218-1119818252",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:23.122602+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "15695a3c190b58b900a868e85033f894",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6033/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6033/2026  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Economia e Coesão Territorial - Instituto Português da Qualidade, IP Alteração da instalação do Centro de Ensaios da Silexal ― Electricidade Automóvel Lda., da localidade de Oliveira de Azeméis, sito na morada Rua do Marco, n.º 53, Silvares, Oliveira de Azeméis, 3720-091 Macinhata da Seixa, para a localidade de Estarreja, sito na morada Rua do Beduído s/n 3860-225 Estarreja.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6033-2026-1118713750",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.127556+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "81da639fc66af65d084e5b303a48e6a7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "10863/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 10863/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Homologação da lista de ordenação final referente ao procedimento concursal aberto pelo Aviso (extrato) n.º 30707/2025/2, de 18 de dezembro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/10863-1119817508",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.150694+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8272bebdb838a608ffae0931ae43a50e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10864/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10864/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum na modalidade de contrato de trabalho em funções públicas por tempo indeterminado para ocupação de um posto de trabalho na carreira de técnico superior.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10864-1119817509",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.151096+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9755ba76b255ac5034d6315c81783725",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Declaração de Retificação",
+      "content_kind": "act",
+      "number": "394/2026/2",
+      "issuer": "",
+      "title": "Declaração de Retificação n.º 394/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Retifica o Aviso n.º 6660/2026/2, de 25 de março, publicado no Diário da República, 2.ª série, n.º 59, de 25 de março de 2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/declaracao-retificacao/394-1119817510",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.151511+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "fcf9f2c8dc5035269841ad89088906af",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10866/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10866/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Abertura de procedimento concursal comum para o preenchimento de um posto de trabalho, na carreira e categoria de técnico superior, para a Unidade de Auditoria Interna.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10866-1119817516",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.153797+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "7e4e6721f89fd696b6f75b2c9b41012e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10867/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10867/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Conclusão do período experimental, com sucesso, na carreira e categoria de técnico superior de vários trabalhadores.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10867-1119817517",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.154179+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "32798cfef19f51bc0de44ed0667da51d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "10868/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 10868/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Conclusão com sucesso do período experimental, na carreira e categoria de assistente técnico, de Paulo André Gonçalves Morgado.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/10868-1119817518",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.154555+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ba5cb563c9410dd5e4a47e719df5ae5f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6074/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6074/2026  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto Anulação do procedimento concursal de seleção internacional para a contratação de um(a) investigador(a) doutorado(a) de nível inicial na área científica de Química.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6074-2026-1119817547",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.164724+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8ed093e48c34fd4f509dc40c02780887",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "10936/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 10936/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Município das Lajes do Pico Procedimento concursal comum para constituição de relação jurídica de emprego público, através da celebração de contrato de trabalho em funções públicas por tempo indeterminado, destinado ao preenchimento de três postos de trabalho vagos no mapa de pessoal do Município, da carreira e categoria de assistente operacional, na Unidade de Ambiente e Sustentabilidade.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/10936-1119817830",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.194165+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5b6203917d6c4c11d65f701c90c9c671",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "10962/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 10962/2026/2  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Município de São Vicente Regulamento de Taxa Turística do Município de São Vicente.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/10962-1119817865",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "taxa turística"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.212104+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c77c07843eb5829a0ca9dbc5cd8ecc53",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "519/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 519/2026  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Município de Vila Franca do Campo Aprovação de alterações ao Regulamento da Taxa Turística para o Município de Vila Franca do Campo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/519-2026-1119817873",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "taxa turística"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.216228+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "860306e7a522205a3126f5527b2e4158",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12168/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12168/2026  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Município de Palmela Licenciamento de software de produtividade e de software para servidores",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12168-1119832617",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.247160+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e9d0e6db8c845122b55e05782913cd25",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-12",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12194/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12194/2026  -  Diário da República n.º 91/2026, Série II de 2026-05-12",
+      "summary": "Instituto do Emprego e da Formação Profissional, IP Aquisição de serviços de assistência pós-venda de licenciamento SAP Business Objects Enterprise Premium, pelo período de 12 meses",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12194-1119832630",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-12T09:28:24.251988+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "d0eadb6134646bb923ca559e76cb7ae9",
       "source": "parlamento-agenda",
@@ -42446,5 +43511,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1468
+  "entry_count": 1501
 }
