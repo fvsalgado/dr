@@ -1,6 +1,953 @@
 {
-  "last_updated": "2026-05-12T09:52:37.991015+00:00",
+  "last_updated": "2026-05-13T09:59:32.551962+00:00",
   "entries": [
+    {
+      "id": "2cb68acf4c8f911f2aa9e0e7217108fa",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "“Choque sem precedentes”. Oferta de petróleo vai ficar abaixo da procura, alerta AIE",
+      "summary": "A Agência Internacional de Energia (AIE) prevê que a oferta global de petróleo não irá satisfazer a procura total este ano, uma vez que a guerra no Irão está a comprometer a produção do Médio Oriente, sublinhando tratar-se de “um choque de oferta sem precedentes”. “Com o tráfego de petroleiros no Estreito de Ormuz ainda […]",
+      "url": "https://eco.sapo.pt/2026/05/13/choque-sem-precedentes-oferta-de-petroleo-vai-ficar-abaixo-da-procura-alerta-aie/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:35:42.714911+00:00",
+      "published_at": "2026-05-13T09:32:58Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-45931474-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9ec0e59101807e49d959063abfefc1c4",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "O fenómeno “O Segredo de Widow’s Bay”: poderá o terror ser uma delícia?",
+      "summary": "Comédia, sustos e mistério cruzam-se em “O Segredo de Widow’s Bay”, série da Apple TV protagonizada pelo mayor de uma ilha assolada por maldições, superstições e pouco turismo",
+      "url": "https://expresso.pt/televisao/2026-05-13-o-fenomeno-o-segredo-de-widows-bay-podera-o-terror-ser-uma-delicia--c3935fb2",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:36:08.303045+00:00",
+      "published_at": "2026-05-13T07:00:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-11-widowsbay_s01_02750f_t.jpg-bca4ba03/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8fd9fca76835d1342a7f10d43b62bb67",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Fim do bloqueio à vista na CNE? Presidente oferece \"solução informática\" para acabar com polémica",
+      "summary": "Após cinco membros da Comissão Nacional de Eleições terem suspendido funções, alegando falta de acesso a informações, o presidente do órgão providenciou uma solução tecnológica que assegura o acesso, salvaguardando a proteção de dados",
+      "url": "https://expresso.pt/parlamento/2026-05-12-fim-do-bloqueio-a-vista-na-cne--presidente-oferece-solucao-informatica-para-acabar-com-polemica-6b017082",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:36:58.900220+00:00",
+      "published_at": "2026-05-12T18:06:32.642Z",
+      "image_url": "https://images.impresa.pt/expresso/2025-05-18-boletim-de-voto-legislativas-2025-8416c699/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cde0e4846dd7f893773f99cc46a33754",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Despiste de autocarro de turismo no centro de Lisboa faz três feridos",
+      "summary": "O autocarro despistou-se e acabou por embater contra uma montra. Há três feridos ligeiros",
+      "url": "https://expresso.pt/noticias-lisboa/2026-05-12-despiste-de-autocarro-de-turismo-no-centro-de-lisboa-faz-tres-feridos-d0d53a3b",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:37:00.232909+00:00",
+      "published_at": "2026-05-12T18:03:34.400Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-12-gettyimages-553840159.jpg-0fdaf8d4/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "83d092088084b5833b9bb48530c28cf9",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "UE trava importações de carne e animais para consumo humano provenientes do Brasil",
+      "summary": "Brasil impedido de exportar para a Europa, a partir de setembro, animais e produtos de origem animal para alimentação humana. União Europeia deixa claro que país \" deve garantir o cumprimento dos requisitos da União relativos à utilização de antimicrobianos durante todo o ciclo de vida dos animais\"",
+      "url": "https://expresso.pt/uniao-europeia/2026-05-12-ue-trava-importacoes-de-carne-e-animais-para-consumo-humano-provenientes-do-brasil-2c448cf6",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:37:15.528996+00:00",
+      "published_at": "2026-05-12T16:09:38.800Z",
+      "image_url": "https://images.impresa.pt/expresso/2025-10-16-gettyimages-1243962160.jpg-b03f5fe9/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "105eea51f962de17570dd0b1478cfbc8",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Fraude, digitalização e novos modelos de negócio prometem dar mais trabalho ao Banco de Portugal",
+      "summary": "A fraude digital é um dos principais riscos e em 2025 o número de reclamações disparou 45%, segundo o Banco de Portugal, que criou um grupo de trabalho para esta área. A par da crescente digitalização, o ambiente de incerteza e tensão geopolítica traz também riscos, nomeadamente os ligados a “aumentos súbitos do custo de vida e empréstimos dos clientes”",
+      "url": "https://expresso.pt/economia/2026-05-12-fraude-digitalizacao-e-novos-modelos-de-negocio-prometem-dar-mais-trabalho-ao-banco-de-portugal-26afb10d",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:37:20.049035+00:00",
+      "published_at": "2026-05-12T16:00:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-03-12-cibercrime-9be34d2e/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "0d5b9783a563cf1aadc5b3448e358bea",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Bruxelas promete legislação para regular as “máquinas de fazer dinheiro” das plataformas de arrendamento de curta duração",
+      "summary": "A proposta legislativa terá ferramentas para os Estados-membros aplicarem restrições ao Alojamento Local em zonas de stresse habitacional",
+      "url": "https://expresso.pt/economia/economia_imobiliario/2026-05-12-bruxelas-promete-legislacao-para-regular-as-maquinas-de-fazer-dinheiro-das-plataformas-de-arrendamento-de-curta-duracao-b4495ff9",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "alojamento local"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:37:34.167352+00:00",
+      "published_at": "2026-05-12T14:43:23.923Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-12-55265705085_bd213f47a7_o.jpg-7145e4c7/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2ad202ab4442e66d0f002712ad8aff06",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "\"Puxadas\" de eletricidade deixam Radar e Oxigénio fora do ar há 48 horas",
+      "summary": "As emissões continuam apenas através de aplicações móveis e sites das rádios",
+      "url": "https://expresso.pt/media-comunicacao/2026-05-12-video-puxadas-de-eletricidade-deixam-radar-e-oxigenio-fora-do-ar-ha-48-horas-5a272ef1",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:37:36.543766+00:00",
+      "published_at": "2026-05-12T13:58:40+00:00",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-12-puxadas-eletricidade-radios-radar-e-oxigenio.jpg-e3fdb01f/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "15186f35e56bce53cf544d3ed3d7845e",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-12",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Juíza diz que nem todos os suspeitos da Esquadra do Rato cometeram tortura mas seis agentes tinham \"energia delituosa muito intensa\"",
+      "summary": "Seis dos arguidos ficaram com medidas de coação mais pesadas por \"receio de repetição das condutas criminosas“ e porque existe o risco de que ”venham a interferir com a investigação\". Testemunhas ilibam oito agentes suspeitos de agressões pelo MP",
+      "url": "https://expresso.pt/justica/2026-05-12-juiza-diz-que-nem-todos-os-suspeitos-da-esquadra-do-rato-cometeram-tortura-mas-seis-agentes-tinham-energia-delituosa-muito-intensa-a250eca1",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:00.964215+00:00",
+      "published_at": "2026-05-12T11:12:42.875Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-03-11-esquadra-do-rato--11032026-05-mf.jpg-e0e4c480/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d2c6bc25944b2049f203ad8ff6ae08d6",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Governo aprova estatutos provisórios da nova Agência de Geologia e Energia",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/governo-aprova-estatutos-provisorios-da-nova-agencia-de-geologia-e-energia",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:08.975844+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "93201a937a8b78ba9d47a8b2ac4585e1",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Reforço da aposta nas energias alternativas e no autoconsumo",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/reforco-da-aposta-nas-energias-alternativas-e-no-autoconsumo",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:13.195799+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "28dd47756dd9baa8add06f8e94701857",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Bruxelas trava ideia de imposto europeu sobre lucros das energéticas",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/bruxelas-trava-ideia-de-imposto-europeu-sobre-lucros-das-energeticas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:13.689400+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "fa2b225734708efc802829ab481458fc",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Comissão Europeia propõe novos parâmetros do mercado de carbono para apoiar indústria até 2030",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/comissao-europeia-propoe-novos-parametros-do-mercado-de-carbono-para-apoiar-industria-ate-2030",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:14.243309+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "820f76a75959d78ba1465147ca265a90",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Movimento acusa Engie de querer transformar Planalto Mirandês em “colónia energética”",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/movimento-acusa-engie-de-querer-transformar-planalto-mirandes-em-colonia-energetica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:14.811626+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "113bf0370ba6a5d4c3ed87d09968f5dc",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "LIPOR participa na elaboração do plano estratégico de saneamento de Manaus",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/lipor-participa-na-elaboracao-do-plano-estrategico-de-saneamento-de-manaus",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:16.798599+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e965222bd667068186b092f742659844",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Polónia e LOT promovem workshop no Porto para assinalar nova ligação aérea a Varsóvia",
+      "summary": "A Organização de Turismo da Polónia (Poland Travel), em parceria com a LOT Polish Airlines, vai promover. no próximo dia 26 de maio. um workshop no Porto para assinalar o lançamento da nova rota direta entre o Norte de Portugal e Varsóvia. A iniciativa decorre entre as 09h30 e as 13h45, na Enoteca 17.56, em […]",
+      "url": "https://www.ambitur.pt/polonia-e-lot-promovem-workshop-no-porto-para-assinalar-nova-ligacao-aerea-a-varsovia/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:38:33.560428+00:00",
+      "published_at": "2026-05-13 10:04:39+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/polonia.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "09346004e42a367d20742c1452034f02",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Venda de gás russo na UE atinge nível mais alto desde 2022",
+      "summary": "Rússia continua a ser o segundo maior fornecedor de GNL da UE, apesar da proibição de importações até 2027. França, Espanha e Bélgica foram os que mais contribuíram para o aumento de 16%.",
+      "url": "https://observador.pt/2026/05/13/vendas-de-gas-russo-para-a-ue-atingem-nivel-mais-elevado-desde-2022/",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:42:15.367795+00:00",
+      "published_at": "2026-05-13T10:01:17+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A103%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F13074318%2F44176006.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ce15f7cd5978c832713fd38946f67215",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "China e Estados Unidos iniciam discussões na Coreia do Sul",
+      "summary": "Conversações entre as delegações chinesa e norte-americana decorreram no aeroporto sul coreano, antes da cimeira entre os dois países. Apesar da trégua tarifária, relação é ainda marcada por tensões.",
+      "url": "https://observador.pt/2026/05/13/china-e-estados-unidos-iniciam-discussoes-comerciais-na-coreia-do-sul/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:42:18.063265+00:00",
+      "published_at": "2026-05-13T09:52:32+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F13065931%2F47092716.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c625527c3fffffa52a946493d0671d48",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Mais de 140 aldeias de Timor-Leste vão ter eletricidade",
+      "summary": "O Governo timorense assinou contratos para implementar projetos de eletrificação no valor de 11,73 milhões de dólares (cerca de 10 milhões de euros) que deverão beneficiar 7.201 famílias de aldeias.",
+      "url": "https://observador.pt/2026/05/13/mais-de-140-aldeias-de-timor-leste-vao-ter-eletricidade/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:42:34.936329+00:00",
+      "published_at": "2026-05-13T08:07:32+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A104%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F13041146%2F43441764.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5297d823904f58d1256f1c01492d73b1",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-13",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Vendas de gás russo para a UE no nível mais elevado desde 2022, aponta estudo",
+      "summary": "Impulsionadas por França, Espanha e Bélgica, as compras de GNL russo pela UE aumentaram 16% em termos homólogos no primeiro trimestre de 2026.",
+      "url": "https://www.jornaldenegocios.pt/economia/europa/uniao-europeia/detalhe/vendas-de-gas-russo-para-a-ue-no-nivel-mais-elevado-desde-2022-aponta-estudo",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:43:07.692699+00:00",
+      "published_at": "2026-05-13",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-13-08-53-58-523513.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "38ff22b670cbea46561c6ca51fc85b7b",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6095/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6095/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Economia e Coesão Territorial - Autoridade de Segurança Alimentar e Económica Renovação da comissão de serviço da licenciada Matilde Rosa Correia da Silva no cargo de diretora do Departamento de Assuntos Jurídicos e Contraordenações, da Autoridade de Segurança Alimentar e Económica.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6095-2026-1119832658",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.465364+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8afc876893074e4f306948125ea33bff",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6096/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6096/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Economia e Coesão Territorial - Instituto Português da Qualidade, IP Organismo de verificação metrológica ― alteração da instalação do Centro de Ensaios da Silexal ― Electricidade Automóvel, Lda., da localidade de Oliveira de Azeméis para a localidade de Estarreja.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6096-2026-1119832659",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "estarreja"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.465910+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e3ac8e65b4ba8f21385092648b296610",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Regulamento",
+      "content_kind": "act",
+      "number": "528/2026",
+      "issuer": "",
+      "title": "Regulamento n.º 528/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Município de Castro Daire Regulamento Municipal do Licenciamento e Funcionamento do Posto de Carregamento de Veículos Elétricos no Município de Castro Daire.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/528-2026-1121025560",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.507755+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f4aae9f38c74c99a60731466dd3f8aa7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Edital",
+      "content_kind": "act",
+      "number": "556/2026",
+      "issuer": "",
+      "title": "Edital n.º 556/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Município de Paredes Proposta de Regulamento Municipal da Taxa Turística.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edital/556-2026-1121025573",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "taxa turística"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.512502+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "0997dcc0f98c7d1261e9611a7260ebf6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6124/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6124/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Município de Sines Cessação do procedimento concursal para cargos de direção intermédia de 2.º grau para a Divisão Jurídica, Fiscalização e Ambiente, a Divisão de Ordenamento do Território e a Divisão de Obras Municipais.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6124-2026-1121025794",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.521045+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5a2a8cd4795cff8e04e282aed05635be",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "11086/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 11086/2026/2  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "União das Freguesias de Montijo e Afonsoeiro Consulta pública ― RGPD.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/11086-1121025809",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "rgpd"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.527074+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "7936d1d0761bf409d96c9935b656817f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "11094/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 11094/2026/2  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Serviços Municipalizados de Água e Saneamento de Sintra Abertura de procedimento concursal comum para constituição de reserva de recrutamento de assistentes técnicos, na área de atividade de analista microbiologia e físico química.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/11094-1121025818",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.530729+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a7d982faa7a9f6e4828ff421c0101046",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12324/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12324/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Unidade Local de Saúde de Santa Maria, EPE 262A000101 - Aquisição de Dispositivo de Uso Único para Corte e Coagulação de Tecidos Integrado, por energia avançada bipolar para o ano 2026",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12324-1121069884",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.544305+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "7e480cefd451d774c56fabddbc7966c8",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-13",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12333/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12333/2026  -  Diário da República n.º 92/2026, Série II de 2026-05-13",
+      "summary": "Estado-Maior-General das Forças Armadas (EMGFA) Licenciamento e suporte plataforma SIEM",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12333-1121070685",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-13T09:33:24.552617+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "3720ab6fdbbffc8f7dc48a84d18d1a9c",
       "source": "news-eco",
@@ -43511,5 +44458,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1501
+  "entry_count": 1530
 }
