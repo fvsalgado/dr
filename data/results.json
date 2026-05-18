@@ -1,6 +1,1363 @@
 {
-  "last_updated": "2026-05-15T09:57:59.415149+00:00",
+  "last_updated": "2026-05-18T11:17:04.751864+00:00",
   "entries": [
+    {
+      "id": "3b4002c6ad25d349509dd18df234fc76",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-18",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Local: N&#xE3;o dispon&#xED;vel Tema: Grupos Parlamentares / Partidos / DURP / Ninsc 16h00 - Associação Portuguesa de Aviação Ultraleve",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:04:26.400895+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "767cd2ffed79fde7d79b3653d8a467c2",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Ryanair vê “tendência estável” nos preços dos bilhetes no verão e confia que não haverá rutura no ‘jet fuel’",
+      "summary": "A Ryanair anunciou esta segunda-feira um lucro líquido recorde para os 12 meses que terminaram no final de março e aproveitou para atualizar as previsões sobre dois aspetos que vão marcar o verão: vê uma “tendência globalmente estável” nos preços dos bilhetes durante os meses de pico e indica que a ameaça de escassez de […]",
+      "url": "https://eco.sapo.pt/2026/05/18/ryanair-ve-tendencia-estavel-nos-precos-dos-bilhetes-no-verao-e-confia-que-nao-havera-rutura-no-jet-fuel/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:34.748006+00:00",
+      "published_at": "2026-05-18T10:50:21Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-46982545-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a66d2d609b0549912cbcf58862882aae",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Sérvulo assessora TAP venda do negócio de ‘handling’ à Menzies",
+      "summary": "A Sérvulo & Associados assessorou a TAP na operação de alienação da participação de 49,9% no capital social da SPdH – Serviços Portugueses de Handling à Menzies Aviation – Portugal, com contratos celebrados em 28 de abril de 2026. A conclusão da transação encontra-se sujeita ao cumprimento das condições suspensivas aplicáveis. “A celebração dos contratos […]",
+      "url": "https://eco.sapo.pt/2026/05/18/servulo-assessora-tap-venda-do-negocio-de-handling-a-menzies/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:36.003536+00:00",
+      "published_at": "2026-05-18T09:41:51Z",
+      "image_url": "https://eco.imgix.net/uploads/2020/08/cropped-pndr7322.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7b818470a563d7e2c05850b370c52131",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "PSP admite tempos de espera superiores a duas horas no aeroporto do Porto",
+      "summary": "O controlo de fronteiras no aeroporto do Porto registou tempos de espera superiores a duas horas, admitiu a Polícia de Segurança Pública (PSP), que rejeitou no entanto notícias sobre esperas de seis horas. A PSP disse que o tempo máximo de espera no domingo, “com picos de tempos de espera entre as 9h00 e as […]",
+      "url": "https://eco.sapo.pt/2026/05/18/psp-admite-tempos-de-espera-superiores-a-duas-horas-no-aeroporto-do-porto/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:40.490828+00:00",
+      "published_at": "2026-05-18T07:49:14Z",
+      "image_url": "https://eco.imgix.net/uploads/2024/01/cropped-cropped-42234619-doc-20100421-10950766-jc01-2.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d72e6d2d1eeee3e55aee4c8830021d18",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Aeroporto do Porto regista esperas de mais de duas horas no controlo de fronteiras",
+      "summary": "PSP justifica os atrasos por problemas técnicos informáticos e elevado número de passageiros fora do Espaço Schengen",
+      "url": "https://expresso.pt/seguranca/2026-05-18-aeroporto-do-porto-regista-esperas-de-mais-de-duas-horas-no-controlo-de-fronteiras-69c29f87",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:55.171481+00:00",
+      "published_at": "2026-05-18T07:45:33.900Z",
+      "image_url": "https://images.impresa.pt/expresso/2017-02-07-aeroporto-do-porto-0a5549d3/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3342bb0a5473eebffdaa170e656979be",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Ryanair aumenta lucro anual, mas antevê preços elevados do combustível \"durante alguns meses\"",
+      "summary": "Companhia aérea liderada por Michael O'Leary aumentou as receitas e o lucro no último ano fiscal, e diz ter 80% das suas necessidades de combustível cobertas a preços baixos, mas sobre os restantes 20% admite ter uma elevada incerteza",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-18-ryanair-aumenta-lucro-anual-mas-anteve-precos-elevados-do-combustivel-durante-alguns-meses-8c236d8d",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:56.598602+00:00",
+      "published_at": "2026-05-18T07:42:44.074Z",
+      "image_url": "https://images.impresa.pt/expresso/2025-05-21-gettyimages-2163820816.jpg-3c453a87/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "dc6d546ab48f90322978984cf4478a76",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Hong Kong reforça controlos de saúde no aeroporto devido a surto de ébola em África",
+      "summary": "A OMS declara Emergência de Saúde Pública Internacional devido ao surto de ébola, que já causou 88 mortos na RD Congo e dois casos confirmados no Uganda",
+      "url": "https://expresso.pt/china/2026-05-18-hong-kong-reforca-controlos-de-saude-no-aeroporto-devido-a-surto-de-ebola-em-africa-dcb028fe",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:56:57.921349+00:00",
+      "published_at": "2026-05-18T07:37:16.400Z",
+      "image_url": "https://images.impresa.pt/expresso/2022-11-17-ebola-uganda-1395e824/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ac5d90014621b692ce50d7eead03dd5d",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Uma cimeira entre o futuro que chega e o passado que parte",
+      "summary": "Na economia, na tecnologia, na energia limpa, nos minerais críticos, na influência externa e em todos os domínios que não dependam da força, percebe-se para quem a balança vai desequilibrar. Sim, a China lida com uma crise imobiliária e outra demográfica. Mas, no essencial, Xi tem razão: \"O Oriente está em ascensão e o Ocidente em declínio\". E Trump é o melhor símbolo desse declínio. Há, claro, a democracia. Mas até isso os EUA estão a abandonar",
+      "url": "https://expresso.pt/opiniao/2026-05-18-uma-cimeira-entre-o-futuro-que-chega-e-o-passado-que-parte-6430b011",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:57:10.775233+00:00",
+      "published_at": "2026-05-18T06:00:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2022-03-09-daniel-oliveira-autor-opiniao-5c38bf22/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "92a4ec69ef27b491085ac8762987d1c5",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-17",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Ataque junto a central nuclear nos Emirados preocupa \"profundamente\" a ONU",
+      "summary": "O diretor-geral da Agência Internacional da Energia Atómica (AEIA), Rafael Grossi, manifestou a sua \"profunda preocupação\" depois de um ataque próximo da central nuclear de Barakah, nos Emirados Árabes Unidos",
+      "url": "https://expresso.pt/medio-oriente/conflito/2026-05-17-ataque-junto-a-central-nuclear-nos-emirados-preocupa-profundamente-a-onu-b4847b93",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:57:45.058989+00:00",
+      "published_at": "2026-05-17T12:21:40.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2022-09-01-rafel-grossi-2c1ca326/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d57653ea9e814bfdd52bc38cfb1c608b",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-17",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Os direitos das crianças no ambiente digital",
+      "summary": "Proteger as crianças no ambiente digital é essencial, mas sem comprometer direitos fundamentais. O desafio está em garantir segurança online sem normalizar soluções intrusivas que coloquem em causa a liberdade, a privacidade e o acesso à informação. Este domingo assinala-se o Dia Mundial da Internet",
+      "url": "https://expresso.pt/opiniao/2026-05-17-os-direitos-das-criancas-no-ambiente-digital-52db0059",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:58:03.688182+00:00",
+      "published_at": "2026-05-17T06:26:00.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-15-jorge-morais-carvalho-e-martim-farinha-58685f0b-1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1414d7d74f4503e4e56bb0d195a9bc42",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Problemas técnicos causam atrasos no controlo de fronteiras das partidas do aeroporto de Lisboa",
+      "summary": "Tempo de espera nas partidas está a ultrapassar uma hora, segundo a PSP e a ANA. Passageiros com voos para fora do Espaço Schengen devem chegar mais cedo ao aeroporto",
+      "url": "https://expresso.pt/sociedade/2026-05-16-problemas-tecnicos-causam-atrasos-no-controlo-de-fronteiras-das-partidas-do-aeroporto-de-lisboa-e2d66eb6",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:58:38.145348+00:00",
+      "published_at": "2026-05-16T12:10:26.473Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-05-13-doc.20260108.46312296.ca_calm2229_t-_idp.jpg-40f14f98/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e24848abb844b8a6169b38c45596fd34",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "A água voltou a correr no canal três meses depois e ministra do Ambiente rejeita nova entidade na gestão da bacia do Mondego",
+      "summary": "O canal de rega do Baixo Mondego voltou a funcionar três meses depois das cheias de fevereiro, garantindo água à agricultura, indústria e consumo urbano",
+      "url": "https://expresso.pt/sociedade/2026-05-16-a-agua-voltou-a-correr-no-canal-tres-meses-depois-e-ministra-do-ambiente-rejeita-nova-entidade-na-gestao-da-bacia-do-mondego-b0694fd4",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:58:51.683750+00:00",
+      "published_at": "2026-05-16T10:45:15.699Z",
+      "image_url": "https://images.impresa.pt/expresso/2026-02-18-obras-a1-coimbra-4.jpg-cf40dad2-1/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4a9841fe2664b8bbc24724b57ea80b40",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-16",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "APA levanta parcialmente restrições ao licenciamento de novos \"furos\" de água",
+      "summary": "A decisão permite a concessão de novas licenças para captação de água subterrânea nas regiões hidrográficas do Guadiana e das Ribeiras do Algarve e na Bacia do Tejo-Sado, áreas afetadas em anos recentes por seca severa ou extrema",
+      "url": "https://expresso.pt/sociedade/2026-05-16-apa-levanta-parcialmente-restricoes-ao-licenciamento-de-novos-furos-de-agua-75e502f2",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:58:52.677904+00:00",
+      "published_at": "2026-05-16T10:19:49.000Z",
+      "image_url": "https://images.impresa.pt/expresso/2023-09-21-desertificacao-e-uso-da-agua-047-jf.jpg-78d355bc/1.91x1?wm=true&outputFormat=jpeg",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8b9d566409ae14814aa7c5273677d21a",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "PRR financiou 65% dos 3,38 milhões destinados a programas de gestão da paisagem",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/prr-financiou-65-dos-3-38-milhoes-destinados-a-programas-de-gestao-da-paisagem",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:59:07.080357+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cb640718a7abb22133d1736542582934",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "PortoBay aposta em tecnologia para reduzir consumo de água e energia",
+      "summary": "O PortoBay Hotels & Resorts implementou uma nova solução tecnológica focada na eficiência hídrica e energética em dois dos seus hotéis: o PortoBay Santa Maria, no Funchal, e o PortoBay Marquês, em Lisboa. A medida abrange um total de 220 quartos e resulta de uma parceria com a start-up portuguesa Savearth. A tecnologia atua sobre […]",
+      "url": "https://www.ambitur.pt/portobay-aposta-em-tecnologia-para-reduzir-consumo-de-agua-e-energia/",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:59:29.189195+00:00",
+      "published_at": "2026-05-18 11:12:39+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/portobay.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5567536d474352b910afeb347055f6fe",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "TAP isenta taxa de alteração em bilhetes emitidos até 15 de junho",
+      "summary": "A TAP Air Portugal vai isentar a taxa de alteração em todos os bilhetes emitidos entre 15 de maio e 15 de junho de 2026, permitindo aos clientes remarcar voos sem custos associados a essa operação. A medida aplica-se a todos os mercados onde a companhia opera e abrange viagens com partida prevista dentro do […]",
+      "url": "https://www.ambitur.pt/tap-isenta-taxa-de-alteracao-em-bilhetes-emitidos-ate-15-de-junho/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:59:47.023053+00:00",
+      "published_at": "2026-05-18 10:13:13+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/TAP.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b339b0f54efdbd6cc12890edebf8a005",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "easyJet coloca à venda voos para a primavera de 2027 com 2,6 milhões de lugares em Portugal",
+      "summary": "A easyJet colocou à venda os voos para a primavera de 2027, permitindo aos passageiros reservar viagens para o período entre 22 de março e 13 de junho de 2027. Em Portugal, a companhia disponibiliza mais de 2,6 milhões de lugares em quase 15 mil voos, abrangendo várias rotas nacionais e internacionais. O objetivo é […]",
+      "url": "https://www.ambitur.pt/easyjet-coloca-a-venda-voos-para-a-primavera-de-2027-com-26-milhoes-de-lugares-em-portugal/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "easyjet"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:59:54.000769+00:00",
+      "published_at": "2026-05-15 11:59:55+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/easyjet-A320.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9caec5e66e178531d90618eda82e11ea",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Montebelo Vista Alegre Lisboa Chiado Hotel integra Preferred Hotels & Resorts",
+      "summary": "O Montebelo Vista Alegre Lisboa Chiado Hotel, unidade da Visabeira Turismo, passou a integrar a rede internacional Preferred Hotels & Resorts, uma das mais prestigiadas coleções de hotéis de luxo independentes do mundo, presente em mais de 80 países e com mais de 650 propriedades. A integração reforça a visibilidade internacional da unidade, situada no […]",
+      "url": "https://www.ambitur.pt/montebelo-vista-alegre-lisboa-chiado-hotel-integra-preferred-hotels-resorts/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:59:56.838464+00:00",
+      "published_at": "2026-05-15 11:50:40+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/02/Montebelo-Vista-Alegre-Lisboa-Chiado-Hotel_Exterior_1-e1740050100148.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e93d41157726846bab5799e063098bef",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Air France celebra 80 anos da rota Lisboa-Paris",
+      "summary": "A Air France assinala hoje, 15 de maio, o 80.º aniversário da sua rota Lisboa-Paris, uma ligação inaugurada em 1946 e que marcou o início da presença continuada da companhia aérea francesa em Portugal. A primeira operação foi realizada com um avião Douglas DC-3, num serviço semanal entre Paris, Bordéus e Lisboa. Oito décadas depois, […]",
+      "url": "https://www.ambitur.pt/air-france-celebra-80-anos-da-rota-lisboa-paris/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:00:00.445106+00:00",
+      "published_at": "2026-05-15 11:09:17+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2024/06/A220-300-Air-France-3.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c104eb5e7e2dacacff6704d8e67231c5",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "INE: Alojamento turístico supera mil milhões de euros em proveitos no 1.º trimestre, apesar do crescimento moderado das dormidas",
+      "summary": "O setor do alojamento turístico em Portugal manteve uma trajetória de crescimento no primeiro trimestre de 2026, embora a um ritmo mais moderado do que no final do ano passado. Segundo os dados divulgados pelo INE, os estabelecimentos de alojamento turístico registaram 5,8 milhões de hóspedes e 13,6 milhões de dormidas entre janeiro e março, […]",
+      "url": "https://www.ambitur.pt/ine-alojamento-turistico-supera-mil-milhoes-de-euros-em-proveitos-no-1-o-trimestre-apesar-do-crescimento-moderado-das-dormidas/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "alojamento turístico"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:00:10.189612+00:00",
+      "published_at": "2026-05-15 11:19:20+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2023/09/Vila-Gale-Alentejo-Vineyards-1-e1778840340670.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3839cb427a1a8ee57ddc465f626f43ba",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Lucros da Ryanair subiram 40% para 2.260 milhões de euros",
+      "summary": "Empresa atribui o aumento do lucro à redução de despesas e aumento da receita, causado pelo crescimento do tráfego de passageiros e dos preços. As tarifas aéreas subiram 10%.",
+      "url": "https://observador.pt/2026/05/18/lucros-da-ryanair-subiram-40-para-2-260-milhoes-de-euros/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:02:44.587329+00:00",
+      "published_at": "2026-05-18T11:01:36+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A104%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F04%2F27134551%2F46982545.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "285d6d15eeb077408ae118444d62ebb6",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "8h. PSOE tem pior resultado de sempre na Andaluzia",
+      "summary": "Partido Popular reuniu 41,5% dos votos. Ainda neste jornal, controlo de fronteiras no Aeroporto do Porto registou ontem tempos de espera superiores a duas horas.",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-8h-2401/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:02:56.824521+00:00",
+      "published_at": "2026-05-18T08:52:57+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/04/13113304/770-podcast-noticiario.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ab2902b4446160d74ea62070e0316a2a",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Hong Kong reforça controlo a viajantes vindos de África",
+      "summary": "Hong Kong anunciou medidas de controlo de saúde a viajantes de África que chegam ao aeroporto, depois do surto de ébola na República Democrática do Congo, que já causou pelo menos 88 mortos.",
+      "url": "https://observador.pt/2026/05/18/hong-kong-reforca-controlo-a-viajantes-vindo-de-africa-face-a-surto-de-ebola/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:03:00.842747+00:00",
+      "published_at": "2026-05-18T08:32:35+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1124%3Anowe%3A0%3A104%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F18041134%2F40098646.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8b0cc6d0fd125eef1b0f2fee07ffb145",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Porto. Controlo de fronteiras ultrapassa as duas horas",
+      "summary": "Atrasos de 130 minutos no aeroporto do Porto são justificados por razões técnicas e \"elevada dimensão de passageiros\" — cerca de 69 mil, com picos de espera entre as 9h e as 12h do domingo, diz PSP.",
+      "url": "https://observador.pt/2026/05/18/controlo-de-fronteiras-ultrapassou-duas-horas-no-aeroporto-do-porto/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:03:18.651939+00:00",
+      "published_at": "2026-05-18T07:34:42+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1121%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2025%2F04%2F28143922%2F43534098.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b8ca8922b43e5eefcd5e6f6a0a6262bc",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Etermar Energia: Investimento industrial está à espera dos leilões de eólica \"offshore\"",
+      "summary": "Empresa portuguesa diz que a indústria nacional está preparada para avançar na eólica flutuante, mas alerta que os investimentos dependem de decisões políticas, reforço dos portos e definição de uma estratégia clara para o setor.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/etermar-energia-investimento-industrial-esta-a-espera-dos-leiloes-de-eolica-offshore",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:03:49.232127+00:00",
+      "published_at": "2026-05-18",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-11-14-04-10-523392.png",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "189f1fc2a1d97505b70bd246acb62dab",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Receios de inflação prolongada pressionam bolsas europeias. Ryanair cai 3%",
+      "summary": "Acompanhe, ao minuto, a evolução dos mercados nesta segunda-feira.",
+      "url": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/asia-arranca-semana-em-baixa-com-inflacao-a-pressionar-indices-samsung-dispara-4",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:03:51.157305+00:00",
+      "published_at": "2026-05-18",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-09/img_1200x676uu2025-09-05-17-54-51-508751.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "074f1422c19c2fcd0d47599540c78805",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Energias renováveis garantem 77% da eletricidade produzida em Portugal em abril",
+      "summary": "Durante o mês de abril, Portugal registou ainda 87 horas não consecutivas em que o consumo de eletricidade foi integralmente assegurado por fontes renováveis.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/energias-renovaveis-garantem-77-da-eletricidade-produzida-em-portugal-em-abril",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:03:55.869602+00:00",
+      "published_at": "2026-05-18",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2024-09/img_1200x676uu2024-09-23-20-59-13-485845.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b66ed71a9d630ae98d1699013cbc5f6a",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-18",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Lucros da Ryanair sobem 40% para 2.260 milhões no ano fiscal",
+      "summary": "A Ryanair gerou 15.540 milhões de euros em receita, um aumento de 11%, e transportou 208,4 milhões de passageiros, um crescimento de 4%.",
+      "url": "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/lucros-da-ryanair-sobem-40-para-2-260-milhoes-no-ano-fiscal",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T11:04:02.434359+00:00",
+      "published_at": "2026-05-18",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2026-05/img_1200x676uu2026-05-18-09-04-40-523774.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9d684ea2cc6b559fe3858bcb99966a6c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "11507/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 11507/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Universidade do Porto - Faculdade de Engenharia Procedimento concursal de seleção internacional com vista ao recrutamento de um investigador auxiliar em regime de contrato de trabalho por tempo indeterminado, para a área científica de Engenharia Química e Biológica, do ALiCE ― Laboratório Associado em Engenharia Química, da Unidade Centro de Estudos de Fenómenos de Transporte.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/11507-1123539356",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "química"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:14.964150+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "1c3a6941f104734856c1ef1cf71085ec",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "11531/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 11531/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Município de Figueiró dos Vinhos Manutenção da comissão de serviço no cargo de chefe da Divisão de Obras Municipais e Ambiente na sequência da reorganização dos serviços.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/11531-1123539689",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:14.966578+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "9487b421db850979055e689401208ed7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "11439/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 11439/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Economia e Coesão Territorial - Autoridade de Segurança Alimentar e Económica Conclusão com sucesso do período experimental na carreira e categoria de assistente operacional de Carlos Miguel Gomes de Araújo.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/11439-1123550190",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:14.984430+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "4e094fd8be734862025c844f16485535",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "11440/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 11440/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Economia e Coesão Territorial - Autoridade de Segurança Alimentar e Económica Conclusão com sucesso do período experimental na carreira e categoria de técnico superior de José Joaquim da Silva Ferreira Amorim.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/11440-1123550191",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:14.984846+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "755031d61c245a7dd43a7717c4abdb50",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "206/2026",
+      "issuer": "",
+      "title": "Édito n.º 206/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo SPUB/07/05/10795 ― PC: 4503985284 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento da linha aérea de MT, a 30 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/206-2026-1123539275",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:14.998289+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "084f35ec619fefe029cf193cc8f1d9cd",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "11506/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 11506/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia Procedimento concursal de seleção internacional para contratação de um(a) investigador(a) júnior, na área de energia, subárea de integração e armazenamento energético (Inv.Jun.10.2026-DCM).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/11506-1123539354",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.012537+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "e209d373cb374e217e123d9d5011471c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "11488/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 11488/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Conselho Superior dos Tribunais Administrativos e Fiscais Abertura de procedimento concursal comum para o preenchimento de dois postos de trabalho da carreira geral de técnico superior ― Núcleo de Auditoria Interna, Risco e Cibersegurança.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/11488-1123539288",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.031767+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "eaee9a2cbe4f4ec10e5169b694a5be32",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "11485/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 11485/2026/2  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Agricultura e Mar - Instituto Português do Mar e da Atmosfera, IP Procedimento concursal comum para o preenchimento de um posto de trabalho na carreira e categoria de especialista de sistemas e tecnologias da informação (cibersegurança).",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/11485-1123539282",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "cibersegurança"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.044083+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2382c4dc1c7eb72a041cbe55f1509257",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12672/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12672/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA Atualização do Sistema de Qualificação 01/SQF/2022 » Sistema de Qualificação de Fornecedores por tipologia de Obras e Serviços na rede de distribuição da E-REDES – Distribuição de Eletricidade, S.A. com a inclusão da categoria de Qualificação - Categoria: C6 (Beneficiação de Transformadores de Potência e Reatâncias de Neutro), no âmbito da transição do objeto anteriormente previsto no SQF 06/SQF/2016. No âmbito desta atualização, foram criadas as subcategorias C6.1 (Serviços de Beneficiação de TP de AT/MT e MT/MT em fábrica e no Local); C6.2 (Serviços de Beneficiação de TP de AT/MT e MT/MT no Local ); C6.3 (Serviços de Beneficiação de TP de MT/BT); C6.4 (Serviços de Beneficiação/Reabilitação de RN e de Combinados TSA/RN” (RN – Reactâncias de Neutro ; TSA – Transformador de Serviços Auxiliares) e atualizada a documentação do Programa de Qualificação e dos Anexo I (com a revisão da subcategoria A5.1 e C2.1) e Anexo III. Assim, todos os interessados na qualificação para o objeto acima identificado deverão submeter as respetivas candidaturas exclusivamente no âmbito do SQF 01/SQF/2022, de acordo com as condições aí previstas.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12672-1123538951",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.052316+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "cb929ebb66704e296dcf8683e3548116",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12644/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12644/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Instituto Superior Técnico Empreitada de Reabilitação das Salas SCDEEC do Pavilhão de Eletricidade do Campus Alameda do Instituto Superior Técnico",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12644-1123539989",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.060280+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c80753ef04929ca263ff7c0e44e2d1c0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12663/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12663/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Município de Chaves Fornecimento contínuo de gás às instalações do Município de Chaves",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12663-1123575902",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.064145+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "00cafa24d70325c3a5a3f7613732fb40",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12667/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12667/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "E-REDES - Distribuição de Eletricidade, SA Atualização do Sistema de Qualificação 13/SQF/2010 » Postes de Betão e de Madeira com a adição do Objeto de Qualificação 20198557-POSTE BETAO 20M1600 e do Objeto de Qualificação 20198554 - POSTE BETAO 12B1000",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12667-1123575904",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.065038+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "555f251342c88b2afcfa08a5d4af7672",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12677/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12677/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Agência Portuguesa do Ambiente, IP Aquisição de serviços para a elaboração de um estudo que preconize e incentive a implementação de projetos que promovam a prevenção de produção de resíduos, incluindo a reutilização e prolongamento do tempo de vida útil dos produtos, bem como a capacitação junto dos municípios, delineando uma estratégia local com impacto na uniformização a nível territorial",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12677-1123575909",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.067296+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "dc28c9d77f5dc0655b238d66e4a273a0",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-18",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "12689/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 12689/2026  -  Diário da República n.º 95/2026, Série II de 2026-05-18",
+      "summary": "Agência para a Reforma Tecnológica do Estado, IP Aquisição de licenciamento para a plataforma Openshift.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/contrato-publico/12689-1123575915",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-18T10:54:15.069590+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "a0a21916466246a92672fc372bb6d605",
       "source": "parlamento-agenda",
@@ -46812,5 +48169,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1603
+  "entry_count": 1645
 }
