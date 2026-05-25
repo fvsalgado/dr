@@ -1,6 +1,1229 @@
 {
-  "last_updated": "2026-05-22T10:23:47.287624+00:00",
+  "last_updated": "2026-05-25T11:13:35.004599+00:00",
   "entries": [
+    {
+      "id": "2039e6f89bbb9f5c5dff7940e367cc26",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Arac Diz Que Impacto DA Saida DA Ryanair Dos Acores Ultrapassa Largamente O Setor DA Aviacao",
+      "summary": "Para a ARAC - Associaçãpo Nacional dos Locadores de Veículos, o impacto da saída da Ryanair dos Acores “ultrapassa largamente o setor da aviação”, uma vez que vão chegar ao arquipélago menos turistas, o que também significa “menos dormidas, menos refeições servidas, menos atividades turísticas, menor consumo no comércio local e menor procura por serviços de transporte, com especial destaque para o rent-a-car”.",
+      "url": "https://www.publituris.pt/2026/05/25/arac-diz-que-impacto-da-saida-da-ryanair-dos-acores-ultrapassa-largamente-o-setor-da-aviacao",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação",
+            "ryanair"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:48.686219+00:00",
+      "published_at": "2026-05-25T10:32:17",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2023/03/JU7A0824-1584x950.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e366c39f2d4e1c3c371a3963928f7fb2",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Traducao E Transcricao Sao Solucoes Com IA Mais Implementadas NO Turismo",
+      "summary": "67% das empresas turísticas registaram um aumento das interações com agentes virtuais, segundo um estudo da Frost & Sullivan e da Covisian",
+      "url": "https://www.publituris.pt/2026/05/25/traducao-e-transcricao-sao-solucoes-com-ia-mais-implementadas-no-turismo",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:50.128826+00:00",
+      "published_at": "2026-05-25T10:11:06",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2026/05/IA_Agentes_Virtuais_Depositphotos.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "55c874ab100f7a320021a73e4ea68057",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Flexible Autos Lanca Novo Website Para Continuar A Crescer EM Portugal",
+      "summary": "Alessandro Patacchiola, managing director da Flexible Autos para a Europa, veio a Lisboa para promover o único broker de automóveis do mundo que trabalha exclusivamente com a distribuição turística. Em Portugal, o negócio da Flexible Autos continua a correr de forma positiva e as novidades que a empresa tem em carteira dão confiança de que 2026 possa ser, novamente, um ano recorde.",
+      "url": "https://www.publituris.pt/2026/05/25/flexible-autos-lanca-novo-website-para-continuar-a-crescer-em-portugal",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "distribuição turística"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:53.418635+00:00",
+      "published_at": "2026-05-25T09:48:20",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2026/05/Artur-Sousa-ATR-e-Alessandro-Patacchiola-Flexible-Autos2.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3c5446d8add946f4f758994760c48724",
+      "source": "news-publituris",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Publituris",
+      "title": "Tap Com Aumento DE Receitas Mas Com Lucros Ainda NO Vermelho NO 1 O Trimestre",
+      "summary": "A TAP Air Portugal registou um aumento das receitas operacionais no primeiro trimestre de 2026, totalizando 914 milhões de euros, correspondendo a uma subida de 11% face a igual período de 2025. Embora ainda negativos, os resultados líquidos da companhia aérea nacional melhoraram em 63,1%, fazendo com que os lucros não ultrapassassem os 40 milhões de prejuízo.",
+      "url": "https://www.publituris.pt/2026/05/25/tap-com-aumento-de-receitas-mas-com-lucros-ainda-no-vermelho-no-1-o-trimestre",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:54.180512+00:00",
+      "published_at": "2026-05-25T08:35:53",
+      "image_url": "https://backoffice.publituris.pt/app/uploads/2023/05/TAP_avioes.jpg",
+      "source_logo_url": "https://www.publituris.pt/wp-content/uploads/2022/11/logo-publituris.svg",
+      "source_label": "Publituris",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e7a83999f5e3a094e703318ef4321ae1",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "PSP intercetou sete pessoas no aeroporto de Lisboa com passaportes alegadamente falsos",
+      "summary": "A PSP intercetou no domingo no aeroporto de Lisboa sete pessoas estrangeiras, incluindo um menor, que apresentaram passaportes da China e de Hong Kong aparentemente falsos para sair de Portugal, anunciou esta segunda-feira a força policial. “A intervenção policial ocorreu no Terminal 1 do Aeroporto [Humberto Delgado, em Lisboa], quando os cidadãos tentavam sair do […]",
+      "url": "https://eco.sapo.pt/2026/05/25/psp-intercetou-sete-pessoas-no-aeroporto-de-lisboa-com-passaportes-alegadamente-falsos/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:04:42.612966+00:00",
+      "published_at": "2026-05-25T10:59:29Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-23468498-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e64754b97b563b62bce2be5e503fd2e1",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Portugal na Era Quântica: construir soberania, segurança e futuro",
+      "summary": "Num momento em que se fala de autonomia estratégica europeia, resiliência digital e segurança das infraestruturas críticas, investir em comunicações quânticas é investir em soberania tecnológica. A questão já não se prende com o se a era quântica vai chegar, mas saber quais os países que vão estar preparados quando se tornar parte integrante da […]",
+      "url": "https://eco.sapo.pt/opiniao/portugal-na-era-quantica-construir-soberania-seguranca-e-futuro/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "infraestruturas críticas"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:04:44.125180+00:00",
+      "published_at": "2026-05-25T10:08:37Z",
+      "image_url": "https://ecoonline.s3.amazonaws.com/uploads/2026/05/catarina-bastos-opiniao.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "cbe06c264298bf144f68814f888e54d6",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Projeto de 800 milhões de combustível verde para aviação quer ‘aterrar’ na Figueira da Foz",
+      "summary": "A empresa francesa Elyse Energy está a dar os primeiros passos para instalar um projeto energético na Figueira da Foz. É nesta cidade portuguesa que pretende produzir combustível sustentável para a aviação (SAF na sigla em inglês). Segundo o Expresso, arrancou a fase preliminar do licenciamento ambiental do projeto da Elyse Energy, que deverá exigir […]",
+      "url": "https://eco.sapo.pt/2026/05/25/projeto-de-800-milhoes-de-combustivel-verde-para-aviacao-quer-aterrar-na-figueira-da-foz/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento ambiental"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:04:44.704814+00:00",
+      "published_at": "2026-05-25T09:51:21Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-31988658-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "4a0047533652f1cb37478a552734ae8c",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "TAP regista prejuízo de 40 milhões no arranque do ano. Preço do combustível “pressionará os próximos trimestres”",
+      "summary": "A TAP reportou esta segunda-feira um prejuízo de 39,9 milhões de euros no primeiro trimestre do ano. Ainda assim, o resultado representa uma melhoria de 63,1% face ao prejuízo de 108,2 milhõesque tinha registado no arranque do ano passado, “refletindo sobretudo a forte melhoria da performance operacional e o contributo positivo das diferenças de câmbio […]",
+      "url": "https://eco.sapo.pt/2026/05/25/tap-regista-prejuizo-de-40-milhoes-no-arranque-do-ano-preco-do-combustivel-pressionara-os-proximos-trimestres/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:04:49.415882+00:00",
+      "published_at": "2026-05-25T06:49:08Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-aeroporto51.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "ccf2daeb9b2d62e15e7a9eb6376749cb",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Prejuízo da TAP no primeiro trimestre caiu 63%, para €39,9 milhões",
+      "summary": "Mercados como a América do Sul e América do Norte ajudaram a TAP a ampliar as suas receitas e a encolher o prejuízo do primeiro trimestre do ano",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-25-prejuizo-da-tap-no-primeiro-trimestre-caiu-63-para-399-milhoes-aa8c3837",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:05:34.852486+00:00",
+      "published_at": "2026-05-25T07:02:35+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "3865cfc6260d520332793159d3dd11e5",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Grupo francês tem projeto de €800 milhões para produzir combustível verde para aviões na Figueira da Foz",
+      "summary": "Elyse Energy já estabeleceu contactos com o Governo, AICEP e Câmara da Figueira da Foz para avançar com um projeto de combustível sustentável, que deverá consumir o equivalente a 3,8% do consumo anual de eletricidade em Portugal e 6% do consumo anual de água do concelho de Lisboa",
+      "url": "https://expresso.pt/economia/economia_energia/2026-05-25-grupo-frances-tem-projeto-de-800-milhoes-para-produzir-combustivel-verde-para-avioes-na-figueira-da-foz-d3301035",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:05:48.926063+00:00",
+      "published_at": "2026-05-25T06:15:00+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "d0e3f27b88451ea508a3e9e6532938c3",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-23",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Filas que podem chegar a 6 horas: o que está a bloquear o aeroporto de Lisboa?",
+      "summary": "Horas de espera, passageiros retidos e pressão crescente sobre o controlo de fronteiras voltaram a expor os constrangimentos do Aeroporto de Lisboa. Com a época alta cada vez mais próxima, haverá margem para evitar novos episódios de caos? A análise deste tema foi feita pela jornalista da secção de Economia do Expresso Anabela Campos. Ouça o novo episódio do Economia dia a dia, podcast diário do Expresso conduzido por Juliana Simões",
+      "url": "https://expresso.pt/podcasts/economia-dia-a-dia/2026-05-23-filas-que-podem-chegar-a-6-horas-o-que-esta-a-bloquear-o-aeroporto-de-lisboa--f353306f",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:16.144693+00:00",
+      "published_at": "2026-05-23T07:20:00+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "1b4798e4ce8b2fce788d64628f50f4ad",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Criado novo regime para gerir capacidade de ligação de projetos renováveis à rede elétrica",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/criado-novo-regime-para-gerir-capacidade-de-ligacao-de-projetos-renovaveis-a-rede-eletrica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:50.981713+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "6f7e67d8970fb1d464ade2daf4143cd8",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Regiões de Aveiro e Leiria juntam-se à contestação judicial sobre concessão da ERSUC",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/regioes-de-aveiro-e-leiria-juntam-se-a-contestacao-judicial-sobre-concessao-da-ersuc",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:51.595211+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e71658a994717bc2fa416686df4b5c6d",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Queixas no setor da energia aumentaram 85% no arranque do ano, diz ERSE",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/queixas-no-setor-da-energia-aumentaram-85-no-arranque-do-ano-diz-erse",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "erse"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:54.157577+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7d1398103096b6d198e19f3408865f21",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Projeto mineiro junto a Bragança travado pela Junta de Castela e Leão",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/projeto-mineiro-junto-a-braganca-travado-pela-junta-de-castela-e-leao",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:58.650160+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "c0a39a609b99c529909bcd971f331841",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Região de Coimbra avança com concurso de 33 milhões para comunidades de energia renovável",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/regiao-de-coimbra-avanca-com-concurso-de-33-milhoes-para-comunidades-de-energia-renovavel",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:08:59.256952+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7cd19f180382aeaf8217f4cb21152514",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "EDP alarga projeto de gestão florestal a Ponte da Barca e Arcos de Valdevez",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/edp-alarga-projeto-de-gestao-florestal-a-ponte-da-barca-e-arcos-de-valdevez",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:09:00.030213+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "caab87050bb4448794de892b99b28471",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "TAP distingue melhores parceiros de vendas nos TAP Awards 2026",
+      "summary": "A TAP Air Portugal distinguiu os seus melhores parceiros comerciais na edição de 2026 dos TAP Awards, numa cerimónia realizada no Terminal de Cruzeiros do Porto de Leixões, que reuniu representantes do setor das viagens e do turismo de Portugal e de vários mercados internacionais. O evento voltou a sublinhar o papel estratégico dos agentes […]",
+      "url": "https://www.ambitur.pt/tap-distingue-melhores-parceiros-de-vendas-nos-tap-awards-2026/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        },
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:09:26.323173+00:00",
+      "published_at": "2026-05-25 11:18:11+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/TAp-Awards-2026.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "34b49274034bd77e33936600fb95c80e",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "TAP inaugurou rota entre Lisboa e Santa Maria",
+      "summary": "A TAP Air Portugal inaugurou ontem a nova rota entre Lisboa e a ilha de Santa Maria, nos Açores, com a realização do primeiro de dois voos semanais, às quintas-feiras e domingos. As ligações partem de Lisboa às 12h30, com chegada a Santa Maria às 14h05. No sentido inverso, os voos saem de Santa Maria […]",
+      "url": "https://www.ambitur.pt/tap-inaugurou-rota-entre-lisboa-e-santa-maria/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:09:29.702917+00:00",
+      "published_at": "2026-05-22 11:58:58+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2025/10/A320-3-TAP.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "395df5f707f73c38879bad72a65386ab",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Opinião",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Opinião: O EES no Aeroporto de Faro se é uma falha então não a podemos ignorar",
+      "summary": "Um problema que Portugal já não pode ignorar Por Rodrigo Borges de Freitas, Diretor Geral de Operações da Vila Petra e Delegado da ADHP Algarve Estamos no final de maio e os problemas persistem. Aquilo que foi apresentado como uma necessária modernização do controlo de fronteiras transformou-se, no Aeroporto de Faro, num problema operacional sério, […]",
+      "url": "https://www.ambitur.pt/o-ees-no-aeroporto-de-faro-se-e-uma-falha-entao-nao-a-podemos-ignorar/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:09:49.089442+00:00",
+      "published_at": "2026-05-25 11:08:29+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/rodrigobrogesfreitas-e1779703646176.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "Opinião",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "55d068b50e1ac19bdc1ae6f8168c66b5",
+      "source": "news-ambitur",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambitur",
+      "title": "Time Out Market: “O verdadeiro sucesso é servir primeiro quem vive a cidade”",
+      "summary": "No coração do Cais do Sodré, o Time Out Market Lisboa afirma-se como um dos projetos mais marcantes do turismo e da gastronomia nacional. À frente desta operação está Ana Alcobia, vice-presidente da Time Out Market Portugal, recentemente distinguida com o Prémio Nacional de Turismo na categoria de “Personalidade”. Nesta conversa, reflete sobre a evolução […]",
+      "url": "https://www.ambitur.pt/time-out-market-o-verdadeiro-sucesso-e-servir-primeiro-quem-vive-a-cidade/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:09:54.351293+00:00",
+      "published_at": "2026-05-22 11:22:49+01:00",
+      "image_url": "https://www.ambitur.pt/wp-content/uploads/2026/05/anaalcobia2-e1779445072903.jpg",
+      "source_logo_url": "https://www.ambitur.pt/wp-content/uploads/2017/07/logo-ambitur.png",
+      "source_label": "Ambitur",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "b7909a92c62c6a4a8600ff47369561f3",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "\"Fumes\". Sindicato critica pressão comercial a companhias",
+      "summary": "\"É um problema sério\" tanto para a tripulação como para os passageiros,\" disse o presidente Sindicato dos Pilotos da Aviação Civil, lembrando um colega, que acabou por ter de abandonar a profissão.",
+      "url": "https://observador.pt/2026/05/25/sindicato-critica-pressao-comercial-sobre-companhias-apos-casos-de-fumes-em-avioes/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação civil"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:11:51.063020+00:00",
+      "published_at": "2026-05-25T11:57:05+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1123%3Anowe%3A0%3A18%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2026%2F05%2F25105202%2F44904024.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "5668ba18a9ebd9bee75691a648ccf80b",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "10h. Prejuízos da TAP caem para cerca de 40 milhões de euros",
+      "summary": "A companhia aérea justifica este valor com o crescimento de 11% das receitas operacionais. Ainda neste jornal, a reportagem em direto a partir de Torres Vedras.",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-10h-2357/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "companhia aérea",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:12:17.386780+00:00",
+      "published_at": "2026-05-25T10:16:52+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/04/13113304/770-podcast-noticiario.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "8a77d743c2853f724eb33a109af84538",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Conceição Calhau: \"Adição ao açúcar é como uma droga\"",
+      "summary": "Conceição Calhau defende que o vício em açúcar deve ter acompanhamento clínico. A nutricionista e professora catedrática critica influenciadores que espalham mentiras sobre o bem-estar.",
+      "url": "https://observador.pt/programas/comissao-de-inquerito/conceicao-calhau-adicao-ao-acucar-e-como-uma-droga/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "açúcar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:12:19.419644+00:00",
+      "published_at": "2026-05-25T10:10:20+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2025/11/06151954/770-podcast-comissao-de-inquerito-2025-v2.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bdf8a03fc4ce741d8ca31dc43f3d1ecf",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Prejuízos da TAP caíram para 39,9 milhões de euros",
+      "summary": "TAP destaca o crescimento de 11% das receitas operacionais, para 914,4 milhões de euro, impulsionadas sobretudo pelo aumento das receitas de passagens e pela melhoria das receitas unitárias.",
+      "url": "https://observador.pt/2026/05/25/prejuizos-da-tap-cairam-para-399-milhoes-de-euros-no-1-o-trimestre/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:12:35.124713+00:00",
+      "published_at": "2026-05-25T08:32:40+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1122%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2025%2F07%2F10171124%2F44783254.jpg?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "e59b51261f45b64bee319c08a844fefe",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-25",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Franceses querem investir 800 milhões em combustível verde para aviões na Figueira da Foz",
+      "summary": "A francesa Elyse Energy avançou com a fase preliminar do licenciamento ambiental para uma fábrica de combustível sustentável para aviação na Figueira da Foz. Projeto prevê produzir 200 mil toneladas de SAF por ano e deverá consumir quase 4% da eletricidade usada anualmente em Portugal.",
+      "url": "https://www.jornaldenegocios.pt/empresas/energia/detalhe/franceses-querem-investir-800-milhoes-em-combustivel-verde-para-avioes-na-figueira-da-foz",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação"
+          ]
+        },
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade",
+            "licenciamento ambiental"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:13:25.729652+00:00",
+      "published_at": "2026-05-25",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2023-01/img_1200x676uu2023-01-04-21-09-24-443539.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "7add648d678e477823ccad29477a5380",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "12283/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 12283/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Economia e Coesão Territorial, Ambiente e Energia e Agricultura e Mar - Inspeção-Geral da Agricultura, do Mar, do Ambiente e do Ordenamento do Território Homologação das avaliações finais do período experimental de André Fernando Fontes Faria e Aurora Maria Guerra Pinto.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/12283-2026-1125591128",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.058578+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "de32a58b919a93eb75ad079269963b44",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12341/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12341/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Celebração de contratos de trabalho em funções públicas, por tempo indeterminado, na carreira e categoria de técnico superior.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12341-2026-1125716813",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.096739+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "11388c98b5a3f87d8aee84e422d9f196",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "12342/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 12342/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Ambiente e Energia - Laboratório Nacional de Energia e Geologia, IP Atribuição de louvor público à trabalhadora aposentada Telma Rosa Farinha Antunes.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/12342-2026-1125716814",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.097167+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3ef10f11008d5486e0eb54ba089c6265",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "12343/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 12343/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria da técnica superior Susana Cristina Carlos Botelho.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/12343-2026-1125716817",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.098423+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "df2bb5ef042cb4c6a2daf0591afe576f",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12344/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12344/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Procedimento concursal para provimento do cargo de direção intermédia de 2.º grau correspondente ao cargo de chefe de divisão de Gestão de Contratação Pública e Património.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12344-2026-1125716818",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.098864+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "61228a5c3a2e7f6e77de8a4784870a8e",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "12345/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 12345/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Conclusão do período experimental na carreira e categoria do especialista de sistemas e tecnologias de informação Ricardo Filipe Roque Ribeiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/12345-2026-1125716819",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.099272+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "eb9c09ce021e70ef9dfd831692e6729d",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6638/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6638/2026  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Atualização anual das taxas previstas na Portaria n.º 298/2017, de 12 de outubro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6638-2026-1125716820",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.099696+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "dece3a1d420de589bbe02d970c1e896a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6639/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6639/2026  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Agricultura e Mar - Direção-Geral de Alimentação e Veterinária Atualização anual das taxas previstas na Portaria n.º 17/2018, de 16 de janeiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6639-2026-1125716821",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "alimentação"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.100097+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "3425d9b854f135239dfd92c7ce083346",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6643/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6643/2026  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Escola Superior de Hotelaria e Turismo do Estoril Delegação no administrador da Escola Superior de Hotelaria e Turismo do Estoril (ESHTE), Dr. Vítor Manuel Pereira de Andrade, a competência para decidir sobre os requerimentos de atribuição de bolsa de estudo dos estudantes da ESHTE.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6643-2026-1125716828",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.102913+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "81a5031b7e7f374ab9c0b3b85bc68721",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-25",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12387/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12387/2026/2  -  Diário da República n.º 100/2026, Série II de 2026-05-25",
+      "summary": "Município da Marinha Grande Abertura de procedimento concursal comum para um assistente operacional (manutenção de edifícios e equipamentos) na modalidade de contrato de trabalho em funções públicas por tempo indeterminado, para a Divisão de Equipamentos Municipais e Energia ― referência 15/RH/2026.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12387-2026-1125717101",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-25T11:02:42.133849+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "e92450773ceb8b29fff637a6e935089d",
       "source": "news-eco",
@@ -53805,5 +55028,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1818
+  "entry_count": 1854
 }
