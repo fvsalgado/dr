@@ -1,6 +1,1415 @@
 {
-  "last_updated": "2026-05-27T11:11:13.356273+00:00",
+  "last_updated": "2026-05-28T11:10:37.498384+00:00",
   "entries": [
+    {
+      "id": "c6e9c3989c30fc3881e14c97183c1897",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-29",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Local:",
+      "summary": "Reuni&#xE3;o n.&#xBA; 73 Local: N&#xE3;o dispon&#xED;vel 1. Discuss&atilde;o e vota&ccedil;&atilde;o na especialidade da Proposta de Lei n.&ordm; 53/XVII/1.&ordf; (GOV) &ndash; Transp&otilde;e a Diretiva (UE) 2023/977, relativa ao interc&acirc;mbio de informa&ccedil;&otilde;es entre as autoridades de aplica&ccedil;&atilde;o da lei dos Estados-Membros, e a Diretiva (UE) 2023/2123, que altera a Decis&atilde;o 2005/671/JAI do Conselho no que diz respeito &agrave; sua harmoniza&ccedil;&atilde;o com as regras da Uni&atilde;o em mat&eacute;ria de prote&ccedil;&atilde;o de dados pessoais ; &nbsp;2. Discuss&atilde;o e vota&ccedil;&atilde;o dos seguintes requerimentos: a) apresentado pelo Grupo Parlamentar do CH , para audi&ccedil;&atilde;o da Ministra da Justi&ccedil;a, do Diretor do Estabelecimento Prisional de Lisboa e do Sindicato Nacional do Corpo da Guarda Prisional, sobre incidente no Estabelecimento Prisional de Lisboa; b) apresentado pelo Grupo Parlamentar da IL , para audi&ccedil;&atilde;o urgente do Ministro da Administra&ccedil;&atilde;o Interna, do Secret&aacute;rio-Geral Adjunto do Minist&eacute;rio da Administra&ccedil;&atilde;o Interna demission&aacute;rio, Dr. Ant&oacute;nio Pombeiro, e do Presidente do Conselho de Administra&ccedil;&atilde;o do SIRESP entre 2022 e 2024, e agora novamente indicado para o cargo, General Paulo Viegas Nunes e apresentado pelo Grupo Parlamentar do CH , para audi&ccedil;&atilde;o urgente do Ministro da Administra&ccedil;&atilde;o Interna, do Presidente do Conselho de Administra&ccedil;&atilde;o da SIRESP, S.A., Brigadeiro-General Paulo Viegas Nunes e do ex-Secret&aacute;rio-Geral Adjunto do Minist&eacute;rio da Administra&ccedil;&atilde;o Interna Dr. Ant&oacute;nio Pombeiro; c) apresentado pelo Grupo Parlamentar do L , para audi&ccedil;&atilde;o de diversas entidades no &acirc;mbito da discuss&atilde;o na especialidade de iniciativas legislativas relativas &agrave; autodetermina&ccedil;&atilde;o e identidade de g&eacute;nero; d) apresentado pelo Grupo Parlamentar do L , para audi&ccedil;&atilde;o, com car&aacute;ter de urg&ecirc;ncia, da Ministra da Cultura, Juventude e Desporto, sobre o risco iminente de interrup&ccedil;&atilde;o da presta&ccedil;&atilde;o de apoio a v&iacute;timas de viol&ecirc;ncia dom&eacute;stica, tr&aacute;fico de seres humanos e outras formas de viol&ecirc;ncia de g&eacute;nero.",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "dados pessoais"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:55:59.493824+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2ca8ef8f1e3d5fc37753aa6c5a4cd26c",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-28",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:55:59.507578+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "ebb230d583af732ab0020d4fcd6946f0",
+      "source": "parlamento-agenda",
+      "series": "",
+      "date": "2026-05-28",
+      "type": "Agenda Parlamentar",
+      "content_kind": "event",
+      "number": "",
+      "issuer": "",
+      "title": "Comiss&#xE3;o de Ambiente e Energia",
+      "summary": "",
+      "url": "https://agenda.parlamento.pt",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:55:59.515361+00:00",
+      "source_label": "Parlamento Agenda",
+      "source_logo_url": "https://www.parlamento.pt/style%20library/images/logo_assembleia_republica.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f1b4b3bcd31fe5f3fd33db30c3a30916",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Esquema para furtar e vender peças à TAP liderado por ex-DJ venezuelano a partir de Londres",
+      "summary": "Três pessoas foram acusadas pelo Ministério Público (MP) de atentado contra a segurança no ar e outros crimes pela alegada venda de peças para motores sem requisitos a companhias aéreas, entre as quais a TAP, anunciou o Departamento Central de Investigação e Ação Penal (DCIAP). Os arguidos, em prisão preventiva há cerca de um ano […]",
+      "url": "https://eco.sapo.pt/2026/05/28/esquema-para-furtar-e-vender-pecas-a-tap-liderado-por-ex-dj-venezuelano-a-partir-de-londres/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:45:44.652375+00:00",
+      "published_at": "2026-05-28T08:54:59Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/01/cropped-28956414-scaled-3.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bdf340a6b8fc7a1b58f3070e40071202",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Os avisos de instituições que o governo não ouve",
+      "summary": "Nos últimos meses, várias instituições independentes nacionais e internacionais passaram a convergir em críticas particularmente duras a algumas das medidas mais emblemáticas do atual Governo AD — com realce para o IRS Jovem e os apoios à habitação, sem esquecer os apoios implícitos ao turismo e restauração, onde se mantêm benefícios fiscais generosos cuja racionalidade […]",
+      "url": "https://eco.sapo.pt/especiais/os-avisos-de-instituicoes-que-o-governo-nao-ouve/",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "turismo"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:45:45.899118+00:00",
+      "published_at": "2026-05-28T07:48:36Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/04/cropped-doc2026042947016272jsg-7871.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "9272da207d7d57ecbada154513662226",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Especialistas apontam saturação estrutural do aeroporto de Lisboa como principal causa das filas",
+      "summary": "A saturação estrutural do aeroporto de Lisboa, a concentração de voos em certas horas e a falta de preparação para o novo sistema europeu estão entre as principais causas das filas no controlo de fronteiras, segundo especialistas ouvidos pela Lusa. Apesar de Bruxelas rejeitar que os problemas nos aeroportos portugueses resultem do novo Sistema de […]",
+      "url": "https://eco.sapo.pt/2026/05/28/especialistas-apontam-saturacao-estrutural-do-aeroporto-de-lisboa-como-principal-causa-das-filas/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aeroporto"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:45:46.316069+00:00",
+      "published_at": "2026-05-28T07:48:18Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/05/cropped-44783250-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "f5b151ac5f9b584a2d91c69ddefba561",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Entidades do SNS arriscam milhares de coimas por roubo de dados dos utentes",
+      "summary": "As entidades públicas da saúde poderão vir a ser responsabilizadas judicialmente por não terem protegido os dados pessoais dos mais de 100 mil utentes do Serviço Nacional de Saúde (SNS) lesados pelo ciberataque ocorrido na semana passada, noticia o Público (acesso pago) na edição desta quinta-feira. Segundo o Regulamento Geral sobre a Proteção de Dados […]",
+      "url": "https://eco.sapo.pt/2026/05/28/entidades-do-sns-arriscam-milhares-de-coimas-por-roubo-de-dados-dos-utentes/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "ciberataque",
+            "dados pessoais",
+            "proteção de dados"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:45:46.454767+00:00",
+      "published_at": "2026-05-28T07:16:15Z",
+      "image_url": "https://eco.imgix.net/uploads/2026/03/cropped-doc2021021630691323nv1520210216.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a941a43c5b5270f3b62159c8558c97e4",
+      "source": "news-eco",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "ECO",
+      "title": "Hoje nas notícias: saúde, habitação e multas",
+      "summary": "As entidades do Serviço Nacional de Saúde (SNS) poderão vir a ser responsabilizadas judicialmente por não terem protegido os dados pessoais dos mais de 100 mil utentes lesados pelo ataque de piratas informáticos ocorrido na semana passada. Um estudo da Rede Europeia Anti-Pobreza indica que o mercado imobiliário provoca sobrecarga financeira, apontando para mais 376 […]",
+      "url": "https://eco.sapo.pt/2026/05/28/hoje-nas-noticias-saude-habitacao-e-multas/",
+      "clients": [
+        {
+          "id": "kaspersky",
+          "name": "Kaspersky",
+          "color": "#006F51",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kaspersky_logo.svg/320px-Kaspersky_logo.svg.png",
+          "matched_keywords": [
+            "dados pessoais"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:45:46.715012+00:00",
+      "published_at": "2026-05-28T07:04:42Z",
+      "image_url": "https://eco.imgix.net/uploads/2020/02/cropped-cropped-revista_nacional_partilha-1-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+      "source_logo_url": "https://eco.sapo.pt/wp-content/themes/eco/img/logo-eco.svg",
+      "source_label": "ECO",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "eb9b08324c6edf7921393b9c2a01fa14",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Fatura do 'jet fuel' poderá pesar €300 milhões nas contas de 2026 da TAP e penalizar encaixe da privatização",
+      "summary": "As contas da TAP melhoraram no primeiro trimestre mas a companhia poderá enfrentar custos adicionais de cerca de €300 milhões em 2026 por causa da subida do jet fuel , o que irá ter impacto nas margens e poderá penalizar o valor da privatização",
+      "url": "https://expresso.pt/economia/transportes/aviacao/2026-05-28-fatura-do-jet-fuel-podera-pesar-300-milhoes-nas-contas-de-2026-da-tap-e-penalizar-encaixe-da-privatizacao-1b073c69",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:46:08.496112+00:00",
+      "published_at": "2026-05-28T08:00:00+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "af2e675c0e056c19e6acf8bfb420cd6b",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-27",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Pedras e dinamite contra gás lacrimogéneo: assim se faz a quarta semana de protestos violentos na Bolívia",
+      "summary": "A três dias de completar um mês de violentos protestos a exigir a renúncia do Presidente Rodrigo Paz, há seis meses no cargo, os manifestantes preparam-se para apertar o cerco a La Paz, deixando a capital sem alimentos, medicamentos e combustíveis, enquanto ganha forma a declaração de estado de sítio com a presença do Exército nas ruas",
+      "url": "https://expresso.pt/america-latina/2026-05-27-pedras-e-dinamite-contra-gas-lacrimogeneo-assim-se-faz-a-quarta-semana-de-protestos-violentos-na-bolivia-de828b30",
+      "clients": [
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "gás"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:48:34.579339+00:00",
+      "published_at": "2026-05-27T16:00:00+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "59323087b6c00459195e45f114ddfc33",
+      "source": "news-expresso",
+      "series": "NEWS",
+      "date": "2026-05-27",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Expresso",
+      "title": "Três acusados de atentado à segurança no ar por venda à TAP de peças sem requisitos",
+      "summary": "Entre 2015 e 2023, os três arguidos, já em prisão preventiva, ter-se-ão dedicado, em parceria com um cidadão britânico, “à apropriação ilícita” junto de companhias aéreas de peças e componentes aeronáuticas, colocando-as à venda com certificações falsas. Entre as companhias lesadas estão a TAP Air Portugal e a Hi Fly",
+      "url": "https://expresso.pt/economia/2026-05-27-tres-acusados-de-atentado-a-seguranca-no-ar-por-venda-a-tap-de-pecas-sem-requisitos-7d78a4cc",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:49:39.257700+00:00",
+      "published_at": "2026-05-27T11:06:18+00:00",
+      "image_url": "",
+      "source_logo_url": "https://expresso.pt/static/img/logos/expresso.svg",
+      "source_label": "Expresso",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "74ecb25b5e08504bc38dee448e252d08",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Mota-Engil Ambiente e Energia prevê ter cinco unidades de biometano em operação até ao final de 2026",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/mota-engil-ambiente-e-energia-preve-ter-cinco-unidades-de-biometano-em-operacao-ate-ao-final-de-2026",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:15.137513+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "84bcc747e9248a141ac2c2c10491c360",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "ERSE afasta compensações automáticas aos clientes após classificar apagão ibérico como “evento excecional”",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/erse-afasta-compensacoes-automaticas-aos-clientes-apos-classificar-apagao-iberico-como-evento-excecional",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        },
+        {
+          "id": "gasib",
+          "name": "Gasib",
+          "color": "#F5820A",
+          "logo_url": "",
+          "matched_keywords": [
+            "erse"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:15.973011+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "bb0dd5ca035fee0e68fce4dacfcabf86",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "E-Redes admite que tempestade deixou rede elétrica “mais frágil” e prevê enterramento de linhas",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/e-redes-admite-que-tempestade-deixou-rede-eletrica-mais-fragil-e-preve-enterramento-de-linhas",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:16.615223+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "974f747dd850cc00a06daf4c77bf9320",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Projeto de central de biometano em Torres Novas gera contestação da população e autarquias",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/projeto-de-central-de-biometano-em-torres-novas-gera-contestacao-da-populacao-e-autarquias",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:17.375466+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "16146b3d78e5d503e04d93be34c7191c",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Baldios de Covas do Barroso avançam para tribunal para travar nova servidão ligada à mina de lítio",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/baldios-de-covas-do-barroso-avancam-para-tribunal-para-travar-nova-servidao-ligada-a-mina-de-litio",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:19.570818+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "70633a8270e7ae9d90c7c8863ee709ee",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Galp desiste de parque eólico no litoral alentejano após contestação local",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/galp-desiste-de-parque-eolico-no-litoral-alentejano-apos-contestacao-local",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:20.066233+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "29b25e6845446b62ac5037e46a386f95",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Edifícios públicos da Administração Central recebem 40 milhões para melhorar eficiência energética",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/edificios-publicos-da-administracao-central-recebem-40-milhoes-para-melhorar-eficiencia-energetica",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eficiência energética",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:20.503039+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "326643016f3b4238769906d8364d1888",
+      "source": "news-ambienteonline",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Ambiente Online",
+      "title": "Lightsource bp estabelece parceria para integrar pastoreio em projeto solar na Beira Baixa",
+      "summary": "Portal de referência sobre notícias de ambiente em Portugal. Tudo sobre água, energia, resíduos e ambiente em geral.",
+      "url": "https://www.ambienteonline.pt/noticias/lightsource-bp-estabelece-parceria-para-integrar-pastoreio-em-projeto-solar-na-beira-baixa",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:50:23.799530+00:00",
+      "published_at": "",
+      "image_url": "https://www.ambienteonline.pt/",
+      "source_logo_url": "https://www.ambienteonline.pt/wp-content/uploads/2020/03/logo-ambiente-online.png",
+      "source_label": "Ambiente Online",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "845a2a04fbbea0e0f4064203dde6e9e6",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "\"Passos Coelho abana o Governo e o Governo precisa disso\"",
+      "summary": "Fernando Negrão partilha a visão do antigo PM de que o país precisa de reformas como \"pão para a boca\". O antigo ministro da Justiça afasta a ideia de Passos Coelho liderar uma nova força à direita.",
+      "url": "https://observador.pt/programas/comissao-de-inquerito/fernando-negrao-dar-condicoes-as-prisoes-nao-da-votos/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "pão"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:54:18.264372+00:00",
+      "published_at": "2026-05-28T10:21:28+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2025/11/06151954/770-podcast-comissao-de-inquerito-2025-v2.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "397b0c7182b5d824fb521e0e873f48e8",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "Estupefação e revolta no PSD. Burla com peças da TAP",
+      "summary": "Núcleo de Montenegro diz que Passos \"está a cavar a sepultura\". Ex-DJ venezuelano terá enganado a aviação mundial com peças da TAP. Reconstituímos os últimos anos da mãe das crianças abandonadas.",
+      "url": "https://observador.pt/newsletters/360/estupefacao-e-revolta-no-psd-uma-burla-milionaria-com-pecas-da-tap-e-a-vida-atribulada-da-mae-antes-do-abandono-em-alcacer/",
+      "clients": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "color": "#073590",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ryanair_logo.svg/320px-Ryanair_logo.svg.png",
+          "matched_keywords": [
+            "aviação",
+            "tap"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:54:34.816169+00:00",
+      "published_at": "2026-05-28T08:39:45+01:00",
+      "image_url": "https://wm.observador.pt/wm/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A1540%3A866%3Anowe%3A0%3A0%2Fq%3A70%2Ff%3Awebp%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2021%2F06%2F25120046%2F360-16x9-1.png?layer=obstop:T",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "2b5921e87153d275b37a4657c8b633be",
+      "source": "news-observador",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Observador",
+      "title": "O cheiro a pão cozido no Souto Bom, Tondela",
+      "summary": "O autor evoca Mª Nilza da Cruz, que lhe conta a vida quando morava com a sua mãe, que traçava à mão uma cruz sobre o pão acabado de amassar, uma técnica milenar.",
+      "url": "https://observador.pt/programas/a-historia-das-historias/o-cheiro-a-pao-cozido-no-souto-bom-tondela/",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "pão"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:55:09.493057+00:00",
+      "published_at": "2026-05-28T06:01:57+01:00",
+      "image_url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2024/10/01194959/770-podcast-a-historia-das-historias.jpg",
+      "source_logo_url": "https://observador.pt/wp-content/themes/observador/images/observador-logo.svg",
+      "source_label": "Observador",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "eeb7dc00a2da98b9af1974a8665f536a",
+      "source": "news-jornaldenegocios",
+      "series": "NEWS",
+      "date": "2026-05-28",
+      "type": "Notícia",
+      "content_kind": "news",
+      "number": "",
+      "issuer": "Jornal de Negocios",
+      "title": "Efacec ganha contrato de centenas de milhões de euros em França",
+      "summary": "A empresa detida pelo fundo alemão Mutares firmou dois acordos-quadro plurianuais com a Enedis, o principal operador do sistema de distribuição de eletricidade em território gaulês.",
+      "url": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/efacec-ganha-contrato-de-centenas-de-milhoes-de-euros-em-franca",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "eletricidade"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:55:33.834865+00:00",
+      "published_at": "2026-05-28",
+      "image_url": "https://cdn.jornaldenegocios.pt/images/2025-05/img_1200x676uu2025-05-15-12-12-47-501382.jpg",
+      "source_logo_url": "https://www.jornaldenegocios.pt/assets/img/logo-negocios.svg",
+      "source_label": "Jornal de Negócios",
+      "article_section": "",
+      "ingest": {
+        "scraper": "news",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "id": "a0a25a25e280f894b4b261e8c807aed1",
+      "source": "dre-rss",
+      "series": "1ª Série",
+      "date": "2026-05-28",
+      "type": "Portaria",
+      "content_kind": "act",
+      "number": "235/2026/1",
+      "issuer": "",
+      "title": "Portaria n.º 235/2026/1  -  Diário da República n.º 103/2026, Série I de 2026-05-28",
+      "summary": "Finanças, Economia e Coesão Territorial, Educação, Ciência e Inovação, Saúde, Ambiente e Energia, Cultura, Juventude e Desporto e Agricultura e Mar Aprova os Estatutos da Comissão de Coordenação e Desenvolvimento Regional do Algarve, I. P.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/portaria/235-2026-1127477504",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:00.508785+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6904367d7abca66a4a596d52866ca743",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "12849/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 12849/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Economia e Coesão Territorial - Autoridade de Segurança Alimentar e Económica Consolidação da mobilidade na categoria de assistente técnico do mapa de pessoal da Autoridade de Segurança Alimentar e Económica da trabalhadora Jéssica Fátima Rodrigues Moreira.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/12849-2026-1127522324",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "segurança alimentar"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.643710+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "8502b4ae4a31a0076377c2553a9cc4e4",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6799/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6799/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição da prossecução do licenciamento para o exercício da atividade de comércio de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial MELCO ― Comércio de Tecnologias Militares, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6799-2026-1127522337",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.650327+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "95ecbfdd6c2934a591af179287c320c6",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6800/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6800/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição de licenciamento para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial por quotas EURITEX, Especialistas em Tecnologias de Informação, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6800-2026-1127522338",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.650776+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "399741d747a0df13c03fe58e13649f12",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6801/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6801/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Autorização de licenciamento para o exercício das atividades de comércio de bens e tecnologias militares, à sociedade comercial, sob a forma de sociedade por quotas, denominada POAVIATION, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6801-2026-1127522339",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.651199+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "87c1ca99cf9d4b1168298442c2f9a087",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6802/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6802/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Autorização para a prossecução do licenciamento para o exercício de atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa, à sociedade comercial por quotas denominada Orion Technik — Maintenance & Engineering, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6802-2026-1127522340",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.651659+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b543b45807a23771323ba214fee64989",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6804/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6804/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição da prossecução do licenciamento para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial unipessoal por quotas «MROCARE, Unipessoal, Lda.».",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6804-2026-1127522342",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.652479+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "a639641810e3cc0bb5b4544e25ab16b5",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6805/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6805/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Autorização para a prossecução do licenciamento para o exercício das atividades de indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial sob a forma de sociedade anónima denominada Critical Software, S. A.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6805-2026-1127522343",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.652919+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "132791ab41cc9ff8e4eddc5d1cb03f8c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6806/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6806/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição da prossecução do licenciamento para o exercício das atividades de comércio e indústria de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial SETSA – Sociedade de Engenharia e Transformação, S. A.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6806-2026-1127522344",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.653370+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "2e26df15fc47530627fc93c311852e1c",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6807/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6807/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Defesa Nacional - Gabinete do Ministro da Defesa Nacional Atribuição de licenciamento para o exercício das atividades de comércio de bens e tecnologias militares/produtos relacionados com a defesa à sociedade comercial por quotas BCMEDICAL, Lda.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6807-2026-1127522345",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.653789+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "6afc3918f359e16b8629efb0ae295f46",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12939/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12939/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Saúde - Instituto para os Comportamentos Aditivos e as Dependências, IP Procedimento concursal comum para a constituição de vínculo de emprego público, na modalidade de contrato de trabalho em funções públicas por tempo indeterminado, para o preenchimento de 11 postos de trabalho da categoria de enfermeiro, da carreira especial de enfermagem, do mapa de pessoal do Instituto para os Comportamentos Aditivos e as Dependências, I. P.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12939-2026-1127524754",
+      "clients": [
+        {
+          "id": "bimbo",
+          "name": "Bimbo",
+          "color": "#E30613",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grupo_Bimbo_logo.svg/320px-Grupo_Bimbo_logo.svg.png",
+          "matched_keywords": [
+            "aditivos"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.700279+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "4f3d07a3da5668eb098bf092d66f8f6a",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12946/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12946/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Celebração de contrato de trabalho em funções públicas por tempo indeterminado na carreira e categoria de assistente técnico ― Carlos Augusto Ribeiro de Sousa.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12946-2026-1127524763",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.703956+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "5b20be34680950d48b7881202aa343b9",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12947/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12947/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Homologação da lista de ordenação final relativa ao procedimento concursal comum de recrutamento de um posto de trabalho da carreira/categoria de assistente técnico, aberto pelo Aviso (extrato) n.º 3866/2026/2, de 23 de fevereiro.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12947-2026-1127524764",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.704421+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b6e7aa065c79674d1025cd07bf12d4ff",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12948/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12948/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Homologação da lista de ordenação final relativa ao procedimento concursal comum de recrutamento de um posto de trabalho da carreira/categoria de técnico superior, aberto pelo Aviso (extrato) n.º 4478/2026/2, de 2 de março.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12948-2026-1127524765",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.704894+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "fe38eda90e65fa677648d2abddf11928",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "12949/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 12949/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Celebração de contrato de trabalho em funções públicas por tempo indeterminado, na carreira/categoria de técnico superior ― Sandra Maria da Silva Almeida Gorricha.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/12949-2026-1127524766",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.705343+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c7dfce0d0548a3298e01cd1918a4abad",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Édito",
+      "content_kind": "act",
+      "number": "240/2026",
+      "issuer": "",
+      "title": "Édito n.º 240/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Direção-Geral de Energia e Geologia Processo: EPU n.º 17101 ― PC: 4503913555 ― projeto apresentado pela E-Redes ― Distribuição de Eletricidade, S. A., Direção Serviço aos Ativos MT e BT ― Sul, Área de Ativos Alentejo e Algarve, para o estabelecimento de linha mista de MT a 15 kV.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/edito/240-2026-1127524767",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "eletricidade",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.705864+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "b00ccde7ff4f7dced0bd8ccef43c46f7",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Despacho",
+      "content_kind": "act",
+      "number": "6828/2026",
+      "issuer": "",
+      "title": "Despacho n.º 6828/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Ambiente e Energia - Estrutura de Missão para o Licenciamento de Projetos de Energias Renováveis 2030 Designa Nuno Gonçalo Lopes Teixeira como responsável pelo acesso à informação (RAI) da Estrutura de Missão para o Licenciamento de Projetos de Energias Renováveis 2030.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/despacho/6828-2026-1127524768",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia",
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.706298+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "c798421866aeb523403e2dac5d890ef3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso",
+      "content_kind": "act",
+      "number": "13003/2026/2",
+      "issuer": "",
+      "title": "Aviso n.º 13003/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Município de Coruche Abertura de procedimento concursal comum para preenchimento de um posto de trabalho na carreira/categoria de técnico superior ― CM-6 ― Divisão de Espaços Públicos, Ambiente e Energia ― Direção de Ambiente e Energia ― Serviço de Higiene Pública.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/13003-2026-1127525070",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "ambiente",
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.748960+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "529381ae756c9e8ceb10709f9f424370",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Aviso (extrato)",
+      "content_kind": "act",
+      "number": "13052/2026/2",
+      "issuer": "",
+      "title": "Aviso (extrato) n.º 13052/2026/2  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Município de Tomar Submete à apreciação pública o projeto de Regulamento da Taxa Turística do Município de Tomar.",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-extrato/13052-2026-1127525328",
+      "clients": [
+        {
+          "id": "expedia-group",
+          "name": "Expedia Group",
+          "color": "#0057A8",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Expedia_2012_logo.svg/320px-Expedia_2012_logo.svg.png",
+          "matched_keywords": [
+            "taxa turística"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.770573+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "f6e8ea1a48320b2bdf8b4708d311d9a3",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "13850/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 13850/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Autoridade Tributária e Aduaneira Renovação licenciamento software Microfocus e HP existente na AT",
+      "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/13850-2026-1127477522",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "licenciamento"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.795812+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
+    {
+      "id": "1da3b5c1754517e6fa137e688bb1fc88",
+      "source": "dre-rss",
+      "series": "2ª Série",
+      "date": "2026-05-28",
+      "type": "Anúncio de procedimento",
+      "content_kind": "act",
+      "number": "13835/2026",
+      "issuer": "",
+      "title": "Anúncio de procedimento  n.º 13835/2026  -  Diário da República n.º 103/2026, Série II de 2026-05-28",
+      "summary": "Município de Pinhel Cedência temporária de espaço municipal para a instalação de painéis fotovoltaicos e aquisição de energia necessária para o abastecimento dos edifícios municipais",
+      "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/13835-2026-1127528278",
+      "clients": [
+        {
+          "id": "dow-portugal",
+          "name": "Dow Portugal",
+          "color": "#CC0000",
+          "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dow_Chemical_Company_logo.svg/320px-Dow_Chemical_Company_logo.svg.png",
+          "matched_keywords": [
+            "energia"
+          ]
+        }
+      ],
+      "scraped_at": "2026-05-28T10:43:01.801143+00:00",
+      "source_label": "DRE",
+      "source_logo_url": "https://dre.pt/o/dre-theme/images/logo-dre.png",
+      "published_at": "",
+      "image_url": ""
+    },
     {
       "id": "180ddc51b0b68bbdd7c928374faab60f",
       "source": "parlamento-agenda",
@@ -57140,5 +58549,5 @@
       "scraped_at": "2026-04-01T11:36:59.654982Z"
     }
   ],
-  "entry_count": 1920
+  "entry_count": 1964
 }
